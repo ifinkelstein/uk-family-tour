@@ -1,0 +1,138 @@
+{
+  "kid": [
+    {
+      "file": "content/day10-inchcolm-island/kid/01-forth-bridge.md",
+      "title": "The Big Red Bridge Made of 6.5 Million Rivets",
+      "words": 225,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {
+          "file": "content/day10-inchcolm-island/kid/01-forth-bridge-more-1.md",
+          "title": "The Three Men and the Chairs",
+          "words": 381,
+          "est_minutes": 2.5
+        },
+        {
+          "file": "content/day10-inchcolm-island/kid/01-forth-bridge-more-2.md",
+          "title": "How Tall, How Long, How Heavy",
+          "words": 380,
+          "est_minutes": 2.5
+        },
+        {
+          "file": "content/day10-inchcolm-island/kid/01-forth-bridge-more-3.md",
+          "title": "Three Bridges in a Row",
+          "words": 371,
+          "est_minutes": 2.5
+        }
+      ]
+    },
+    {
+      "file": "content/day10-inchcolm-island/kid/02-abbey.md",
+      "title": "The Island of the Monks",
+      "words": 223,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {
+          "file": "content/day10-inchcolm-island/kid/02-abbey-more-1.md",
+          "title": "The Island in a Shakespeare Play",
+          "words": 405,
+          "est_minutes": 2.7
+        },
+        {
+          "file": "content/day10-inchcolm-island/kid/02-abbey-more-2.md",
+          "title": "Secrets to Find in the Ruins",
+          "words": 347,
+          "est_minutes": 2.3
+        }
+      ]
+    },
+    {
+      "file": "content/day10-inchcolm-island/kid/03-seals-and-war.md",
+      "title": "Seals, Seabirds and Secret War Tunnels",
+      "words": 225,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {
+          "file": "content/day10-inchcolm-island/kid/03-seals-and-war-more-1.md",
+          "title": "The Soldiers' Island",
+          "words": 361,
+          "est_minutes": 2.4
+        },
+        {
+          "file": "content/day10-inchcolm-island/kid/03-seals-and-war-more-2.md",
+          "title": "Where the Animals Live",
+          "words": 388,
+          "est_minutes": 2.6
+        }
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day10-inchcolm-island/adult/01-forth-bridge.md",
+      "title": "The Forth Bridge: Engineering as Public Reassurance",
+      "words": 262,
+      "est_minutes": 1.7,
+      "tell_me_more": [
+        {
+          "file": "content/day10-inchcolm-island/adult/01-forth-bridge-more-1.md",
+          "title": "The Human Cantilever",
+          "words": 397,
+          "est_minutes": 2.6
+        },
+        {
+          "file": "content/day10-inchcolm-island/adult/01-forth-bridge-more-2.md",
+          "title": "The Numbers That Still Astonish",
+          "words": 381,
+          "est_minutes": 2.5
+        },
+        {
+          "file": "content/day10-inchcolm-island/adult/01-forth-bridge-more-3.md",
+          "title": "Three Bridges, Three Centuries",
+          "words": 338,
+          "est_minutes": 2.3
+        }
+      ]
+    },
+    {
+      "file": "content/day10-inchcolm-island/adult/02-abbey.md",
+      "title": "Inchcolm Abbey: Scotland's Best-Preserved Monastery",
+      "words": 247,
+      "est_minutes": 1.6,
+      "tell_me_more": [
+        {
+          "file": "content/day10-inchcolm-island/adult/02-abbey-more-1.md",
+          "title": "The Literary Island",
+          "words": 365,
+          "est_minutes": 2.4
+        },
+        {
+          "file": "content/day10-inchcolm-island/adult/02-abbey-more-2.md",
+          "title": "Why the Ruin Is So Complete",
+          "words": 359,
+          "est_minutes": 2.4
+        }
+      ]
+    },
+    {
+      "file": "content/day10-inchcolm-island/adult/03-fortress-island.md",
+      "title": "The Armed Island: Two World Wars on Inchcolm",
+      "words": 244,
+      "est_minutes": 1.6,
+      "tell_me_more": [
+        {
+          "file": "content/day10-inchcolm-island/adult/03-fortress-more-1.md",
+          "title": "The Guns of Inchcolm, Up Close",
+          "words": 343,
+          "est_minutes": 2.3
+        },
+        {
+          "file": "content/day10-inchcolm-island/adult/03-fortress-more-2.md",
+          "title": "Rosyth and the Grand Fleet",
+          "words": 353,
+          "est_minutes": 2.4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "kid": [
+    {
+      "file": "content/day05-westminster-walk/kid/01-big-ben.md",
+      "title": "Big Ben: The Most Famous Bong in the World",
+      "words": 208,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {
+          "file": "content/day05-westminster-walk/kid/01-big-ben-more-1.md",
+          "title": "The Bell That Crossed the Bridge",
+          "words": 366,
+          "est_minutes": 2.4
+        },
+        {
+          "file": "content/day05-westminster-walk/kid/01-big-ben-more-2.md",
+          "title": "A Secret Light and Four Giant Clocks",
+          "words": 363,
+          "est_minutes": 2.4
+        },
+        {
+          "file": "content/day05-westminster-walk/kid/01-big-ben-more-3.md",
+          "title": "The Great Clean-Up",
+          "words": 376,
+          "est_minutes": 2.5
+        }
+      ]
+    },
+    {
+      "file": "content/day05-westminster-walk/kid/02-parliament.md",
+      "title": "The Houses of Parliament and the Gunpowder Plot",
+      "words": 209,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {
+          "file": "content/day05-westminster-walk/kid/02-parliament-more-1.md",
+          "title": "The Hall That Beat the Fire",
+          "words": 385,
+          "est_minutes": 2.6
+        },
+        {
+          "file": "content/day05-westminster-walk/kid/02-parliament-more-2.md",
+          "title": "Green Benches, Red Benches, and a Golden Stick",
+          "words": 378,
+          "est_minutes": 2.5
+        }
+      ]
+    },
+    {
+      "file": "content/day05-westminster-walk/kid/03-park-and-lions.md",
+      "title": "Pelicans, Lions and a One-Armed Hero",
+      "words": 210,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {
+          "file": "content/day05-westminster-walk/kid/03-park-and-lions-more-1.md",
+          "title": "Duck Island and the Pelican's Amazing Pouch",
+          "words": 366,
+          "est_minutes": 2.4
+        },
+        {
+          "file": "content/day05-westminster-walk/kid/03-park-and-lions-more-2.md",
+          "title": "Dinner on Top of a Column",
+          "words": 375,
+          "est_minutes": 2.5
+        }
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day05-westminster-walk/adult/01-big-ben.md",
+      "title": "The Elizabeth Tower: Precision, Cracks and Pennies",
+      "words": 225,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {
+          "file": "content/day05-westminster-walk/adult/01-big-ben-more-1.md",
+          "title": "The Foundry, the Horses, and the Name",
+          "words": 366,
+          "est_minutes": 2.4
+        },
+        {
+          "file": "content/day05-westminster-walk/adult/01-big-ben-more-2.md",
+          "title": "The Ayrton Light and the Reading of the Dials",
+          "words": 342,
+          "est_minutes": 2.3
+        },
+        {
+          "file": "content/day05-westminster-walk/adult/01-big-ben-more-3.md",
+          "title": "Conservation as National Surgery",
+          "words": 378,
+          "est_minutes": 2.5
+        }
+      ]
+    },
+    {
+      "file": "content/day05-westminster-walk/adult/02-parliament.md",
+      "title": "The Palace of Westminster: Fire, Gothic and the Longest Hall",
+      "words": 227,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {
+          "file": "content/day05-westminster-walk/adult/02-parliament-more-1.md",
+          "title": "The Other Tower and the Skin of the Law",
+          "words": 372,
+          "est_minutes": 2.5
+        },
+        {
+          "file": "content/day05-westminster-walk/adult/02-parliament-more-2.md",
+          "title": "Green Benches, Red Benches, and a Sack of Wool",
+          "words": 367,
+          "est_minutes": 2.4
+        }
+      ]
+    },
+    {
+      "file": "content/day05-westminster-walk/adult/03-park-and-square.md",
+      "title": "St James's Park and Trafalgar Square: Power as Landscape",
+      "words": 214,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {
+          "file": "content/day05-westminster-walk/adult/03-park-and-square-more-1.md",
+          "title": "St James's Park: From Swamp to Stage Set",
+          "words": 374,
+          "est_minutes": 2.5
+        },
+        {
+          "file": "content/day05-westminster-walk/adult/03-park-and-square-more-2.md",
+          "title": "The Nation's Front Room",
+          "words": 419,
+          "est_minutes": 2.8
+        }
+      ]
+    }
+  ]
+}

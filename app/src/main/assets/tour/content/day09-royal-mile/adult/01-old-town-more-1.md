@@ -1,0 +1,11 @@
+# The Man Who Found Deep Time
+
+Look south from almost anywhere on the Mile and you'll see the long red cliff of Salisbury Crags below the green hump of Arthur's Seat. That cliff is one of the birthplaces of modern science, and the man responsible was very much part of the Enlightenment crowd who drank in these closes.
+
+His name was James Hutton, a farmer, physician and gentleman-thinker, and in the seventeen eighties he did something quietly revolutionary. He read the rocks. At a spot now called Hutton's Section, on the Crags, he saw molten rock that had forced its way in among older layers of sediment. That told him the Earth was not a finished object created once and left alone. It was a slow engine, endlessly wearing mountains down into the sea, then cooking and lifting the debris into new rock, over and over. And the number of cycles he could read into the stone was so vast that the going wisdom, that the Earth was a few thousand years old, made him nearly laugh.
+
+Hutton presented his Theory of the Earth to the Royal Society of Edinburgh in seventeen eighty-five, and published it soon after with a sentence that still gives geologists a shiver. Of the Earth's history he wrote that we find no vestige of a beginning, and no prospect of an end. At another site, Siccar Point down the coast, his friend John Playfair described the feeling of grasping all that time, saying the mind seemed to grow giddy looking so far into the abyss of it.
+
+This was an earthquake in ideas. For centuries, learned men had put the creation at four thousand and four before Christ, worked out from the Bible. Hutton replaced that cosy little calendar with an ocean of time so deep it had no visible shore. Without that ocean, Charles Darwin would have had nowhere to sail. Evolution needs almost unlimited time, and Hutton is the man who first threw the doors open on it.
+
+So Edinburgh's claim to fame isn't only kings and killings. Right here, within sight of this street, in the same generation that gave us Adam Smith and David Hume, a man looking at a cliff worked out that our planet is unthinkably ancient. He is called the father of modern geology, and his laboratory was a hillside you can walk up in an afternoon. Give the Crags a respectful glance. They rewrote the age of the world.

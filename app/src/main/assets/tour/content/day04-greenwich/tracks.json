@@ -1,0 +1,78 @@
+{
+  "kid": [
+    {
+      "file": "content/day04-greenwich/kid/01-cutty-sark.md",
+      "title": "Cutty Sark: The Fastest Ship of Her Day",
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {"file": "content/day04-greenwich/kid/01-cutty-sark-more-1.md", "title": "Life Aboard a Tea Clipper", "est_minutes": 2.2},
+        {"file": "content/day04-greenwich/kid/01-cutty-sark-more-2.md", "title": "The Great Rudder Rescue", "est_minutes": 2.3}
+      ]
+    },
+    {
+      "file": "content/day04-greenwich/kid/02-prime-meridian.md",
+      "title": "The Prime Meridian: Stand in Two Halves of the World",
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {"file": "content/day04-greenwich/kid/02-prime-meridian-more-1.md", "title": "The Line That Circles the World", "est_minutes": 2.2},
+        {"file": "content/day04-greenwich/kid/02-prime-meridian-more-2.md", "title": "Why Your Phone Disagrees", "est_minutes": 2.3}
+      ]
+    },
+    {
+      "file": "content/day04-greenwich/kid/03-longitude-clocks.md",
+      "title": "John Harrison: The Carpenter Who Saved Sailors",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {"file": "content/day04-greenwich/kid/03-longitude-clocks-more-1.md", "title": "The Boy Who Taught Himself", "est_minutes": 2.1},
+        {"file": "content/day04-greenwich/kid/03-longitude-clocks-more-2.md", "title": "Clock Versus Moon", "est_minutes": 2.1}
+      ]
+    },
+    {
+      "file": "content/day04-greenwich/kid/04-time-ball-and-museum.md",
+      "title": "Nelson's Coat and a Ball That Tells Time",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {"file": "content/day04-greenwich/kid/04-time-ball-and-museum-more-1.md", "title": "The Ceiling That Took a Lifetime", "est_minutes": 2.3},
+        {"file": "content/day04-greenwich/kid/04-time-ball-and-museum-more-2.md", "title": "The Ghost on the Spiral Stairs", "est_minutes": 2.2}
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day04-greenwich/adult/01-cutty-sark.md",
+      "title": "Cutty Sark: The End of the Age of Sail",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {"file": "content/day04-greenwich/adult/01-cutty-sark-more-1.md", "title": "The Rudder Epic and the Clipper Economy", "est_minutes": 2.2},
+        {"file": "content/day04-greenwich/adult/01-cutty-sark-more-2.md", "title": "Afterlives: Ferreira, Whisky and the Figureheads", "est_minutes": 2.3}
+      ]
+    },
+    {
+      "file": "content/day04-greenwich/adult/02-prime-meridian.md",
+      "title": "The Prime Meridian: How Greenwich Became Zero",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {"file": "content/day04-greenwich/adult/02-prime-meridian-more-1.md", "title": "Railway Time and the Invention of Now", "est_minutes": 2.3},
+        {"file": "content/day04-greenwich/adult/02-prime-meridian-more-2.md", "title": "The French Sulk and the Two Zeros", "est_minutes": 2.3}
+      ]
+    },
+    {
+      "file": "content/day04-greenwich/adult/03-longitude-clocks.md",
+      "title": "Harrison and the Longitude Prize",
+      "est_minutes": 1.6,
+      "tell_me_more": [
+        {"file": "content/day04-greenwich/adult/03-longitude-clocks-more-1.md", "title": "The Rival Method and a Conflicted Judge", "est_minutes": 2.3},
+        {"file": "content/day04-greenwich/adult/03-longitude-clocks-more-2.md", "title": "K1, Captain Cook, and Vindication", "est_minutes": 2.2}
+      ]
+    },
+    {
+      "file": "content/day04-greenwich/adult/04-maritime-greenwich.md",
+      "title": "Maritime Greenwich: Baroque Splendor and a Bullet Hole",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {"file": "content/day04-greenwich/adult/04-maritime-greenwich-more-1.md", "title": "The Painted Hall: Britain's Sistine Chapel", "est_minutes": 2.2},
+        {"file": "content/day04-greenwich/adult/04-maritime-greenwich-more-2.md", "title": "The Tulip Stairs, the Armada, and the Reckoning", "est_minutes": 2.2}
+      ]
+    }
+  ]
+}

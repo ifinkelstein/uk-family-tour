@@ -1,0 +1,60 @@
+{
+  "kid": [
+    {
+      "file": "content/day14-jorvik/kid/01-vikings-take-york.md",
+      "title": "The Vikings Are Coming — And Staying",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {"file": "content/day14-jorvik/kid/01-vikings-take-york-more-1.md", "title": "The Great Horned Helmet Lie", "est_minutes": 2.7},
+        {"file": "content/day14-jorvik/kid/01-vikings-take-york-more-2.md", "title": "A Day on a Viking Street", "est_minutes": 2.9}
+      ]
+    },
+    {
+      "file": "content/day14-jorvik/kid/02-coppergate-dig.md",
+      "title": "The Muddy Miracle Under Your Feet",
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {"file": "content/day14-jorvik/kid/02-coppergate-dig-more-1.md", "title": "The Helmet at the Bottom of the Pit", "est_minutes": 2.9},
+        {"file": "content/day14-jorvik/kid/02-coppergate-dig-more-2.md", "title": "The Cleverest Hands in Jorvik", "est_minutes": 2.8}
+      ]
+    },
+    {
+      "file": "content/day14-jorvik/kid/03-the-famous-poo.md",
+      "title": "The Most Famous Poo in the World",
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {"file": "content/day14-jorvik/kid/03-the-famous-poo-more-1.md", "title": "What Was for Dinner in Jorvik?", "est_minutes": 2.5},
+        {"file": "content/day14-jorvik/kid/03-the-famous-poo-more-2.md", "title": "Your Ride Through a Thousand Years", "est_minutes": 2.9}
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day14-jorvik/adult/01-viking-york.md",
+      "title": "Jorvik: The Viking Capital of England",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {"file": "content/day14-jorvik/adult/01-viking-york-more-1.md", "title": "The Horned Helmet That Never Was", "est_minutes": 2.9},
+        {"file": "content/day14-jorvik/adult/01-viking-york-more-2.md", "title": "Egil, Bloodaxe, and the Poem That Bought a Head", "est_minutes": 2.8}
+      ]
+    },
+    {
+      "file": "content/day14-jorvik/adult/02-coppergate-archaeology.md",
+      "title": "Coppergate: The Dig That Changed Urban Archaeology",
+      "est_minutes": 1.6,
+      "tell_me_more": [
+        {"file": "content/day14-jorvik/adult/02-coppergate-archaeology-more-1.md", "title": "The Coppergate Helmet", "est_minutes": 2.9},
+        {"file": "content/day14-jorvik/adult/02-coppergate-archaeology-more-2.md", "title": "The Workshops of Coppergate", "est_minutes": 2.9}
+      ]
+    },
+    {
+      "file": "content/day14-jorvik/adult/03-what-remains.md",
+      "title": "What the Vikings Left Behind — and a Trip Coda",
+      "est_minutes": 1.6,
+      "tell_me_more": [
+        {"file": "content/day14-jorvik/adult/03-what-remains-more-1.md", "title": "The Body of Evidence: Food, Dress, and Health", "est_minutes": 2.8},
+        {"file": "content/day14-jorvik/adult/03-what-remains-more-2.md", "title": "Silver, Coins, and the Making of a Market", "est_minutes": 2.8}
+      ]
+    }
+  ]
+}

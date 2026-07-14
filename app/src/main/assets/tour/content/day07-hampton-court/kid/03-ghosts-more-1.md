@@ -1,0 +1,10 @@
+# Catherine Howard: The Real Girl Behind the Scream
+The scream in the Haunted Gallery is a ghost story, and nobody knows if it really happened. But behind it is a real girl, and her true story is sadder than any ghost.
+
+Her name was Catherine Howard, and she became Henry's fifth wife when she was very young, probably about seventeen, while Henry was nearly fifty, unwell, and enormous. Picture that. A teenager married off to a grumpy old king because her powerful family thought it would make them richer and more important. She loved dancing and pretty clothes and she was, by every account, full of life.
+
+The trouble was that Catherine had a past before the king, a boyfriend from her teenage years, and after the wedding she foolishly kept spending time with a young man at court. In Tudor times, for a queen, that was not just embarrassing, it was treason, a crime you could die for. When Henry found out, he was crushed, then furious. Catherine was arrested right here at Hampton Court in November of 1541.
+
+And this is where legend takes over from history. The story goes that she broke away from her guards and ran, screaming, down the long gallery toward the chapel, desperate to reach Henry and beg him face to face for her life. The guards caught her and dragged her back, and Henry never spoke to her again. Whether that dash really happened, we truly cannot say. But the fear behind it was absolutely real.
+
+She was taken to the Tower of London, the same fortress you visited on Monday, and executed early in 1542. She was still only a teenager, or barely out of her teens. There is one detail people always remember, though even this may be part legend. They say that the night before she died, she asked for the wooden block to be brought to her room so she could practise laying her head on it, to be calm and dignified at the end. So when you walk that gallery and feel a chill, maybe it isn't a ghost at all. Maybe it's just your heart, aching for a frightened girl who ran out of time.

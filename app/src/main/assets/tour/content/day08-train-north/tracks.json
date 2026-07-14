@@ -1,0 +1,110 @@
+{
+  "kid": [
+    {
+      "file": "content/day08-train-north/kid/01-east-coast-line.md",
+      "title": "Racing North on the Flying Scotsman's Line",
+      "words": 216,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {
+          "file": "content/day08-train-north/kid/01-east-coast-line-more-1.md",
+          "title": "The Bullet Train and a Queen Under the Floor",
+          "words": 432,
+          "est_minutes": 2.9
+        },
+        {
+          "file": "content/day08-train-north/kid/01-east-coast-line-more-2.md",
+          "title": "The Duck That Broke the World Record",
+          "words": 459,
+          "est_minutes": 3.1
+        },
+        {
+          "file": "content/day08-train-north/kid/01-east-coast-line-more-3.md",
+          "title": "The Bridges of the Tyne and the Giant Angel",
+          "words": 408,
+          "est_minutes": 2.7
+        }
+      ]
+    },
+    {
+      "file": "content/day08-train-north/kid/02-crossing-the-border.md",
+      "title": "Crossing into Scotland",
+      "words": 213,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {
+          "file": "content/day08-train-north/kid/02-crossing-the-border-more-1.md",
+          "title": "Holy Island and the Vikings",
+          "words": 383,
+          "est_minutes": 2.6
+        },
+        {
+          "file": "content/day08-train-north/kid/02-crossing-the-border-more-2.md",
+          "title": "Castles by the Sea",
+          "words": 417,
+          "est_minutes": 2.8
+        },
+        {
+          "file": "content/day08-train-north/kid/02-crossing-the-border-more-3.md",
+          "title": "A Volcano and a Station in a Vanished Lake",
+          "words": 399,
+          "est_minutes": 2.7
+        }
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day08-train-north/adult/01-east-coast-line.md",
+      "title": "The East Coast Main Line: Racing History",
+      "words": 218,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {
+          "file": "content/day08-train-north/adult/01-east-coast-line-more-1.md",
+          "title": "Out of King's Cross: The Modern Racers and a Buried Queen",
+          "words": 408,
+          "est_minutes": 2.7
+        },
+        {
+          "file": "content/day08-train-north/adult/01-east-coast-line-more-2.md",
+          "title": "Gresley, the A4s, and Why Mallard Still Wins",
+          "words": 382,
+          "est_minutes": 2.5
+        },
+        {
+          "file": "content/day08-train-north/adult/01-east-coast-line-more-3.md",
+          "title": "Prince-Bishops, the Tyne, and the Angel",
+          "words": 391,
+          "est_minutes": 2.6
+        }
+      ]
+    },
+    {
+      "file": "content/day08-train-north/adult/02-border-and-arrival.md",
+      "title": "Berwick, the Border, and Arriving in Edinburgh",
+      "words": 229,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {
+          "file": "content/day08-train-north/adult/02-border-and-arrival-more-1.md",
+          "title": "Lindisfarne and the Northumberland Coast",
+          "words": 418,
+          "est_minutes": 2.8
+        },
+        {
+          "file": "content/day08-train-north/adult/02-border-and-arrival-more-2.md",
+          "title": "The Border and the Debatable Land",
+          "words": 392,
+          "est_minutes": 2.6
+        },
+        {
+          "file": "content/day08-train-north/adult/02-border-and-arrival-more-3.md",
+          "title": "Arthur's Seat, the Nor Loch, and Waverley",
+          "words": 361,
+          "est_minutes": 2.4
+        }
+      ]
+    }
+  ]
+}

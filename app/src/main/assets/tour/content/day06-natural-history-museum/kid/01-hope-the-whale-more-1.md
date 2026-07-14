@@ -1,0 +1,10 @@
+# How to Hang a Whale
+Here is a puzzle. How do you hang a skeleton the size of an aeroplane from a ceiling, so that it looks like it is diving, and so that it never, ever falls on anybody? That was the job the museum gave a team of engineers and bone experts, and it took them three whole years just to plan.
+
+First they had a problem you might not guess. Whale bones are full of oil. A blue whale's skeleton keeps leaking oil for decades after the animal has died, slowly, like a very slow candle. So before Hope could go on show, conservators had to clean and de-grease every single bone, or she would have dripped on the visitors below. Then each bone was scanned by laser to make a perfect three-dimensional map, so the team could work out exactly how the whole thing balanced.
+
+Before all that, Hope had a long and rather sleepy history. For years she hung in an older gallery, high above a giant model of a blue whale that workers built out of wood and plaster back in the nineteen thirties. And here is the museum's favourite legend. The men who built that model left a little trapdoor in the whale's belly, and the story goes that they used to climb inside and eat their lunch in there. People still whisper that when they finally sealed it up, the builders hid a few coins, a telephone book, and maybe even a bottle inside the belly of the fake whale. Nobody is completely sure. It has never been opened.
+
+When the day came to move the real Hope into the grand entrance hall, the team lifted her bone by bone on cranes and fixed her to a hidden metal frame, curved into a lunging pose, as if she has just this second spotted a cloud of tiny shrimp and is twisting to swallow them. Look at her spine. See how it bends? A dead skeleton cannot bend itself. Every one of her bones is held at exactly the right angle by that clever frame, so that several tonnes of whale can float over your head and seem completely alive.
+
+So when you stand under her, remember, you are not just looking at a dead animal. You are looking at three years of work, a laser map of every bone, and possibly a secret lunch spot sealed inside a whale forever.

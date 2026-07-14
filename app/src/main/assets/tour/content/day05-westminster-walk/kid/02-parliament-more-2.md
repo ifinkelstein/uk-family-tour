@@ -1,0 +1,10 @@
+# Green Benches, Red Benches, and a Golden Stick
+Inside this building there are two big rooms where the arguing happens, and here is a fun way to tell them apart: one is green and one is red. The House of Commons, where the members that ordinary people vote for sit, has green benches. The House of Lords, the grander room, has red benches. So if you ever see politicians on the news in Britain, you can play a game: green seats mean you are watching the Commons, red seats mean you are watching the Lords. Nobody is quite sure why those exact colours were chosen hundreds of years ago, but green and red they have stayed.
+
+Now, the benches are surprisingly small. On busy days there are not enough seats for everyone, so members have to squash together or stand at the doorways. That is on purpose. People decided long ago that a crowded, buzzing room feels more exciting and important than a half-empty one, so they kept it deliberately snug.
+
+Here is my favourite rule of all. In the middle of the Commons sits a heavy golden stick called the mace. It looks like something a giant would use as a club, all gold and jewels. And believe it or not, the whole of Parliament cannot make a single law unless that golden stick is sitting in its place. No mace on the table, no laws, no arguing, nothing. It is carried in and out with great ceremony every day. Once, a furious politician actually grabbed the mace and tried to march off with it in protest, and it caused an enormous scandal.
+
+And once a year the King himself comes to open Parliament, in a golden carriage, wearing a crown. But the crown is so precious and so important that on some occasions it travels in its very own separate carriage, riding along like a passenger, with people bowing to it as if it were royalty all by itself. Imagine a hat so grand it gets its own car.
+
+So this building is full of these gloriously serious games: green rooms and red rooms, a magic golden stick, and a crown important enough to ride alone. Grown-ups made every one of these rules on purpose, and they follow them, very solemnly, to this day.

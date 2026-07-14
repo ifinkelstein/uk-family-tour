@@ -1,0 +1,11 @@
+# The Flying Abbot and His Wings
+
+Let me tell you the whole story of the man who tried to fly, because it is even better than you think. His name was John Damian, and he came from Italy to work for the King of Scotland, James the Fourth. His real job was not flying. It was something even stranger. He was an alchemist, a kind of magician-scientist who promised he could turn ordinary metal into pure gold. The king loved that idea, obviously, and gave Damian a workshop with roaring furnaces, right here in the castle, where he boiled and mixed and burned things for years, trying to brew a magic liquid that would make everyone rich. It never worked. Not once. But the king kept paying, and paying.
+
+Then, in the year 1507, Damian announced his most daring plan yet. He would build himself a pair of wings and fly, he said, all the way across the sea to France, faster than any messenger could ride. He gathered feathers, strapped on his home-made wings, and climbed up onto the high castle walls while the whole court gathered below to watch. Imagine the crowd, whispering, pointing, half sure he would soar like an eagle.
+
+He jumped. And he dropped like a stone, straight down, and landed with a splat in the midden. Now, a midden is the castle rubbish heap, the place where they threw all the kitchen scraps and, well, the toilet waste too. So he did not just fall. He fell into a giant pile of poo. And he broke his thigh bone, the big bone in his leg.
+
+But here is why we still tell the story. Damian had an excuse ready, and it is magnificent. It was not his fault, he insisted. The problem was the feathers. Some of them, he said, had come from hens, from ordinary chickens, and everyone knows chickens cannot fly and love to scratch about in the dirt. So naturally those feathers had dragged him down into the muck. If only he had used proper eagle feathers, he would have flown to France, no trouble at all.
+
+There was a poet at the court named William Dunbar who thought this was the funniest thing he had ever seen, and he wrote a mocking poem about it, pretending that all the birds of the sky attacked the flying man and knocked him out of the air. That poem still survives, which means people have been giggling at John Damian for over five hundred years. Look over the wall, spot the long drop, and be very glad you have never landed in a castle midden.

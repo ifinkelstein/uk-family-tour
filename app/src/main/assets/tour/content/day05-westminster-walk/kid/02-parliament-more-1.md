@@ -1,0 +1,10 @@
+# The Hall That Beat the Fire
+Tucked inside this enormous building is one room far, far older than all the rest, a room that has quietly watched almost a thousand years of English history. It is called Westminster Hall, and it was begun in 1097 for a king with a wonderful name, William Rufus, which meant William the Red, probably because of his red face or red hair. When it was built it was one of the largest halls in the whole of Europe, and the king reportedly complained that it was too small, that it was a mere bedroom compared to what he had wanted.
+
+Look up, in your imagination, at its roof. About seven hundred years ago, master carpenters built a wooden roof over the hall so wide and so clever that it needs no pillars down the middle to hold it up. It seems to float. It is the largest medieval wooden roof in northern Europe, and carved along it are rows of angels with outstretched wings, watching everyone below. Builders and engineers still travel from all over the world just to stare up at it and wonder how it stays there.
+
+This hall has seen astonishing things. Kings held roaring feasts here after their coronations. And in this very room, some of the most famous trials in history took place, including the trial of Guy Fawkes himself, the gunpowder plotter, and even the trial of a king, Charles the First, who was sentenced to death right here under those wooden angels.
+
+Now here is the amazing part for our walk. Remember the great fire of 1834 that burned down almost the whole palace? And the bombs that fell in the Second World War? Somehow, again and again, Westminster Hall survived. Firefighters once had to choose which part of the building to save, and they chose the hall, and they saved it.
+
+And in 2022, when Queen Elizabeth the Second died, her coffin lay here in Westminster Hall so that people could come and say goodbye. So many came that the line of people, waiting quietly day and night, stretched for miles along the river. They walked through this ancient room, under the floating roof and the carved angels, one by one, in a hall that has been welcoming the people of England for nearly a thousand years.

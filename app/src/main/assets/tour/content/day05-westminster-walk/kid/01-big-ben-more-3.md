@@ -1,0 +1,10 @@
+# The Great Clean-Up
+Not long ago, this tower disappeared. If you had come here between 2017 and 2022, you would not have seen the beautiful stonework at all, because the whole tower, all ninety-six metres of it, was wrapped head to toe in metal scaffolding, like a giant in a cage. It was the biggest repair the tower had ever had, and it took five years.
+
+Here is the tricky part. You cannot simply switch off the most famous clock in the world, because people all over the country still set their day by it. So the engineers did something clever. They kept just one of the four clock faces working, driven by a small electric motor, while they carefully took the other three to pieces. That way, from at least one direction, Big Ben could still tell London the time all through the years of work.
+
+Then they did something even braver. They took the entire Great Clock apart, every single cog and spring and wheel, more than a thousand pieces, laid them out, cleaned them, mended them, and put the whole machine back together again like the world's most serious jigsaw. And while workers were up close cleaning the clock faces, they made a surprise discovery. Under layers of black paint they found the clock's original colours from Victorian times, a deep, rich blue. The tower you see today has been painted back to those first colours, blue and gold, exactly as people saw it when Big Ben was brand new.
+
+They cleaned every stone, replaced hundreds of broken pieces, added tiny lifts and safety features, and gave the clock hands a fresh coat of gleaming gold. It cost an enormous amount of money and caused a lot of grumbling, the way big repairs always do. But in 2022 the scaffolding finally came down, the bongs came back, and the tower stepped out looking better than it had in a lifetime.
+
+So when you look up now, you are seeing something rare: a very old thing that has just been made new again. The blue you see, the gold that glints, the clean pale stone, that is the tower waking up after its longest sleep, ready to ring out over London for another hundred years and more.

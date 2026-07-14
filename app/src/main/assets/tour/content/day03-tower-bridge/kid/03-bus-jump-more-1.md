@@ -1,0 +1,10 @@
+# The Man Who Flew Through the Bridge
+The jumping bus is not the only daring stunt this bridge has seen. Here is one even bolder, and it happened in the sky. Picture it. The year is nineteen twelve, only eighteen years after the bridge opened, and flying machines were brand new. Most people had never seen an aeroplane in their whole lives. They were flimsy, rattly things made of wood, wire, and cloth, and getting into one at all was an act of courage.
+
+One summer day, a pilot named Frank McClean took off in a seaplane, an aircraft with floats instead of wheels so it could land right on the water. He flew up the River Thames, low over the city, engine buzzing like an enormous angry bee. And when he reached Tower Bridge, he did something almost nobody would dare. Instead of flying safely over the top, he aimed his little plane straight at the gap between the high walkways and the road below, and flew right through the middle of the bridge.
+
+Think about how narrow that is. Above him, the walkways. Below him, the road. On either side, the great stone towers. He had to thread his rattly wooden aeroplane through that opening like passing a needle through the eye of a thread, with barely any room to spare, and no second chances. One small mistake and he would have clipped the bridge or splashed into the river. But he made it, clean through, and then flew on under the next bridges further up the river, skimming just above the water.
+
+People on the ground could hardly believe their eyes. A flying machine, threading Tower Bridge! It became a famous story straight away. Years later, Frank McClean said he had partly done it to make a point, to show the government how exciting and important flying could be, back when many people still thought aeroplanes were a silly toy.
+
+So as you stand up here on the walkway, look at the open space beneath your feet, between where you are and the road far below. More than a hundred years ago, a brave man in a wooden seaplane flew a real aircraft straight through that very gap. The bus jumped the bridge, but Frank McClean flew through the middle of it.

@@ -1,0 +1,11 @@
+# The Stinky Lake and the Witch Test
+
+You already know that at ten o'clock at night, all the horrible buckets got thrown into the street with a shout of gardyloo. But have you ever wondered where all that mess ended up? Gravity has the answer. It ran downhill.
+
+And at the bottom of the hill, on the north side of the castle, there used to be a lake. It was called the Nor Loch, which just means the North Lake. Once upon a time it had been made on purpose, to help defend the castle, but over the years it turned into the city's giant open drain. Everything the city didn't want slid down into it, so instead of a sparkling blue lake, it became a still, green, evil-smelling soup. People threw in their rubbish, their dead animals, everything. If you can imagine the worst pond in the world, multiply the smell by a hundred, and that was the Nor Loch.
+
+Now brace yourself, because the lake has a dark story too. In those days, people had a cruel and completely wrong idea. If they suspected a woman of being a witch, they would sometimes tie her thumbs to her toes and throw her into the loch. Here was their twisted test. If she floated, they said she was guilty and a witch. If she sank, she was innocent, but of course she might drown. It was a test nobody could really win, and it was terribly unfair. More than three hundred people are thought to have been ducked in that lake. It's one of the sad, shameful things humans used to do when they were frightened and didn't understand the world, and it's important to remember it really happened.
+
+But this story has a genuinely happy ending, and you're going to walk right through it. A couple of hundred years ago, the city finally drained the disgusting lake away. And do you know what they turned that stinking, sorrowful place into? One of the most beautiful parks in Britain, called Princes Street Gardens, green and full of flowers, right below the castle. All the earth and rubble they dug out was piled up into a big ramp called the Mound, which is still there holding a road today.
+
+So remember, when you stroll through those lovely gardens, you're walking over a spot that was once the smelliest, saddest lake in Edinburgh. The city cleaned up its worst place and grew a garden on top. That's a pretty good trick.

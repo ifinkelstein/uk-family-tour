@@ -1,0 +1,10 @@
+# The Raven Cemetery and Their Clever Games
+Somewhere in the dry moat, on the south side near the river gate, there is a small patch of ground you might walk right past. It is the raven cemetery. When a Tower raven dies, it is not simply forgotten. It gets buried here, and its name is added to a memorial stone that lists the Tower's feathered guardians going all the way back to the nineteen-fifties. Names like Ronald and Rhys and Gwylum rest under that grass. These birds get farewells fit for soldiers, because in a way, that is exactly what they are.
+
+The ravens strutting about today have names too, and the list keeps changing as old birds retire and new ones are sworn in. A recent flock included Poppy, Edgar, Georgie, and one splendidly named Poe, after the poet who wrote a famous spooky poem about a raven. Say hello, but keep your snacks firmly in your pocket.
+
+So why does everyone say ravens are so clever? Watch closely and you might catch them at it. A raven will hide food, tucking a scrap of meat under a leaf or into a crack, and it can remember hundreds of these secret hiding spots for weeks afterward. Sneakier still, if a raven thinks another bird is spying on it, it will make a big show of hiding the food in the wrong place, then slip the real treasure somewhere else the moment the spy looks away. That is not instinct. That is a bird telling a lie.
+
+They play, too, purely for fun. Ravens have been filmed sliding down snowy roofs on their backs, over and over, like children on a sledge, then flapping back up to do it again. They can copy sounds they hear, and a Tower raven has been known to croak out a gravelly good morning at startled visitors. And they sometimes bring little gifts, a shiny button, a bottle cap, to people they have decided they like.
+
+So do not think of them as decorations. Think of them as clever, funny, slightly cheeky characters who happen to hold the whole kingdom's luck in their beaks. Watch what they do today. They are absolutely watching you.

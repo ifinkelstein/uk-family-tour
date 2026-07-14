@@ -1,0 +1,46 @@
+{
+  "kid": [
+    {
+      "file": "content/day02-richmond-park/kid/01-deer.md",
+      "title": "The Deer of Richmond Park",
+      "est_minutes": 1.3,
+      "tell_me_more": [
+        {"file": "content/day02-richmond-park/kid/01-deer-more-1.md", "title": "Baby Deer in the Bracken", "est_minutes": 3.0},
+        {"file": "content/day02-richmond-park/kid/01-deer-more-2.md", "title": "Monsters in the Dead Wood", "est_minutes": 3.1},
+        {"file": "content/day02-richmond-park/kid/01-deer-more-3.md", "title": "A Whole Wild World in the City", "est_minutes": 3.1}
+      ]
+    },
+    {
+      "file": "content/day02-richmond-park/kid/02-kings-mound.md",
+      "title": "King Henry's Mound and the Secret Keyhole",
+      "est_minutes": 1.2,
+      "tell_me_more": [
+        {"file": "content/day02-richmond-park/kid/02-kings-mound-more-1.md", "title": "The True Story Behind the Legend", "est_minutes": 3.2},
+        {"file": "content/day02-richmond-park/kid/02-kings-mound-more-2.md", "title": "The House Where a Great Thinker Grew Up", "est_minutes": 3.1},
+        {"file": "content/day02-richmond-park/kid/02-kings-mound-more-3.md", "title": "Now Turn Around", "est_minutes": 3.1}
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day02-richmond-park/adult/01-deer.md",
+      "title": "Richmond Park: A Medieval Landscape in the City",
+      "est_minutes": 1.3,
+      "tell_me_more": [
+        {"file": "content/day02-richmond-park/adult/01-deer-more-1.md", "title": "The Fawning Season", "est_minutes": 3.1},
+        {"file": "content/day02-richmond-park/adult/01-deer-more-2.md", "title": "The Beetle in the Rotten Oak", "est_minutes": 3.1},
+        {"file": "content/day02-richmond-park/adult/01-deer-more-3.md", "title": "The Wild Park", "est_minutes": 3.1}
+      ]
+    },
+    {
+      "file": "content/day02-richmond-park/adult/02-kings-mound.md",
+      "title": "King Henry's Mound: The Protected View",
+      "est_minutes": 1.2,
+      "tell_me_more": [
+        {"file": "content/day02-richmond-park/adult/02-kings-mound-more-1.md", "title": "The Legend and the Ledger", "est_minutes": 3.0},
+        {"file": "content/day02-richmond-park/adult/02-kings-mound-more-2.md", "title": "Pembroke Lodge and the Russells", "est_minutes": 2.9},
+        {"file": "content/day02-richmond-park/adult/02-kings-mound-more-3.md", "title": "Beyond the Keyhole", "est_minutes": 3.1}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# The Baby Prince's Fireworks Party
+
+You already know that a baby was crowned queen in this castle. Well, this castle was also where kings threw the most spectacular baby parties in Scottish history. Not birthday parties. Baptisms, the special ceremony when a baby is welcomed and named. And royal ones were wild.
+
+In the year 1566, the baby prince James, the son of Mary Queen of Scots, was baptized right here. To celebrate, they put on something Scotland had never seen before. Fireworks. Real, whooshing, banging, sparkling fireworks, lighting up the night sky over the castle. It was, as far as anyone can tell, the very first proper firework display in the whole country. Picture the crowds gasping and pointing at the exploding colors, having never in their lives seen anything like it.
+
+That baby James grew up to become king, and years later he threw a baptism party of his own for his little boy, Prince Henry, in the year 1594. And this one may be the most extraordinary feast ever held in that golden Great Hall. When it was time for the fish course, the doors swung open and in came, not a waiter with a tray, but an enormous model sailing ship. It was as long as a bus, eighteen feet, with real masts and rigging soaring high overhead, and it was loaded with all the fish for the feast. And to announce its grand arrival, the little ship fired its cannons. Actual cannons, going bang, indoors, at dinner.
+
+But here is my favorite part, the plan that was almost even crazier. The very first course was meant to be pulled into the hall on a fancy chariot. And do you know what they wanted to pull that chariot? A real, live lion. A genuine lion, harnessed up, hauling a wagon full of food between the tables. Then somebody, thank goodness, stopped and thought about it. What if the lion got frightened by all the noise and the crowds? Or worse, what if the guests got frightened by the lion? So at the last minute they called off the lion and had a person guide the chariot in instead, with the wheels moved by a hidden machine so it seemed to roll along by magic.
+
+So remember, when you stand in that quiet golden hall, that once it was full of fireworks and cannon fire and a ship the size of a bus, and very nearly a lion, all to celebrate one small baby. Kings really did know how to throw a party.

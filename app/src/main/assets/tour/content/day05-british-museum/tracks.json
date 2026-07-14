@@ -1,0 +1,174 @@
+{
+  "kid": [
+    {
+      "file": "content/day05-british-museum/kid/01-rosetta-stone.md",
+      "title": "The Rosetta Stone: The Key That Unlocked Egypt",
+      "words": 211,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {
+          "file": "content/day05-british-museum/kid/01-rosetta-more.md",
+          "title": "Tell Me More: Cracking the Code",
+          "words": 211,
+          "est_minutes": 1.4
+        },
+        {
+          "file": "content/day05-british-museum/kid/01-rosetta-stone-more-1.md",
+          "title": "How to Read a Wall of Hieroglyphs",
+          "words": 357,
+          "est_minutes": 2.4
+        },
+        {
+          "file": "content/day05-british-museum/kid/01-rosetta-stone-more-2.md",
+          "title": "The Stone's Big Adventure",
+          "words": 370,
+          "est_minutes": 2.5
+        }
+      ]
+    },
+    {
+      "file": "content/day05-british-museum/kid/02-mummies.md",
+      "title": "Mummies: Recipe for Living Forever",
+      "words": 202,
+      "est_minutes": 1.3,
+      "tell_me_more": [
+        {
+          "file": "content/day05-british-museum/kid/02-mummies-more.md",
+          "title": "Tell Me More: Animal Mummies and Curses",
+          "words": 219,
+          "est_minutes": 1.5
+        },
+        {
+          "file": "content/day05-british-museum/kid/02-mummies-more-1.md",
+          "title": "The Weighing of the Heart",
+          "words": 370,
+          "est_minutes": 2.5
+        },
+        {
+          "file": "content/day05-british-museum/kid/02-mummies-more-2.md",
+          "title": "Mummy Detectives and Mummy Paint",
+          "words": 365,
+          "est_minutes": 2.4
+        },
+        {
+          "file": "content/day05-british-museum/kid/02-mummies-more-3.md",
+          "title": "Servants, Games, and a Perfect Farm",
+          "words": 395,
+          "est_minutes": 2.6
+        }
+      ]
+    },
+    {
+      "file": "content/day05-british-museum/kid/03-treasures-hunt.md",
+      "title": "Treasure Hunt: A Ghost Ship and a Chess Army",
+      "words": 217,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {
+          "file": "content/day05-british-museum/kid/03-treasures-more.md",
+          "title": "Tell Me More: The Dig of 1939 and the Chess Hoard",
+          "words": 229,
+          "est_minutes": 1.5
+        },
+        {
+          "file": "content/day05-british-museum/kid/03-treasures-hunt-more-1.md",
+          "title": "Giant Winged Monsters and a Stone Comic Strip",
+          "words": 383,
+          "est_minutes": 2.6
+        },
+        {
+          "file": "content/day05-british-museum/kid/03-treasures-hunt-more-2.md",
+          "title": "A Stone Giant and a Skull That Fooled Everyone",
+          "words": 369,
+          "est_minutes": 2.5
+        }
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day05-british-museum/adult/01-museum-and-court.md",
+      "title": "The British Museum: The First Museum of Everything",
+      "words": 227,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {
+          "file": "content/day05-british-museum/adult/01-museum-more.md",
+          "title": "Tell Me More: The Restitution Question, Properly",
+          "words": 242,
+          "est_minutes": 1.6
+        },
+        {
+          "file": "content/day05-british-museum/adult/01-museum-and-court-more-1.md",
+          "title": "The Parthenon Marbles, Up Close",
+          "words": 326,
+          "est_minutes": 2.2
+        },
+        {
+          "file": "content/day05-british-museum/adult/01-museum-and-court-more-2.md",
+          "title": "Nineveh, and the Night the Flood Was Read",
+          "words": 352,
+          "est_minutes": 2.3
+        }
+      ]
+    },
+    {
+      "file": "content/day05-british-museum/adult/02-rosetta-decipherment.md",
+      "title": "The Rosetta Stone and the Race to Read Egypt",
+      "words": 211,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {
+          "file": "content/day05-british-museum/adult/02-rosetta-more.md",
+          "title": "Tell Me More: What the Egyptians Wrote",
+          "words": 249,
+          "est_minutes": 1.7
+        },
+        {
+          "file": "content/day05-british-museum/adult/02-rosetta-decipherment-more-1.md",
+          "title": "The Stone's Own Biography",
+          "words": 378,
+          "est_minutes": 2.5
+        },
+        {
+          "file": "content/day05-british-museum/adult/02-rosetta-decipherment-more-2.md",
+          "title": "Why the Stone Speaks Three Languages",
+          "words": 377,
+          "est_minutes": 2.5
+        }
+      ]
+    },
+    {
+      "file": "content/day05-british-museum/adult/03-sutton-hoo-lewis.md",
+      "title": "Sutton Hoo and the Lewis Chessmen: Two Buried Worlds",
+      "words": 230,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {
+          "file": "content/day05-british-museum/adult/03-suttonhoo-lewis-more.md",
+          "title": "Tell Me More: Basil Brown, Edith Pretty, and the Berserkers",
+          "words": 239,
+          "est_minutes": 1.6
+        },
+        {
+          "file": "content/day05-british-museum/adult/03-sutton-hoo-lewis-more-1.md",
+          "title": "Reading the Treasure in the Case",
+          "words": 354,
+          "est_minutes": 2.4
+        },
+        {
+          "file": "content/day05-british-museum/adult/03-sutton-hoo-lewis-more-2.md",
+          "title": "The Vanished King and Two Altars",
+          "words": 364,
+          "est_minutes": 2.4
+        },
+        {
+          "file": "content/day05-british-museum/adult/03-sutton-hoo-lewis-more-3.md",
+          "title": "The Chessmen and the Piece in the Drawer",
+          "words": 377,
+          "est_minutes": 2.5
+        }
+      ]
+    }
+  ]
+}

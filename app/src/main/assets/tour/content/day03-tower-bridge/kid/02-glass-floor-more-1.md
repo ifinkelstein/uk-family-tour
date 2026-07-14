@@ -1,0 +1,10 @@
+# How They Made a Floor You Can Trust
+Standing on glass forty-two meters up takes a bit of bravery, even when your brain knows it is safe. So how did the engineers make a floor that you really, truly can trust with your whole family standing on it at once? The answer is testing, and lots of it.
+
+The glass floor was added in twenty fourteen, long after the walkways themselves were built. Each panel is not one sheet of glass, like a window. It is five separate layers, glued together into one thick, super-strong sandwich. If one layer ever cracked, the others would still hold, so the floor could never suddenly give way. And these panels are heavy. A single one weighs more than half a tonne, about the same as a grand piano. It takes several people just to lift one into place.
+
+Before they let a single visitor step on, the engineers did what engineers love to do. They tried to break it, on purpose. They piled on huge weights, far heavier than any crowd of people could ever be, to prove the glass could take much more than it would ever need to. Only when it passed every test did they open it to you. So when you read that a panel could hold the weight of an elephant, that is not a wild guess. Somebody actually measured it.
+
+Now here is a puzzle to think about. How do you clean a glass floor that hangs forty-two meters above a busy road and a river full of boats? You cannot exactly lean a ladder against the sky. The team who look after the bridge have special ways to reach every panel, wiping away all the scuffs from thousands of shoes and, yes, all the smudges from thousands of noses and hands pressed against the glass by people lying down to peer through. Because everyone does lie down. It is impossible to resist.
+
+So go ahead. Trust the engineers, trust the five layers, trust the elephant test, and lie right down on the glass. Watch a red bus slide underneath your tummy. The people who built this floor spent months making absolutely certain that the only thing between you and the drop is glass strong enough to laugh at it.

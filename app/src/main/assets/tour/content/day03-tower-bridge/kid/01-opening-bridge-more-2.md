@@ -1,0 +1,10 @@
+# Watch an Opening Happen
+Imagine you are standing on the bridge and an opening is about to begin. It does not just fly up out of nowhere. There is a careful little ceremony first, and once you know the steps, you can watch for them.
+
+First, the traffic lights turn red and the cars stop. Then barriers swing across the road, like the gates at a railway crossing, so nobody can drive on. A bell rings, and a voice may warn people to step back behind the line. Only when the bridge is certain that every car and every person is safely off the moving part does the real show begin. There is even a person whose whole job is to make this happen, watching from a control room high in the bridge, checking that the road is clear before pressing the button that sets a thousand tonnes of steel in motion.
+
+Then, slowly, the two halves of the road begin to tip upward. They rise and rise until they point almost straight at the sky, opening a huge gap in the middle for a ship to glide through. When the boat has passed, the halves come back down, meet exactly in the middle, lock together, the barriers lift, the lights turn green, and the cars roll on as if nothing amazing just happened.
+
+Here is something surprising about the machinery. For the bridge's first eighty years or so, all of that lifting was powered by steam, made by burning coal, just like an old railway engine. But in nineteen seventy-six the bridge got a modern makeover. Now the great arms are moved by electric motors pushing oil through pipes, which is cleaner, quieter, and does not need anyone shovelling coal all night. The bridge kept its castle costume on the outside, but swapped its old steam heart for a new one.
+
+So if you are lucky enough to catch an opening while you are here, do not just watch the road lift. Watch the whole ceremony. The red lights, the barriers, the bell, the pause, and then the giant see-saws climbing toward the clouds. It is one of the best free shows in all of London, and it has been playing, on and off, for well over a hundred years.

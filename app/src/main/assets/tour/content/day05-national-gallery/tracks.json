@@ -1,0 +1,242 @@
+{
+  "kid": [
+    {
+      "file": "content/day05-national-gallery/kid/01-sunflowers-and-horse.md",
+      "title": "Sunflowers and a Giant Horse",
+      "words": 206,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {
+          "file": "content/day05-national-gallery/kid/01-sunflowers-horse-more.md",
+          "title": "Tell Me More: Van Gogh and Stubbs",
+          "words": 242,
+          "est_minutes": 1.6
+        },
+        {
+          "file": "content/day05-national-gallery/kid/01-sunflowers-and-horse-more-1.md",
+          "title": "The Empty Chair and the Broken Friendship",
+          "words": 248,
+          "est_minutes": 1.7
+        },
+        {
+          "file": "content/day05-national-gallery/kid/01-sunflowers-and-horse-more-2.md",
+          "title": "Whistlejacket's Racing World",
+          "words": 261,
+          "est_minutes": 1.7
+        }
+      ]
+    },
+    {
+      "file": "content/day05-national-gallery/kid/02-hidden-skull.md",
+      "title": "The Hidden Skull and the Mirror Trick",
+      "words": 210,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {
+          "file": "content/day05-national-gallery/kid/02-hidden-skull-more.md",
+          "title": "Tell Me More: Painted Secrets Everywhere",
+          "words": 223,
+          "est_minutes": 1.5
+        },
+        {
+          "file": "content/day05-national-gallery/kid/02-hidden-skull-more-1.md",
+          "title": "How the Skull Trick Works",
+          "words": 247,
+          "est_minutes": 1.6
+        },
+        {
+          "file": "content/day05-national-gallery/kid/02-hidden-skull-more-2.md",
+          "title": "Two Ambassadors and a King's Big Argument",
+          "words": 264,
+          "est_minutes": 1.8
+        }
+      ]
+    },
+    {
+      "file": "content/day05-national-gallery/kid/03-fighting-temeraire.md",
+      "title": "The Fighting Temeraire: A Hero's Last Trip",
+      "words": 217,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {
+          "file": "content/day05-national-gallery/kid/03-temeraire-more.md",
+          "title": "Tell Me More: Turner the Wild Man",
+          "words": 231,
+          "est_minutes": 1.5
+        },
+        {
+          "file": "content/day05-national-gallery/kid/03-fighting-temeraire-more-1.md",
+          "title": "The Real Ship and Her Last Battle",
+          "words": 266,
+          "est_minutes": 1.8
+        },
+        {
+          "file": "content/day05-national-gallery/kid/03-fighting-temeraire-more-2.md",
+          "title": "The Painter Who Chased the Light",
+          "words": 269,
+          "est_minutes": 1.8
+        }
+      ]
+    },
+    {
+      "file": "content/day05-national-gallery/kid/04-impressionists.md",
+      "title": "The Room Where Paintings Are Made of Light",
+      "words": 263,
+      "est_minutes": 1.8,
+      "tell_me_more": [
+        {
+          "file": "content/day05-national-gallery/kid/04-impressionists-more-1.md",
+          "title": "Monet, the Man Who Painted the Same Thing Forever",
+          "words": 269,
+          "est_minutes": 1.8
+        },
+        {
+          "file": "content/day05-national-gallery/kid/04-impressionists-more-2.md",
+          "title": "The Rebels Who Made Their Own Show",
+          "words": 266,
+          "est_minutes": 1.8
+        }
+      ]
+    },
+    {
+      "file": "content/day05-national-gallery/kid/05-pointillism.md",
+      "title": "The Painting Made of Thousands of Dots",
+      "words": 265,
+      "est_minutes": 1.8,
+      "tell_me_more": [
+        {
+          "file": "content/day05-national-gallery/kid/05-pointillism-more-1.md",
+          "title": "Why the Dots Turn Into Light",
+          "words": 275,
+          "est_minutes": 1.8
+        },
+        {
+          "file": "content/day05-national-gallery/kid/05-pointillism-more-2.md",
+          "title": "The Science Painter and His Friends",
+          "words": 281,
+          "est_minutes": 1.9
+        }
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day05-national-gallery/adult/01-collection.md",
+      "title": "The National Gallery: A Collection Built Backwards",
+      "words": 225,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {
+          "file": "content/day05-national-gallery/adult/01-collection-more.md",
+          "title": "Tell Me More: How the Pictures Got Here — and Nearly Didn't",
+          "words": 233,
+          "est_minutes": 1.6
+        },
+        {
+          "file": "content/day05-national-gallery/adult/01-collection-more-1.md",
+          "title": "Tell Me More: The Building and Its Battles",
+          "words": 251,
+          "est_minutes": 1.7
+        },
+        {
+          "file": "content/day05-national-gallery/adult/01-collection-more-2.md",
+          "title": "Tell Me More: How the Impressionists Arrived",
+          "words": 240,
+          "est_minutes": 1.6
+        }
+      ]
+    },
+    {
+      "file": "content/day05-national-gallery/adult/02-holbein-van-eyck.md",
+      "title": "Holbein and Van Eyck: Painting as Puzzle",
+      "words": 217,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {
+          "file": "content/day05-national-gallery/adult/02-holbein-vaneyck-more.md",
+          "title": "Tell Me More: Reading the Objects",
+          "words": 241,
+          "est_minutes": 1.6
+        },
+        {
+          "file": "content/day05-national-gallery/adult/02-holbein-van-eyck-more-1.md",
+          "title": "Tell Me More: Holbein at a Dangerous Court",
+          "words": 257,
+          "est_minutes": 1.7
+        },
+        {
+          "file": "content/day05-national-gallery/adult/02-holbein-van-eyck-more-2.md",
+          "title": "Tell Me More: Van Eyck and the Oil Revolution",
+          "words": 260,
+          "est_minutes": 1.7
+        }
+      ]
+    },
+    {
+      "file": "content/day05-national-gallery/adult/03-turner-vangogh.md",
+      "title": "Turner's Temeraire and Van Gogh's Sunflowers",
+      "words": 227,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {
+          "file": "content/day05-national-gallery/adult/03-turner-vangogh-more.md",
+          "title": "Tell Me More: Bequests, Bonfires and Chemistry",
+          "words": 235,
+          "est_minutes": 1.6
+        },
+        {
+          "file": "content/day05-national-gallery/adult/03-turner-vangogh-more-1.md",
+          "title": "Tell Me More: Turner, Father of the Impressionists",
+          "words": 263,
+          "est_minutes": 1.8
+        },
+        {
+          "file": "content/day05-national-gallery/adult/03-turner-vangogh-more-2.md",
+          "title": "Tell Me More: Van Gogh's Chair and the Yellow House",
+          "words": 262,
+          "est_minutes": 1.7
+        }
+      ]
+    },
+    {
+      "file": "content/day05-national-gallery/adult/04-impressionists.md",
+      "title": "The Impressionist Rooms",
+      "words": 250,
+      "est_minutes": 1.7,
+      "tell_me_more": [
+        {
+          "file": "content/day05-national-gallery/adult/04-impressionists-more-1.md",
+          "title": "Tell Me More: Why It Looked Like an Outrage",
+          "words": 259,
+          "est_minutes": 1.7
+        },
+        {
+          "file": "content/day05-national-gallery/adult/04-impressionists-more-2.md",
+          "title": "Tell Me More: Six Pictures Worth Slowing For",
+          "words": 250,
+          "est_minutes": 1.7
+        }
+      ]
+    },
+    {
+      "file": "content/day05-national-gallery/adult/05-pointillism.md",
+      "title": "Pointillism and Seurat",
+      "words": 251,
+      "est_minutes": 1.7,
+      "tell_me_more": [
+        {
+          "file": "content/day05-national-gallery/adult/05-pointillism-more-1.md",
+          "title": "Tell Me More: The Science Behind the Dots",
+          "words": 264,
+          "est_minutes": 1.8
+        },
+        {
+          "file": "content/day05-national-gallery/adult/05-pointillism-more-2.md",
+          "title": "Tell Me More: Seurat, Signac and the Neo-Impressionists",
+          "words": 267,
+          "est_minutes": 1.8
+        }
+      ]
+    }
+  ]
+}

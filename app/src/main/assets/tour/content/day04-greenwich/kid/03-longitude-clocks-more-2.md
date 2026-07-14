@@ -1,0 +1,8 @@
+# Clock Versus Moon
+Harrison had a rival, and it wasn't another clockmaker. It was the Moon. A group of clever astronomers were certain that the way to find your position at sea was to measure the Moon against the stars. As the Moon drifts across the sky, it slowly slides past the stars behind it, a bit like the hand of a giant clock in space. If you measured that very carefully and did pages and pages of tricky sums, you could work out the time back home, and from that, where you were. It worked, but it was slow and hard, and on a cloudy night you got nothing at all.
+
+The man in charge of testing both ideas was the Astronomer Royal, Nevil Maskelyne, and here was the problem. Maskelyne loved the Moon method. He had written the very book sailors used to do the sums. So when it came time to judge whether Harrison's clock was better than the Moon, the judge was cheering for the other team. Harrison felt this was terribly unfair, and honestly, he had a point.
+
+But the clock had one huge advantage. Anybody could use it. You didn't need to be a genius astronomer or do hours of maths in a rolling ship. You just looked at the time. And when they finally tested Harrison's watch on real voyages across the ocean, it worked beautifully.
+
+The proof that won everyone over came from a copy. A craftsman built an exact copy of Harrison's watch, and it was carried by the famous explorer Captain James Cook on his great voyage around the world. Cook used it to map coastlines with amazing accuracy and came to love it, calling it his trusty, never-failing friend. After that, no one could argue. Ships everywhere began carrying a clock set to Greenwich time, and sailors were never hopelessly lost again. The self-taught carpenter had beaten the Moon.

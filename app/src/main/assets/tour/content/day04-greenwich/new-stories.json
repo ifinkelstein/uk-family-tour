@@ -1,0 +1,30 @@
+{
+  "kid": [
+    {
+      "file": "content/day04-greenwich/kid/05-longitude-latitude.md",
+      "title": "How Sailors Found Their Way: The Puzzle of Longitude",
+      "est_minutes": 4.7,
+      "tell_me_more": []
+    },
+    {
+      "file": "content/day04-greenwich/kid/06-timekeeping.md",
+      "title": "The Story of Time: From Shadows to Atoms",
+      "est_minutes": 4.9,
+      "tell_me_more": []
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day04-greenwich/adult/05-longitude-latitude.md",
+      "title": "Longitude and Latitude: Finding the Way at Sea",
+      "est_minutes": 9.9,
+      "tell_me_more": []
+    },
+    {
+      "file": "content/day04-greenwich/adult/06-timekeeping.md",
+      "title": "The Story of Time: From Sundials to the Atomic Second",
+      "est_minutes": 11.4,
+      "tell_me_more": []
+    }
+  ]
+}

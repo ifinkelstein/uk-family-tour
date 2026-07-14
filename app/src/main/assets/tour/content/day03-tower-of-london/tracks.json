@@ -1,0 +1,92 @@
+{
+  "kid": [
+    {
+      "file": "content/day03-tower-of-london/kid/01-white-tower.md",
+      "title": "The White Tower: 950 Years Old",
+      "est_minutes": 1.3,
+      "tell_me_more": [
+        {"file": "content/day03-tower-of-london/kid/01-white-tower-more-1.md", "title": "Why the White Tower Is White", "est_minutes": 2.4},
+        {"file": "content/day03-tower-of-london/kid/01-white-tower-more-2.md", "title": "The Line of Kings and Henry's Armour", "est_minutes": 2.3}
+      ]
+    },
+    {
+      "file": "content/day03-tower-of-london/kid/02-crown-jewels.md",
+      "title": "The Crown Jewels: The World's Most Guarded Sparkle",
+      "est_minutes": 1.3,
+      "tell_me_more": [
+        {"file": "content/day03-tower-of-london/kid/02-crown-jewels-more-1.md", "title": "Colonel Blood's Impossible Heist", "est_minutes": 2.5},
+        {"file": "content/day03-tower-of-london/kid/02-crown-jewels-more-2.md", "title": "The Spoon That Survived", "est_minutes": 2.3}
+      ]
+    },
+    {
+      "file": "content/day03-tower-of-london/kid/03-ravens.md",
+      "title": "The Ravens: The Tower's Feathered Guards",
+      "est_minutes": 1.3,
+      "tell_me_more": [
+        {"file": "content/day03-tower-of-london/kid/03-ravens-more-1.md", "title": "The Raven Cemetery and Their Clever Games", "est_minutes": 2.4}
+      ]
+    },
+    {
+      "file": "content/day03-tower-of-london/kid/04-prisoners.md",
+      "title": "Prisoners, Traitors and a Polar Bear",
+      "est_minutes": 1.3,
+      "tell_me_more": [
+        {"file": "content/day03-tower-of-london/kid/04-prisoners-more-1.md", "title": "The Last People Executed Here", "est_minutes": 2.4},
+        {"file": "content/day03-tower-of-london/kid/04-prisoners-more-2.md", "title": "The Ghosts of the Tower", "est_minutes": 2.4}
+      ]
+    },
+    {
+      "file": "content/day03-tower-of-london/kid/05-beefeaters.md",
+      "title": "The Beefeaters: Living Inside a Castle",
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {"file": "content/day03-tower-of-london/kid/05-beefeaters-more-1.md", "title": "Two Uniforms and a Barrel of Rum", "est_minutes": 2.4}
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day03-tower-of-london/adult/01-white-tower.md",
+      "title": "The White Tower: Architecture as Intimidation",
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {"file": "content/day03-tower-of-london/adult/01-white-tower-more-1.md", "title": "Why the White Tower Is White", "est_minutes": 2.4},
+        {"file": "content/day03-tower-of-london/adult/01-white-tower-more-2.md", "title": "The Line of Kings and the King's Armour", "est_minutes": 2.3}
+      ]
+    },
+    {
+      "file": "content/day03-tower-of-london/adult/02-crown-jewels.md",
+      "title": "The Crown Jewels: Regalia, Destruction and Rebirth",
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {"file": "content/day03-tower-of-london/adult/02-crown-jewels-more-1.md", "title": "Colonel Blood's Impossible Heist", "est_minutes": 2.4},
+        {"file": "content/day03-tower-of-london/adult/02-crown-jewels-more-2.md", "title": "The Spoon That Survived", "est_minutes": 2.5}
+      ]
+    },
+    {
+      "file": "content/day03-tower-of-london/adult/03-ravens.md",
+      "title": "The Ravens: An Invented Tradition That Became Real",
+      "est_minutes": 1.3,
+      "tell_me_more": [
+        {"file": "content/day03-tower-of-london/adult/03-ravens-more-1.md", "title": "The Raven Cemetery and the Science of the Clever Bird", "est_minutes": 2.5}
+      ]
+    },
+    {
+      "file": "content/day03-tower-of-london/adult/04-prisoners.md",
+      "title": "Scaffold Site and Traitors' Gate: The Political Prison",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {"file": "content/day03-tower-of-london/adult/04-prisoners-more-1.md", "title": "The Last Executions at the Tower", "est_minutes": 2.4},
+        {"file": "content/day03-tower-of-london/adult/04-prisoners-more-2.md", "title": "The Ghosts of the Tower", "est_minutes": 2.4}
+      ]
+    },
+    {
+      "file": "content/day03-tower-of-london/adult/05-beefeaters.md",
+      "title": "The Yeoman Warders and the Ceremony of the Keys",
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {"file": "content/day03-tower-of-london/adult/05-beefeaters-more-1.md", "title": "Two Uniforms, Mistaken Identity, and a Barrel of Rum", "est_minutes": 2.6}
+      ]
+    }
+  ]
+}

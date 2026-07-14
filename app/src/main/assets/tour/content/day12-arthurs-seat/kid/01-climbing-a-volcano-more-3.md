@@ -1,0 +1,12 @@
+# Dragons, Knights, and a Road Built by Hand
+Every good hill needs good stories, and this one has piles of them. Start with the name itself, Arthur's Seat. Nobody actually knows where it comes from, which leaves plenty of room for legends, and people have happily filled that room for hundreds of years.
+
+The most famous story says the hill is named for King Arthur, the legendary king with the round table and the sword in the stone. Some versions go further and whisper that Arthur and his knights aren't dead at all, but sleeping in a hidden cave deep inside the hill, in their armour, waiting. The tale says that one day, when Scotland needs them most, a horn will sound and they'll wake and ride out. Now, is any of that true? Almost certainly not. But it's a wonderful thing to think about while you stand on top of their supposed roof.
+
+Here's an even better one. The story goes that this whole hill is a dragon. A great dragon once feasted on the fields around Edinburgh until it was so enormously stuffed and sleepy that it curled up right here to rest, and it fell into such a deep sleep that grass grew over it, and it slowly turned to stone. So when you climb the long ridge, some people say you're clambering up the back of a sleeping dragon. Look at the shape of the hill and see if you agree. Again, it's a story, not a fact, but it's a brilliant one.
+
+There's a real tradition here too, and this one people genuinely still do. On the first morning of May, before the sun is properly up, folk climb the hill and wash their faces in the cold morning dew, because there's an old belief it makes you beautiful and lucky for the year. So on one dawn each spring, this hilltop fills with laughing, shivering people patting wet grass on their cheeks.
+
+Now look down at the bottom of the big orange cliffs for a path called the Radical Road. Back in 1820, times were hard and many weavers, people whose job was making cloth, had no work and no money. So they were given the task of building this very path along the foot of the crags, and the famous writer Walter Scott is the one who suggested it. They laid every stone by hand. These days parts of it are closed off, because chunks of rock sometimes tumble down from above.
+
+That's a good reminder. This hill is real and a bit wild. The dark rock gets very slippery when it's wet, so if today is rainy, take the gentler path under Salisbury Crags rather than scrambling to the very top. Dragons or no dragons, we want you coming home in one piece.

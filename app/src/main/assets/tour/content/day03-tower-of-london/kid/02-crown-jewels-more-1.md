@@ -1,0 +1,10 @@
+# Colonel Blood's Impossible Heist
+You already heard that a man once tried to steal the Crown Jewels. Now here is how he almost pulled it off, because it is one of the cheekiest robberies in all of history.
+
+His name was Thomas Blood, and he called himself Colonel, though nobody was quite sure he really was one. In the spring of 1671 he showed up at the Tower dressed as a friendly old parson, with a woman pretending to be his wife. In those days, if you tipped the keeper, he would show you the Crown Jewels in private, and the keeper was a trusting old man named Talbot Edwards. Blood visited again and again, being charming, making friends, until one day he even suggested that his handsome young nephew should marry the keeper's daughter. It was all a trick. He was playing the long game.
+
+On the morning of the ninth of May, Blood arrived with that so-called nephew and two other men, and asked dear old Mister Edwards for one last private peek at the jewels. The moment the door was unlocked, they pounced. They threw a cloak over the old man, knocked him down with a wooden mallet, and got to work. Blood squashed the crown flat with the mallet so it would fit under his coat. One accomplice stuffed the golden orb, that heavy ball, straight down his baggy trousers. And the third man started sawing the royal sceptre in half, because it was too long to hide.
+
+But old Mister Edwards was tougher than he looked. He came round and started roaring, murder, treason, at the top of his lungs. The thieves panicked, dropped the sceptre, and ran, waddling, remember, one of them had a golden orb down his pants, and they were caught right at the gate.
+
+Now the strangest bit. You would expect Blood to lose his head. Instead the king, Charles the Second, asked to meet this outrageous robber, was so tickled by his nerve that he pardoned him completely, gave him back his lands in Ireland, and handed him a yearly income. To this day nobody really knows why. Some people think the king secretly admired a good scoundrel. Others whisper that the king was somehow in on it.

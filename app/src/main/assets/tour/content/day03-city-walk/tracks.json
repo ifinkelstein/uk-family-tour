@@ -1,0 +1,46 @@
+{
+  "kid": [
+    {
+      "file": "content/day03-city-walk/kid/01-st-dunstan.md",
+      "title": "St Dunstan in the East: The Church the Trees Took Back",
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {"file": "content/day03-city-walk/kid/01-st-dunstan-more-1.md", "title": "The Saint Who Grabbed the Devil's Nose", "est_minutes": 2.8},
+        {"file": "content/day03-city-walk/kid/01-st-dunstan-more-2.md", "title": "A Church with Nine Lives", "est_minutes": 2.6},
+        {"file": "content/day03-city-walk/kid/01-st-dunstan-more-3.md", "title": "The Night It Fell and the Garden That Grew", "est_minutes": 2.6}
+      ]
+    },
+    {
+      "file": "content/day03-city-walk/kid/02-st-pauls.md",
+      "title": "St Paul's: The Dome That Refused to Burn",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {"file": "content/day03-city-walk/kid/02-st-pauls-more-1.md", "title": "Climbing to the Golden Gallery", "est_minutes": 2.8},
+        {"file": "content/day03-city-walk/kid/02-st-pauls-more-2.md", "title": "The Bomb Beneath the Cathedral", "est_minutes": 2.7},
+        {"file": "content/day03-city-walk/kid/02-st-pauls-more-3.md", "title": "The Cathedral of Famous Days, and a Magic Staircase", "est_minutes": 2.6}
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day03-city-walk/adult/01-st-dunstan.md",
+      "title": "St Dunstan in the East: Layers of Catastrophe",
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {"file": "content/day03-city-walk/adult/01-st-dunstan-more-1.md", "title": "Dunstan: Blacksmith, Kingmaker, Saint", "est_minutes": 2.8},
+        {"file": "content/day03-city-walk/adult/01-st-dunstan-more-2.md", "title": "The Church That Kept Being Rebuilt", "est_minutes": 2.6},
+        {"file": "content/day03-city-walk/adult/01-st-dunstan-more-3.md", "title": "The Last Night of the Blitz, and the Ruin as Amenity", "est_minutes": 2.7}
+      ]
+    },
+    {
+      "file": "content/day03-city-walk/adult/02-st-pauls.md",
+      "title": "St Paul's: Wren's Second City",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {"file": "content/day03-city-walk/adult/02-st-pauls-more-1.md", "title": "The Climb, the Whisper, and Thornhill's Ceiling", "est_minutes": 2.8},
+        {"file": "content/day03-city-walk/adult/02-st-pauls-more-2.md", "title": "The Delayed-Action Bomb of 1940", "est_minutes": 2.7},
+        {"file": "content/day03-city-walk/adult/02-st-pauls-more-3.md", "title": "The Nation's Stage, and the Geometric Staircase", "est_minutes": 2.8}
+      ]
+    }
+  ]
+}

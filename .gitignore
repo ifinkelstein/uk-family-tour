@@ -1,0 +1,24 @@
+# Build outputs / huge binaries (GitHub rejects >100MB; APKs are ~400MB)
+*.apk
+app/build/
+build/
+.gradle/
+local.properties
+*.iml
+.idea/
+
+# TTS/audio intermediates (the composited audio under app/src/main/assets/tour/audio IS committed & hosted)
+audio-raw/
+build-audio/
+build-articles/
+scripts/venv/
+scripts/sample-*.mp3
+scripts/*.raw
+scripts/revoice-done.json
+scripts/doc.json
+
+# macOS
+.DS_Store
+
+# scratch
+*.log

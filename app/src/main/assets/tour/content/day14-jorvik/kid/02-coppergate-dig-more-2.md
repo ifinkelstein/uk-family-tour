@@ -1,0 +1,12 @@
+# The Cleverest Hands in Jorvik
+Jorvik was not just a place where Vikings lived. It was a place where they made things, thousands of things, and the mud saved enough of them that we know exactly what the workshops did. This whole street was basically a row of busy little factories run by families.
+
+Start with the name. Coppergate has nothing to do with the metal copper. In Old Norse it means the street of the cup-makers, and sure enough, archaeologists found piles of wooden cores, the leftover middles from spinning bowls and cups on a lathe. A lathe is a machine that turns a lump of wood round and round while you carve it, and the Jorvik cup-makers worked theirs with their feet, shaping smooth wooden bowls all day long.
+
+Then there were the comb-makers, and combs mattered a lot, because almost everyone had head lice and everyone wanted them out. Vikings did not carve combs from wood, which snaps. They used antler, the strong headgear a deer grows and drops every single year, sawn and riveted into beautiful combs with teeth so fine they still work today. Comb-makers were skilled travellers who moved from town to town, and Jorvik kept them busy.
+
+Look closer and the street gets richer still. There were people working amber, that golden see-through stuff that is really tree sap turned hard as stone, carving it into beads and pendants. There were people cutting shiny black jet, a stone from the Yorkshire coast, into rings and lucky charms. There were metalworkers melting silver and bronze to make brooches, pins and coins, and leatherworkers stitching shoes, belts and knife covers. There were spinners and weavers turning sheep wool into cloth, then dyeing it bright colours using plants, red from the roots of a plant called madder, and yellows and blues from others, because Vikings loved colour and were not grey and gloomy at all.
+
+Here is what is wonderful about all this. Kings and battles get remembered, but a whole city actually runs on ordinary skilled people making useful, beautiful things with their hands. Every comb someone lost, every broken cup, every scrap of leather and half-carved lump of amber tells us about a real worker who sat right here, one thousand years ago, concentrating hard, being good at their job.
+
+So as you go round, look for the everyday objects, the combs and cups and beads and shoes. Each one had a maker. And thanks to the magic mud, we can still admire their work, long after their names were forgotten.

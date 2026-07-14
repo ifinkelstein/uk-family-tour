@@ -1,0 +1,132 @@
+{
+  "kid": [
+    {
+      "file": "content/day13-york/kid/01-walls-and-romans.md",
+      "title": "York: Walk on Top of a City's Armor",
+      "words": 204,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {
+          "file": "content/day13-york/kid/01-walls-and-romans-more-1.md",
+          "title": "The Legion That Vanished",
+          "words": 384,
+          "est_minutes": 2.6
+        },
+        {
+          "file": "content/day13-york/kid/01-walls-and-romans-more-2.md",
+          "title": "The Wooden Castle and the Saddest Night",
+          "words": 366,
+          "est_minutes": 2.4
+        }
+      ]
+    },
+    {
+      "file": "content/day13-york/kid/02-shambles.md",
+      "title": "The Shambles: The Wonkiest Street in Britain",
+      "words": 201,
+      "est_minutes": 1.3,
+      "tell_me_more": [
+        {
+          "file": "content/day13-york/kid/02-shambles-more-1.md",
+          "title": "The Ghost Soldiers in the Cellar",
+          "words": 350,
+          "est_minutes": 2.3
+        },
+        {
+          "file": "content/day13-york/kid/02-shambles-more-2.md",
+          "title": "The Boy from York Who Tried to Blow Up Parliament",
+          "words": 345,
+          "est_minutes": 2.3
+        }
+      ]
+    },
+    {
+      "file": "content/day13-york/kid/03-minster.md",
+      "title": "York Minster: 250 Years of Building",
+      "words": 220,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {
+          "file": "content/day13-york/kid/03-minster-more-1.md",
+          "title": "Monsters and a Clock for the Stars",
+          "words": 362,
+          "est_minutes": 2.4
+        },
+        {
+          "file": "content/day13-york/kid/03-minster-more-2.md",
+          "title": "The Night the Minster Caught Fire",
+          "words": 368,
+          "est_minutes": 2.5
+        },
+        {
+          "file": "content/day13-york/kid/03-minster-more-3.md",
+          "title": "The Room with No Middle, and a Viking's Horn",
+          "words": 318,
+          "est_minutes": 2.1
+        }
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day13-york/adult/01-eboracum-to-york.md",
+      "title": "From Eboracum to York: A Capital in Layers",
+      "words": 254,
+      "est_minutes": 1.7,
+      "tell_me_more": [
+        {
+          "file": "content/day13-york/adult/01-eboracum-to-york-more-1.md",
+          "title": "The Ninth Legion and the Working Fortress",
+          "words": 394,
+          "est_minutes": 2.6
+        },
+        {
+          "file": "content/day13-york/adult/01-eboracum-to-york-more-2.md",
+          "title": "Clifford's Tower and the Sabbath of 1190",
+          "words": 396,
+          "est_minutes": 2.6
+        }
+      ]
+    },
+    {
+      "file": "content/day13-york/adult/02-minster-glass.md",
+      "title": "The Minster: Glass, Fire and the Long Build",
+      "words": 264,
+      "est_minutes": 1.8,
+      "tell_me_more": [
+        {
+          "file": "content/day13-york/adult/02-minster-glass-more-1.md",
+          "title": "The Chapter House, the Clock, and the Treasures",
+          "words": 389,
+          "est_minutes": 2.6
+        },
+        {
+          "file": "content/day13-york/adult/02-minster-glass-more-2.md",
+          "title": "Saint William, the Doomstone, and the Long Campaign",
+          "words": 384,
+          "est_minutes": 2.6
+        }
+      ]
+    },
+    {
+      "file": "content/day13-york/adult/03-shambles-snickelways.md",
+      "title": "The Shambles and the Snickelways: Medieval Streetscape as Survival",
+      "words": 256,
+      "est_minutes": 1.7,
+      "tell_me_more": [
+        {
+          "file": "content/day13-york/adult/03-shambles-snickelways-more-1.md",
+          "title": "Guy Fawkes and the Catholic Underground",
+          "words": 374,
+          "est_minutes": 2.5
+        },
+        {
+          "file": "content/day13-york/adult/03-shambles-snickelways-more-2.md",
+          "title": "The Treasurer's House and the Ghosts of a Haunted City",
+          "words": 390,
+          "est_minutes": 2.6
+        }
+      ]
+    }
+  ]
+}

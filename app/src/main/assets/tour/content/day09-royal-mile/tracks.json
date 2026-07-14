@@ -1,0 +1,162 @@
+{
+  "kid": [
+    {
+      "file": "content/day09-royal-mile/kid/01-crag-and-tail.md",
+      "title": "A City Built on a Volcano's Tail",
+      "words": 229,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {
+          "file": "content/day09-royal-mile/kid/01-crag-more.md",
+          "title": "Tell Me More: Reading the Old Town Like a Detective",
+          "words": 252,
+          "est_minutes": 1.7
+        },
+        {
+          "file": "content/day09-royal-mile/kid/01-crag-and-tail-more-1.md",
+          "title": "Tell Me More: The Rock Detective",
+          "words": 378,
+          "est_minutes": 2.5
+        },
+        {
+          "file": "content/day09-royal-mile/kid/01-crag-and-tail-more-2.md",
+          "title": "Tell Me More: Climbing Up a Land",
+          "words": 377,
+          "est_minutes": 2.5
+        }
+      ]
+    },
+    {
+      "file": "content/day09-royal-mile/kid/02-gardyloo.md",
+      "title": "Gardyloo! The Smelliest City in Europe",
+      "words": 204,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {
+          "file": "content/day09-royal-mile/kid/02-gardyloo-more.md",
+          "title": "Tell Me More: Doctors, Body Snatchers and the Smell of Progress",
+          "words": 246,
+          "est_minutes": 1.6
+        },
+        {
+          "file": "content/day09-royal-mile/kid/02-gardyloo-more-1.md",
+          "title": "Tell Me More: The Street Under the Street",
+          "words": 374,
+          "est_minutes": 2.5
+        },
+        {
+          "file": "content/day09-royal-mile/kid/02-gardyloo-more-2.md",
+          "title": "Tell Me More: The Stinky Lake and the Witch Test",
+          "words": 413,
+          "est_minutes": 2.8
+        }
+      ]
+    },
+    {
+      "file": "content/day09-royal-mile/kid/03-heart-and-bobby.md",
+      "title": "Spit on the Heart, Salute the Dog",
+      "words": 218,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {
+          "file": "content/day09-royal-mile/kid/03-heart-bobby-more.md",
+          "title": "Tell Me More: More Street Legends",
+          "words": 239,
+          "est_minutes": 1.6
+        },
+        {
+          "file": "content/day09-royal-mile/kid/03-heart-and-bobby-more-1.md",
+          "title": "Tell Me More: The Gentleman Burglar",
+          "words": 420,
+          "est_minutes": 2.8
+        },
+        {
+          "file": "content/day09-royal-mile/kid/03-heart-and-bobby-more-2.md",
+          "title": "Tell Me More: Was Bobby Really Real?",
+          "words": 391,
+          "est_minutes": 2.6
+        }
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day09-royal-mile/adult/01-old-town.md",
+      "title": "The Old Town: Vertical City",
+      "words": 251,
+      "est_minutes": 1.7,
+      "tell_me_more": [
+        {
+          "file": "content/day09-royal-mile/adult/01-oldtown-more.md",
+          "title": "Tell Me More: The Enlightenment in a Half Square Mile",
+          "words": 262,
+          "est_minutes": 1.7
+        },
+        {
+          "file": "content/day09-royal-mile/adult/01-old-town-more-1.md",
+          "title": "Tell Me More: The Man Who Found Deep Time",
+          "words": 406,
+          "est_minutes": 2.7
+        },
+        {
+          "file": "content/day09-royal-mile/adult/01-old-town-more-2.md",
+          "title": "Tell Me More: The Making of Two Cities",
+          "words": 408,
+          "est_minutes": 2.7
+        }
+      ]
+    },
+    {
+      "file": "content/day09-royal-mile/adult/02-st-giles-covenant.md",
+      "title": "St Giles, the Covenant, and a Thrown Stool",
+      "words": 241,
+      "est_minutes": 1.6,
+      "tell_me_more": [
+        {
+          "file": "content/day09-royal-mile/adult/02-stgiles-more.md",
+          "title": "Tell Me More: The Reformation's Long Shadow",
+          "words": 258,
+          "est_minutes": 1.7
+        },
+        {
+          "file": "content/day09-royal-mile/adult/02-st-giles-covenant-more-1.md",
+          "title": "Tell Me More: A Cathedral That Isn't, and a Chapel of Thorns",
+          "words": 401,
+          "est_minutes": 2.7
+        },
+        {
+          "file": "content/day09-royal-mile/adult/02-st-giles-covenant-more-2.md",
+          "title": "Tell Me More: Knox, Mary, and the Woman with the Stool",
+          "words": 404,
+          "est_minutes": 2.7
+        }
+      ]
+    },
+    {
+      "file": "content/day09-royal-mile/adult/03-underground-city.md",
+      "title": "The City Beneath: Closes, Vaults and Plague Stories",
+      "words": 229,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {
+          "file": "content/day09-royal-mile/adult/03-underground-more.md",
+          "title": "Tell Me More: Deacon Brodie and the City of Doubles",
+          "words": 257,
+          "est_minutes": 1.7
+        },
+        {
+          "file": "content/day09-royal-mile/adult/03-underground-city-more-1.md",
+          "title": "Tell Me More: Burke, Hare, and the Anatomy Act",
+          "words": 414,
+          "est_minutes": 2.8
+        },
+        {
+          "file": "content/day09-royal-mile/adult/03-underground-city-more-2.md",
+          "title": "Tell Me More: Greyfriars, a Poltergeist and a Doubtful Dog",
+          "words": 403,
+          "est_minutes": 2.7
+        }
+      ]
+    }
+  ]
+}

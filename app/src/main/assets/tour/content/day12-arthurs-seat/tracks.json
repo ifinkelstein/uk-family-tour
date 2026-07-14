@@ -1,0 +1,46 @@
+{
+  "kid": [
+    {
+      "file": "content/day12-arthurs-seat/kid/01-climbing-a-volcano.md",
+      "title": "You Are Climbing a Volcano",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {"file": "content/day12-arthurs-seat/kid/01-climbing-a-volcano-more-1.md", "title": "The People Who Lived on the Volcano", "est_minutes": 2.9},
+        {"file": "content/day12-arthurs-seat/kid/01-climbing-a-volcano-more-2.md", "title": "The Best View in the City", "est_minutes": 3.0},
+        {"file": "content/day12-arthurs-seat/kid/01-climbing-a-volcano-more-3.md", "title": "Dragons, Knights, and a Road Built by Hand", "est_minutes": 3.1}
+      ]
+    },
+    {
+      "file": "content/day12-arthurs-seat/kid/02-tiny-coffins.md",
+      "title": "The Mystery of the Seventeen Tiny Coffins",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {"file": "content/day12-arthurs-seat/kid/02-tiny-coffins-more-1.md", "title": "The Little Coffins Up Close", "est_minutes": 3.1},
+        {"file": "content/day12-arthurs-seat/kid/02-tiny-coffins-more-2.md", "title": "Detective Time: Who and Why?", "est_minutes": 3.0},
+        {"file": "content/day12-arthurs-seat/kid/02-tiny-coffins-more-3.md", "title": "The Ones That Survived", "est_minutes": 3.1}
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day12-arthurs-seat/adult/01-hutton-deep-time.md",
+      "title": "Salisbury Crags: Where Deep Time Was Discovered",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {"file": "content/day12-arthurs-seat/adult/01-hutton-deep-time-more-1.md", "title": "Reading the Crags, and the Quarry That Nearly Ate Them", "est_minutes": 3.1},
+        {"file": "content/day12-arthurs-seat/adult/01-hutton-deep-time-more-2.md", "title": "The Radical Road and the Royal Wilderness", "est_minutes": 3.1},
+        {"file": "content/day12-arthurs-seat/adult/01-hutton-deep-time-more-3.md", "title": "The Fort, the Terraces, and the View", "est_minutes": 3.2}
+      ]
+    },
+    {
+      "file": "content/day12-arthurs-seat/adult/02-legends-coffins.md",
+      "title": "Arthur, Miniature Coffins, and a Park Full of Stories",
+      "est_minutes": 1.6,
+      "tell_me_more": [
+        {"file": "content/day12-arthurs-seat/adult/02-legends-coffins-more-1.md", "title": "The Coffins as Objects: What the Evidence Actually Says", "est_minutes": 3.2},
+        {"file": "content/day12-arthurs-seat/adult/02-legends-coffins-more-2.md", "title": "The Park's Other Ghosts: Chapels, Cairns, and a Skating Minister", "est_minutes": 3.1},
+        {"file": "content/day12-arthurs-seat/adult/02-legends-coffins-more-3.md", "title": "Arthur, Camelot, and the Old North", "est_minutes": 3.1}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "kid": [
+    {
+      "file": "content/day07-hampton-court/kid/01-henry-and-wolsey.md",
+      "title": "The Palace a King Took for Himself",
+      "est_minutes": 1.3,
+      "tell_me_more": [
+        {"file": "content/day07-hampton-court/kid/01-henry-and-wolsey-more-1.md", "title": "The Six Wives Who Lived Here", "est_minutes": 2.4},
+        {"file": "content/day07-hampton-court/kid/01-henry-and-wolsey-more-2.md", "title": "Arrive by River, and Look Up", "est_minutes": 2.4}
+      ]
+    },
+    {
+      "file": "content/day07-hampton-court/kid/02-tudor-kitchens.md",
+      "title": "The Tudor Kitchens: Feeding 600 People Twice a Day",
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {"file": "content/day07-hampton-court/kid/02-tudor-kitchens-more-1.md", "title": "A Kitchen Boy's Long Day", "est_minutes": 2.4}
+      ]
+    },
+    {
+      "file": "content/day07-hampton-court/kid/03-ghosts.md",
+      "title": "The Screaming Gallery: Britain's Most Haunted Palace",
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {"file": "content/day07-hampton-court/kid/03-ghosts-more-1.md", "title": "Catherine Howard: The Real Girl Behind the Scream", "est_minutes": 2.4},
+        {"file": "content/day07-hampton-court/kid/03-ghosts-more-2.md", "title": "The White Lady, Skeletor, and Ghost Science", "est_minutes": 2.4}
+      ]
+    },
+    {
+      "file": "content/day07-hampton-court/kid/04-maze-magic-garden.md",
+      "title": "The Maze: 350 Years of People Getting Lost",
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {"file": "content/day07-hampton-court/kid/04-maze-magic-garden-more-1.md", "title": "The Oldest Grapevine and the King's Weird Tennis", "est_minutes": 2.5}
+      ]
+    },
+    {
+      "file": "content/day07-hampton-court/kid/05-two-palaces.md",
+      "title": "One Palace, Two Worlds",
+      "est_minutes": 1.3,
+      "tell_me_more": [
+        {"file": "content/day07-hampton-court/kid/05-two-palaces-more-1.md", "title": "The Mole and Wren's Half-Built Palace", "est_minutes": 2.5},
+        {"file": "content/day07-hampton-court/kid/05-two-palaces-more-2.md", "title": "Golden Treasure and a Prisoner King", "est_minutes": 2.5}
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day07-hampton-court/adult/01-wolsey-henry.md",
+      "title": "Wolsey's Palace, Henry's Prize",
+      "est_minutes": 1.6,
+      "tell_me_more": [
+        {"file": "content/day07-hampton-court/adult/01-wolsey-henry-more-1.md", "title": "The Six Wives, in These Rooms", "est_minutes": 2.2},
+        {"file": "content/day07-hampton-court/adult/01-wolsey-henry-more-2.md", "title": "Reading the Tudor Skin: Emperors, a Clock, and a Cardinal's Ego", "est_minutes": 2.2}
+      ]
+    },
+    {
+      "file": "content/day07-hampton-court/adult/02-kitchens-court.md",
+      "title": "The Machinery of Magnificence: Kitchens and Court",
+      "est_minutes": 1.6,
+      "tell_me_more": [
+        {"file": "content/day07-hampton-court/adult/02-kitchens-court-more-1.md", "title": "The Chocolate Kitchen and the Court's Long Afterlife of Appetite", "est_minutes": 2.2}
+      ]
+    },
+    {
+      "file": "content/day07-hampton-court/adult/03-baroque-wren.md",
+      "title": "William, Mary and Wren: The Unfinished Versailles",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {"file": "content/day07-hampton-court/adult/03-baroque-wren-more-1.md", "title": "The Gardens as Statecraft: Restoring a King's View", "est_minutes": 2.2},
+        {"file": "content/day07-hampton-court/adult/03-baroque-wren-more-2.md", "title": "The Great Vine and the Oldest Tennis Court", "est_minutes": 2.1}
+      ]
+    },
+    {
+      "file": "content/day07-hampton-court/adult/04-ghosts-legends.md",
+      "title": "Ghost Stories as Compressed History",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {"file": "content/day07-hampton-court/adult/04-ghosts-legends-more-1.md", "title": "The Manufacture of a Haunted Palace", "est_minutes": 2.3}
+      ]
+    },
+    {
+      "file": "content/day07-hampton-court/adult/05-tapestries-art.md",
+      "title": "Woven Gold: The Art You Might Walk Past",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {"file": "content/day07-hampton-court/adult/05-tapestries-art-more-1.md", "title": "Mantegna's Triumphs of Caesar: The Renaissance in a Side Gallery", "est_minutes": 2.2},
+        {"file": "content/day07-hampton-court/adult/05-tapestries-art-more-2.md", "title": "Charles the First's Two Hampton Courts: Collector and Captive", "est_minutes": 2.3}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+# The Ghosts of the Tower
+With so many unhappy endings in one place, it is no wonder the Tower is said to be the most haunted spot in all of England. Now, nobody can prove a single ghost, and plenty of people have spent whole nights here and seen nothing but shadows. But the stories are wonderful, and the Yeoman Warders love to tell them, so here are the best. Just remember, these are tales, not facts.
+
+The most famous ghost of all is said to be Anne Boleyn, the queen who lost her head on Tower Green. For hundreds of years, guards have sworn they saw a woman in an old-fashioned gown drifting across the green toward the little chapel where she is buried, sometimes, they say, carrying her own head tucked under her arm. One night long ago, a soldier on guard claimed he saw her coming and shouted for her to stop, and when she kept gliding straight toward him, he fainted clean away.
+
+Then there are the two little princes, the boys who vanished from the Tower long ago. The story goes that people have glimpsed two small figures in white nightgowns, holding hands, standing silently in a dark doorway of the Bloody Tower, before melting into the wall. Sad little ghosts, if they are there at all.
+
+The strangest tale comes from the Martin Tower, where the Crown Jewels were once kept. In 1817 the Keeper of the Jewels was having supper with his family when, he later wrote, a glowing tube of swirling blue liquid floated through the room, hovered over his wife, then vanished. He insisted for the rest of his life that it was real, and nobody has ever explained it.
+
+There are more. A giant bear that guards supposedly fled from, cold spots on the stairs, footsteps in empty rooms. Do I believe them? I will let you decide. But here is my honest advice for today. As the afternoon light fades and the crowds thin out, stand quietly for a moment near Tower Green, feel how old and heavy the silence is, and ask yourself, just quietly, whether you would really want to be locked in here after dark.

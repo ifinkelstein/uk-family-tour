@@ -1,0 +1,62 @@
+{
+  "kid": [
+    {
+      "file": "content/day11-stirling-castle/kid/01-key-to-scotland.md",
+      "title": "The Castle That Was the Key to Scotland",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {"file": "content/day11-stirling-castle/kid/01-key-to-scotland-more-1.md", "title": "The Trap at Stirling Bridge", "est_minutes": 2.5},
+        {"file": "content/day11-stirling-castle/kid/01-key-to-scotland-more-2.md", "title": "Bannockburn and the Castle on a Volcano", "est_minutes": 2.6}
+      ]
+    },
+    {
+      "file": "content/day11-stirling-castle/kid/02-palace-unicorns.md",
+      "title": "A Painted Palace and the Kingdom of Unicorns",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {"file": "content/day11-stirling-castle/kid/02-palace-unicorns-more-1.md", "title": "The Faces in the Ceiling", "est_minutes": 2.5},
+        {"file": "content/day11-stirling-castle/kid/02-palace-unicorns-more-2.md", "title": "The Golden Hall and the Busy Kitchens", "est_minutes": 2.6}
+      ]
+    },
+    {
+      "file": "content/day11-stirling-castle/kid/03-baby-queen-flying-man.md",
+      "title": "A Nine-Month-Old Queen and the Man Who Tried to Fly",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {"file": "content/day11-stirling-castle/kid/03-baby-queen-flying-man-more-1.md", "title": "The Flying Abbot and His Wings", "est_minutes": 2.9},
+        {"file": "content/day11-stirling-castle/kid/03-baby-queen-flying-man-more-2.md", "title": "The Baby Prince's Fireworks Party", "est_minutes": 2.8},
+        {"file": "content/day11-stirling-castle/kid/03-baby-queen-flying-man-more-3.md", "title": "Mary's Great Escape", "est_minutes": 2.9}
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day11-stirling-castle/adult/01-key-to-scotland.md",
+      "title": "Stirling: The Brooch That Clasps Scotland",
+      "est_minutes": 1.6,
+      "tell_me_more": [
+        {"file": "content/day11-stirling-castle/adult/01-key-to-scotland-more-1.md", "title": "Anatomy of an Ambush: Stirling Bridge", "est_minutes": 2.6},
+        {"file": "content/day11-stirling-castle/adult/01-key-to-scotland-more-2.md", "title": "Bannockburn, and a Castle Nobody Could Keep", "est_minutes": 2.6}
+      ]
+    },
+    {
+      "file": "content/day11-stirling-castle/adult/02-renaissance-court.md",
+      "title": "James V's Palace: Renaissance Propaganda in Stone",
+      "est_minutes": 1.7,
+      "tell_me_more": [
+        {"file": "content/day11-stirling-castle/adult/02-renaissance-court-more-1.md", "title": "The Stirling Heads: A Ceiling of Kings", "est_minutes": 2.5},
+        {"file": "content/day11-stirling-castle/adult/02-renaissance-court-more-2.md", "title": "The Great Hall, the Chapel, and the Knot Below", "est_minutes": 2.7}
+      ]
+    },
+    {
+      "file": "content/day11-stirling-castle/adult/03-mary-and-court-life.md",
+      "title": "Coronations, Childhoods and a Court of Characters",
+      "est_minutes": 1.7,
+      "tell_me_more": [
+        {"file": "content/day11-stirling-castle/adult/03-mary-and-court-life-more-1.md", "title": "John Damian: Alchemy, Feathers and a Poet's Revenge", "est_minutes": 2.7},
+        {"file": "content/day11-stirling-castle/adult/03-mary-and-court-life-more-2.md", "title": "The Baptism of 1566: A Party as Policy", "est_minutes": 2.3},
+        {"file": "content/day11-stirling-castle/adult/03-mary-and-court-life-more-3.md", "title": "The Nursery of a Kingdom", "est_minutes": 2.5}
+      ]
+    }
+  ]
+}

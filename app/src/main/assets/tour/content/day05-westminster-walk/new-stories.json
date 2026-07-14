@@ -1,0 +1,102 @@
+{
+  "kid": [
+    {
+      "file": "content/day05-westminster-walk/kid/04-abbey.md",
+      "title": "The Church Where Kings Are Crowned",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {"file": "content/day05-westminster-walk/kid/04-abbey-more-1.md", "title": "The Oldest Chair in the Kingdom", "est_minutes": 2.4},
+        {"file": "content/day05-westminster-walk/kid/04-abbey-more-2.md", "title": "Two Enemy Queens in One Grave", "est_minutes": 2.5},
+        {"file": "content/day05-westminster-walk/kid/04-abbey-more-3.md", "title": "The Grave Nobody Steps On", "est_minutes": 2.7}
+      ]
+    },
+    {
+      "file": "content/day05-westminster-walk/kid/05-parliament-square.md",
+      "title": "A Square Full of Heroes",
+      "est_minutes": 1.6,
+      "tell_me_more": [
+        {"file": "content/day05-westminster-walk/kid/05-parliament-square-more-1.md", "title": "The First Woman in the Square", "est_minutes": 2.3},
+        {"file": "content/day05-westminster-walk/kid/05-parliament-square-more-2.md", "title": "Meet the Rest of the Giants", "est_minutes": 2.5}
+      ]
+    },
+    {
+      "file": "content/day05-westminster-walk/kid/06-whitehall.md",
+      "title": "The Street That Runs the Country",
+      "est_minutes": 1.6,
+      "tell_me_more": [
+        {"file": "content/day05-westminster-walk/kid/06-whitehall-more-1.md", "title": "The Empty Tomb in the Middle of the Road", "est_minutes": 2.5},
+        {"file": "content/day05-westminster-walk/kid/06-whitehall-more-2.md", "title": "The Most Famous Front Door in Britain", "est_minutes": 2.5},
+        {"file": "content/day05-westminster-walk/kid/06-whitehall-more-3.md", "title": "The Palace That Vanished", "est_minutes": 2.7}
+      ]
+    },
+    {
+      "file": "content/day05-westminster-walk/kid/07-horse-guards.md",
+      "title": "The Guards Who Must Not Move",
+      "est_minutes": 1.8,
+      "tell_me_more": [
+        {"file": "content/day05-westminster-walk/kid/07-horse-guards-more-1.md", "title": "The King Who Lost His Head", "est_minutes": 2.6},
+        {"file": "content/day05-westminster-walk/kid/07-horse-guards-more-2.md", "title": "Statues That Breathe", "est_minutes": 2.5},
+        {"file": "content/day05-westminster-walk/kid/07-horse-guards-more-3.md", "title": "The Painted Ceiling and the Birthday Parade", "est_minutes": 2.5}
+      ]
+    },
+    {
+      "file": "content/day05-westminster-walk/kid/08-admiralty-mall.md",
+      "title": "The Arch, the Secret Nose, and the Red Road",
+      "est_minutes": 1.8,
+      "tell_me_more": [
+        {"file": "content/day05-westminster-walk/kid/08-admiralty-mall-more-1.md", "title": "The Secret of the Nose", "est_minutes": 2.8},
+        {"file": "content/day05-westminster-walk/kid/08-admiralty-mall-more-2.md", "title": "The Royal Red Road", "est_minutes": 2.4}
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day05-westminster-walk/adult/04-abbey.md",
+      "title": "Westminster Abbey: A Thousand Years of Crowns",
+      "est_minutes": 1.7,
+      "tell_me_more": [
+        {"file": "content/day05-westminster-walk/adult/04-abbey-more-1.md", "title": "The Coronation Chair and the Stone of Destiny", "est_minutes": 2.6},
+        {"file": "content/day05-westminster-walk/adult/04-abbey-more-2.md", "title": "Enemies in Marble: The Tudor Tombs", "est_minutes": 2.7},
+        {"file": "content/day05-westminster-walk/adult/04-abbey-more-3.md", "title": "Poets, Scientists, and the Unknown Warrior", "est_minutes": 2.8}
+      ]
+    },
+    {
+      "file": "content/day05-westminster-walk/adult/05-parliament-square.md",
+      "title": "Parliament Square: An Argument Cast in Bronze",
+      "est_minutes": 1.6,
+      "tell_me_more": [
+        {"file": "content/day05-westminster-walk/adult/05-parliament-square-more-1.md", "title": "Millicent Fawcett and the Woman Who Was Missing", "est_minutes": 2.5},
+        {"file": "content/day05-westminster-walk/adult/05-parliament-square-more-2.md", "title": "Reading the Rest of the Square", "est_minutes": 2.5}
+      ]
+    },
+    {
+      "file": "content/day05-westminster-walk/adult/06-whitehall.md",
+      "title": "Whitehall: The Street That Means Government",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {"file": "content/day05-westminster-walk/adult/06-whitehall-more-1.md", "title": "The Cenotaph: An Empty Tomb of Genius", "est_minutes": 2.5},
+        {"file": "content/day05-westminster-walk/adult/06-whitehall-more-2.md", "title": "Ten Downing Street and the Chief Mouser", "est_minutes": 2.7},
+        {"file": "content/day05-westminster-walk/adult/06-whitehall-more-3.md", "title": "The Ghost Palace and the Empty Coats", "est_minutes": 2.6}
+      ]
+    },
+    {
+      "file": "content/day05-westminster-walk/adult/07-horse-guards.md",
+      "title": "Horse Guards: Sentries, Parade, and a Scaffold",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {"file": "content/day05-westminster-walk/adult/07-horse-guards-more-1.md", "title": "The King's Life Guard", "est_minutes": 2.6},
+        {"file": "content/day05-westminster-walk/adult/07-horse-guards-more-2.md", "title": "The King Who Would Not Shiver", "est_minutes": 2.7},
+        {"file": "content/day05-westminster-walk/adult/07-horse-guards-more-3.md", "title": "Inigo Jones, Rubens, and the Colour", "est_minutes": 2.7}
+      ]
+    },
+    {
+      "file": "content/day05-westminster-walk/adult/08-admiralty-mall.md",
+      "title": "Admiralty Arch and The Mall: The Ceremonial Way",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {"file": "content/day05-westminster-walk/adult/08-admiralty-mall-more-1.md", "title": "Admiralty Arch and the Nose in the Wall", "est_minutes": 3.0},
+        {"file": "content/day05-westminster-walk/adult/08-admiralty-mall-more-2.md", "title": "The Mall: A Nation on Parade", "est_minutes": 2.7}
+      ]
+    }
+  ]
+}

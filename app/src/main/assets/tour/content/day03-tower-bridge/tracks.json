@@ -1,0 +1,62 @@
+{
+  "kid": [
+    {
+      "file": "content/day03-tower-bridge/kid/01-opening-bridge.md",
+      "title": "A Bridge That Opens Like a Drawbridge",
+      "est_minutes": 1.3,
+      "tell_me_more": [
+        {"file": "content/day03-tower-bridge/kid/01-opening-bridge-more-1.md", "title": "A Castle Costume Over Iron Bones", "est_minutes": 2.4},
+        {"file": "content/day03-tower-bridge/kid/01-opening-bridge-more-2.md", "title": "Watch an Opening Happen", "est_minutes": 2.5}
+      ]
+    },
+    {
+      "file": "content/day03-tower-bridge/kid/02-glass-floor.md",
+      "title": "Walking on Glass, 42 Meters Up",
+      "est_minutes": 1.3,
+      "tell_me_more": [
+        {"file": "content/day03-tower-bridge/kid/02-glass-floor-more-1.md", "title": "How They Made a Floor You Can Trust", "est_minutes": 2.5},
+        {"file": "content/day03-tower-bridge/kid/02-glass-floor-more-2.md", "title": "The Ghost Years of the High Walkways", "est_minutes": 2.6}
+      ]
+    },
+    {
+      "file": "content/day03-tower-bridge/kid/03-bus-jump.md",
+      "title": "The Day a Bus Jumped the Bridge",
+      "est_minutes": 1.3,
+      "tell_me_more": [
+        {"file": "content/day03-tower-bridge/kid/03-bus-jump-more-1.md", "title": "The Man Who Flew Through the Bridge", "est_minutes": 2.5},
+        {"file": "content/day03-tower-bridge/kid/03-bus-jump-more-2.md", "title": "The Jet That Dared", "est_minutes": 2.4},
+        {"file": "content/day03-tower-bridge/kid/03-bus-jump-more-3.md", "title": "The Bridge That Loves the Movies", "est_minutes": 2.6}
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day03-tower-bridge/adult/01-engineering.md",
+      "title": "Tower Bridge: Victorian Engineering in Gothic Costume",
+      "est_minutes": 1.4,
+      "tell_me_more": [
+        {"file": "content/day03-tower-bridge/adult/01-engineering-more-1.md", "title": "The Power in the Cellar", "est_minutes": 2.6},
+        {"file": "content/day03-tower-bridge/adult/01-engineering-more-2.md", "title": "How a Thousand Tonnes Balances", "est_minutes": 2.6},
+        {"file": "content/day03-tower-bridge/adult/01-engineering-more-3.md", "title": "Building in a Living River", "est_minutes": 2.5}
+      ]
+    },
+    {
+      "file": "content/day03-tower-bridge/adult/02-walkways.md",
+      "title": "The High Walkways: A Social History in Glass",
+      "est_minutes": 1.3,
+      "tell_me_more": [
+        {"file": "content/day03-tower-bridge/adult/02-walkways-more-1.md", "title": "Vice, Closure, and Resurrection", "est_minutes": 2.7},
+        {"file": "content/day03-tower-bridge/adult/02-walkways-more-2.md", "title": "The Neighbours from the Walkway", "est_minutes": 2.7}
+      ]
+    },
+    {
+      "file": "content/day03-tower-bridge/adult/03-incidents-icon.md",
+      "title": "Incidents and Iconography",
+      "est_minutes": 1.6,
+      "tell_me_more": [
+        {"file": "content/day03-tower-bridge/adult/03-incidents-more-1.md", "title": "Aviators and Daredevils", "est_minutes": 2.6},
+        {"file": "content/day03-tower-bridge/adult/03-incidents-more-2.md", "title": "The Great Bridge Mix-Up", "est_minutes": 2.6}
+      ]
+    }
+  ]
+}

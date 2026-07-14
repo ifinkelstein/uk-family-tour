@@ -1,0 +1,8 @@
+# The Science Painter and His Friends
+Georges Seurat was not just an artist, he was almost a scientist too. He was a quiet, serious, secretive young man who read books about how colours work and how our eyes see them. He learned about a discovery made by a French scientist named Chevreul, who noticed something wonderful. If you place two different colours right next to each other, they can make each other look brighter and more powerful. Put a little orange beside a little blue, and both seem to glow.
+
+Seurat took that idea and built whole paintings out of it, placing thousands of little dots of these partner colours side by side so the whole picture would shimmer. He turned a scientist's discovery into art you can stand in front of and feel.
+
+Seurat was not alone. He had a good friend and follower, another painter named Paul Signac, who loved the dot method too and used even brighter, bolder colours. Together they and a few others became known as the Neo-Impressionists, which means the new Impressionists. They took the Impressionists' love of light and made it into something more careful and more scientific.
+
+Sadly, Seurat's story ends far too soon. He worked in secret, guarding his ideas, and he had only just begun to show the world what he could do when he suddenly fell ill and died at just thirty one years old. His friend Signac carried the dot painting onward for many more years. So when you look at these shimmering dots, remember you are looking at the work of a brilliant young man who saw colour like nobody before him, and who barely had time to show us all he could do.

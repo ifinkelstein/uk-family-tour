@@ -1,0 +1,9 @@
+# More Palaces Coming Up
+
+Here is the exciting part. Our royal home story is not finished, because on this holiday you are going to visit more of them. So keep your eyes open.
+
+Tomorrow you are off to Hampton Court, a giant palace beside the river that belonged to King Henry the Eighth. Henry had lots and lots of houses, more than sixty of them, but this one was his absolute favourite. He filled it with feasts and games and beautiful gardens. It was like an enormous fun palace for a king. But it was a bit too far from the middle of London to ever become the main home, so it always stayed a special treat. When you go, look really carefully, because Hampton Court is actually two palaces stuck together, an old one and a newer one, built by two different kings hundreds of years apart. See if you can spot the place where one stops and the other begins.
+
+And here is something that lots of people forget. The King is not only King of England. He is King of Scotland too. So Scotland has its own royal homes, and you will see them next week. In a city called Edinburgh, there is a huge castle sitting right on top of an old volcano, and at the other end of the street, a beautiful palace called Holyroodhouse. That palace is still the King's home in Scotland today. He goes and stays there every summer. Later on you will visit another mighty castle called Stirling, sitting high on its own rock, where Scottish kings and queens were crowned and grew up when they were children, maybe about your age. So the King really has homes in two whole countries at once, an English home and a Scottish home, and you are going to see both of them.
+
+So here is a game to play as we travel. Count the royal homes. The King does not have just one house. He has a whole collection of them, castles and palaces, and enough for two whole countries. Every single castle and palace we visit is one more home belonging to the very same royal family.

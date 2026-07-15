@@ -1211,6 +1211,32 @@
         "est_minutes": 2.3
        }
       ]
+     },
+     {
+      "file": "content/day06-buckingham-palace/kid/03-royal-homes.md",
+      "title": "The King Keeps Moving House",
+      "words": 375,
+      "est_minutes": 2.5,
+      "tell_me_more": [
+       {
+        "file": "content/day06-buckingham-palace/kid/03-royal-homes-more-1.md",
+        "title": "Why the Kings Left the Tower",
+        "words": 352,
+        "est_minutes": 2.3
+       },
+       {
+        "file": "content/day06-buckingham-palace/kid/03-royal-homes-more-2.md",
+        "title": "More Palaces Coming Up",
+        "words": 361,
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day06-buckingham-palace/kid/03-royal-homes-more-3.md",
+        "title": "Is It a Palace or a Castle?",
+        "words": 362,
+        "est_minutes": 2.4
+       }
+      ]
      }
     ],
     "adult": [
@@ -1249,6 +1275,32 @@
        {
         "file": "content/day06-buckingham-palace/adult/02-architecture-more-2.md",
         "title": "The Wedding Cake and the Hidden Palace",
+        "est_minutes": 2.3
+       }
+      ]
+     },
+     {
+      "file": "content/day06-buckingham-palace/adult/03-royal-homes.md",
+      "title": "The King's Address, Over a Thousand Years",
+      "words": 419,
+      "est_minutes": 2.8,
+      "tell_me_more": [
+       {
+        "file": "content/day06-buckingham-palace/adult/03-royal-homes-more-1.md",
+        "title": "Why the Kings Left the Tower",
+        "words": 364,
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day06-buckingham-palace/adult/03-royal-homes-more-2.md",
+        "title": "The Palaces Still to Come",
+        "words": 350,
+        "est_minutes": 2.3
+       },
+       {
+        "file": "content/day06-buckingham-palace/adult/03-royal-homes-more-3.md",
+        "title": "Palace or Castle",
+        "words": 346,
         "est_minutes": 2.3
        }
       ]

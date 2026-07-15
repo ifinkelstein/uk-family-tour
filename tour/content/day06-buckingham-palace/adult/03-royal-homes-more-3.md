@@ -1,0 +1,9 @@
+# Palace or Castle
+
+One last distinction, because it clears up a puzzle that trips up almost everyone. Why are some royal homes called palaces and others castles? The answer is simple and genuinely useful. A castle was built to be defended, with thick walls, towers and a commanding position, a machine for war that a king could also live in. A palace was built purely to be lived in and to impress, no arrow slits, no ramparts, only grandeur. The Tower, Edinburgh and Stirling are castles. Buckingham, St James's, Holyroodhouse and Hampton Court are palaces. The word itself tells you what the building was for.
+
+The great exception, and the most famous royal home of all, is Windsor Castle, just west of London. It began as one of William the Conqueror's ring of fortresses guarding the capital, and it is a castle in every sense, yet it has been lived in by monarchs continuously for nearly a thousand years, longer than any other, which makes it the oldest and largest inhabited castle in the world. It is a fortress that simply never stopped being a home.
+
+Two smaller names complete the London constellation. Kensington Palace, on the far side of Hyde Park, is where the young Victoria was born and grew up before she moved into Buckingham. And Kew Palace, a modest red brick house tucked into the botanic gardens, is the smallest royal palace of all, a quiet family retreat for George the Third, the same king who first bought Buckingham House down the road as a home for his wife.
+
+Put it all together and the picture is clear. The crown has never really had a single home. It has a scattered family of them, fortresses and palaces, grand and modest, in two countries, each collected in a different century for a different reason. Buckingham, where you are standing, is simply the one where the long story finally came to rest. And so, the next time someone asks you where the King of England lives, you will know that the honest answer is a thousand years long.

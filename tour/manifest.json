@@ -1330,6 +1330,16 @@
         "file": "content/day06-westminster-walk/kid/08-admiralty-mall-more-2.md",
         "title": "The Royal Red Road",
         "est_minutes": 2.4
+       },
+       {
+        "file": "content/day06-westminster-walk/kid/08-admiralty-mall-more-3.md",
+        "title": "When the Whole World Watched",
+        "est_minutes": 2.8
+       },
+       {
+        "file": "content/day06-westminster-walk/kid/08-admiralty-mall-more-4.md",
+        "title": "The Grand Old Duke and Other Surprises",
+        "est_minutes": 2.7
        }
       ]
      },
@@ -1497,6 +1507,16 @@
        {
         "file": "content/day06-westminster-walk/adult/08-admiralty-mall-more-2.md",
         "title": "The Mall: A Nation on Parade",
+        "est_minutes": 2.7
+       },
+       {
+        "file": "content/day06-westminster-walk/adult/08-admiralty-mall-more-3.md",
+        "title": "The Mall as Stage Set",
+        "est_minutes": 2.7
+       },
+       {
+        "file": "content/day06-westminster-walk/adult/08-admiralty-mall-more-4.md",
+        "title": "Reading the Margins",
         "est_minutes": 2.7
        }
       ]

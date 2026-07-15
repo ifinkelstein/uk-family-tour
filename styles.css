@@ -20,6 +20,9 @@ h1,h2,h3{font-family:Georgia,"Times New Roman",serif}
 .dayhead{display:flex;align-items:center;gap:10px;padding:20px 18px 6px}
 .dot{width:10px;height:10px;border-radius:50%}
 .daylabel{font-size:12px;letter-spacing:.1em;text-transform:uppercase;font-weight:700}
+.todaypill{font-size:11px;font-weight:900;letter-spacing:.08em;background:var(--gold);
+  color:#161923;border-radius:10px;padding:3px 8px}
+.dayhead.today{scroll-margin-top:12px}
 .playday{margin-left:auto;display:inline-flex;align-items:center;gap:5px;border:0;cursor:pointer;
   font:inherit;font-weight:700;font-size:13px;padding:6px 12px;border-radius:16px}
 .card{display:flex;gap:14px;align-items:center;background:var(--card);margin:8px 14px;border-radius:18px;

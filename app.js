@@ -271,8 +271,10 @@ function renderDays() {
   }
   daysGroups().forEach(([day, sights]) => {
     const a = accent(day);
-    h += `<div class="dayhead"><span class="dot" style="background:${a}"></span>
+    const today = isToday(sights[0].date);
+    h += `<div class="dayhead${today ? ' today' : ''}" id="day-${day}"><span class="dot" style="background:${a}"></span>
       <span class="daylabel" style="color:${a}">Day ${day} · ${esc(sights[0].date || '')} · ${cityName(day)}</span>
+      ${today ? '<span class="todaypill">TODAY</span>' : ''}
       <button class="playday" style="background:${a}22;color:${a}" onclick="openDayPlay(${day})">▶ Play day</button></div>`;
     sights.forEach(s => {
       const art = ART[s.id] || {};
@@ -287,6 +289,18 @@ function renderDays() {
     });
   });
   el.innerHTML = h;
+  // Once per launch, open the list at today's leg of the trip.
+  if (!renderDays.scrolled) {
+    const t = el.querySelector('.dayhead.today');
+    if (t) { renderDays.scrolled = true; t.scrollIntoView({ block: 'start' }); }
+  }
+}
+const MONTHS = { Jan: 0, Feb: 1, Mar: 2, Apr: 3, May: 4, Jun: 5, Jul: 6, Aug: 7, Sep: 8, Oct: 9, Nov: 10, Dec: 11 };
+function isToday(dateStr) {
+  const m = /([A-Z][a-z]{2}) (\d{1,2})$/.exec(dateStr || '');
+  if (!m) return false;
+  const now = new Date();
+  return MONTHS[m[1]] === now.getMonth() && Number(m[2]) === now.getDate();
 }
 window.emojiThumb = (emoji, color) => {
   const d = document.createElement('div'); d.className = 'thumb'; d.style.background = color; d.textContent = emoji; return d;

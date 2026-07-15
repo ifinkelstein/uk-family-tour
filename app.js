@@ -305,6 +305,10 @@ function remapQueue() {
 function renderDays() {
   let h = `<div class="wrap"><div class="kicker">Our big trip · July 2026</div>
     <h1 class="title serif">London → Edinburgh → York</h1>${toggleHTML()}</div>`;
+  if (needsA2HS()) {
+    h += `<div class="a2hs">📲 On iPhone, tap <b>Share → Add to Home Screen</b> — then the whole tour works offline.
+      <button onclick="dismissA2HS()">Got it</button></div>`;
+  }
   const rs = pos < 0 ? loadJSON('resume', null) : null;
   if (rs && rs.queue && rs.queue[rs.pos]) {
     h += `<div class="resume" onclick="resumeLast()">▶&nbsp; Continue: <b>${esc(rs.queue[rs.pos].title)}</b>
@@ -338,6 +342,13 @@ function renderDays() {
     if (t) { renderDays.scrolled = true; t.scrollIntoView({ block: 'start' }); }
   }
 }
+function needsA2HS() {
+  return /iPhone|iPad|iPod/.test(navigator.userAgent)
+    && !navigator.standalone
+    && !matchMedia('(display-mode: standalone)').matches
+    && !loadJSON('a2hsDismissed', false);
+}
+window.dismissA2HS = () => { saveJSON('a2hsDismissed', true); render(); };
 const MONTHS = { Jan: 0, Feb: 1, Mar: 2, Apr: 3, May: 4, Jun: 5, Jul: 6, Aug: 7, Sep: 8, Oct: 9, Nov: 10, Dec: 11 };
 function isToday(dateStr) {
   const m = /([A-Z][a-z]{2}) (\d{1,2})$/.exec(dateStr || '');

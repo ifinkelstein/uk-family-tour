@@ -1360,6 +1360,16 @@
         "title": "Dinner on Top of a Column",
         "words": 375,
         "est_minutes": 2.5
+       },
+       {
+        "file": "content/day06-westminster-walk/kid/03-park-and-lions-more-3.md",
+        "title": "The Pelican Keeper's Bucket of Fish",
+        "est_minutes": 2.9
+       },
+       {
+        "file": "content/day06-westminster-walk/kid/03-park-and-lions-more-4.md",
+        "title": "The King Who Kept a Crocodile in the Park",
+        "est_minutes": 3.0
        }
       ]
      },
@@ -1548,6 +1558,16 @@
         "title": "The Nation's Front Room",
         "words": 419,
         "est_minutes": 2.8
+       },
+       {
+        "file": "content/day06-westminster-walk/adult/03-park-and-square-more-3.md",
+        "title": "A Diplomatic Gift That Never Left",
+        "est_minutes": 2.9
+       },
+       {
+        "file": "content/day06-westminster-walk/adult/03-park-and-square-more-4.md",
+        "title": "Duck Island and the Little Cottage of the Bird Society",
+        "est_minutes": 2.9
        }
       ]
      },

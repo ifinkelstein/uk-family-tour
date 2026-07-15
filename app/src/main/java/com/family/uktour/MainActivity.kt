@@ -27,6 +27,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -381,7 +382,8 @@ private fun SightPlayerScreen(
                 onPrev = player::previous,
                 onTellMore = { currentTrack?.let(player::tellMeMore) },
                 onRate = player::setSpeechRate,
-                onSeek = player::seekTo
+                onSeek = player::seekTo,
+                onCancelGap = player::cancelGap
             )
         }
     ) { pad ->
@@ -502,20 +504,28 @@ private fun DayPlayerScreen(
     val accent = Journey.accentForDay(day)
     val sights = remember(day) { repo.sightsByDay().firstOrNull { it.first == day }?.second ?: emptyList() }
 
-    // Whole-day queue: each story's intro followed inline by its deep-dive chapters,
-    // sight after sight, in order.
-    data class DayRow(val item: com.family.uktour.player.QueueItem, val sightName: String)
+    // Whole-day queue: base stories only, sight after sight. Deep dives are
+    // opt-in via Tell me more — pre-expanding them made a day hours long.
     val rows = remember(day, kidMode) {
         sights.flatMap { sight ->
-            sight.tracks(kidMode).flatMap { t ->
-                buildList {
-                    add(DayRow(com.family.uktour.player.QueueItem(t.file, t.title, false, 0), sight.name))
-                    t.more.forEach { add(DayRow(com.family.uktour.player.QueueItem(it.file, it.title, true, 0), sight.name)) }
-                }
+            sight.tracks(kidMode).mapIndexed { i, t ->
+                com.family.uktour.player.QueueItem(t.file, t.title, false, i, sight.name)
             }
         }
     }
-    LaunchedEffect(day, kidMode) { player.loadQueue(rows.map { it.item }) }
+    val moreMinByFile = remember(day) {
+        sights.flatMap { it.kid + it.adult }.associate { it.file to it.moreMinutes }
+    }
+    LaunchedEffect(day, kidMode) { player.loadQueue(rows) }
+
+    // Resolve the playing story across BOTH audiences, so Tell me more works
+    // even if the mode was toggled after the queue was built.
+    val playingTrack = remember(ui.current?.file, day) {
+        sights.asSequence().flatMap { (it.kid + it.adult).asSequence() }
+            .firstOrNull { t -> t.file == ui.current?.file }
+    }
+    // After a Tell-me-more insertion the live queue is longer than rows: show it.
+    val shown = if (ui.queue.isNotEmpty() && rows.any { r -> r.file == ui.queue.first().file }) ui.queue else rows
 
     Scaffold(
         topBar = {
@@ -526,7 +536,7 @@ private fun DayPlayerScreen(
                 IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, "Back") }
                 Column(Modifier.weight(1f)) {
                     Text("Play the whole day", style = MaterialTheme.typography.headlineSmall, maxLines = 1)
-                    Text("Day $day · ${Journey.cityForDay(day)} · ${rows.size} stories",
+                    Text("Day $day · ${Journey.cityForDay(day)} · ${shown.size} stories",
                         style = MaterialTheme.typography.labelSmall, color = accent)
                 }
                 KidModeSwitch(kidMode, onKidMode)
@@ -534,16 +544,21 @@ private fun DayPlayerScreen(
         },
         bottomBar = {
             PlayerBar(
-                ui = ui, accent = accent, canTellMore = false, kidMode = kidMode,
-                onPlayPause = { if (ui.position < 0) player.loadQueue(rows.map { it.item }) else player.playPause() },
+                ui = ui, accent = accent,
+                canTellMore = playingTrack?.hasMore == true && ui.current?.isMore != true,
+                kidMode = kidMode,
+                onPlayPause = { if (ui.position < 0) player.loadQueue(rows) else player.playPause() },
                 onNext = player::next, onPrev = player::previous,
-                onTellMore = {}, onRate = player::setSpeechRate, onSeek = player::seekTo
+                onTellMore = { playingTrack?.let(player::tellMeMore) },
+                onRate = player::setSpeechRate, onSeek = player::seekTo,
+                onCancelGap = player::cancelGap
             )
         }
     ) { pad ->
         LazyColumn(Modifier.padding(pad).fillMaxSize(), contentPadding = PaddingValues(bottom = 16.dp)) {
-            itemsIndexed(rows) { i, row ->
+            itemsIndexed(shown) { i, item ->
                 val playing = ui.position == i
+                val extraMin = if (!item.isMore) (moreMinByFile[item.file] ?: 0.0) else 0.0
                 Row(
                     Modifier.fillMaxWidth()
                         .background(if (playing) accent.copy(alpha = 0.12f) else Color.Transparent)
@@ -551,16 +566,17 @@ private fun DayPlayerScreen(
                         .padding(horizontal = 18.dp, vertical = 10.dp),
                     verticalAlignment = Alignment.CenterVertically
                 ) {
-                    Text(if (playing) "▶" else if (row.item.isMore) "  ·" else "${i + 1}",
+                    Text(if (playing) "▶" else if (item.isMore) "  ·" else "${i + 1}",
                         modifier = Modifier.width(28.dp), color = accent,
                         fontWeight = FontWeight.Bold)
                     Spacer(Modifier.width(8.dp))
                     Column(Modifier.weight(1f)) {
-                        Text(row.item.title,
+                        Text(item.title,
                             style = MaterialTheme.typography.bodyLarge,
                             fontFamily = if (kidMode) FontFamily.Default else FontFamily.Serif,
-                            fontWeight = if (row.item.isMore) FontWeight.Normal else FontWeight.SemiBold)
-                        Text((if (row.item.isMore) "deep dive · " else "") + row.sightName,
+                            fontWeight = if (item.isMore) FontWeight.Normal else FontWeight.SemiBold)
+                        Text((if (item.isMore) "deep dive · " else "") + item.sight +
+                            (if (extraMin >= 1) " · +${extraMin.roundToInt()} min extras" else ""),
                             style = MaterialTheme.typography.labelSmall,
                             color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.55f))
                     }
@@ -581,7 +597,8 @@ private fun PlayerBar(
     onPrev: () -> Unit,
     onTellMore: () -> Unit,
     onRate: (Float) -> Unit,
-    onSeek: (Float) -> Unit
+    onSeek: (Float) -> Unit,
+    onCancelGap: () -> Unit = {}
 ) {
     Surface(shadowElevation = 12.dp) {
         Column(Modifier.fillMaxWidth().padding(bottom = 12.dp)) {
@@ -599,6 +616,27 @@ private fun PlayerBar(
                 ),
                 modifier = Modifier.fillMaxWidth().padding(horizontal = 10.dp)
             )
+            if (ui.state == PlayState.GAP && ui.next != null) {
+                // Visible, skippable walking gap: ▶ = next story now, ✕ = stay here.
+                Row(
+                    Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 20.dp, vertical = 4.dp)
+                        .clip(RoundedCornerShape(14.dp))
+                        .background(MaterialTheme.colorScheme.onBackground.copy(alpha = 0.06f))
+                        .padding(start = 14.dp, end = 4.dp),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Text(
+                        "Next: ${ui.next!!.title} in ${ui.gapRemaining}s",
+                        modifier = Modifier.weight(1f),
+                        style = MaterialTheme.typography.bodyMedium,
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis
+                    )
+                    TextButton(onClick = onCancelGap) { Text("✕ stay") }
+                }
+            }
             if (canTellMore) {
                 Button(
                     onClick = onTellMore,

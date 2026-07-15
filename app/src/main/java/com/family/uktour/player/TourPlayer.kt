@@ -21,7 +21,13 @@ import java.util.Locale
 enum class PlayState { IDLE, PLAYING, PAUSED, GAP }
 
 /** One item in the play queue: a base track or a queued "Tell me more". */
-data class QueueItem(val file: String, val title: String, val isMore: Boolean, val baseIndex: Int)
+data class QueueItem(
+    val file: String,
+    val title: String,
+    val isMore: Boolean,
+    val baseIndex: Int,
+    val sight: String = ""
+)
 
 data class PlayerUi(
     val state: PlayState = PlayState.IDLE,
@@ -102,7 +108,7 @@ class TourPlayer(
         // Already queued? (first chapter sits right after the current item) — just jump.
         if (ui.queue.getOrNull(pos + 1)?.file == track.more.first().file) { skipTo(pos + 1); return }
         val baseIndex = ui.queue[pos].baseIndex
-        val items = track.more.map { QueueItem(it.file, it.title, true, baseIndex) }
+        val items = track.more.map { QueueItem(it.file, it.title, true, baseIndex, ui.queue[pos].sight) }
         val newQueue = ui.queue.toMutableList().apply { addAll(pos + 1, items) }
         _ui.value = ui.copy(queue = newQueue)
         skipTo(pos + 1)

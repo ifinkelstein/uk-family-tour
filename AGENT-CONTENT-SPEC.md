@@ -26,7 +26,8 @@ the main story and auto-plays them after the main story.
    audience** across all its chapters — roughly **2500–3000 words per audience**. Give the
    richest stories more chapters. Chapter length should FIT THE MATERIAL: ~300 words for a
    single tight anecdote, up to ~900 for a story that earns it. Do not pad thin material or
-   squeeze rich material to hit a uniform ~2-minute length; variety is good.
+   squeeze rich material to hit a uniform ~2-minute length; variety is good. Adult chapters
+   and sub-chapters especially may run LONG (up to ~1000 words) when the material rewards it.
 4. Write a sidecar `<assets root>/content/<SIGHT>/tracks.json` — see format below.
 
 ## Quality bar

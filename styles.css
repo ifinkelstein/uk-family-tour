@@ -53,6 +53,12 @@ input[type=range]::-moz-range-track{height:5px;border-radius:3px;background:rgba
 input[type=range]::-moz-range-thumb{width:16px;height:16px;border:0;border-radius:50%;background:var(--accent)}
 .tellmore{display:block;width:calc(100% - 40px);margin:8px 20px;padding:12px;border:0;border-radius:26px;
   background:var(--gold);color:#161923;font:inherit;font-weight:800;font-size:16px;cursor:pointer}
+.gapchip{display:flex;align-items:center;gap:10px;margin:6px 20px 2px;padding:8px 14px;border-radius:14px;
+  background:rgba(255,255,255,.08);font-size:14px}
+.gapchip span{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.gapchip b{color:var(--accent)}
+.gapstay{border:0;background:transparent;color:var(--muted);font:inherit;font-size:13px;
+  font-weight:700;cursor:pointer;padding:6px 8px}
 .controls{display:flex;align-items:center;justify-content:space-evenly;padding:4px 12px 6px}
 .controls button{background:transparent;border:0;color:var(--ink);font-size:26px;cursor:pointer;padding:8px}
 .play{width:64px;height:64px;border-radius:50%;background:var(--accent);color:#fff !important;

@@ -54,18 +54,48 @@ async function boot() {
 au.addEventListener('timeupdate', () => { if (!dragging) paintScrub(); });
 au.addEventListener('ended', () => {
   const it = queue[pos]; if (it && !it.isMore) markHeard(it.file);
-  if (pos + 1 < queue.length) { clearTimeout(gapTimer); gapTimer = setTimeout(() => setPos(pos + 1), GAP); }
+  if (pos + 1 < queue.length) startGap();
   else { paintControls(); }
 });
 function markHeard(f) { heard.add(f); saveJSON('heard', [...heard]); }
 
-function loadQueue(items, i = 0, day) {
+/* Walking gap: a story ends, the family strolls to the next spot, then the
+   next story starts. The countdown is visible and skippable; chapters of the
+   same deep dive chain after 1s; a hidden page (phone pocketed) chains
+   immediately, because suspended timers would otherwise kill the tour. */
+let gap = null; // { deadline, iv } while counting down
+function startGap() {
+  const len = document.hidden ? 0 : (queue[pos + 1].isMore ? 1000 : GAP);
+  cancelGap();
+  if (len < 1500) {
+    if (len) gapTimer = setTimeout(() => setPos(pos + 1), len);
+    else setPos(pos + 1);
+    return;
+  }
+  gap = { deadline: Date.now() + len, iv: setInterval(paintGap, 1000) };
+  gapTimer = setTimeout(advanceNow, len);
+  paintPlayer();
+}
+function gapLeft() { return gap ? Math.max(0, Math.ceil((gap.deadline - Date.now()) / 1000)) : 0; }
+function cancelGap() {
   clearTimeout(gapTimer);
+  if (gap) { clearInterval(gap.iv); gap = null; }
+}
+function advanceNow() {
+  const n = pos + 1;
+  cancelGap();
+  if (n < queue.length) setPos(n); else paintPlayer();
+}
+window.stayHere = () => { cancelGap(); paintPlayer(); };
+document.addEventListener('visibilitychange', () => { if (document.hidden && gap) advanceNow(); });
+
+function loadQueue(items, i = 0, day) {
+  cancelGap();
   queue = items; setPos(i);
   if (day != null) cacheDay(day);
 }
 function setPos(i) {
-  clearTimeout(gapTimer);
+  cancelGap();
   pos = i;
   au.src = audioURL(queue[i].file);
   au.playbackRate = speed;
@@ -97,7 +127,14 @@ if ('mediaSession' in navigator) {
   set('seekbackward', d => { au.currentTime = Math.max(0, au.currentTime - (d.seekOffset || 10)); });
   set('seekforward', d => { if (au.duration) au.currentTime = Math.min(au.duration, au.currentTime + (d.seekOffset || 10)); });
 }
-function playPause() { if (au.paused) au.play().catch(() => { }); else { clearTimeout(gapTimer); au.pause(); } paintControls(); }
+function playPause() {
+  if (gap) { advanceNow(); return; }          // during the gap, ▶ means "next story now"
+  if (au.paused) {
+    if (au.ended && pos + 1 < queue.length) { setPos(pos + 1); return; }
+    au.play().catch(() => { });
+  } else au.pause();
+  paintControls();
+}
 function next() { if (pos + 1 < queue.length) setPos(pos + 1); }
 function prev() { if (au.currentTime > 3 || pos === 0) au.currentTime = 0; else setPos(pos - 1); }
 function seek(frac) { if (au.duration) au.currentTime = frac * au.duration; }
@@ -229,6 +266,9 @@ function paintPlayer() {
   const bar = document.createElement('div'); bar.className = 'player';
   bar.innerHTML = `<div class="inner">
     <input type="range" id="scrub" min="0" max="1000" value="0" style="accent-color:${a}">
+    ${gap && queue[pos + 1] ? `<div class="gapchip">
+      <span>Next: <b>${esc(queue[pos + 1].title)}</b> in <span id="gapleft">${gapLeft()}</span>s</span>
+      <button class="gapstay" onclick="stayHere()">✕ stay</button></div>` : ''}
     ${inSight ? `<button class="tellmore" onclick="tellMore()">${kid ? '✨ Tell me MORE!' : 'Tell me more'}</button>` : ''}
     <div class="controls">
       <button class="speed" onclick="cycleSpeed()">${speed}×</button>
@@ -249,5 +289,9 @@ function paintControls() {
 function paintScrub() {
   const sc = document.getElementById('scrub');
   if (sc && au.duration) sc.value = Math.round((au.currentTime / au.duration) * 1000);
+}
+function paintGap() {
+  const g = document.getElementById('gapleft');
+  if (g) g.textContent = gapLeft();
 }
 boot();

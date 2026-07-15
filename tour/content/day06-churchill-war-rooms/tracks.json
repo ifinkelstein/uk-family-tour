@@ -1,0 +1,166 @@
+{
+  "kid": [
+    {
+      "file": "content/day06-churchill-war-rooms/kid/01-secret-bunker.md",
+      "title": "The Secret Bunker",
+      "words": 358,
+      "est_minutes": 2.4,
+      "tell_me_more": [
+        {
+          "file": "content/day06-churchill-war-rooms/kid/01-secret-bunker-more-1.md",
+          "title": "The Giant Slab of Concrete",
+          "words": 305,
+          "est_minutes": 2.0
+        },
+        {
+          "file": "content/day06-churchill-war-rooms/kid/01-secret-bunker-more-2.md",
+          "title": "Frozen in Time",
+          "words": 306,
+          "est_minutes": 2.0
+        }
+      ]
+    },
+    {
+      "file": "content/day06-churchill-war-rooms/kid/02-churchill-the-man.md",
+      "title": "Churchill the Man",
+      "words": 330,
+      "est_minutes": 2.2,
+      "tell_me_more": [
+        {
+          "file": "content/day06-churchill-war-rooms/kid/02-churchill-the-man-more-1.md",
+          "title": "The Words That Fought Back",
+          "words": 291,
+          "est_minutes": 1.9
+        },
+        {
+          "file": "content/day06-churchill-war-rooms/kid/02-churchill-the-man-more-2.md",
+          "title": "A Funny, Flawed Giant",
+          "words": 292,
+          "est_minutes": 1.9
+        }
+      ]
+    },
+    {
+      "file": "content/day06-churchill-war-rooms/kid/03-life-below-ground.md",
+      "title": "Life Below Ground",
+      "words": 325,
+      "est_minutes": 2.2,
+      "tell_me_more": [
+        {
+          "file": "content/day06-churchill-war-rooms/kid/03-life-below-ground-more-1.md",
+          "title": "The Toilet That Was a Lie",
+          "words": 280,
+          "est_minutes": 1.9
+        },
+        {
+          "file": "content/day06-churchill-war-rooms/kid/03-life-below-ground-more-2.md",
+          "title": "Secrets in the Walls",
+          "words": 294,
+          "est_minutes": 2.0
+        }
+      ]
+    },
+    {
+      "file": "content/day06-churchill-war-rooms/kid/04-london-at-war.md",
+      "title": "London at War",
+      "words": 308,
+      "est_minutes": 2.1,
+      "tell_me_more": [
+        {
+          "file": "content/day06-churchill-war-rooms/kid/04-london-at-war-more-1.md",
+          "title": "Bombs, a Palace, and a Miracle",
+          "words": 270,
+          "est_minutes": 1.8
+        },
+        {
+          "file": "content/day06-churchill-war-rooms/kid/04-london-at-war-more-2.md",
+          "title": "How Close It All Was",
+          "words": 284,
+          "est_minutes": 1.9
+        }
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day06-churchill-war-rooms/adult/01-secret-bunker.md",
+      "title": "The Secret Bunker",
+      "words": 348,
+      "est_minutes": 2.3,
+      "tell_me_more": [
+        {
+          "file": "content/day06-churchill-war-rooms/adult/01-secret-bunker-more-1.md",
+          "title": "The Slab",
+          "words": 272,
+          "est_minutes": 1.8
+        },
+        {
+          "file": "content/day06-churchill-war-rooms/adult/01-secret-bunker-more-2.md",
+          "title": "Frozen and Rediscovered",
+          "words": 283,
+          "est_minutes": 1.9
+        }
+      ]
+    },
+    {
+      "file": "content/day06-churchill-war-rooms/adult/02-churchill-the-man.md",
+      "title": "Churchill the Man",
+      "words": 350,
+      "est_minutes": 2.3,
+      "tell_me_more": [
+        {
+          "file": "content/day06-churchill-war-rooms/adult/02-churchill-the-man-more-1.md",
+          "title": "The Wilderness and the Word",
+          "words": 296,
+          "est_minutes": 2.0
+        },
+        {
+          "file": "content/day06-churchill-war-rooms/adult/02-churchill-the-man-more-2.md",
+          "title": "Cigars, Siren Suits, and the Long Goodbye",
+          "words": 297,
+          "est_minutes": 2.0
+        }
+      ]
+    },
+    {
+      "file": "content/day06-churchill-war-rooms/adult/03-life-below-ground.md",
+      "title": "Life Below Ground",
+      "words": 335,
+      "est_minutes": 2.2,
+      "tell_me_more": [
+        {
+          "file": "content/day06-churchill-war-rooms/adult/03-life-below-ground-more-1.md",
+          "title": "The Toilet That Wasn't",
+          "words": 264,
+          "est_minutes": 1.8
+        },
+        {
+          "file": "content/day06-churchill-war-rooms/adult/03-life-below-ground-more-2.md",
+          "title": "The Beauty Chorus and Other Relics",
+          "words": 281,
+          "est_minutes": 1.9
+        }
+      ]
+    },
+    {
+      "file": "content/day06-churchill-war-rooms/adult/04-london-at-war.md",
+      "title": "London at War",
+      "words": 323,
+      "est_minutes": 2.2,
+      "tell_me_more": [
+        {
+          "file": "content/day06-churchill-war-rooms/adult/04-london-at-war-more-1.md",
+          "title": "The Palace, the Cathedral, and the Few",
+          "words": 282,
+          "est_minutes": 1.9
+        },
+        {
+          "file": "content/day06-churchill-war-rooms/adult/04-london-at-war-more-2.md",
+          "title": "The Vengeance Weapons and the Long View",
+          "words": 268,
+          "est_minutes": 1.8
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# The Giant Slab of Concrete
+When these rooms first opened, there was a scary problem. A bunker is only useful if it can keep you safe, and honestly, at the start, this one couldn't. It was just an ordinary basement. If a really big bomb had landed on the building above, the ceiling could have come crashing down on everyone inside. The people working here knew it, too. That takes a certain kind of brave, doesn't it? Going to work every day in a place you're not sure will hold.
+
+So in the autumn of 1940, while German planes were bombing London night after night, the builders came in and did something clever. Above these rooms they poured a gigantic layer of concrete, and they nicknamed it "the Slab." In some places it was up to five feet thick. That is taller than you are. Picture a solid block of concrete stretching over the whole ceiling, thick enough that a grown-up couldn't see over it. That Slab turned a wobbly basement into a proper fortress.
+
+Once people felt safer, the bunker grew. They dug out and added more and more rooms, until it was about three times bigger than when it started. It became a whole underground village, with bedrooms, a kitchen, offices, and long, narrow corridors, all hidden under the street.
+
+But here is the funny thing. Even with the mighty Slab, the top people secretly worried it still might not survive a direct hit from the very biggest bombs. They didn't tell the workers that, of course. Everyone just kept calm and carried on, which was rather the British way. As you walk, run your eyes along the low ceilings, the fat pipes, and the thick doors. This wasn't a comfortable place. It was built for one job only, to keep the people who ran the war alive.

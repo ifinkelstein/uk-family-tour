@@ -1604,6 +1604,53 @@
    "adult_total_minutes": 4.4
   },
   {
+   "id": "day06-churchill-war-rooms",
+   "name": "Churchill War Rooms",
+   "day": 6,
+   "date": "Thu Jul 16",
+   "note": "The 3pm anchor: secret bunker, Churchill, wartime London",
+   "tracks": {
+    "kid": [
+     {
+      "file": "content/day06-churchill-war-rooms/kid/01-secret-bunker.md",
+      "title": "The Secret Bunker",
+      "est_minutes": 2.4,
+      "tell_me_more": [
+       {
+        "file": "content/day06-churchill-war-rooms/kid/01-secret-bunker-more-1.md",
+        "title": "The Giant Slab of Concrete",
+        "est_minutes": 2.0
+       },
+       {
+        "file": "content/day06-churchill-war-rooms/kid/01-secret-bunker-more-2.md",
+        "title": "Frozen in Time",
+        "est_minutes": 2.0
+       }
+      ]
+     }
+    ],
+    "adult": [
+     {
+      "file": "content/day06-churchill-war-rooms/adult/01-secret-bunker.md",
+      "title": "The Secret Bunker",
+      "est_minutes": 2.3,
+      "tell_me_more": [
+       {
+        "file": "content/day06-churchill-war-rooms/adult/01-secret-bunker-more-1.md",
+        "title": "The Slab",
+        "est_minutes": 1.8
+       },
+       {
+        "file": "content/day06-churchill-war-rooms/adult/01-secret-bunker-more-2.md",
+        "title": "Frozen and Rediscovered",
+        "est_minutes": 1.9
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
    "id": "day07-hampton-court",
    "name": "Hampton Court Palace",
    "day": 7,

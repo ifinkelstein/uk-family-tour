@@ -1,0 +1,8 @@
+# How Close It All Was
+I want to be honest with you about something, because you're old enough to understand it. In the summer of 1940, Britain came terribly close to losing. After Hitler's armies had marched across Europe, Britain was almost the last free country still standing against him, an island on the edge, all alone. Everyone genuinely feared that German soldiers might come across the sea and invade, marching through the very streets you're standing on. It was that close.
+
+What saved Britain first was a battle fought entirely in the sky, called the Battle of Britain. Young pilots, some of them barely out of school, climbed into little fighter planes and fought the much bigger German air force, high above the fields of southern England, to stop the invasion. They were so outnumbered that Churchill said the whole country owed everything to these few brave pilots. And, incredibly, they held on. The invasion never came.
+
+But the danger didn't end there. Later in the war, the enemy invented horrible new weapons, flying bombs and rockets that came without warning. The rockets were the scariest, because they fell from so high and so fast that you couldn't even hear them coming until they exploded. Londoners had to be brave all over again.
+
+Here's the big idea to carry back up those steps with you. The people in this bunker didn't know they were going to win. Nobody had told them the ending. They just kept working, day after day, in the dark, choosing to hope. That is the real reason this quiet, cool, concrete place is one of the most important spots in all of London. Ordinary people, in an extraordinary time, simply refused to give up.

@@ -1,0 +1,8 @@
+# Frozen in Time
+Here's one of my favourite things about this place. Almost nothing you see is a copy. When the war ended in the summer of 1945, the people who worked down here didn't pack up neatly. They just stopped. They turned off the Map Room lights for the first time in six years, shut the doors, and went home to sleep in real beds under a real sky. And then, for years and years, hardly anyone came down.
+
+The bunker sat in the dark, forgotten, gathering dust. Sugar was still in a drawer. Pins were still stuck in the maps. A calendar on a wall still showed a wartime date. It was like a moment of history had been trapped in a jar. A few people knew it was here and quietly looked after it, but the public wasn't allowed in.
+
+Then, finally, in 1984, the doors were opened for good, and ordinary visitors could walk these corridors for the very first time. The people in charge of it, a famous place called the Imperial War Museum, were very careful to keep everything exactly as it had been left. So when you look through the glass into these rooms, you are not looking at a pretend film set. You are looking at the real thing, more or less untouched since 1945.
+
+Later on, they added something you should absolutely go and find. It's a whole museum about Churchill himself, with a huge table right in the middle, about fifteen metres long. It's called the Lifeline, and it's like a giant interactive timeline of his entire life. You can touch it and make things happen. See if you can find the day he was born, and the day he became the leader of the country. Go on, this cool underground finale has one more surprise waiting for you.

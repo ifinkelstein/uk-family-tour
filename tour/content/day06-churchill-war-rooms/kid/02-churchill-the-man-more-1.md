@@ -1,0 +1,8 @@
+# The Words That Fought Back
+Winston Churchill had a secret weapon, and it wasn't a gun or a tank. It was words. When he became Prime Minister in 1940, France had fallen to the Germans, enemy armies were just across the sea, and lots of people thought Britain would lose. Churchill couldn't magic up more planes or soldiers overnight. But he could stand up and speak, and when he spoke, something happened to people. They stood a little taller.
+
+He was honest, which was unusual. In his very first speech as leader, he didn't promise everything would be easy. He said all he could offer was "blood, toil, tears and sweat," which means hard work, pain, and no shortcuts. And somehow, that honesty made people trust him more, not less.
+
+A few weeks later, when things looked their darkest, he made a speech promising that Britain would never surrender. "We shall fight on the beaches," he said, listing all the places they would keep fighting, on and on, until you believed it. And then he told the whole country that if they were brave now, people would look back in a thousand years and say, "This was their finest hour." Their finest hour. Imagine being told that your scariest moment could also become your proudest.
+
+He often growled these speeches slowly, in a deep, rumbly voice, and millions of people crowded around their radios to listen. Some historians say his words were worth as much as an army. He practised them for hours and grumbled and rewrote them until every line was just right. So the next time you feel like giving up on something hard, remember the grumpy old man in the bunker who won partly by refusing to sound afraid, even when he was.

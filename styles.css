@@ -59,6 +59,8 @@ input[type=range]::-moz-range-thumb{width:16px;height:16px;border:0;border-radiu
 .gapchip b{color:var(--accent)}
 .gapstay{border:0;background:transparent;color:var(--muted);font:inherit;font-size:13px;
   font-weight:700;cursor:pointer;padding:6px 8px}
+.notice{margin:6px 20px 2px;padding:6px 14px;border-radius:12px;font-size:13px;
+  background:rgba(230,50,65,.15);color:var(--ink)}
 .controls{display:flex;align-items:center;justify-content:space-evenly;padding:4px 12px 6px}
 .controls button{background:transparent;border:0;color:var(--ink);font-size:26px;cursor:pointer;padding:8px}
 .play{width:64px;height:64px;border-radius:50%;background:var(--accent);color:#fff !important;

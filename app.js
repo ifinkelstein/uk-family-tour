@@ -52,6 +52,22 @@ async function boot() {
 
 // ---- audio ----
 au.addEventListener('timeupdate', () => { if (!dragging) paintScrub(); });
+// Keep the play/pause button honest when something else pauses the audio
+// (phone call, unplugged headphones) and say so when a track can't load.
+au.addEventListener('play', () => paintControls());
+au.addEventListener('pause', () => paintControls());
+au.addEventListener('playing', () => { setNotice(''); paintControls(); });
+au.addEventListener('waiting', () => setNotice('Loading…'));
+au.addEventListener('error', () => {
+  if (pos >= 0) setNotice("Couldn't load this story — is it downloaded? Try ⬇ over wifi.");
+  paintControls();
+});
+let notice = '';
+function setNotice(t) {
+  notice = t;
+  const n = document.getElementById('notice');
+  if (n) { n.textContent = t; n.style.display = t ? '' : 'none'; }
+}
 au.addEventListener('ended', () => {
   const it = queue[pos]; if (it && !it.isMore) markHeard(it.file);
   if (pos + 1 < queue.length) startGap();
@@ -96,6 +112,7 @@ function loadQueue(items, i = 0, day) {
 }
 function setPos(i) {
   cancelGap();
+  setNotice('');
   pos = i;
   au.src = audioURL(queue[i].file);
   au.playbackRate = speed;
@@ -266,6 +283,7 @@ function paintPlayer() {
   const bar = document.createElement('div'); bar.className = 'player';
   bar.innerHTML = `<div class="inner">
     <input type="range" id="scrub" min="0" max="1000" value="0" style="accent-color:${a}">
+    <div class="notice" id="notice" style="display:${notice ? '' : 'none'}">${esc(notice)}</div>
     ${gap && queue[pos + 1] ? `<div class="gapchip">
       <span>Next: <b>${esc(queue[pos + 1].title)}</b> in <span id="gapleft">${gapLeft()}</span>s</span>
       <button class="gapstay" onclick="stayHere()">✕ stay</button></div>` : ''}

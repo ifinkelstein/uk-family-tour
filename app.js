@@ -59,6 +59,7 @@ au.addEventListener('play', () => paintControls());
 au.addEventListener('pause', () => paintControls());
 au.addEventListener('playing', () => { setNotice(''); paintControls(); });
 au.addEventListener('waiting', () => setNotice('Loading…'));
+au.addEventListener('loadedmetadata', () => paintScrub());
 au.addEventListener('error', () => {
   if (pos >= 0) setNotice("Couldn't load this story — is it downloaded? Try ⬇ over wifi.");
   paintControls();
@@ -403,6 +404,7 @@ function paintPlayer() {
   const bar = document.createElement('div'); bar.className = 'player';
   bar.innerHTML = `<div class="inner">
     <input type="range" id="scrub" min="0" max="1000" value="0" style="accent-color:${a}">
+    <div class="times"><span id="tcur">0:00</span><span id="tdur"></span></div>
     <div class="notice" id="notice" style="display:${notice ? '' : 'none'}">${esc(notice)}</div>
     ${gap && queue[pos + 1] ? `<div class="gapchip">
       <span>Next: <b>${esc(queue[pos + 1].title)}</b> in <span id="gapleft">${gapLeft()}</span>s</span>
@@ -424,9 +426,13 @@ function paintPlayer() {
 function paintControls() {
   const pp = document.getElementById('pp'); if (pp) pp.textContent = au.paused ? '▶' : '⏸';
 }
+const fmtTime = s => { s = Math.max(0, Math.floor(s || 0)); return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`; };
 function paintScrub() {
   const sc = document.getElementById('scrub');
   if (sc && au.duration) sc.value = Math.round((au.currentTime / au.duration) * 1000);
+  const tc = document.getElementById('tcur'), td = document.getElementById('tdur');
+  if (tc) tc.textContent = fmtTime(au.currentTime);
+  if (td) td.textContent = au.duration ? fmtTime(au.duration) : '';
 }
 function paintGap() {
   const g = document.getElementById('gapleft');

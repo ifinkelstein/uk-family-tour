@@ -1,0 +1,394 @@
+{
+  "manifest": "app/src/main/assets/tour/manifest.json",
+  "out": "app/src/main/assets/tour/audio",
+  "kid_voice": "bf_emma",
+  "adult_voice": "bm_george",
+  "speed": 0.92,
+  "expected_wpm": 175.0,
+  "min_wpm": 130.0,
+  "max_wpm": 220.0,
+  "elapsed_seconds": 1.5752499103546143,
+  "tracks": [
+    {
+      "file": "content/day05-national-gallery/kid/01-sunflowers-and-horse.md",
+      "audience": "kid",
+      "words": 200,
+      "duration_seconds": 71.775,
+      "spoken_wpm": 167.18913270637407,
+      "target_seconds": 68.57142857142857,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/kid/01-sunflowers-horse-more.md",
+      "audience": "kid",
+      "words": 238,
+      "duration_seconds": 83.375,
+      "spoken_wpm": 171.2743628185907,
+      "target_seconds": 81.60000000000001,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/kid/01-sunflowers-and-horse-more-1.md",
+      "audience": "kid",
+      "words": 248,
+      "duration_seconds": 77.05,
+      "spoken_wpm": 193.12134977287477,
+      "target_seconds": 85.02857142857142,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/kid/01-sunflowers-and-horse-more-2.md",
+      "audience": "kid",
+      "words": 261,
+      "duration_seconds": 88.525,
+      "spoken_wpm": 176.89918102231007,
+      "target_seconds": 89.48571428571428,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/kid/02-hidden-skull.md",
+      "audience": "kid",
+      "words": 209,
+      "duration_seconds": 69.35,
+      "spoken_wpm": 180.82191780821918,
+      "target_seconds": 71.65714285714286,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/kid/02-hidden-skull-more.md",
+      "audience": "kid",
+      "words": 221,
+      "duration_seconds": 74.925,
+      "spoken_wpm": 176.97697697697697,
+      "target_seconds": 75.77142857142857,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/kid/02-hidden-skull-more-1.md",
+      "audience": "kid",
+      "words": 247,
+      "duration_seconds": 79.85,
+      "spoken_wpm": 185.59799624295553,
+      "target_seconds": 84.68571428571428,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/kid/02-hidden-skull-more-2.md",
+      "audience": "kid",
+      "words": 264,
+      "duration_seconds": 87.075,
+      "spoken_wpm": 181.91214470284237,
+      "target_seconds": 90.51428571428572,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/kid/03-fighting-temeraire.md",
+      "audience": "kid",
+      "words": 218,
+      "duration_seconds": 73.525,
+      "spoken_wpm": 177.89867392043521,
+      "target_seconds": 74.74285714285715,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/kid/03-temeraire-more.md",
+      "audience": "kid",
+      "words": 226,
+      "duration_seconds": 72.425,
+      "spoken_wpm": 187.22816706938212,
+      "target_seconds": 77.48571428571428,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/kid/03-fighting-temeraire-more-1.md",
+      "audience": "kid",
+      "words": 266,
+      "duration_seconds": 84.7,
+      "spoken_wpm": 188.4297520661157,
+      "target_seconds": 91.2,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/kid/03-fighting-temeraire-more-2.md",
+      "audience": "kid",
+      "words": 269,
+      "duration_seconds": 87.575,
+      "spoken_wpm": 184.29917213816728,
+      "target_seconds": 92.22857142857143,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/kid/04-impressionists.md",
+      "audience": "kid",
+      "words": 264,
+      "duration_seconds": 89.225,
+      "spoken_wpm": 177.52871952927993,
+      "target_seconds": 90.51428571428572,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/kid/04-impressionists-more-1.md",
+      "audience": "kid",
+      "words": 270,
+      "duration_seconds": 84.725,
+      "spoken_wpm": 191.20684567719093,
+      "target_seconds": 92.57142857142857,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/kid/04-impressionists-more-2.md",
+      "audience": "kid",
+      "words": 266,
+      "duration_seconds": 89.4,
+      "spoken_wpm": 178.5234899328859,
+      "target_seconds": 91.2,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/kid/05-pointillism.md",
+      "audience": "kid",
+      "words": 265,
+      "duration_seconds": 85.2,
+      "spoken_wpm": 186.61971830985914,
+      "target_seconds": 90.85714285714286,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/kid/05-pointillism-more-1.md",
+      "audience": "kid",
+      "words": 275,
+      "duration_seconds": 84.975,
+      "spoken_wpm": 194.17475728155338,
+      "target_seconds": 94.28571428571428,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/kid/05-pointillism-more-2.md",
+      "audience": "kid",
+      "words": 282,
+      "duration_seconds": 86.275,
+      "spoken_wpm": 196.11706751666182,
+      "target_seconds": 96.68571428571428,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/kid/06-impressionists-pointillists-route.md",
+      "audience": "kid",
+      "words": 706,
+      "duration_seconds": 231.575,
+      "spoken_wpm": 182.92129979488288,
+      "target_seconds": 242.05714285714288,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/adult/01-collection.md",
+      "audience": "adult",
+      "words": 222,
+      "duration_seconds": 93.325,
+      "spoken_wpm": 142.72702919903563,
+      "target_seconds": 76.11428571428571,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/adult/01-collection-more.md",
+      "audience": "adult",
+      "words": 231,
+      "duration_seconds": 102.575,
+      "spoken_wpm": 135.1206434316354,
+      "target_seconds": 79.2,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/adult/01-collection-more-1.md",
+      "audience": "adult",
+      "words": 253,
+      "duration_seconds": 107.85,
+      "spoken_wpm": 140.7510431154381,
+      "target_seconds": 86.74285714285715,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/adult/01-collection-more-2.md",
+      "audience": "adult",
+      "words": 241,
+      "duration_seconds": 100.575,
+      "spoken_wpm": 143.77330350484712,
+      "target_seconds": 82.62857142857143,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/adult/02-holbein-van-eyck.md",
+      "audience": "adult",
+      "words": 216,
+      "duration_seconds": 82.625,
+      "spoken_wpm": 156.85325264750378,
+      "target_seconds": 74.05714285714285,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/adult/02-holbein-vaneyck-more.md",
+      "audience": "adult",
+      "words": 239,
+      "duration_seconds": 101.7,
+      "spoken_wpm": 141.00294985250736,
+      "target_seconds": 81.94285714285714,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/adult/02-holbein-van-eyck-more-1.md",
+      "audience": "adult",
+      "words": 258,
+      "duration_seconds": 105.075,
+      "spoken_wpm": 147.32334047109208,
+      "target_seconds": 88.45714285714286,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/adult/02-holbein-van-eyck-more-2.md",
+      "audience": "adult",
+      "words": 261,
+      "duration_seconds": 109.625,
+      "spoken_wpm": 142.85062713797035,
+      "target_seconds": 89.48571428571428,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/adult/03-turner-vangogh.md",
+      "audience": "adult",
+      "words": 220,
+      "duration_seconds": 93.525,
+      "spoken_wpm": 141.13873295910184,
+      "target_seconds": 75.42857142857143,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/adult/03-turner-vangogh-more.md",
+      "audience": "adult",
+      "words": 230,
+      "duration_seconds": 93.25,
+      "spoken_wpm": 147.98927613941018,
+      "target_seconds": 78.85714285714286,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/adult/03-turner-vangogh-more-1.md",
+      "audience": "adult",
+      "words": 265,
+      "duration_seconds": 107.25,
+      "spoken_wpm": 148.25174825174824,
+      "target_seconds": 90.85714285714286,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/adult/03-turner-vangogh-more-2.md",
+      "audience": "adult",
+      "words": 267,
+      "duration_seconds": 97.15,
+      "spoken_wpm": 164.8996397323726,
+      "target_seconds": 91.54285714285714,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/adult/04-impressionists.md",
+      "audience": "adult",
+      "words": 253,
+      "duration_seconds": 102.6,
+      "spoken_wpm": 147.953216374269,
+      "target_seconds": 86.74285714285715,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/adult/04-impressionists-more-1.md",
+      "audience": "adult",
+      "words": 261,
+      "duration_seconds": 111.5,
+      "spoken_wpm": 140.44843049327355,
+      "target_seconds": 89.48571428571428,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/adult/04-impressionists-more-2.md",
+      "audience": "adult",
+      "words": 253,
+      "duration_seconds": 109.425,
+      "spoken_wpm": 138.7251542152159,
+      "target_seconds": 86.74285714285715,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/adult/05-pointillism.md",
+      "audience": "adult",
+      "words": 255,
+      "duration_seconds": 103.9,
+      "spoken_wpm": 147.25697786333012,
+      "target_seconds": 87.42857142857143,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/adult/05-pointillism-more-1.md",
+      "audience": "adult",
+      "words": 266,
+      "duration_seconds": 107.0,
+      "spoken_wpm": 149.15887850467288,
+      "target_seconds": 91.2,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/adult/05-pointillism-more-2.md",
+      "audience": "adult",
+      "words": 271,
+      "duration_seconds": 114.8,
+      "spoken_wpm": 141.6376306620209,
+      "target_seconds": 92.91428571428571,
+      "ok": true,
+      "skipped": true
+    },
+    {
+      "file": "content/day05-national-gallery/adult/06-impressionists-pointillists-route.md",
+      "audience": "adult",
+      "words": 762,
+      "duration_seconds": 310.1,
+      "spoken_wpm": 147.43631086746208,
+      "target_seconds": 261.25714285714287,
+      "ok": true,
+      "skipped": true
+    }
+  ],
+  "failures": []
+}

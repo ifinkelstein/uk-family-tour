@@ -1,0 +1,26 @@
+{
+  "manifest": "app/src/main/assets/tour/manifest.json",
+  "out": "app/src/main/assets/tour/audio",
+  "kid_voice": "bf_emma",
+  "adult_voice": "bm_george",
+  "speed": 0.92,
+  "expected_wpm": 175.0,
+  "min_wpm": 130.0,
+  "max_wpm": 220.0,
+  "elapsed_seconds": 14.360177040100098,
+  "tracks": [
+    {
+      "file": "content/day05-national-gallery/adult/03-turner-vangogh.md",
+      "audience": "adult",
+      "voice": "bm_george",
+      "words": 220,
+      "chunks": 3,
+      "duration_seconds": 93.525,
+      "spoken_wpm": 141.13873295910184,
+      "target_seconds": 75.42857142857143,
+      "ok": true,
+      "skipped": false
+    }
+  ],
+  "failures": []
+}

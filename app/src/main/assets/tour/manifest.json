@@ -896,9 +896,9 @@
         "kid": [
           {
             "file": "content/day05-national-gallery/kid/01-sunflowers-and-horse.md",
-            "title": "Sunflowers and a Giant Horse",
-            "words": 206,
-            "est_minutes": 1.4,
+            "title": "Van Gogh's Missing Sunflowers and a Giant Horse",
+            "words": 200,
+            "est_minutes": 1.3,
             "tell_me_more": [
               {
                 "file": "content/day05-national-gallery/kid/01-sunflowers-horse-more.md",
@@ -1011,6 +1011,13 @@
                 "est_minutes": 1.9
               }
             ]
+          },
+          {
+            "file": "content/day05-national-gallery/kid/06-impressionists-pointillists-route.md",
+            "title": "Impressionists and Dots: A Light Detective Route",
+            "words": 706,
+            "est_minutes": 4.0,
+            "tell_me_more": []
           }
         ],
         "adult": [
@@ -1068,8 +1075,8 @@
           },
           {
             "file": "content/day05-national-gallery/adult/03-turner-vangogh.md",
-            "title": "Turner's Temeraire and Van Gogh's Sunflowers",
-            "words": 227,
+            "title": "Turner's Temeraire and Van Gogh's Absent Sunflowers",
+            "words": 220,
             "est_minutes": 1.5,
             "tell_me_more": [
               {
@@ -1131,11 +1138,18 @@
                 "est_minutes": 1.8
               }
             ]
+          },
+          {
+            "file": "content/day05-national-gallery/adult/06-impressionists-pointillists-route.md",
+            "title": "From Impressionism to Pointillism: Light, Colour, and Control",
+            "words": 762,
+            "est_minutes": 5.1,
+            "tell_me_more": []
           }
         ]
       },
-      "kid_total_minutes": 4.2,
-      "adult_total_minutes": 4.4
+      "kid_total_minutes": 8.2,
+      "adult_total_minutes": 9.5
     },
     {
       "id": "day05-westminster-walk",

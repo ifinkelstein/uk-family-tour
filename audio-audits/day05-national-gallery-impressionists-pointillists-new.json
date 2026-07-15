@@ -1,0 +1,38 @@
+{
+  "manifest": "app/src/main/assets/tour/manifest.json",
+  "out": "app/src/main/assets/tour/audio",
+  "kid_voice": "bf_emma",
+  "adult_voice": "bm_george",
+  "speed": 0.92,
+  "expected_wpm": 175.0,
+  "min_wpm": 130.0,
+  "max_wpm": 220.0,
+  "elapsed_seconds": 82.28687620162964,
+  "tracks": [
+    {
+      "file": "content/day05-national-gallery/kid/06-impressionists-pointillists-route.md",
+      "audience": "kid",
+      "voice": "bf_emma",
+      "words": 706,
+      "chunks": 7,
+      "duration_seconds": 231.575,
+      "spoken_wpm": 182.92129979488288,
+      "target_seconds": 242.05714285714288,
+      "ok": true,
+      "skipped": false
+    },
+    {
+      "file": "content/day05-national-gallery/adult/06-impressionists-pointillists-route.md",
+      "audience": "adult",
+      "voice": "bm_george",
+      "words": 762,
+      "chunks": 8,
+      "duration_seconds": 310.1,
+      "spoken_wpm": 147.43631086746208,
+      "target_seconds": 261.25714285714287,
+      "ok": true,
+      "skipped": false
+    }
+  ],
+  "failures": []
+}

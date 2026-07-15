@@ -1,2773 +1,2773 @@
 {
-  "title": "UK Family Audio Tour — July 2026",
-  "wpm_assumption": 150,
-  "sights": [
-    {
-      "id": "day02-richmond-park",
-      "name": "Richmond Park",
-      "day": 2,
-      "date": "Sun Jul 12",
-      "note": "Deer stroll before the Sunday roast",
-      "tracks": {
-        "kid": [
-          {
-            "file": "content/day02-richmond-park/kid/01-deer.md",
-            "title": "The Deer of Richmond Park",
-            "est_minutes": 1.3,
-            "tell_me_more": [
-              {
-                "file": "content/day02-richmond-park/kid/01-deer-more-1.md",
-                "title": "Baby Deer in the Bracken",
-                "est_minutes": 3.0
-              },
-              {
-                "file": "content/day02-richmond-park/kid/01-deer-more-2.md",
-                "title": "Monsters in the Dead Wood",
-                "est_minutes": 3.1
-              },
-              {
-                "file": "content/day02-richmond-park/kid/01-deer-more-3.md",
-                "title": "A Whole Wild World in the City",
-                "est_minutes": 3.1
-              }
-            ]
-          },
-          {
-            "file": "content/day02-richmond-park/kid/02-kings-mound.md",
-            "title": "King Henry's Mound and the Secret Keyhole",
-            "est_minutes": 1.2,
-            "tell_me_more": [
-              {
-                "file": "content/day02-richmond-park/kid/02-kings-mound-more-1.md",
-                "title": "The True Story Behind the Legend",
-                "est_minutes": 3.2
-              },
-              {
-                "file": "content/day02-richmond-park/kid/02-kings-mound-more-2.md",
-                "title": "The House Where a Great Thinker Grew Up",
-                "est_minutes": 3.1
-              },
-              {
-                "file": "content/day02-richmond-park/kid/02-kings-mound-more-3.md",
-                "title": "Now Turn Around",
-                "est_minutes": 3.1
-              }
-            ]
-          }
-        ],
-        "adult": [
-          {
-            "file": "content/day02-richmond-park/adult/01-deer.md",
-            "title": "Richmond Park: A Medieval Landscape in the City",
-            "est_minutes": 1.3,
-            "tell_me_more": [
-              {
-                "file": "content/day02-richmond-park/adult/01-deer-more-1.md",
-                "title": "The Fawning Season",
-                "est_minutes": 3.1
-              },
-              {
-                "file": "content/day02-richmond-park/adult/01-deer-more-2.md",
-                "title": "The Beetle in the Rotten Oak",
-                "est_minutes": 3.1
-              },
-              {
-                "file": "content/day02-richmond-park/adult/01-deer-more-3.md",
-                "title": "The Wild Park",
-                "est_minutes": 3.1
-              }
-            ]
-          },
-          {
-            "file": "content/day02-richmond-park/adult/02-kings-mound.md",
-            "title": "King Henry's Mound: The Protected View",
-            "est_minutes": 1.2,
-            "tell_me_more": [
-              {
-                "file": "content/day02-richmond-park/adult/02-kings-mound-more-1.md",
-                "title": "The Legend and the Ledger",
-                "est_minutes": 3.0
-              },
-              {
-                "file": "content/day02-richmond-park/adult/02-kings-mound-more-2.md",
-                "title": "Pembroke Lodge and the Russells",
-                "est_minutes": 2.9
-              },
-              {
-                "file": "content/day02-richmond-park/adult/02-kings-mound-more-3.md",
-                "title": "Beyond the Keyhole",
-                "est_minutes": 3.1
-              }
-            ]
-          }
-        ]
-      },
-      "kid_total_minutes": 16.3,
-      "adult_total_minutes": 19.6
-    },
-    {
-      "id": "day03-city-walk",
-      "name": "St Dunstan & St Paul's",
-      "day": 3,
-      "date": "Mon Jul 13",
-      "note": "Walk from the Tower toward St Paul's",
-      "tracks": {
-        "kid": [
-          {
-            "file": "content/day03-city-walk/kid/01-st-dunstan.md",
-            "title": "St Dunstan in the East: The Church the Trees Took Back",
-            "est_minutes": 1.4,
-            "tell_me_more": [
-              {
-                "file": "content/day03-city-walk/kid/01-st-dunstan-more-1.md",
-                "title": "The Saint Who Grabbed the Devil's Nose",
-                "est_minutes": 2.8
-              },
-              {
-                "file": "content/day03-city-walk/kid/01-st-dunstan-more-2.md",
-                "title": "A Church with Nine Lives",
-                "est_minutes": 2.6
-              },
-              {
-                "file": "content/day03-city-walk/kid/01-st-dunstan-more-3.md",
-                "title": "The Night It Fell and the Garden That Grew",
-                "est_minutes": 2.6
-              }
-            ]
-          },
-          {
-            "file": "content/day03-city-walk/kid/02-st-pauls.md",
-            "title": "St Paul's: The Dome That Refused to Burn",
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day03-city-walk/kid/02-st-pauls-more-1.md",
-                "title": "Climbing to the Golden Gallery",
-                "est_minutes": 2.8
-              },
-              {
-                "file": "content/day03-city-walk/kid/02-st-pauls-more-2.md",
-                "title": "The Bomb Beneath the Cathedral",
-                "est_minutes": 2.7
-              },
-              {
-                "file": "content/day03-city-walk/kid/02-st-pauls-more-3.md",
-                "title": "The Cathedral of Famous Days, and a Magic Staircase",
-                "est_minutes": 2.6
-              }
-            ]
-          }
-        ],
-        "adult": [
-          {
-            "file": "content/day03-city-walk/adult/01-st-dunstan.md",
-            "title": "St Dunstan in the East: Layers of Catastrophe",
-            "est_minutes": 1.4,
-            "tell_me_more": [
-              {
-                "file": "content/day03-city-walk/adult/01-st-dunstan-more-1.md",
-                "title": "Dunstan: Blacksmith, Kingmaker, Saint",
-                "est_minutes": 2.8
-              },
-              {
-                "file": "content/day03-city-walk/adult/01-st-dunstan-more-2.md",
-                "title": "The Church That Kept Being Rebuilt",
-                "est_minutes": 2.6
-              },
-              {
-                "file": "content/day03-city-walk/adult/01-st-dunstan-more-3.md",
-                "title": "The Last Night of the Blitz, and the Ruin as Amenity",
-                "est_minutes": 2.7
-              }
-            ]
-          },
-          {
-            "file": "content/day03-city-walk/adult/02-st-pauls.md",
-            "title": "St Paul's: Wren's Second City",
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day03-city-walk/adult/02-st-pauls-more-1.md",
-                "title": "The Climb, the Whisper, and Thornhill's Ceiling",
-                "est_minutes": 2.8
-              },
-              {
-                "file": "content/day03-city-walk/adult/02-st-pauls-more-2.md",
-                "title": "The Delayed-Action Bomb of 1940",
-                "est_minutes": 2.7
-              },
-              {
-                "file": "content/day03-city-walk/adult/02-st-pauls-more-3.md",
-                "title": "The Nation's Stage, and the Geometric Staircase",
-                "est_minutes": 2.8
-              }
-            ]
-          }
-        ]
-      },
-      "kid_total_minutes": 15.1,
-      "adult_total_minutes": 18.5
-    },
-    {
-      "id": "day03-tower-bridge",
-      "name": "Tower Bridge",
-      "day": 3,
-      "date": "Mon Jul 13",
-      "note": "Glass floor + Engine Rooms, 2:00 PM slot",
-      "tracks": {
-        "kid": [
-          {
-            "file": "content/day03-tower-bridge/kid/01-opening-bridge.md",
-            "title": "A Bridge That Opens Like a Drawbridge",
-            "est_minutes": 1.3,
-            "tell_me_more": [
-              {
-                "file": "content/day03-tower-bridge/kid/01-opening-bridge-more-1.md",
-                "title": "A Castle Costume Over Iron Bones",
-                "est_minutes": 2.4
-              },
-              {
-                "file": "content/day03-tower-bridge/kid/01-opening-bridge-more-2.md",
-                "title": "Watch an Opening Happen",
-                "est_minutes": 2.5
-              }
-            ]
-          },
-          {
-            "file": "content/day03-tower-bridge/kid/02-glass-floor.md",
-            "title": "Walking on Glass, 42 Meters Up",
-            "est_minutes": 1.3,
-            "tell_me_more": [
-              {
-                "file": "content/day03-tower-bridge/kid/02-glass-floor-more-1.md",
-                "title": "How They Made a Floor You Can Trust",
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day03-tower-bridge/kid/02-glass-floor-more-2.md",
-                "title": "The Ghost Years of the High Walkways",
-                "est_minutes": 2.6
-              }
-            ]
-          },
-          {
-            "file": "content/day03-tower-bridge/kid/03-bus-jump.md",
-            "title": "The Day a Bus Jumped the Bridge",
-            "est_minutes": 1.3,
-            "tell_me_more": [
-              {
-                "file": "content/day03-tower-bridge/kid/03-bus-jump-more-1.md",
-                "title": "The Man Who Flew Through the Bridge",
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day03-tower-bridge/kid/03-bus-jump-more-2.md",
-                "title": "The Jet That Dared",
-                "est_minutes": 2.4
-              },
-              {
-                "file": "content/day03-tower-bridge/kid/03-bus-jump-more-3.md",
-                "title": "The Bridge That Loves the Movies",
-                "est_minutes": 2.6
-              }
-            ]
-          }
-        ],
-        "adult": [
-          {
-            "file": "content/day03-tower-bridge/adult/01-engineering.md",
-            "title": "Tower Bridge: Victorian Engineering in Gothic Costume",
-            "est_minutes": 1.4,
-            "tell_me_more": [
-              {
-                "file": "content/day03-tower-bridge/adult/01-engineering-more-1.md",
-                "title": "The Power in the Cellar",
-                "est_minutes": 2.6
-              },
-              {
-                "file": "content/day03-tower-bridge/adult/01-engineering-more-2.md",
-                "title": "How a Thousand Tonnes Balances",
-                "est_minutes": 2.6
-              },
-              {
-                "file": "content/day03-tower-bridge/adult/01-engineering-more-3.md",
-                "title": "Building in a Living River",
-                "est_minutes": 2.5
-              }
-            ]
-          },
-          {
-            "file": "content/day03-tower-bridge/adult/02-walkways.md",
-            "title": "The High Walkways: A Social History in Glass",
-            "est_minutes": 1.3,
-            "tell_me_more": [
-              {
-                "file": "content/day03-tower-bridge/adult/02-walkways-more-1.md",
-                "title": "Vice, Closure, and Resurrection",
-                "est_minutes": 2.7
-              },
-              {
-                "file": "content/day03-tower-bridge/adult/02-walkways-more-2.md",
-                "title": "The Neighbours from the Walkway",
-                "est_minutes": 2.7
-              }
-            ]
-          },
-          {
-            "file": "content/day03-tower-bridge/adult/03-incidents-icon.md",
-            "title": "Incidents and Iconography",
-            "est_minutes": 1.6,
-            "tell_me_more": [
-              {
-                "file": "content/day03-tower-bridge/adult/03-incidents-more-1.md",
-                "title": "Aviators and Daredevils",
-                "est_minutes": 2.6
-              },
-              {
-                "file": "content/day03-tower-bridge/adult/03-incidents-more-2.md",
-                "title": "The Great Bridge Mix-Up",
-                "est_minutes": 2.6
-              }
-            ]
-          }
-        ]
-      },
-      "kid_total_minutes": 3.9,
-      "adult_total_minutes": 4.3
-    },
-    {
-      "id": "day03-tower-of-london",
-      "name": "Tower of London",
-      "day": 3,
-      "date": "Mon Jul 13",
-      "note": "Crown Jewels, ravens, Beefeaters",
-      "tracks": {
-        "kid": [
-          {
-            "file": "content/day03-tower-of-london/kid/01-white-tower.md",
-            "title": "The White Tower: 950 Years Old",
-            "est_minutes": 1.3,
-            "tell_me_more": [
-              {
-                "file": "content/day03-tower-of-london/kid/01-white-tower-more-1.md",
-                "title": "Why the White Tower Is White",
-                "est_minutes": 2.4
-              },
-              {
-                "file": "content/day03-tower-of-london/kid/01-white-tower-more-2.md",
-                "title": "The Line of Kings and Henry's Armour",
-                "est_minutes": 2.3
-              }
-            ]
-          },
-          {
-            "file": "content/day03-tower-of-london/kid/02-crown-jewels.md",
-            "title": "The Crown Jewels: The World's Most Guarded Sparkle",
-            "est_minutes": 1.3,
-            "tell_me_more": [
-              {
-                "file": "content/day03-tower-of-london/kid/02-crown-jewels-more-1.md",
-                "title": "Colonel Blood's Impossible Heist",
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day03-tower-of-london/kid/02-crown-jewels-more-2.md",
-                "title": "The Spoon That Survived",
-                "est_minutes": 2.3
-              }
-            ]
-          },
-          {
-            "file": "content/day03-tower-of-london/kid/03-ravens.md",
-            "title": "The Ravens: The Tower's Feathered Guards",
-            "est_minutes": 1.3,
-            "tell_me_more": [
-              {
-                "file": "content/day03-tower-of-london/kid/03-ravens-more-1.md",
-                "title": "The Raven Cemetery and Their Clever Games",
-                "est_minutes": 2.4
-              }
-            ]
-          },
-          {
-            "file": "content/day03-tower-of-london/kid/04-prisoners.md",
-            "title": "Prisoners, Traitors and a Polar Bear",
-            "est_minutes": 1.3,
-            "tell_me_more": [
-              {
-                "file": "content/day03-tower-of-london/kid/04-prisoners-more-1.md",
-                "title": "The Last People Executed Here",
-                "est_minutes": 2.4
-              },
-              {
-                "file": "content/day03-tower-of-london/kid/04-prisoners-more-2.md",
-                "title": "The Ghosts of the Tower",
-                "est_minutes": 2.4
-              }
-            ]
-          },
-          {
-            "file": "content/day03-tower-of-london/kid/05-beefeaters.md",
-            "title": "The Beefeaters: Living Inside a Castle",
-            "est_minutes": 1.4,
-            "tell_me_more": [
-              {
-                "file": "content/day03-tower-of-london/kid/05-beefeaters-more-1.md",
-                "title": "Two Uniforms and a Barrel of Rum",
-                "est_minutes": 2.4
-              }
-            ]
-          }
-        ],
-        "adult": [
-          {
-            "file": "content/day03-tower-of-london/adult/01-white-tower.md",
-            "title": "The White Tower: Architecture as Intimidation",
-            "est_minutes": 1.4,
-            "tell_me_more": [
-              {
-                "file": "content/day03-tower-of-london/adult/01-white-tower-more-1.md",
-                "title": "Why the White Tower Is White",
-                "est_minutes": 2.4
-              },
-              {
-                "file": "content/day03-tower-of-london/adult/01-white-tower-more-2.md",
-                "title": "The Line of Kings and the King's Armour",
-                "est_minutes": 2.3
-              }
-            ]
-          },
-          {
-            "file": "content/day03-tower-of-london/adult/02-crown-jewels.md",
-            "title": "The Crown Jewels: Regalia, Destruction and Rebirth",
-            "est_minutes": 1.4,
-            "tell_me_more": [
-              {
-                "file": "content/day03-tower-of-london/adult/02-crown-jewels-more-1.md",
-                "title": "Colonel Blood's Impossible Heist",
-                "est_minutes": 2.4
-              },
-              {
-                "file": "content/day03-tower-of-london/adult/02-crown-jewels-more-2.md",
-                "title": "The Spoon That Survived",
-                "est_minutes": 2.5
-              }
-            ]
-          },
-          {
-            "file": "content/day03-tower-of-london/adult/03-ravens.md",
-            "title": "The Ravens: An Invented Tradition That Became Real",
-            "est_minutes": 1.3,
-            "tell_me_more": [
-              {
-                "file": "content/day03-tower-of-london/adult/03-ravens-more-1.md",
-                "title": "The Raven Cemetery and the Science of the Clever Bird",
-                "est_minutes": 2.5
-              }
-            ]
-          },
-          {
-            "file": "content/day03-tower-of-london/adult/04-prisoners.md",
-            "title": "Scaffold Site and Traitors' Gate: The Political Prison",
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day03-tower-of-london/adult/04-prisoners-more-1.md",
-                "title": "The Last Executions at the Tower",
-                "est_minutes": 2.4
-              },
-              {
-                "file": "content/day03-tower-of-london/adult/04-prisoners-more-2.md",
-                "title": "The Ghosts of the Tower",
-                "est_minutes": 2.4
-              }
-            ]
-          },
-          {
-            "file": "content/day03-tower-of-london/adult/05-beefeaters.md",
-            "title": "The Yeoman Warders and the Ceremony of the Keys",
-            "est_minutes": 1.4,
-            "tell_me_more": [
-              {
-                "file": "content/day03-tower-of-london/adult/05-beefeaters-more-1.md",
-                "title": "Two Uniforms, Mistaken Identity, and a Barrel of Rum",
-                "est_minutes": 2.6
-              }
-            ]
-          }
-        ]
-      },
-      "kid_total_minutes": 6.6,
-      "adult_total_minutes": 7.0
-    },
-    {
-      "id": "day04-greenwich",
-      "name": "Greenwich",
-      "day": 4,
-      "date": "Tue Jul 14",
-      "note": "Cutty Sark, Prime Meridian, Maritime Museum",
-      "tracks": {
-        "kid": [
-          {
-            "file": "content/day04-greenwich/kid/01-cutty-sark.md",
-            "title": "Cutty Sark: The Fastest Ship of Her Day",
-            "est_minutes": 1.4,
-            "tell_me_more": [
-              {
-                "file": "content/day04-greenwich/kid/01-cutty-sark-more-1.md",
-                "title": "Life Aboard a Tea Clipper",
-                "est_minutes": 2.2
-              },
-              {
-                "file": "content/day04-greenwich/kid/01-cutty-sark-more-2.md",
-                "title": "The Great Rudder Rescue",
-                "est_minutes": 2.3
-              }
-            ]
-          },
-          {
-            "file": "content/day04-greenwich/kid/02-prime-meridian.md",
-            "title": "The Prime Meridian: Stand in Two Halves of the World",
-            "est_minutes": 1.4,
-            "tell_me_more": [
-              {
-                "file": "content/day04-greenwich/kid/02-prime-meridian-more-1.md",
-                "title": "The Line That Circles the World",
-                "est_minutes": 2.2
-              },
-              {
-                "file": "content/day04-greenwich/kid/02-prime-meridian-more-2.md",
-                "title": "Why Your Phone Disagrees",
-                "est_minutes": 2.3
-              }
-            ]
-          },
-          {
-            "file": "content/day04-greenwich/kid/03-longitude-clocks.md",
-            "title": "John Harrison: The Carpenter Who Saved Sailors",
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day04-greenwich/kid/03-longitude-clocks-more-1.md",
-                "title": "The Boy Who Taught Himself",
-                "est_minutes": 2.1
-              },
-              {
-                "file": "content/day04-greenwich/kid/03-longitude-clocks-more-2.md",
-                "title": "Clock Versus Moon",
-                "est_minutes": 2.1
-              }
-            ]
-          },
-          {
-            "file": "content/day04-greenwich/kid/04-time-ball-and-museum.md",
-            "title": "Nelson's Coat and a Ball That Tells Time",
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day04-greenwich/kid/04-time-ball-and-museum-more-1.md",
-                "title": "The Ceiling That Took a Lifetime",
-                "est_minutes": 2.3
-              },
-              {
-                "file": "content/day04-greenwich/kid/04-time-ball-and-museum-more-2.md",
-                "title": "The Ghost on the Spiral Stairs",
-                "est_minutes": 2.2
-              }
-            ]
-          },
-          {
-            "file": "content/day04-greenwich/kid/05-longitude-latitude.md",
-            "title": "How Sailors Found Their Way: The Puzzle of Longitude",
-            "est_minutes": 4.7,
-            "tell_me_more": []
-          },
-          {
-            "file": "content/day04-greenwich/kid/06-timekeeping.md",
-            "title": "The Story of Time: From Shadows to Atoms",
-            "est_minutes": 4.9,
-            "tell_me_more": []
-          }
-        ],
-        "adult": [
-          {
-            "file": "content/day04-greenwich/adult/01-cutty-sark.md",
-            "title": "Cutty Sark: The End of the Age of Sail",
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day04-greenwich/adult/01-cutty-sark-more-1.md",
-                "title": "The Rudder Epic and the Clipper Economy",
-                "est_minutes": 2.2
-              },
-              {
-                "file": "content/day04-greenwich/adult/01-cutty-sark-more-2.md",
-                "title": "Afterlives: Ferreira, Whisky and the Figureheads",
-                "est_minutes": 2.3
-              }
-            ]
-          },
-          {
-            "file": "content/day04-greenwich/adult/02-prime-meridian.md",
-            "title": "The Prime Meridian: How Greenwich Became Zero",
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day04-greenwich/adult/02-prime-meridian-more-1.md",
-                "title": "Railway Time and the Invention of Now",
-                "est_minutes": 2.3
-              },
-              {
-                "file": "content/day04-greenwich/adult/02-prime-meridian-more-2.md",
-                "title": "The French Sulk and the Two Zeros",
-                "est_minutes": 2.3
-              }
-            ]
-          },
-          {
-            "file": "content/day04-greenwich/adult/03-longitude-clocks.md",
-            "title": "Harrison and the Longitude Prize",
-            "est_minutes": 1.6,
-            "tell_me_more": [
-              {
-                "file": "content/day04-greenwich/adult/03-longitude-clocks-more-1.md",
-                "title": "The Rival Method and a Conflicted Judge",
-                "est_minutes": 2.3
-              },
-              {
-                "file": "content/day04-greenwich/adult/03-longitude-clocks-more-2.md",
-                "title": "K1, Captain Cook, and Vindication",
-                "est_minutes": 2.2
-              }
-            ]
-          },
-          {
-            "file": "content/day04-greenwich/adult/04-maritime-greenwich.md",
-            "title": "Maritime Greenwich: Baroque Splendor and a Bullet Hole",
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day04-greenwich/adult/04-maritime-greenwich-more-1.md",
-                "title": "The Painted Hall: Britain's Sistine Chapel",
-                "est_minutes": 2.2
-              },
-              {
-                "file": "content/day04-greenwich/adult/04-maritime-greenwich-more-2.md",
-                "title": "The Tulip Stairs, the Armada, and the Reckoning",
-                "est_minutes": 2.2
-              }
-            ]
-          },
-          {
-            "file": "content/day04-greenwich/adult/05-longitude-latitude.md",
-            "title": "Longitude and Latitude: Finding the Way at Sea",
-            "est_minutes": 9.9,
-            "tell_me_more": []
-          },
-          {
-            "file": "content/day04-greenwich/adult/06-timekeeping.md",
-            "title": "The Story of Time: From Sundials to the Atomic Second",
-            "est_minutes": 11.4,
-            "tell_me_more": []
-          }
-        ]
-      },
-      "kid_total_minutes": 5.8,
-      "adult_total_minutes": 6.1
-    },
-    {
-      "id": "day05-british-museum",
-      "name": "British Museum",
-      "day": 5,
-      "date": "Wed Jul 15",
-      "note": "3:30 PM booked entry",
-      "tracks": {
-        "kid": [
-          {
-            "file": "content/day05-british-museum/kid/01-rosetta-stone.md",
-            "title": "The Rosetta Stone: The Key That Unlocked Egypt",
-            "words": 211,
-            "est_minutes": 1.4,
-            "tell_me_more": [
-              {
-                "file": "content/day05-british-museum/kid/01-rosetta-more.md",
-                "title": "Tell Me More: Cracking the Code",
-                "words": 211,
-                "est_minutes": 1.4
-              },
-              {
-                "file": "content/day05-british-museum/kid/01-rosetta-stone-more-1.md",
-                "title": "How to Read a Wall of Hieroglyphs",
-                "words": 357,
-                "est_minutes": 2.4
-              },
-              {
-                "file": "content/day05-british-museum/kid/01-rosetta-stone-more-2.md",
-                "title": "The Stone's Big Adventure",
-                "words": 370,
-                "est_minutes": 2.5
-              }
-            ]
-          },
-          {
-            "file": "content/day05-british-museum/kid/02-mummies.md",
-            "title": "Mummies: Recipe for Living Forever",
-            "words": 202,
-            "est_minutes": 1.3,
-            "tell_me_more": [
-              {
-                "file": "content/day05-british-museum/kid/02-mummies-more.md",
-                "title": "Tell Me More: Animal Mummies and Curses",
-                "words": 219,
-                "est_minutes": 1.5
-              },
-              {
-                "file": "content/day05-british-museum/kid/02-mummies-more-1.md",
-                "title": "The Weighing of the Heart",
-                "words": 370,
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day05-british-museum/kid/02-mummies-more-2.md",
-                "title": "Mummy Detectives and Mummy Paint",
-                "words": 365,
-                "est_minutes": 2.4
-              },
-              {
-                "file": "content/day05-british-museum/kid/02-mummies-more-3.md",
-                "title": "Servants, Games, and a Perfect Farm",
-                "words": 395,
-                "est_minutes": 2.6
-              }
-            ]
-          },
-          {
-            "file": "content/day05-british-museum/kid/03-treasures-hunt.md",
-            "title": "Treasure Hunt: A Ghost Ship and a Chess Army",
-            "words": 217,
-            "est_minutes": 1.4,
-            "tell_me_more": [
-              {
-                "file": "content/day05-british-museum/kid/03-treasures-more.md",
-                "title": "Tell Me More: The Dig of 1939 and the Chess Hoard",
-                "words": 229,
-                "est_minutes": 1.5
-              },
-              {
-                "file": "content/day05-british-museum/kid/03-treasures-hunt-more-1.md",
-                "title": "Giant Winged Monsters and a Stone Comic Strip",
-                "words": 383,
-                "est_minutes": 2.6
-              },
-              {
-                "file": "content/day05-british-museum/kid/03-treasures-hunt-more-2.md",
-                "title": "A Stone Giant and a Skull That Fooled Everyone",
-                "words": 369,
-                "est_minutes": 2.5
-              }
-            ]
-          },
-          {
-            "file": "content/day05-british-museum/kid/04-egyptian-rooms-route.md",
-            "title": "Egypt Rooms Mission: Giants, Mummies, and Magic",
-            "words": 963,
-            "est_minutes": 5.5,
-            "tell_me_more": []
-          },
-          {
-            "file": "content/day05-british-museum/kid/05-best-rooms-treasure-route.md",
-            "title": "Best Rooms for Kids: The British Museum Treasure Route",
-            "words": 703,
-            "est_minutes": 4.0,
-            "tell_me_more": []
-          }
-        ],
-        "adult": [
-          {
-            "file": "content/day05-british-museum/adult/01-museum-and-court.md",
-            "title": "The British Museum: The First Museum of Everything",
-            "words": 227,
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day05-british-museum/adult/01-museum-more.md",
-                "title": "Tell Me More: The Restitution Question, Properly",
-                "words": 242,
-                "est_minutes": 1.6
-              },
-              {
-                "file": "content/day05-british-museum/adult/01-museum-and-court-more-1.md",
-                "title": "The Parthenon Marbles, Up Close",
-                "words": 326,
-                "est_minutes": 2.2
-              },
-              {
-                "file": "content/day05-british-museum/adult/01-museum-and-court-more-2.md",
-                "title": "Nineveh, and the Night the Flood Was Read",
-                "words": 352,
-                "est_minutes": 2.3
-              }
-            ]
-          },
-          {
-            "file": "content/day05-british-museum/adult/02-rosetta-decipherment.md",
-            "title": "The Rosetta Stone and the Race to Read Egypt",
-            "words": 211,
-            "est_minutes": 1.4,
-            "tell_me_more": [
-              {
-                "file": "content/day05-british-museum/adult/02-rosetta-more.md",
-                "title": "Tell Me More: What the Egyptians Wrote",
-                "words": 249,
-                "est_minutes": 1.7
-              },
-              {
-                "file": "content/day05-british-museum/adult/02-rosetta-decipherment-more-1.md",
-                "title": "The Stone's Own Biography",
-                "words": 378,
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day05-british-museum/adult/02-rosetta-decipherment-more-2.md",
-                "title": "Why the Stone Speaks Three Languages",
-                "words": 377,
-                "est_minutes": 2.5
-              }
-            ]
-          },
-          {
-            "file": "content/day05-british-museum/adult/03-sutton-hoo-lewis.md",
-            "title": "Sutton Hoo and the Lewis Chessmen: Two Buried Worlds",
-            "words": 230,
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day05-british-museum/adult/03-suttonhoo-lewis-more.md",
-                "title": "Tell Me More: Basil Brown, Edith Pretty, and the Berserkers",
-                "words": 239,
-                "est_minutes": 1.6
-              },
-              {
-                "file": "content/day05-british-museum/adult/03-sutton-hoo-lewis-more-1.md",
-                "title": "Reading the Treasure in the Case",
-                "words": 354,
-                "est_minutes": 2.4
-              },
-              {
-                "file": "content/day05-british-museum/adult/03-sutton-hoo-lewis-more-2.md",
-                "title": "The Vanished King and Two Altars",
-                "words": 364,
-                "est_minutes": 2.4
-              },
-              {
-                "file": "content/day05-british-museum/adult/03-sutton-hoo-lewis-more-3.md",
-                "title": "The Chessmen and the Piece in the Drawer",
-                "words": 377,
-                "est_minutes": 2.5
-              }
-            ]
-          },
-          {
-            "file": "content/day05-british-museum/adult/04-egyptian-rooms-route.md",
-            "title": "The Egyptian Rooms: Power, Afterlife, and the Human Scale",
-            "words": 949,
-            "est_minutes": 6.3,
-            "tell_me_more": []
-          },
-          {
-            "file": "content/day05-british-museum/adult/05-best-rooms-family-route.md",
-            "title": "A Family Route Through the Best British Museum Rooms",
-            "words": 743,
-            "est_minutes": 5.0,
-            "tell_me_more": []
-          }
-        ]
-      },
-      "kid_total_minutes": 13.6,
-      "adult_total_minutes": 15.7
-    },
-    {
-      "id": "day05-national-gallery",
-      "name": "National Gallery",
-      "day": 5,
-      "date": "Wed Jul 15",
-      "note": "11:00 AM booked entry",
-      "tracks": {
-        "kid": [
-          {
-            "file": "content/day05-national-gallery/kid/01-sunflowers-and-horse.md",
-            "title": "Van Gogh's Missing Sunflowers and a Giant Horse",
-            "words": 200,
-            "est_minutes": 1.3,
-            "tell_me_more": [
-              {
-                "file": "content/day05-national-gallery/kid/01-sunflowers-horse-more.md",
-                "title": "Tell Me More: Van Gogh and Stubbs",
-                "words": 242,
-                "est_minutes": 1.6
-              },
-              {
-                "file": "content/day05-national-gallery/kid/01-sunflowers-and-horse-more-1.md",
-                "title": "The Empty Chair and the Broken Friendship",
-                "words": 248,
-                "est_minutes": 1.7
-              },
-              {
-                "file": "content/day05-national-gallery/kid/01-sunflowers-and-horse-more-2.md",
-                "title": "Whistlejacket's Racing World",
-                "words": 261,
-                "est_minutes": 1.7
-              }
-            ]
-          },
-          {
-            "file": "content/day05-national-gallery/kid/02-hidden-skull.md",
-            "title": "The Hidden Skull and the Mirror Trick",
-            "words": 210,
-            "est_minutes": 1.4,
-            "tell_me_more": [
-              {
-                "file": "content/day05-national-gallery/kid/02-hidden-skull-more.md",
-                "title": "Tell Me More: Painted Secrets Everywhere",
-                "words": 223,
-                "est_minutes": 1.5
-              },
-              {
-                "file": "content/day05-national-gallery/kid/02-hidden-skull-more-1.md",
-                "title": "How the Skull Trick Works",
-                "words": 247,
-                "est_minutes": 1.6
-              },
-              {
-                "file": "content/day05-national-gallery/kid/02-hidden-skull-more-2.md",
-                "title": "Two Ambassadors and a King's Big Argument",
-                "words": 264,
-                "est_minutes": 1.8
-              }
-            ]
-          },
-          {
-            "file": "content/day05-national-gallery/kid/03-fighting-temeraire.md",
-            "title": "The Fighting Temeraire: A Hero's Last Trip",
-            "words": 217,
-            "est_minutes": 1.4,
-            "tell_me_more": [
-              {
-                "file": "content/day05-national-gallery/kid/03-temeraire-more.md",
-                "title": "Tell Me More: Turner the Wild Man",
-                "words": 231,
-                "est_minutes": 1.5
-              },
-              {
-                "file": "content/day05-national-gallery/kid/03-fighting-temeraire-more-1.md",
-                "title": "The Real Ship and Her Last Battle",
-                "words": 266,
-                "est_minutes": 1.8
-              },
-              {
-                "file": "content/day05-national-gallery/kid/03-fighting-temeraire-more-2.md",
-                "title": "The Painter Who Chased the Light",
-                "words": 269,
-                "est_minutes": 1.8
-              }
-            ]
-          },
-          {
-            "file": "content/day05-national-gallery/kid/04-impressionists.md",
-            "title": "The Room Where Paintings Are Made of Light",
-            "words": 263,
-            "est_minutes": 1.8,
-            "tell_me_more": [
-              {
-                "file": "content/day05-national-gallery/kid/04-impressionists-more-1.md",
-                "title": "Monet, the Man Who Painted the Same Thing Forever",
-                "words": 269,
-                "est_minutes": 1.8
-              },
-              {
-                "file": "content/day05-national-gallery/kid/04-impressionists-more-2.md",
-                "title": "The Rebels Who Made Their Own Show",
-                "words": 266,
-                "est_minutes": 1.8
-              }
-            ]
-          },
-          {
-            "file": "content/day05-national-gallery/kid/05-pointillism.md",
-            "title": "The Painting Made of Thousands of Dots",
-            "words": 265,
-            "est_minutes": 1.8,
-            "tell_me_more": [
-              {
-                "file": "content/day05-national-gallery/kid/05-pointillism-more-1.md",
-                "title": "Why the Dots Turn Into Light",
-                "words": 275,
-                "est_minutes": 1.8
-              },
-              {
-                "file": "content/day05-national-gallery/kid/05-pointillism-more-2.md",
-                "title": "The Science Painter and His Friends",
-                "words": 281,
-                "est_minutes": 1.9
-              }
-            ]
-          },
-          {
-            "file": "content/day05-national-gallery/kid/06-impressionists-pointillists-route.md",
-            "title": "Impressionists and Dots: A Light Detective Route",
-            "words": 706,
-            "est_minutes": 4.0,
-            "tell_me_more": []
-          },
-          {
-            "file": "content/day05-national-gallery/kid/07-past-future-art-route.md",
-            "title": "Time Travel Art: From Mirror Tricks to Motion Machines",
-            "words": 646,
-            "est_minutes": 3.7,
-            "tell_me_more": []
-          }
-        ],
-        "adult": [
-          {
-            "file": "content/day05-national-gallery/adult/01-collection.md",
-            "title": "The National Gallery: A Collection Built Backwards",
-            "words": 225,
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day05-national-gallery/adult/01-collection-more.md",
-                "title": "Tell Me More: How the Pictures Got Here — and Nearly Didn't",
-                "words": 233,
-                "est_minutes": 1.6
-              },
-              {
-                "file": "content/day05-national-gallery/adult/01-collection-more-1.md",
-                "title": "Tell Me More: The Building and Its Battles",
-                "words": 251,
-                "est_minutes": 1.7
-              },
-              {
-                "file": "content/day05-national-gallery/adult/01-collection-more-2.md",
-                "title": "Tell Me More: How the Impressionists Arrived",
-                "words": 240,
-                "est_minutes": 1.6
-              }
-            ]
-          },
-          {
-            "file": "content/day05-national-gallery/adult/02-holbein-van-eyck.md",
-            "title": "Holbein and Van Eyck: Painting as Puzzle",
-            "words": 217,
-            "est_minutes": 1.4,
-            "tell_me_more": [
-              {
-                "file": "content/day05-national-gallery/adult/02-holbein-vaneyck-more.md",
-                "title": "Tell Me More: Reading the Objects",
-                "words": 241,
-                "est_minutes": 1.6
-              },
-              {
-                "file": "content/day05-national-gallery/adult/02-holbein-van-eyck-more-1.md",
-                "title": "Tell Me More: Holbein at a Dangerous Court",
-                "words": 257,
-                "est_minutes": 1.7
-              },
-              {
-                "file": "content/day05-national-gallery/adult/02-holbein-van-eyck-more-2.md",
-                "title": "Tell Me More: Van Eyck and the Oil Revolution",
-                "words": 260,
-                "est_minutes": 1.7
-              }
-            ]
-          },
-          {
-            "file": "content/day05-national-gallery/adult/03-turner-vangogh.md",
-            "title": "Turner's Temeraire and Van Gogh's Absent Sunflowers",
-            "words": 220,
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day05-national-gallery/adult/03-turner-vangogh-more.md",
-                "title": "Tell Me More: Bequests, Bonfires and Chemistry",
-                "words": 235,
-                "est_minutes": 1.6
-              },
-              {
-                "file": "content/day05-national-gallery/adult/03-turner-vangogh-more-1.md",
-                "title": "Tell Me More: Turner, Father of the Impressionists",
-                "words": 263,
-                "est_minutes": 1.8
-              },
-              {
-                "file": "content/day05-national-gallery/adult/03-turner-vangogh-more-2.md",
-                "title": "Tell Me More: Van Gogh's Chair and the Yellow House",
-                "words": 262,
-                "est_minutes": 1.7
-              }
-            ]
-          },
-          {
-            "file": "content/day05-national-gallery/adult/04-impressionists.md",
-            "title": "The Impressionist Rooms",
-            "words": 250,
-            "est_minutes": 1.7,
-            "tell_me_more": [
-              {
-                "file": "content/day05-national-gallery/adult/04-impressionists-more-1.md",
-                "title": "Tell Me More: Why It Looked Like an Outrage",
-                "words": 259,
-                "est_minutes": 1.7
-              },
-              {
-                "file": "content/day05-national-gallery/adult/04-impressionists-more-2.md",
-                "title": "Tell Me More: Six Pictures Worth Slowing For",
-                "words": 250,
-                "est_minutes": 1.7
-              }
-            ]
-          },
-          {
-            "file": "content/day05-national-gallery/adult/05-pointillism.md",
-            "title": "Pointillism and Seurat",
-            "words": 251,
-            "est_minutes": 1.7,
-            "tell_me_more": [
-              {
-                "file": "content/day05-national-gallery/adult/05-pointillism-more-1.md",
-                "title": "Tell Me More: The Science Behind the Dots",
-                "words": 264,
-                "est_minutes": 1.8
-              },
-              {
-                "file": "content/day05-national-gallery/adult/05-pointillism-more-2.md",
-                "title": "Tell Me More: Seurat, Signac and the Neo-Impressionists",
-                "words": 267,
-                "est_minutes": 1.8
-              }
-            ]
-          },
-          {
-            "file": "content/day05-national-gallery/adult/06-impressionists-pointillists-route.md",
-            "title": "From Impressionism to Pointillism: Light, Colour, and Control",
-            "words": 762,
-            "est_minutes": 5.1,
-            "tell_me_more": []
-          },
-          {
-            "file": "content/day05-national-gallery/adult/07-past-future-art-route.md",
-            "title": "Past to Future: How Modern Art Starts Before Modern Art",
-            "words": 736,
-            "est_minutes": 4.9,
-            "tell_me_more": []
-          }
-        ]
-      },
-      "kid_total_minutes": 11.9,
-      "adult_total_minutes": 14.4
-    },
-    {
-      "id": "day05-westminster-walk",
-      "name": "Westminster Walk",
-      "day": 5,
-      "date": "Wed Jul 15",
-      "note": "Big Ben, Parliament, St James's, Trafalgar",
-      "tracks": {
-        "kid": [
-          {
-            "file": "content/day05-westminster-walk/kid/01-big-ben.md",
-            "title": "Big Ben: The Most Famous Bong in the World",
-            "words": 208,
-            "est_minutes": 1.4,
-            "tell_me_more": [
-              {
-                "file": "content/day05-westminster-walk/kid/01-big-ben-more-1.md",
-                "title": "The Bell That Crossed the Bridge",
-                "words": 366,
-                "est_minutes": 2.4
-              },
-              {
-                "file": "content/day05-westminster-walk/kid/01-big-ben-more-2.md",
-                "title": "A Secret Light and Four Giant Clocks",
-                "words": 363,
-                "est_minutes": 2.4
-              },
-              {
-                "file": "content/day05-westminster-walk/kid/01-big-ben-more-3.md",
-                "title": "The Great Clean-Up",
-                "words": 376,
-                "est_minutes": 2.5
-              }
-            ]
-          },
-          {
-            "file": "content/day05-westminster-walk/kid/02-parliament.md",
-            "title": "The Houses of Parliament and the Gunpowder Plot",
-            "words": 209,
-            "est_minutes": 1.4,
-            "tell_me_more": [
-              {
-                "file": "content/day05-westminster-walk/kid/02-parliament-more-1.md",
-                "title": "The Hall That Beat the Fire",
-                "words": 385,
-                "est_minutes": 2.6
-              },
-              {
-                "file": "content/day05-westminster-walk/kid/02-parliament-more-2.md",
-                "title": "Green Benches, Red Benches, and a Golden Stick",
-                "words": 378,
-                "est_minutes": 2.5
-              }
-            ]
-          },
-          {
-            "file": "content/day05-westminster-walk/kid/03-park-and-lions.md",
-            "title": "Pelicans, Lions and a One-Armed Hero",
-            "words": 210,
-            "est_minutes": 1.4,
-            "tell_me_more": [
-              {
-                "file": "content/day05-westminster-walk/kid/03-park-and-lions-more-1.md",
-                "title": "Duck Island and the Pelican's Amazing Pouch",
-                "words": 366,
-                "est_minutes": 2.4
-              },
-              {
-                "file": "content/day05-westminster-walk/kid/03-park-and-lions-more-2.md",
-                "title": "Dinner on Top of a Column",
-                "words": 375,
-                "est_minutes": 2.5
-              }
-            ]
-          },
-          {
-            "file": "content/day05-westminster-walk/kid/04-abbey.md",
-            "title": "The Church Where Kings Are Crowned",
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day05-westminster-walk/kid/04-abbey-more-1.md",
-                "title": "The Oldest Chair in the Kingdom",
-                "est_minutes": 2.4
-              },
-              {
-                "file": "content/day05-westminster-walk/kid/04-abbey-more-2.md",
-                "title": "Two Enemy Queens in One Grave",
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day05-westminster-walk/kid/04-abbey-more-3.md",
-                "title": "The Grave Nobody Steps On",
-                "est_minutes": 2.7
-              }
-            ]
-          },
-          {
-            "file": "content/day05-westminster-walk/kid/05-parliament-square.md",
-            "title": "A Square Full of Heroes",
-            "est_minutes": 1.6,
-            "tell_me_more": [
-              {
-                "file": "content/day05-westminster-walk/kid/05-parliament-square-more-1.md",
-                "title": "The First Woman in the Square",
-                "est_minutes": 2.3
-              },
-              {
-                "file": "content/day05-westminster-walk/kid/05-parliament-square-more-2.md",
-                "title": "Meet the Rest of the Giants",
-                "est_minutes": 2.5
-              }
-            ]
-          },
-          {
-            "file": "content/day05-westminster-walk/kid/06-whitehall.md",
-            "title": "The Street That Runs the Country",
-            "est_minutes": 1.6,
-            "tell_me_more": [
-              {
-                "file": "content/day05-westminster-walk/kid/06-whitehall-more-1.md",
-                "title": "The Empty Tomb in the Middle of the Road",
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day05-westminster-walk/kid/06-whitehall-more-2.md",
-                "title": "The Most Famous Front Door in Britain",
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day05-westminster-walk/kid/06-whitehall-more-3.md",
-                "title": "The Palace That Vanished",
-                "est_minutes": 2.7
-              }
-            ]
-          },
-          {
-            "file": "content/day05-westminster-walk/kid/07-horse-guards.md",
-            "title": "The Guards Who Must Not Move",
-            "est_minutes": 1.8,
-            "tell_me_more": [
-              {
-                "file": "content/day05-westminster-walk/kid/07-horse-guards-more-1.md",
-                "title": "The King Who Lost His Head",
-                "est_minutes": 2.6
-              },
-              {
-                "file": "content/day05-westminster-walk/kid/07-horse-guards-more-2.md",
-                "title": "Statues That Breathe",
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day05-westminster-walk/kid/07-horse-guards-more-3.md",
-                "title": "The Painted Ceiling and the Birthday Parade",
-                "est_minutes": 2.5
-              }
-            ]
-          },
-          {
-            "file": "content/day05-westminster-walk/kid/08-admiralty-mall.md",
-            "title": "The Arch, the Secret Nose, and the Red Road",
-            "est_minutes": 1.8,
-            "tell_me_more": [
-              {
-                "file": "content/day05-westminster-walk/kid/08-admiralty-mall-more-1.md",
-                "title": "The Secret of the Nose",
-                "est_minutes": 2.8
-              },
-              {
-                "file": "content/day05-westminster-walk/kid/08-admiralty-mall-more-2.md",
-                "title": "The Royal Red Road",
-                "est_minutes": 2.4
-              }
-            ]
-          }
-        ],
-        "adult": [
-          {
-            "file": "content/day05-westminster-walk/adult/01-big-ben.md",
-            "title": "The Elizabeth Tower: Precision, Cracks and Pennies",
-            "words": 225,
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day05-westminster-walk/adult/01-big-ben-more-1.md",
-                "title": "The Foundry, the Horses, and the Name",
-                "words": 366,
-                "est_minutes": 2.4
-              },
-              {
-                "file": "content/day05-westminster-walk/adult/01-big-ben-more-2.md",
-                "title": "The Ayrton Light and the Reading of the Dials",
-                "words": 342,
-                "est_minutes": 2.3
-              },
-              {
-                "file": "content/day05-westminster-walk/adult/01-big-ben-more-3.md",
-                "title": "Conservation as National Surgery",
-                "words": 378,
-                "est_minutes": 2.5
-              }
-            ]
-          },
-          {
-            "file": "content/day05-westminster-walk/adult/02-parliament.md",
-            "title": "The Palace of Westminster: Fire, Gothic and the Longest Hall",
-            "words": 227,
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day05-westminster-walk/adult/02-parliament-more-1.md",
-                "title": "The Other Tower and the Skin of the Law",
-                "words": 372,
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day05-westminster-walk/adult/02-parliament-more-2.md",
-                "title": "Green Benches, Red Benches, and a Sack of Wool",
-                "words": 367,
-                "est_minutes": 2.4
-              }
-            ]
-          },
-          {
-            "file": "content/day05-westminster-walk/adult/03-park-and-square.md",
-            "title": "St James's Park and Trafalgar Square: Power as Landscape",
-            "words": 214,
-            "est_minutes": 1.4,
-            "tell_me_more": [
-              {
-                "file": "content/day05-westminster-walk/adult/03-park-and-square-more-1.md",
-                "title": "St James's Park: From Swamp to Stage Set",
-                "words": 374,
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day05-westminster-walk/adult/03-park-and-square-more-2.md",
-                "title": "The Nation's Front Room",
-                "words": 419,
-                "est_minutes": 2.8
-              }
-            ]
-          },
-          {
-            "file": "content/day05-westminster-walk/adult/04-abbey.md",
-            "title": "Westminster Abbey: A Thousand Years of Crowns",
-            "est_minutes": 1.7,
-            "tell_me_more": [
-              {
-                "file": "content/day05-westminster-walk/adult/04-abbey-more-1.md",
-                "title": "The Coronation Chair and the Stone of Destiny",
-                "est_minutes": 2.6
-              },
-              {
-                "file": "content/day05-westminster-walk/adult/04-abbey-more-2.md",
-                "title": "Enemies in Marble: The Tudor Tombs",
-                "est_minutes": 2.7
-              },
-              {
-                "file": "content/day05-westminster-walk/adult/04-abbey-more-3.md",
-                "title": "Poets, Scientists, and the Unknown Warrior",
-                "est_minutes": 2.8
-              }
-            ]
-          },
-          {
-            "file": "content/day05-westminster-walk/adult/05-parliament-square.md",
-            "title": "Parliament Square: An Argument Cast in Bronze",
-            "est_minutes": 1.6,
-            "tell_me_more": [
-              {
-                "file": "content/day05-westminster-walk/adult/05-parliament-square-more-1.md",
-                "title": "Millicent Fawcett and the Woman Who Was Missing",
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day05-westminster-walk/adult/05-parliament-square-more-2.md",
-                "title": "Reading the Rest of the Square",
-                "est_minutes": 2.5
-              }
-            ]
-          },
-          {
-            "file": "content/day05-westminster-walk/adult/06-whitehall.md",
-            "title": "Whitehall: The Street That Means Government",
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day05-westminster-walk/adult/06-whitehall-more-1.md",
-                "title": "The Cenotaph: An Empty Tomb of Genius",
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day05-westminster-walk/adult/06-whitehall-more-2.md",
-                "title": "Ten Downing Street and the Chief Mouser",
-                "est_minutes": 2.7
-              },
-              {
-                "file": "content/day05-westminster-walk/adult/06-whitehall-more-3.md",
-                "title": "The Ghost Palace and the Empty Coats",
-                "est_minutes": 2.6
-              }
-            ]
-          },
-          {
-            "file": "content/day05-westminster-walk/adult/07-horse-guards.md",
-            "title": "Horse Guards: Sentries, Parade, and a Scaffold",
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day05-westminster-walk/adult/07-horse-guards-more-1.md",
-                "title": "The King's Life Guard",
-                "est_minutes": 2.6
-              },
-              {
-                "file": "content/day05-westminster-walk/adult/07-horse-guards-more-2.md",
-                "title": "The King Who Would Not Shiver",
-                "est_minutes": 2.7
-              },
-              {
-                "file": "content/day05-westminster-walk/adult/07-horse-guards-more-3.md",
-                "title": "Inigo Jones, Rubens, and the Colour",
-                "est_minutes": 2.7
-              }
-            ]
-          },
-          {
-            "file": "content/day05-westminster-walk/adult/08-admiralty-mall.md",
-            "title": "Admiralty Arch and The Mall: The Ceremonial Way",
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day05-westminster-walk/adult/08-admiralty-mall-more-1.md",
-                "title": "Admiralty Arch and the Nose in the Wall",
-                "est_minutes": 3.0
-              },
-              {
-                "file": "content/day05-westminster-walk/adult/08-admiralty-mall-more-2.md",
-                "title": "The Mall: A Nation on Parade",
-                "est_minutes": 2.7
-              }
-            ]
-          }
-        ]
-      },
-      "kid_total_minutes": 4.2,
-      "adult_total_minutes": 4.4
-    },
-    {
-      "id": "day07-hampton-court",
-      "name": "Hampton Court Palace",
-      "day": 7,
-      "date": "Fri Jul 17",
-      "note": "Maze, Tudor kitchens, ghosts",
-      "tracks": {
-        "kid": [
-          {
-            "file": "content/day07-hampton-court/kid/01-henry-and-wolsey.md",
-            "title": "The Palace a King Took for Himself",
-            "est_minutes": 1.3,
-            "tell_me_more": [
-              {
-                "file": "content/day07-hampton-court/kid/01-henry-and-wolsey-more-1.md",
-                "title": "The Six Wives Who Lived Here",
-                "est_minutes": 2.4
-              },
-              {
-                "file": "content/day07-hampton-court/kid/01-henry-and-wolsey-more-2.md",
-                "title": "Arrive by River, and Look Up",
-                "est_minutes": 2.4
-              }
-            ]
-          },
-          {
-            "file": "content/day07-hampton-court/kid/02-tudor-kitchens.md",
-            "title": "The Tudor Kitchens: Feeding 600 People Twice a Day",
-            "est_minutes": 1.4,
-            "tell_me_more": [
-              {
-                "file": "content/day07-hampton-court/kid/02-tudor-kitchens-more-1.md",
-                "title": "A Kitchen Boy's Long Day",
-                "est_minutes": 2.4
-              }
-            ]
-          },
-          {
-            "file": "content/day07-hampton-court/kid/03-ghosts.md",
-            "title": "The Screaming Gallery: Britain's Most Haunted Palace",
-            "est_minutes": 1.4,
-            "tell_me_more": [
-              {
-                "file": "content/day07-hampton-court/kid/03-ghosts-more-1.md",
-                "title": "Catherine Howard: The Real Girl Behind the Scream",
-                "est_minutes": 2.4
-              },
-              {
-                "file": "content/day07-hampton-court/kid/03-ghosts-more-2.md",
-                "title": "The White Lady, Skeletor, and Ghost Science",
-                "est_minutes": 2.4
-              }
-            ]
-          },
-          {
-            "file": "content/day07-hampton-court/kid/04-maze-magic-garden.md",
-            "title": "The Maze: 350 Years of People Getting Lost",
-            "est_minutes": 1.4,
-            "tell_me_more": [
-              {
-                "file": "content/day07-hampton-court/kid/04-maze-magic-garden-more-1.md",
-                "title": "The Oldest Grapevine and the King's Weird Tennis",
-                "est_minutes": 2.5
-              }
-            ]
-          },
-          {
-            "file": "content/day07-hampton-court/kid/05-two-palaces.md",
-            "title": "One Palace, Two Worlds",
-            "est_minutes": 1.3,
-            "tell_me_more": [
-              {
-                "file": "content/day07-hampton-court/kid/05-two-palaces-more-1.md",
-                "title": "The Mole and Wren's Half-Built Palace",
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day07-hampton-court/kid/05-two-palaces-more-2.md",
-                "title": "Golden Treasure and a Prisoner King",
-                "est_minutes": 2.5
-              }
-            ]
-          }
-        ],
-        "adult": [
-          {
-            "file": "content/day07-hampton-court/adult/01-wolsey-henry.md",
-            "title": "Wolsey's Palace, Henry's Prize",
-            "est_minutes": 1.6,
-            "tell_me_more": [
-              {
-                "file": "content/day07-hampton-court/adult/01-wolsey-henry-more-1.md",
-                "title": "The Six Wives, in These Rooms",
-                "est_minutes": 2.2
-              },
-              {
-                "file": "content/day07-hampton-court/adult/01-wolsey-henry-more-2.md",
-                "title": "Reading the Tudor Skin: Emperors, a Clock, and a Cardinal's Ego",
-                "est_minutes": 2.2
-              }
-            ]
-          },
-          {
-            "file": "content/day07-hampton-court/adult/02-kitchens-court.md",
-            "title": "The Machinery of Magnificence: Kitchens and Court",
-            "est_minutes": 1.6,
-            "tell_me_more": [
-              {
-                "file": "content/day07-hampton-court/adult/02-kitchens-court-more-1.md",
-                "title": "The Chocolate Kitchen and the Court's Long Afterlife of Appetite",
-                "est_minutes": 2.2
-              }
-            ]
-          },
-          {
-            "file": "content/day07-hampton-court/adult/03-baroque-wren.md",
-            "title": "William, Mary and Wren: The Unfinished Versailles",
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day07-hampton-court/adult/03-baroque-wren-more-1.md",
-                "title": "The Gardens as Statecraft: Restoring a King's View",
-                "est_minutes": 2.2
-              },
-              {
-                "file": "content/day07-hampton-court/adult/03-baroque-wren-more-2.md",
-                "title": "The Great Vine and the Oldest Tennis Court",
-                "est_minutes": 2.1
-              }
-            ]
-          },
-          {
-            "file": "content/day07-hampton-court/adult/04-ghosts-legends.md",
-            "title": "Ghost Stories as Compressed History",
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day07-hampton-court/adult/04-ghosts-legends-more-1.md",
-                "title": "The Manufacture of a Haunted Palace",
-                "est_minutes": 2.3
-              }
-            ]
-          },
-          {
-            "file": "content/day07-hampton-court/adult/05-tapestries-art.md",
-            "title": "Woven Gold: The Art You Might Walk Past",
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day07-hampton-court/adult/05-tapestries-art-more-1.md",
-                "title": "Mantegna's Triumphs of Caesar: The Renaissance in a Side Gallery",
-                "est_minutes": 2.2
-              },
-              {
-                "file": "content/day07-hampton-court/adult/05-tapestries-art-more-2.md",
-                "title": "Charles the First's Two Hampton Courts: Collector and Captive",
-                "est_minutes": 2.3
-              }
-            ]
-          }
-        ]
-      },
-      "kid_total_minutes": 6.8,
-      "adult_total_minutes": 7.7
-    },
-    {
-      "id": "day08-train-north",
-      "name": "Train to Edinburgh",
-      "day": 8,
-      "date": "Sat Jul 18",
-      "note": "East Coast Main Line, listen on board",
-      "tracks": {
-        "kid": [
-          {
-            "file": "content/day08-train-north/kid/01-east-coast-line.md",
-            "title": "Racing North on the Flying Scotsman's Line",
-            "words": 216,
-            "est_minutes": 1.4,
-            "tell_me_more": [
-              {
-                "file": "content/day08-train-north/kid/01-east-coast-line-more-1.md",
-                "title": "The Bullet Train and a Queen Under the Floor",
-                "words": 432,
-                "est_minutes": 2.9
-              },
-              {
-                "file": "content/day08-train-north/kid/01-east-coast-line-more-2.md",
-                "title": "The Duck That Broke the World Record",
-                "words": 459,
-                "est_minutes": 3.1
-              },
-              {
-                "file": "content/day08-train-north/kid/01-east-coast-line-more-3.md",
-                "title": "The Bridges of the Tyne and the Giant Angel",
-                "words": 408,
-                "est_minutes": 2.7
-              }
-            ]
-          },
-          {
-            "file": "content/day08-train-north/kid/02-crossing-the-border.md",
-            "title": "Crossing into Scotland",
-            "words": 213,
-            "est_minutes": 1.4,
-            "tell_me_more": [
-              {
-                "file": "content/day08-train-north/kid/02-crossing-the-border-more-1.md",
-                "title": "Holy Island and the Vikings",
-                "words": 383,
-                "est_minutes": 2.6
-              },
-              {
-                "file": "content/day08-train-north/kid/02-crossing-the-border-more-2.md",
-                "title": "Castles by the Sea",
-                "words": 417,
-                "est_minutes": 2.8
-              },
-              {
-                "file": "content/day08-train-north/kid/02-crossing-the-border-more-3.md",
-                "title": "A Volcano and a Station in a Vanished Lake",
-                "words": 399,
-                "est_minutes": 2.7
-              }
-            ]
-          }
-        ],
-        "adult": [
-          {
-            "file": "content/day08-train-north/adult/01-east-coast-line.md",
-            "title": "The East Coast Main Line: Racing History",
-            "words": 218,
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day08-train-north/adult/01-east-coast-line-more-1.md",
-                "title": "Out of King's Cross: The Modern Racers and a Buried Queen",
-                "words": 408,
-                "est_minutes": 2.7
-              },
-              {
-                "file": "content/day08-train-north/adult/01-east-coast-line-more-2.md",
-                "title": "Gresley, the A4s, and Why Mallard Still Wins",
-                "words": 382,
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day08-train-north/adult/01-east-coast-line-more-3.md",
-                "title": "Prince-Bishops, the Tyne, and the Angel",
-                "words": 391,
-                "est_minutes": 2.6
-              }
-            ]
-          },
-          {
-            "file": "content/day08-train-north/adult/02-border-and-arrival.md",
-            "title": "Berwick, the Border, and Arriving in Edinburgh",
-            "words": 229,
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day08-train-north/adult/02-border-and-arrival-more-1.md",
-                "title": "Lindisfarne and the Northumberland Coast",
-                "words": 418,
-                "est_minutes": 2.8
-              },
-              {
-                "file": "content/day08-train-north/adult/02-border-and-arrival-more-2.md",
-                "title": "The Border and the Debatable Land",
-                "words": 392,
-                "est_minutes": 2.6
-              },
-              {
-                "file": "content/day08-train-north/adult/02-border-and-arrival-more-3.md",
-                "title": "Arthur's Seat, the Nor Loch, and Waverley",
-                "words": 361,
-                "est_minutes": 2.4
-              }
-            ]
-          }
-        ]
-      },
-      "kid_total_minutes": 2.8,
-      "adult_total_minutes": 3.0
-    },
-    {
-      "id": "day09-edinburgh-castle",
-      "name": "Edinburgh Castle",
-      "day": 9,
-      "date": "Sun Jul 19",
-      "note": "3:00 PM timed entry",
-      "tracks": {
-        "kid": [
-          {
-            "file": "content/day09-edinburgh-castle/kid/01-castle-rock.md",
-            "title": "The Most Attacked Castle in Britain",
-            "words": 221,
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day09-edinburgh-castle/kid/01-castle-rock-more.md",
-                "title": "Tell Me More: Sieges, Dogs and a Piper",
-                "words": 266,
-                "est_minutes": 1.8
-              },
-              {
-                "file": "content/day09-edinburgh-castle/kid/01-castle-rock-more-2.md",
-                "title": "The Volcano Under Your Feet",
-                "words": 381,
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day09-edinburgh-castle/kid/01-castle-rock-more-3.md",
-                "title": "The Tiny Oldest Building",
-                "words": 377,
-                "est_minutes": 2.5
-              }
-            ]
-          },
-          {
-            "file": "content/day09-edinburgh-castle/kid/02-one-oclock-gun.md",
-            "title": "BANG! The One O'Clock Gun",
-            "words": 225,
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day09-edinburgh-castle/kid/02-gun-more.md",
-                "title": "Tell Me More: Gun Stories",
-                "words": 253,
-                "est_minutes": 1.7
-              },
-              {
-                "file": "content/day09-edinburgh-castle/kid/02-one-oclock-gun-more-2.md",
-                "title": "Inside the Great Hall",
-                "words": 346,
-                "est_minutes": 2.3
-              }
-            ]
-          },
-          {
-            "file": "content/day09-edinburgh-castle/kid/03-crown-jewels-stone.md",
-            "title": "The Hidden Crown and the Stolen Stone",
-            "words": 231,
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day09-edinburgh-castle/kid/03-crown-stone-more.md",
-                "title": "Tell Me More: The Student Heist of 1950",
-                "words": 266,
-                "est_minutes": 1.8
-              },
-              {
-                "file": "content/day09-edinburgh-castle/kid/03-crown-jewels-stone-more-2.md",
-                "title": "The Baby Prince Born on the Rock",
-                "words": 395,
-                "est_minutes": 2.6
-              },
-              {
-                "file": "content/day09-edinburgh-castle/kid/03-crown-jewels-stone-more-3.md",
-                "title": "Where the Stone Is Now",
-                "words": 381,
-                "est_minutes": 2.5
-              }
-            ]
-          }
-        ],
-        "adult": [
-          {
-            "file": "content/day09-edinburgh-castle/adult/01-rock-and-sieges.md",
-            "title": "Castle Rock: Geology as Destiny",
-            "words": 250,
-            "est_minutes": 1.7,
-            "tell_me_more": [
-              {
-                "file": "content/day09-edinburgh-castle/adult/01-rock-more.md",
-                "title": "Tell Me More: The Castle as Working Fortress",
-                "words": 273,
-                "est_minutes": 1.8
-              },
-              {
-                "file": "content/day09-edinburgh-castle/adult/01-rock-and-sieges-more-2.md",
-                "title": "A Volcano Carved by Ice",
-                "words": 374,
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day09-edinburgh-castle/adult/01-rock-and-sieges-more-3.md",
-                "title": "The Oldest Room in Edinburgh",
-                "words": 374,
-                "est_minutes": 2.5
-              }
-            ]
-          },
-          {
-            "file": "content/day09-edinburgh-castle/adult/02-honours-stone.md",
-            "title": "The Honours and the Stone: Objects of State",
-            "words": 295,
-            "est_minutes": 2.0,
-            "tell_me_more": [
-              {
-                "file": "content/day09-edinburgh-castle/adult/02-honours-more.md",
-                "title": "Tell Me More: Scott's Treasure Hunt and Wartime Burial",
-                "words": 265,
-                "est_minutes": 1.8
-              },
-              {
-                "file": "content/day09-edinburgh-castle/adult/02-honours-stone-more-2.md",
-                "title": "The Birth of a King",
-                "words": 381,
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day09-edinburgh-castle/adult/02-honours-stone-more-3.md",
-                "title": "The Stone's New Home",
-                "words": 398,
-                "est_minutes": 2.7
-              }
-            ]
-          },
-          {
-            "file": "content/day09-edinburgh-castle/adult/03-gun-war-memorial.md",
-            "title": "The Gun, the Guns, and the Shrine",
-            "words": 249,
-            "est_minutes": 1.7,
-            "tell_me_more": [
-              {
-                "file": "content/day09-edinburgh-castle/adult/03-memorial-more.md",
-                "title": "Tell Me More: Reading the War Memorial",
-                "words": 279,
-                "est_minutes": 1.9
-              },
-              {
-                "file": "content/day09-edinburgh-castle/adult/03-gun-war-memorial-more-2.md",
-                "title": "Mons Meg: Biography of a Superweapon",
-                "words": 409,
-                "est_minutes": 2.7
-              }
-            ]
-          }
-        ]
-      },
-      "kid_total_minutes": 4.5,
-      "adult_total_minutes": 5.4
-    },
-    {
-      "id": "day09-royal-mile",
-      "name": "Royal Mile & Old Town",
-      "day": 9,
-      "date": "Sun Jul 19",
-      "note": "Before/during the 10 AM walking tour",
-      "tracks": {
-        "kid": [
-          {
-            "file": "content/day09-royal-mile/kid/01-crag-and-tail.md",
-            "title": "A City Built on a Volcano's Tail",
-            "words": 229,
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day09-royal-mile/kid/01-crag-more.md",
-                "title": "Tell Me More: Reading the Old Town Like a Detective",
-                "words": 252,
-                "est_minutes": 1.7
-              },
-              {
-                "file": "content/day09-royal-mile/kid/01-crag-and-tail-more-1.md",
-                "title": "Tell Me More: The Rock Detective",
-                "words": 378,
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day09-royal-mile/kid/01-crag-and-tail-more-2.md",
-                "title": "Tell Me More: Climbing Up a Land",
-                "words": 377,
-                "est_minutes": 2.5
-              }
-            ]
-          },
-          {
-            "file": "content/day09-royal-mile/kid/02-gardyloo.md",
-            "title": "Gardyloo! The Smelliest City in Europe",
-            "words": 204,
-            "est_minutes": 1.4,
-            "tell_me_more": [
-              {
-                "file": "content/day09-royal-mile/kid/02-gardyloo-more.md",
-                "title": "Tell Me More: Doctors, Body Snatchers and the Smell of Progress",
-                "words": 246,
-                "est_minutes": 1.6
-              },
-              {
-                "file": "content/day09-royal-mile/kid/02-gardyloo-more-1.md",
-                "title": "Tell Me More: The Street Under the Street",
-                "words": 374,
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day09-royal-mile/kid/02-gardyloo-more-2.md",
-                "title": "Tell Me More: The Stinky Lake and the Witch Test",
-                "words": 413,
-                "est_minutes": 2.8
-              }
-            ]
-          },
-          {
-            "file": "content/day09-royal-mile/kid/03-heart-and-bobby.md",
-            "title": "Spit on the Heart, Salute the Dog",
-            "words": 218,
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day09-royal-mile/kid/03-heart-bobby-more.md",
-                "title": "Tell Me More: More Street Legends",
-                "words": 239,
-                "est_minutes": 1.6
-              },
-              {
-                "file": "content/day09-royal-mile/kid/03-heart-and-bobby-more-1.md",
-                "title": "Tell Me More: The Gentleman Burglar",
-                "words": 420,
-                "est_minutes": 2.8
-              },
-              {
-                "file": "content/day09-royal-mile/kid/03-heart-and-bobby-more-2.md",
-                "title": "Tell Me More: Was Bobby Really Real?",
-                "words": 391,
-                "est_minutes": 2.6
-              }
-            ]
-          }
-        ],
-        "adult": [
-          {
-            "file": "content/day09-royal-mile/adult/01-old-town.md",
-            "title": "The Old Town: Vertical City",
-            "words": 251,
-            "est_minutes": 1.7,
-            "tell_me_more": [
-              {
-                "file": "content/day09-royal-mile/adult/01-oldtown-more.md",
-                "title": "Tell Me More: The Enlightenment in a Half Square Mile",
-                "words": 262,
-                "est_minutes": 1.7
-              },
-              {
-                "file": "content/day09-royal-mile/adult/01-old-town-more-1.md",
-                "title": "Tell Me More: The Man Who Found Deep Time",
-                "words": 406,
-                "est_minutes": 2.7
-              },
-              {
-                "file": "content/day09-royal-mile/adult/01-old-town-more-2.md",
-                "title": "Tell Me More: The Making of Two Cities",
-                "words": 408,
-                "est_minutes": 2.7
-              }
-            ]
-          },
-          {
-            "file": "content/day09-royal-mile/adult/02-st-giles-covenant.md",
-            "title": "St Giles, the Covenant, and a Thrown Stool",
-            "words": 241,
-            "est_minutes": 1.6,
-            "tell_me_more": [
-              {
-                "file": "content/day09-royal-mile/adult/02-stgiles-more.md",
-                "title": "Tell Me More: The Reformation's Long Shadow",
-                "words": 258,
-                "est_minutes": 1.7
-              },
-              {
-                "file": "content/day09-royal-mile/adult/02-st-giles-covenant-more-1.md",
-                "title": "Tell Me More: A Cathedral That Isn't, and a Chapel of Thorns",
-                "words": 401,
-                "est_minutes": 2.7
-              },
-              {
-                "file": "content/day09-royal-mile/adult/02-st-giles-covenant-more-2.md",
-                "title": "Tell Me More: Knox, Mary, and the Woman with the Stool",
-                "words": 404,
-                "est_minutes": 2.7
-              }
-            ]
-          },
-          {
-            "file": "content/day09-royal-mile/adult/03-underground-city.md",
-            "title": "The City Beneath: Closes, Vaults and Plague Stories",
-            "words": 229,
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day09-royal-mile/adult/03-underground-more.md",
-                "title": "Tell Me More: Deacon Brodie and the City of Doubles",
-                "words": 257,
-                "est_minutes": 1.7
-              },
-              {
-                "file": "content/day09-royal-mile/adult/03-underground-city-more-1.md",
-                "title": "Tell Me More: Burke, Hare, and the Anatomy Act",
-                "words": 414,
-                "est_minutes": 2.8
-              },
-              {
-                "file": "content/day09-royal-mile/adult/03-underground-city-more-2.md",
-                "title": "Tell Me More: Greyfriars, a Poltergeist and a Doubtful Dog",
-                "words": 403,
-                "est_minutes": 2.7
-              }
-            ]
-          }
-        ]
-      },
-      "kid_total_minutes": 4.4,
-      "adult_total_minutes": 4.8
-    },
-    {
-      "id": "day10-inchcolm-island",
-      "name": "Inchcolm Island & Forth Bridge",
-      "day": 10,
-      "date": "Mon Jul 20",
-      "note": "12:15 PM sailing from Hawes Pier",
-      "tracks": {
-        "kid": [
-          {
-            "file": "content/day10-inchcolm-island/kid/01-forth-bridge.md",
-            "title": "The Big Red Bridge Made of 6.5 Million Rivets",
-            "words": 225,
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day10-inchcolm-island/kid/01-forth-bridge-more-1.md",
-                "title": "The Three Men and the Chairs",
-                "words": 381,
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day10-inchcolm-island/kid/01-forth-bridge-more-2.md",
-                "title": "How Tall, How Long, How Heavy",
-                "words": 380,
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day10-inchcolm-island/kid/01-forth-bridge-more-3.md",
-                "title": "Three Bridges in a Row",
-                "words": 371,
-                "est_minutes": 2.5
-              }
-            ]
-          },
-          {
-            "file": "content/day10-inchcolm-island/kid/02-abbey.md",
-            "title": "The Island of the Monks",
-            "words": 223,
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day10-inchcolm-island/kid/02-abbey-more-1.md",
-                "title": "The Island in a Shakespeare Play",
-                "words": 405,
-                "est_minutes": 2.7
-              },
-              {
-                "file": "content/day10-inchcolm-island/kid/02-abbey-more-2.md",
-                "title": "Secrets to Find in the Ruins",
-                "words": 347,
-                "est_minutes": 2.3
-              }
-            ]
-          },
-          {
-            "file": "content/day10-inchcolm-island/kid/03-seals-and-war.md",
-            "title": "Seals, Seabirds and Secret War Tunnels",
-            "words": 225,
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day10-inchcolm-island/kid/03-seals-and-war-more-1.md",
-                "title": "The Soldiers' Island",
-                "words": 361,
-                "est_minutes": 2.4
-              },
-              {
-                "file": "content/day10-inchcolm-island/kid/03-seals-and-war-more-2.md",
-                "title": "Where the Animals Live",
-                "words": 388,
-                "est_minutes": 2.6
-              }
-            ]
-          }
-        ],
-        "adult": [
-          {
-            "file": "content/day10-inchcolm-island/adult/01-forth-bridge.md",
-            "title": "The Forth Bridge: Engineering as Public Reassurance",
-            "words": 262,
-            "est_minutes": 1.7,
-            "tell_me_more": [
-              {
-                "file": "content/day10-inchcolm-island/adult/01-forth-bridge-more-1.md",
-                "title": "The Human Cantilever",
-                "words": 397,
-                "est_minutes": 2.6
-              },
-              {
-                "file": "content/day10-inchcolm-island/adult/01-forth-bridge-more-2.md",
-                "title": "The Numbers That Still Astonish",
-                "words": 381,
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day10-inchcolm-island/adult/01-forth-bridge-more-3.md",
-                "title": "Three Bridges, Three Centuries",
-                "words": 338,
-                "est_minutes": 2.3
-              }
-            ]
-          },
-          {
-            "file": "content/day10-inchcolm-island/adult/02-abbey.md",
-            "title": "Inchcolm Abbey: Scotland's Best-Preserved Monastery",
-            "words": 247,
-            "est_minutes": 1.6,
-            "tell_me_more": [
-              {
-                "file": "content/day10-inchcolm-island/adult/02-abbey-more-1.md",
-                "title": "The Literary Island",
-                "words": 365,
-                "est_minutes": 2.4
-              },
-              {
-                "file": "content/day10-inchcolm-island/adult/02-abbey-more-2.md",
-                "title": "Why the Ruin Is So Complete",
-                "words": 359,
-                "est_minutes": 2.4
-              }
-            ]
-          },
-          {
-            "file": "content/day10-inchcolm-island/adult/03-fortress-island.md",
-            "title": "The Armed Island: Two World Wars on Inchcolm",
-            "words": 244,
-            "est_minutes": 1.6,
-            "tell_me_more": [
-              {
-                "file": "content/day10-inchcolm-island/adult/03-fortress-more-1.md",
-                "title": "The Guns of Inchcolm, Up Close",
-                "words": 343,
-                "est_minutes": 2.3
-              },
-              {
-                "file": "content/day10-inchcolm-island/adult/03-fortress-more-2.md",
-                "title": "Rosyth and the Grand Fleet",
-                "words": 353,
-                "est_minutes": 2.4
-              }
-            ]
-          }
-        ]
-      },
-      "kid_total_minutes": 4.5,
-      "adult_total_minutes": 4.9
-    },
-    {
-      "id": "day11-stirling-castle",
-      "name": "Stirling Castle",
-      "day": 11,
-      "date": "Tue Jul 21",
-      "note": "Listen on the ScotRail train",
-      "tracks": {
-        "kid": [
-          {
-            "file": "content/day11-stirling-castle/kid/01-key-to-scotland.md",
-            "title": "The Castle That Was the Key to Scotland",
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day11-stirling-castle/kid/01-key-to-scotland-more-1.md",
-                "title": "The Trap at Stirling Bridge",
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day11-stirling-castle/kid/01-key-to-scotland-more-2.md",
-                "title": "Bannockburn and the Castle on a Volcano",
-                "est_minutes": 2.6
-              }
-            ]
-          },
-          {
-            "file": "content/day11-stirling-castle/kid/02-palace-unicorns.md",
-            "title": "A Painted Palace and the Kingdom of Unicorns",
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day11-stirling-castle/kid/02-palace-unicorns-more-1.md",
-                "title": "The Faces in the Ceiling",
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day11-stirling-castle/kid/02-palace-unicorns-more-2.md",
-                "title": "The Golden Hall and the Busy Kitchens",
-                "est_minutes": 2.6
-              }
-            ]
-          },
-          {
-            "file": "content/day11-stirling-castle/kid/03-baby-queen-flying-man.md",
-            "title": "A Nine-Month-Old Queen and the Man Who Tried to Fly",
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day11-stirling-castle/kid/03-baby-queen-flying-man-more-1.md",
-                "title": "The Flying Abbot and His Wings",
-                "est_minutes": 2.9
-              },
-              {
-                "file": "content/day11-stirling-castle/kid/03-baby-queen-flying-man-more-2.md",
-                "title": "The Baby Prince's Fireworks Party",
-                "est_minutes": 2.8
-              },
-              {
-                "file": "content/day11-stirling-castle/kid/03-baby-queen-flying-man-more-3.md",
-                "title": "Mary's Great Escape",
-                "est_minutes": 2.9
-              }
-            ]
-          }
-        ],
-        "adult": [
-          {
-            "file": "content/day11-stirling-castle/adult/01-key-to-scotland.md",
-            "title": "Stirling: The Brooch That Clasps Scotland",
-            "est_minutes": 1.6,
-            "tell_me_more": [
-              {
-                "file": "content/day11-stirling-castle/adult/01-key-to-scotland-more-1.md",
-                "title": "Anatomy of an Ambush: Stirling Bridge",
-                "est_minutes": 2.6
-              },
-              {
-                "file": "content/day11-stirling-castle/adult/01-key-to-scotland-more-2.md",
-                "title": "Bannockburn, and a Castle Nobody Could Keep",
-                "est_minutes": 2.6
-              }
-            ]
-          },
-          {
-            "file": "content/day11-stirling-castle/adult/02-renaissance-court.md",
-            "title": "James V's Palace: Renaissance Propaganda in Stone",
-            "est_minutes": 1.7,
-            "tell_me_more": [
-              {
-                "file": "content/day11-stirling-castle/adult/02-renaissance-court-more-1.md",
-                "title": "The Stirling Heads: A Ceiling of Kings",
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day11-stirling-castle/adult/02-renaissance-court-more-2.md",
-                "title": "The Great Hall, the Chapel, and the Knot Below",
-                "est_minutes": 2.7
-              }
-            ]
-          },
-          {
-            "file": "content/day11-stirling-castle/adult/03-mary-and-court-life.md",
-            "title": "Coronations, Childhoods and a Court of Characters",
-            "est_minutes": 1.7,
-            "tell_me_more": [
-              {
-                "file": "content/day11-stirling-castle/adult/03-mary-and-court-life-more-1.md",
-                "title": "John Damian: Alchemy, Feathers and a Poet's Revenge",
-                "est_minutes": 2.7
-              },
-              {
-                "file": "content/day11-stirling-castle/adult/03-mary-and-court-life-more-2.md",
-                "title": "The Baptism of 1566: A Party as Policy",
-                "est_minutes": 2.3
-              },
-              {
-                "file": "content/day11-stirling-castle/adult/03-mary-and-court-life-more-3.md",
-                "title": "The Nursery of a Kingdom",
-                "est_minutes": 2.5
-              }
-            ]
-          }
-        ]
-      },
-      "kid_total_minutes": 4.5,
-      "adult_total_minutes": 5.0
-    },
-    {
-      "id": "day12-arthurs-seat",
-      "name": "Arthur's Seat",
-      "day": 12,
-      "date": "Wed Jul 22",
-      "note": "Morning hike, Salisbury Crags",
-      "tracks": {
-        "kid": [
-          {
-            "file": "content/day12-arthurs-seat/kid/01-climbing-a-volcano.md",
-            "title": "You Are Climbing a Volcano",
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day12-arthurs-seat/kid/01-climbing-a-volcano-more-1.md",
-                "title": "The People Who Lived on the Volcano",
-                "est_minutes": 2.9
-              },
-              {
-                "file": "content/day12-arthurs-seat/kid/01-climbing-a-volcano-more-2.md",
-                "title": "The Best View in the City",
-                "est_minutes": 3.0
-              },
-              {
-                "file": "content/day12-arthurs-seat/kid/01-climbing-a-volcano-more-3.md",
-                "title": "Dragons, Knights, and a Road Built by Hand",
-                "est_minutes": 3.1
-              }
-            ]
-          },
-          {
-            "file": "content/day12-arthurs-seat/kid/02-tiny-coffins.md",
-            "title": "The Mystery of the Seventeen Tiny Coffins",
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day12-arthurs-seat/kid/02-tiny-coffins-more-1.md",
-                "title": "The Little Coffins Up Close",
-                "est_minutes": 3.1
-              },
-              {
-                "file": "content/day12-arthurs-seat/kid/02-tiny-coffins-more-2.md",
-                "title": "Detective Time: Who and Why?",
-                "est_minutes": 3.0
-              },
-              {
-                "file": "content/day12-arthurs-seat/kid/02-tiny-coffins-more-3.md",
-                "title": "The Ones That Survived",
-                "est_minutes": 3.1
-              }
-            ]
-          }
-        ],
-        "adult": [
-          {
-            "file": "content/day12-arthurs-seat/adult/01-hutton-deep-time.md",
-            "title": "Salisbury Crags: Where Deep Time Was Discovered",
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day12-arthurs-seat/adult/01-hutton-deep-time-more-1.md",
-                "title": "Reading the Crags, and the Quarry That Nearly Ate Them",
-                "est_minutes": 3.1
-              },
-              {
-                "file": "content/day12-arthurs-seat/adult/01-hutton-deep-time-more-2.md",
-                "title": "The Radical Road and the Royal Wilderness",
-                "est_minutes": 3.1
-              },
-              {
-                "file": "content/day12-arthurs-seat/adult/01-hutton-deep-time-more-3.md",
-                "title": "The Fort, the Terraces, and the View",
-                "est_minutes": 3.2
-              }
-            ]
-          },
-          {
-            "file": "content/day12-arthurs-seat/adult/02-legends-coffins.md",
-            "title": "Arthur, Miniature Coffins, and a Park Full of Stories",
-            "est_minutes": 1.6,
-            "tell_me_more": [
-              {
-                "file": "content/day12-arthurs-seat/adult/02-legends-coffins-more-1.md",
-                "title": "The Coffins as Objects: What the Evidence Actually Says",
-                "est_minutes": 3.2
-              },
-              {
-                "file": "content/day12-arthurs-seat/adult/02-legends-coffins-more-2.md",
-                "title": "The Park's Other Ghosts: Chapels, Cairns, and a Skating Minister",
-                "est_minutes": 3.1
-              },
-              {
-                "file": "content/day12-arthurs-seat/adult/02-legends-coffins-more-3.md",
-                "title": "Arthur, Camelot, and the Old North",
-                "est_minutes": 3.1
-              }
-            ]
-          }
-        ]
-      },
-      "kid_total_minutes": 3.0,
-      "adult_total_minutes": 3.1
-    },
-    {
-      "id": "day13-york",
-      "name": "York & the Minster",
-      "day": 13,
-      "date": "Thu Jul 23",
-      "note": "Walls, Shambles, 3:45 PM Minster entry",
-      "tracks": {
-        "kid": [
-          {
-            "file": "content/day13-york/kid/01-walls-and-romans.md",
-            "title": "York: Walk on Top of a City's Armor",
-            "words": 204,
-            "est_minutes": 1.4,
-            "tell_me_more": [
-              {
-                "file": "content/day13-york/kid/01-walls-and-romans-more-1.md",
-                "title": "The Legion That Vanished",
-                "words": 384,
-                "est_minutes": 2.6
-              },
-              {
-                "file": "content/day13-york/kid/01-walls-and-romans-more-2.md",
-                "title": "The Wooden Castle and the Saddest Night",
-                "words": 366,
-                "est_minutes": 2.4
-              }
-            ]
-          },
-          {
-            "file": "content/day13-york/kid/02-shambles.md",
-            "title": "The Shambles: The Wonkiest Street in Britain",
-            "words": 201,
-            "est_minutes": 1.3,
-            "tell_me_more": [
-              {
-                "file": "content/day13-york/kid/02-shambles-more-1.md",
-                "title": "The Ghost Soldiers in the Cellar",
-                "words": 350,
-                "est_minutes": 2.3
-              },
-              {
-                "file": "content/day13-york/kid/02-shambles-more-2.md",
-                "title": "The Boy from York Who Tried to Blow Up Parliament",
-                "words": 345,
-                "est_minutes": 2.3
-              }
-            ]
-          },
-          {
-            "file": "content/day13-york/kid/03-minster.md",
-            "title": "York Minster: 250 Years of Building",
-            "words": 220,
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day13-york/kid/03-minster-more-1.md",
-                "title": "Monsters and a Clock for the Stars",
-                "words": 362,
-                "est_minutes": 2.4
-              },
-              {
-                "file": "content/day13-york/kid/03-minster-more-2.md",
-                "title": "The Night the Minster Caught Fire",
-                "words": 368,
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day13-york/kid/03-minster-more-3.md",
-                "title": "The Room with No Middle, and a Viking's Horn",
-                "words": 318,
-                "est_minutes": 2.1
-              }
-            ]
-          }
-        ],
-        "adult": [
-          {
-            "file": "content/day13-york/adult/01-eboracum-to-york.md",
-            "title": "From Eboracum to York: A Capital in Layers",
-            "words": 254,
-            "est_minutes": 1.7,
-            "tell_me_more": [
-              {
-                "file": "content/day13-york/adult/01-eboracum-to-york-more-1.md",
-                "title": "The Ninth Legion and the Working Fortress",
-                "words": 394,
-                "est_minutes": 2.6
-              },
-              {
-                "file": "content/day13-york/adult/01-eboracum-to-york-more-2.md",
-                "title": "Clifford's Tower and the Sabbath of 1190",
-                "words": 396,
-                "est_minutes": 2.6
-              }
-            ]
-          },
-          {
-            "file": "content/day13-york/adult/02-minster-glass.md",
-            "title": "The Minster: Glass, Fire and the Long Build",
-            "words": 264,
-            "est_minutes": 1.8,
-            "tell_me_more": [
-              {
-                "file": "content/day13-york/adult/02-minster-glass-more-1.md",
-                "title": "The Chapter House, the Clock, and the Treasures",
-                "words": 389,
-                "est_minutes": 2.6
-              },
-              {
-                "file": "content/day13-york/adult/02-minster-glass-more-2.md",
-                "title": "Saint William, the Doomstone, and the Long Campaign",
-                "words": 384,
-                "est_minutes": 2.6
-              }
-            ]
-          },
-          {
-            "file": "content/day13-york/adult/03-shambles-snickelways.md",
-            "title": "The Shambles and the Snickelways: Medieval Streetscape as Survival",
-            "words": 256,
-            "est_minutes": 1.7,
-            "tell_me_more": [
-              {
-                "file": "content/day13-york/adult/03-shambles-snickelways-more-1.md",
-                "title": "Guy Fawkes and the Catholic Underground",
-                "words": 374,
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day13-york/adult/03-shambles-snickelways-more-2.md",
-                "title": "The Treasurer's House and the Ghosts of a Haunted City",
-                "words": 390,
-                "est_minutes": 2.6
-              }
-            ]
-          }
-        ]
-      },
-      "kid_total_minutes": 4.2,
-      "adult_total_minutes": 5.2
-    },
-    {
-      "id": "day14-jorvik",
-      "name": "JORVIK & Viking York",
-      "day": 14,
-      "date": "Fri Jul 24",
-      "note": "10:00 AM timed entry",
-      "tracks": {
-        "kid": [
-          {
-            "file": "content/day14-jorvik/kid/01-vikings-take-york.md",
-            "title": "The Vikings Are Coming — And Staying",
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day14-jorvik/kid/01-vikings-take-york-more-1.md",
-                "title": "The Great Horned Helmet Lie",
-                "est_minutes": 2.7
-              },
-              {
-                "file": "content/day14-jorvik/kid/01-vikings-take-york-more-2.md",
-                "title": "A Day on a Viking Street",
-                "est_minutes": 2.9
-              }
-            ]
-          },
-          {
-            "file": "content/day14-jorvik/kid/02-coppergate-dig.md",
-            "title": "The Muddy Miracle Under Your Feet",
-            "est_minutes": 1.4,
-            "tell_me_more": [
-              {
-                "file": "content/day14-jorvik/kid/02-coppergate-dig-more-1.md",
-                "title": "The Helmet at the Bottom of the Pit",
-                "est_minutes": 2.9
-              },
-              {
-                "file": "content/day14-jorvik/kid/02-coppergate-dig-more-2.md",
-                "title": "The Cleverest Hands in Jorvik",
-                "est_minutes": 2.8
-              }
-            ]
-          },
-          {
-            "file": "content/day14-jorvik/kid/03-the-famous-poo.md",
-            "title": "The Most Famous Poo in the World",
-            "est_minutes": 1.4,
-            "tell_me_more": [
-              {
-                "file": "content/day14-jorvik/kid/03-the-famous-poo-more-1.md",
-                "title": "What Was for Dinner in Jorvik?",
-                "est_minutes": 2.5
-              },
-              {
-                "file": "content/day14-jorvik/kid/03-the-famous-poo-more-2.md",
-                "title": "Your Ride Through a Thousand Years",
-                "est_minutes": 2.9
-              }
-            ]
-          }
-        ],
-        "adult": [
-          {
-            "file": "content/day14-jorvik/adult/01-viking-york.md",
-            "title": "Jorvik: The Viking Capital of England",
-            "est_minutes": 1.5,
-            "tell_me_more": [
-              {
-                "file": "content/day14-jorvik/adult/01-viking-york-more-1.md",
-                "title": "The Horned Helmet That Never Was",
-                "est_minutes": 2.9
-              },
-              {
-                "file": "content/day14-jorvik/adult/01-viking-york-more-2.md",
-                "title": "Egil, Bloodaxe, and the Poem That Bought a Head",
-                "est_minutes": 2.8
-              }
-            ]
-          },
-          {
-            "file": "content/day14-jorvik/adult/02-coppergate-archaeology.md",
-            "title": "Coppergate: The Dig That Changed Urban Archaeology",
-            "est_minutes": 1.6,
-            "tell_me_more": [
-              {
-                "file": "content/day14-jorvik/adult/02-coppergate-archaeology-more-1.md",
-                "title": "The Coppergate Helmet",
-                "est_minutes": 2.9
-              },
-              {
-                "file": "content/day14-jorvik/adult/02-coppergate-archaeology-more-2.md",
-                "title": "The Workshops of Coppergate",
-                "est_minutes": 2.9
-              }
-            ]
-          },
-          {
-            "file": "content/day14-jorvik/adult/03-what-remains.md",
-            "title": "What the Vikings Left Behind — and a Trip Coda",
-            "est_minutes": 1.6,
-            "tell_me_more": [
-              {
-                "file": "content/day14-jorvik/adult/03-what-remains-more-1.md",
-                "title": "The Body of Evidence: Food, Dress, and Health",
-                "est_minutes": 2.8
-              },
-              {
-                "file": "content/day14-jorvik/adult/03-what-remains-more-2.md",
-                "title": "Silver, Coins, and the Making of a Market",
-                "est_minutes": 2.8
-              }
-            ]
-          }
-        ]
-      },
-      "kid_total_minutes": 4.3,
-      "adult_total_minutes": 4.7
-    }
-  ],
-  "totals": {
-    "files": 425,
-    "kid_words": 71064,
-    "kid_est_minutes": 463,
-    "adult_words": 74093,
-    "adult_est_minutes": 483,
-    "note": "Base + tell_me_more chapters."
+ "title": "UK Family Audio Tour — July 2026",
+ "wpm_assumption": 150,
+ "sights": [
+  {
+   "id": "day02-richmond-park",
+   "name": "Richmond Park",
+   "day": 2,
+   "date": "Sun Jul 12",
+   "note": "Deer stroll before the Sunday roast",
+   "tracks": {
+    "kid": [
+     {
+      "file": "content/day02-richmond-park/kid/01-deer.md",
+      "title": "The Deer of Richmond Park",
+      "est_minutes": 1.3,
+      "tell_me_more": [
+       {
+        "file": "content/day02-richmond-park/kid/01-deer-more-1.md",
+        "title": "Baby Deer in the Bracken",
+        "est_minutes": 3.0
+       },
+       {
+        "file": "content/day02-richmond-park/kid/01-deer-more-2.md",
+        "title": "Monsters in the Dead Wood",
+        "est_minutes": 3.1
+       },
+       {
+        "file": "content/day02-richmond-park/kid/01-deer-more-3.md",
+        "title": "A Whole Wild World in the City",
+        "est_minutes": 3.1
+       }
+      ]
+     },
+     {
+      "file": "content/day02-richmond-park/kid/02-kings-mound.md",
+      "title": "King Henry's Mound and the Secret Keyhole",
+      "est_minutes": 1.2,
+      "tell_me_more": [
+       {
+        "file": "content/day02-richmond-park/kid/02-kings-mound-more-1.md",
+        "title": "The True Story Behind the Legend",
+        "est_minutes": 3.2
+       },
+       {
+        "file": "content/day02-richmond-park/kid/02-kings-mound-more-2.md",
+        "title": "The House Where a Great Thinker Grew Up",
+        "est_minutes": 3.1
+       },
+       {
+        "file": "content/day02-richmond-park/kid/02-kings-mound-more-3.md",
+        "title": "Now Turn Around",
+        "est_minutes": 3.1
+       }
+      ]
+     }
+    ],
+    "adult": [
+     {
+      "file": "content/day02-richmond-park/adult/01-deer.md",
+      "title": "Richmond Park: A Medieval Landscape in the City",
+      "est_minutes": 1.3,
+      "tell_me_more": [
+       {
+        "file": "content/day02-richmond-park/adult/01-deer-more-1.md",
+        "title": "The Fawning Season",
+        "est_minutes": 3.1
+       },
+       {
+        "file": "content/day02-richmond-park/adult/01-deer-more-2.md",
+        "title": "The Beetle in the Rotten Oak",
+        "est_minutes": 3.1
+       },
+       {
+        "file": "content/day02-richmond-park/adult/01-deer-more-3.md",
+        "title": "The Wild Park",
+        "est_minutes": 3.1
+       }
+      ]
+     },
+     {
+      "file": "content/day02-richmond-park/adult/02-kings-mound.md",
+      "title": "King Henry's Mound: The Protected View",
+      "est_minutes": 1.2,
+      "tell_me_more": [
+       {
+        "file": "content/day02-richmond-park/adult/02-kings-mound-more-1.md",
+        "title": "The Legend and the Ledger",
+        "est_minutes": 3.0
+       },
+       {
+        "file": "content/day02-richmond-park/adult/02-kings-mound-more-2.md",
+        "title": "Pembroke Lodge and the Russells",
+        "est_minutes": 2.9
+       },
+       {
+        "file": "content/day02-richmond-park/adult/02-kings-mound-more-3.md",
+        "title": "Beyond the Keyhole",
+        "est_minutes": 3.1
+       }
+      ]
+     }
+    ]
+   },
+   "kid_total_minutes": 16.3,
+   "adult_total_minutes": 19.6
+  },
+  {
+   "id": "day03-city-walk",
+   "name": "St Dunstan & St Paul's",
+   "day": 3,
+   "date": "Mon Jul 13",
+   "note": "Walk from the Tower toward St Paul's",
+   "tracks": {
+    "kid": [
+     {
+      "file": "content/day03-city-walk/kid/01-st-dunstan.md",
+      "title": "St Dunstan in the East: The Church the Trees Took Back",
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day03-city-walk/kid/01-st-dunstan-more-1.md",
+        "title": "The Saint Who Grabbed the Devil's Nose",
+        "est_minutes": 2.8
+       },
+       {
+        "file": "content/day03-city-walk/kid/01-st-dunstan-more-2.md",
+        "title": "A Church with Nine Lives",
+        "est_minutes": 2.6
+       },
+       {
+        "file": "content/day03-city-walk/kid/01-st-dunstan-more-3.md",
+        "title": "The Night It Fell and the Garden That Grew",
+        "est_minutes": 2.6
+       }
+      ]
+     },
+     {
+      "file": "content/day03-city-walk/kid/02-st-pauls.md",
+      "title": "St Paul's: The Dome That Refused to Burn",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day03-city-walk/kid/02-st-pauls-more-1.md",
+        "title": "Climbing to the Golden Gallery",
+        "est_minutes": 2.8
+       },
+       {
+        "file": "content/day03-city-walk/kid/02-st-pauls-more-2.md",
+        "title": "The Bomb Beneath the Cathedral",
+        "est_minutes": 2.7
+       },
+       {
+        "file": "content/day03-city-walk/kid/02-st-pauls-more-3.md",
+        "title": "The Cathedral of Famous Days, and a Magic Staircase",
+        "est_minutes": 2.6
+       }
+      ]
+     }
+    ],
+    "adult": [
+     {
+      "file": "content/day03-city-walk/adult/01-st-dunstan.md",
+      "title": "St Dunstan in the East: Layers of Catastrophe",
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day03-city-walk/adult/01-st-dunstan-more-1.md",
+        "title": "Dunstan: Blacksmith, Kingmaker, Saint",
+        "est_minutes": 2.8
+       },
+       {
+        "file": "content/day03-city-walk/adult/01-st-dunstan-more-2.md",
+        "title": "The Church That Kept Being Rebuilt",
+        "est_minutes": 2.6
+       },
+       {
+        "file": "content/day03-city-walk/adult/01-st-dunstan-more-3.md",
+        "title": "The Last Night of the Blitz, and the Ruin as Amenity",
+        "est_minutes": 2.7
+       }
+      ]
+     },
+     {
+      "file": "content/day03-city-walk/adult/02-st-pauls.md",
+      "title": "St Paul's: Wren's Second City",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day03-city-walk/adult/02-st-pauls-more-1.md",
+        "title": "The Climb, the Whisper, and Thornhill's Ceiling",
+        "est_minutes": 2.8
+       },
+       {
+        "file": "content/day03-city-walk/adult/02-st-pauls-more-2.md",
+        "title": "The Delayed-Action Bomb of 1940",
+        "est_minutes": 2.7
+       },
+       {
+        "file": "content/day03-city-walk/adult/02-st-pauls-more-3.md",
+        "title": "The Nation's Stage, and the Geometric Staircase",
+        "est_minutes": 2.8
+       }
+      ]
+     }
+    ]
+   },
+   "kid_total_minutes": 15.1,
+   "adult_total_minutes": 18.5
+  },
+  {
+   "id": "day03-tower-bridge",
+   "name": "Tower Bridge",
+   "day": 3,
+   "date": "Mon Jul 13",
+   "note": "Glass floor + Engine Rooms, 2:00 PM slot",
+   "tracks": {
+    "kid": [
+     {
+      "file": "content/day03-tower-bridge/kid/01-opening-bridge.md",
+      "title": "A Bridge That Opens Like a Drawbridge",
+      "est_minutes": 1.3,
+      "tell_me_more": [
+       {
+        "file": "content/day03-tower-bridge/kid/01-opening-bridge-more-1.md",
+        "title": "A Castle Costume Over Iron Bones",
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day03-tower-bridge/kid/01-opening-bridge-more-2.md",
+        "title": "Watch an Opening Happen",
+        "est_minutes": 2.5
+       }
+      ]
+     },
+     {
+      "file": "content/day03-tower-bridge/kid/02-glass-floor.md",
+      "title": "Walking on Glass, 42 Meters Up",
+      "est_minutes": 1.3,
+      "tell_me_more": [
+       {
+        "file": "content/day03-tower-bridge/kid/02-glass-floor-more-1.md",
+        "title": "How They Made a Floor You Can Trust",
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day03-tower-bridge/kid/02-glass-floor-more-2.md",
+        "title": "The Ghost Years of the High Walkways",
+        "est_minutes": 2.6
+       }
+      ]
+     },
+     {
+      "file": "content/day03-tower-bridge/kid/03-bus-jump.md",
+      "title": "The Day a Bus Jumped the Bridge",
+      "est_minutes": 1.3,
+      "tell_me_more": [
+       {
+        "file": "content/day03-tower-bridge/kid/03-bus-jump-more-1.md",
+        "title": "The Man Who Flew Through the Bridge",
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day03-tower-bridge/kid/03-bus-jump-more-2.md",
+        "title": "The Jet That Dared",
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day03-tower-bridge/kid/03-bus-jump-more-3.md",
+        "title": "The Bridge That Loves the Movies",
+        "est_minutes": 2.6
+       }
+      ]
+     }
+    ],
+    "adult": [
+     {
+      "file": "content/day03-tower-bridge/adult/01-engineering.md",
+      "title": "Tower Bridge: Victorian Engineering in Gothic Costume",
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day03-tower-bridge/adult/01-engineering-more-1.md",
+        "title": "The Power in the Cellar",
+        "est_minutes": 2.6
+       },
+       {
+        "file": "content/day03-tower-bridge/adult/01-engineering-more-2.md",
+        "title": "How a Thousand Tonnes Balances",
+        "est_minutes": 2.6
+       },
+       {
+        "file": "content/day03-tower-bridge/adult/01-engineering-more-3.md",
+        "title": "Building in a Living River",
+        "est_minutes": 2.5
+       }
+      ]
+     },
+     {
+      "file": "content/day03-tower-bridge/adult/02-walkways.md",
+      "title": "The High Walkways: A Social History in Glass",
+      "est_minutes": 1.3,
+      "tell_me_more": [
+       {
+        "file": "content/day03-tower-bridge/adult/02-walkways-more-1.md",
+        "title": "Vice, Closure, and Resurrection",
+        "est_minutes": 2.7
+       },
+       {
+        "file": "content/day03-tower-bridge/adult/02-walkways-more-2.md",
+        "title": "The Neighbours from the Walkway",
+        "est_minutes": 2.7
+       }
+      ]
+     },
+     {
+      "file": "content/day03-tower-bridge/adult/03-incidents-icon.md",
+      "title": "Incidents and Iconography",
+      "est_minutes": 1.6,
+      "tell_me_more": [
+       {
+        "file": "content/day03-tower-bridge/adult/03-incidents-more-1.md",
+        "title": "Aviators and Daredevils",
+        "est_minutes": 2.6
+       },
+       {
+        "file": "content/day03-tower-bridge/adult/03-incidents-more-2.md",
+        "title": "The Great Bridge Mix-Up",
+        "est_minutes": 2.6
+       }
+      ]
+     }
+    ]
+   },
+   "kid_total_minutes": 3.9,
+   "adult_total_minutes": 4.3
+  },
+  {
+   "id": "day03-tower-of-london",
+   "name": "Tower of London",
+   "day": 3,
+   "date": "Mon Jul 13",
+   "note": "Crown Jewels, ravens, Beefeaters",
+   "tracks": {
+    "kid": [
+     {
+      "file": "content/day03-tower-of-london/kid/01-white-tower.md",
+      "title": "The White Tower: 950 Years Old",
+      "est_minutes": 1.3,
+      "tell_me_more": [
+       {
+        "file": "content/day03-tower-of-london/kid/01-white-tower-more-1.md",
+        "title": "Why the White Tower Is White",
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day03-tower-of-london/kid/01-white-tower-more-2.md",
+        "title": "The Line of Kings and Henry's Armour",
+        "est_minutes": 2.3
+       }
+      ]
+     },
+     {
+      "file": "content/day03-tower-of-london/kid/02-crown-jewels.md",
+      "title": "The Crown Jewels: The World's Most Guarded Sparkle",
+      "est_minutes": 1.3,
+      "tell_me_more": [
+       {
+        "file": "content/day03-tower-of-london/kid/02-crown-jewels-more-1.md",
+        "title": "Colonel Blood's Impossible Heist",
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day03-tower-of-london/kid/02-crown-jewels-more-2.md",
+        "title": "The Spoon That Survived",
+        "est_minutes": 2.3
+       }
+      ]
+     },
+     {
+      "file": "content/day03-tower-of-london/kid/03-ravens.md",
+      "title": "The Ravens: The Tower's Feathered Guards",
+      "est_minutes": 1.3,
+      "tell_me_more": [
+       {
+        "file": "content/day03-tower-of-london/kid/03-ravens-more-1.md",
+        "title": "The Raven Cemetery and Their Clever Games",
+        "est_minutes": 2.4
+       }
+      ]
+     },
+     {
+      "file": "content/day03-tower-of-london/kid/04-prisoners.md",
+      "title": "Prisoners, Traitors and a Polar Bear",
+      "est_minutes": 1.3,
+      "tell_me_more": [
+       {
+        "file": "content/day03-tower-of-london/kid/04-prisoners-more-1.md",
+        "title": "The Last People Executed Here",
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day03-tower-of-london/kid/04-prisoners-more-2.md",
+        "title": "The Ghosts of the Tower",
+        "est_minutes": 2.4
+       }
+      ]
+     },
+     {
+      "file": "content/day03-tower-of-london/kid/05-beefeaters.md",
+      "title": "The Beefeaters: Living Inside a Castle",
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day03-tower-of-london/kid/05-beefeaters-more-1.md",
+        "title": "Two Uniforms and a Barrel of Rum",
+        "est_minutes": 2.4
+       }
+      ]
+     }
+    ],
+    "adult": [
+     {
+      "file": "content/day03-tower-of-london/adult/01-white-tower.md",
+      "title": "The White Tower: Architecture as Intimidation",
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day03-tower-of-london/adult/01-white-tower-more-1.md",
+        "title": "Why the White Tower Is White",
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day03-tower-of-london/adult/01-white-tower-more-2.md",
+        "title": "The Line of Kings and the King's Armour",
+        "est_minutes": 2.3
+       }
+      ]
+     },
+     {
+      "file": "content/day03-tower-of-london/adult/02-crown-jewels.md",
+      "title": "The Crown Jewels: Regalia, Destruction and Rebirth",
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day03-tower-of-london/adult/02-crown-jewels-more-1.md",
+        "title": "Colonel Blood's Impossible Heist",
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day03-tower-of-london/adult/02-crown-jewels-more-2.md",
+        "title": "The Spoon That Survived",
+        "est_minutes": 2.5
+       }
+      ]
+     },
+     {
+      "file": "content/day03-tower-of-london/adult/03-ravens.md",
+      "title": "The Ravens: An Invented Tradition That Became Real",
+      "est_minutes": 1.3,
+      "tell_me_more": [
+       {
+        "file": "content/day03-tower-of-london/adult/03-ravens-more-1.md",
+        "title": "The Raven Cemetery and the Science of the Clever Bird",
+        "est_minutes": 2.5
+       }
+      ]
+     },
+     {
+      "file": "content/day03-tower-of-london/adult/04-prisoners.md",
+      "title": "Scaffold Site and Traitors' Gate: The Political Prison",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day03-tower-of-london/adult/04-prisoners-more-1.md",
+        "title": "The Last Executions at the Tower",
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day03-tower-of-london/adult/04-prisoners-more-2.md",
+        "title": "The Ghosts of the Tower",
+        "est_minutes": 2.4
+       }
+      ]
+     },
+     {
+      "file": "content/day03-tower-of-london/adult/05-beefeaters.md",
+      "title": "The Yeoman Warders and the Ceremony of the Keys",
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day03-tower-of-london/adult/05-beefeaters-more-1.md",
+        "title": "Two Uniforms, Mistaken Identity, and a Barrel of Rum",
+        "est_minutes": 2.6
+       }
+      ]
+     }
+    ]
+   },
+   "kid_total_minutes": 6.6,
+   "adult_total_minutes": 7.0
+  },
+  {
+   "id": "day04-greenwich",
+   "name": "Greenwich",
+   "day": 4,
+   "date": "Tue Jul 14",
+   "note": "Cutty Sark, Prime Meridian, Maritime Museum",
+   "tracks": {
+    "kid": [
+     {
+      "file": "content/day04-greenwich/kid/01-cutty-sark.md",
+      "title": "Cutty Sark: The Fastest Ship of Her Day",
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day04-greenwich/kid/01-cutty-sark-more-1.md",
+        "title": "Life Aboard a Tea Clipper",
+        "est_minutes": 2.2
+       },
+       {
+        "file": "content/day04-greenwich/kid/01-cutty-sark-more-2.md",
+        "title": "The Great Rudder Rescue",
+        "est_minutes": 2.3
+       }
+      ]
+     },
+     {
+      "file": "content/day04-greenwich/kid/02-prime-meridian.md",
+      "title": "The Prime Meridian: Stand in Two Halves of the World",
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day04-greenwich/kid/02-prime-meridian-more-1.md",
+        "title": "The Line That Circles the World",
+        "est_minutes": 2.2
+       },
+       {
+        "file": "content/day04-greenwich/kid/02-prime-meridian-more-2.md",
+        "title": "Why Your Phone Disagrees",
+        "est_minutes": 2.3
+       }
+      ]
+     },
+     {
+      "file": "content/day04-greenwich/kid/03-longitude-clocks.md",
+      "title": "John Harrison: The Carpenter Who Saved Sailors",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day04-greenwich/kid/03-longitude-clocks-more-1.md",
+        "title": "The Boy Who Taught Himself",
+        "est_minutes": 2.1
+       },
+       {
+        "file": "content/day04-greenwich/kid/03-longitude-clocks-more-2.md",
+        "title": "Clock Versus Moon",
+        "est_minutes": 2.1
+       }
+      ]
+     },
+     {
+      "file": "content/day04-greenwich/kid/04-time-ball-and-museum.md",
+      "title": "Nelson's Coat and a Ball That Tells Time",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day04-greenwich/kid/04-time-ball-and-museum-more-1.md",
+        "title": "The Ceiling That Took a Lifetime",
+        "est_minutes": 2.3
+       },
+       {
+        "file": "content/day04-greenwich/kid/04-time-ball-and-museum-more-2.md",
+        "title": "The Ghost on the Spiral Stairs",
+        "est_minutes": 2.2
+       }
+      ]
+     },
+     {
+      "file": "content/day04-greenwich/kid/05-longitude-latitude.md",
+      "title": "How Sailors Found Their Way: The Puzzle of Longitude",
+      "est_minutes": 4.7,
+      "tell_me_more": []
+     },
+     {
+      "file": "content/day04-greenwich/kid/06-timekeeping.md",
+      "title": "The Story of Time: From Shadows to Atoms",
+      "est_minutes": 4.9,
+      "tell_me_more": []
+     }
+    ],
+    "adult": [
+     {
+      "file": "content/day04-greenwich/adult/01-cutty-sark.md",
+      "title": "Cutty Sark: The End of the Age of Sail",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day04-greenwich/adult/01-cutty-sark-more-1.md",
+        "title": "The Rudder Epic and the Clipper Economy",
+        "est_minutes": 2.2
+       },
+       {
+        "file": "content/day04-greenwich/adult/01-cutty-sark-more-2.md",
+        "title": "Afterlives: Ferreira, Whisky and the Figureheads",
+        "est_minutes": 2.3
+       }
+      ]
+     },
+     {
+      "file": "content/day04-greenwich/adult/02-prime-meridian.md",
+      "title": "The Prime Meridian: How Greenwich Became Zero",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day04-greenwich/adult/02-prime-meridian-more-1.md",
+        "title": "Railway Time and the Invention of Now",
+        "est_minutes": 2.3
+       },
+       {
+        "file": "content/day04-greenwich/adult/02-prime-meridian-more-2.md",
+        "title": "The French Sulk and the Two Zeros",
+        "est_minutes": 2.3
+       }
+      ]
+     },
+     {
+      "file": "content/day04-greenwich/adult/03-longitude-clocks.md",
+      "title": "Harrison and the Longitude Prize",
+      "est_minutes": 1.6,
+      "tell_me_more": [
+       {
+        "file": "content/day04-greenwich/adult/03-longitude-clocks-more-1.md",
+        "title": "The Rival Method and a Conflicted Judge",
+        "est_minutes": 2.3
+       },
+       {
+        "file": "content/day04-greenwich/adult/03-longitude-clocks-more-2.md",
+        "title": "K1, Captain Cook, and Vindication",
+        "est_minutes": 2.2
+       }
+      ]
+     },
+     {
+      "file": "content/day04-greenwich/adult/04-maritime-greenwich.md",
+      "title": "Maritime Greenwich: Baroque Splendor and a Bullet Hole",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day04-greenwich/adult/04-maritime-greenwich-more-1.md",
+        "title": "The Painted Hall: Britain's Sistine Chapel",
+        "est_minutes": 2.2
+       },
+       {
+        "file": "content/day04-greenwich/adult/04-maritime-greenwich-more-2.md",
+        "title": "The Tulip Stairs, the Armada, and the Reckoning",
+        "est_minutes": 2.2
+       }
+      ]
+     },
+     {
+      "file": "content/day04-greenwich/adult/05-longitude-latitude.md",
+      "title": "Longitude and Latitude: Finding the Way at Sea",
+      "est_minutes": 9.9,
+      "tell_me_more": []
+     },
+     {
+      "file": "content/day04-greenwich/adult/06-timekeeping.md",
+      "title": "The Story of Time: From Sundials to the Atomic Second",
+      "est_minutes": 11.4,
+      "tell_me_more": []
+     }
+    ]
+   },
+   "kid_total_minutes": 5.8,
+   "adult_total_minutes": 6.1
+  },
+  {
+   "id": "day05-british-museum",
+   "name": "British Museum",
+   "day": 5,
+   "date": "Wed Jul 15",
+   "note": "3:30 PM booked entry",
+   "tracks": {
+    "kid": [
+     {
+      "file": "content/day05-british-museum/kid/01-rosetta-stone.md",
+      "title": "The Rosetta Stone: The Key That Unlocked Egypt",
+      "words": 211,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day05-british-museum/kid/01-rosetta-more.md",
+        "title": "Tell Me More: Cracking the Code",
+        "words": 211,
+        "est_minutes": 1.4
+       },
+       {
+        "file": "content/day05-british-museum/kid/01-rosetta-stone-more-1.md",
+        "title": "How to Read a Wall of Hieroglyphs",
+        "words": 357,
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day05-british-museum/kid/01-rosetta-stone-more-2.md",
+        "title": "The Stone's Big Adventure",
+        "words": 370,
+        "est_minutes": 2.5
+       }
+      ]
+     },
+     {
+      "file": "content/day05-british-museum/kid/02-mummies.md",
+      "title": "Mummies: Recipe for Living Forever",
+      "words": 202,
+      "est_minutes": 1.3,
+      "tell_me_more": [
+       {
+        "file": "content/day05-british-museum/kid/02-mummies-more.md",
+        "title": "Tell Me More: Animal Mummies and Curses",
+        "words": 219,
+        "est_minutes": 1.5
+       },
+       {
+        "file": "content/day05-british-museum/kid/02-mummies-more-1.md",
+        "title": "The Weighing of the Heart",
+        "words": 370,
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day05-british-museum/kid/02-mummies-more-2.md",
+        "title": "Mummy Detectives and Mummy Paint",
+        "words": 365,
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day05-british-museum/kid/02-mummies-more-3.md",
+        "title": "Servants, Games, and a Perfect Farm",
+        "words": 395,
+        "est_minutes": 2.6
+       }
+      ]
+     },
+     {
+      "file": "content/day05-british-museum/kid/03-treasures-hunt.md",
+      "title": "Treasure Hunt: A Ghost Ship and a Chess Army",
+      "words": 217,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day05-british-museum/kid/03-treasures-more.md",
+        "title": "Tell Me More: The Dig of 1939 and the Chess Hoard",
+        "words": 229,
+        "est_minutes": 1.5
+       },
+       {
+        "file": "content/day05-british-museum/kid/03-treasures-hunt-more-1.md",
+        "title": "Giant Winged Monsters and a Stone Comic Strip",
+        "words": 383,
+        "est_minutes": 2.6
+       },
+       {
+        "file": "content/day05-british-museum/kid/03-treasures-hunt-more-2.md",
+        "title": "A Stone Giant and a Skull That Fooled Everyone",
+        "words": 369,
+        "est_minutes": 2.5
+       }
+      ]
+     },
+     {
+      "file": "content/day05-british-museum/kid/04-egyptian-rooms-route.md",
+      "title": "Egypt Rooms Mission: Giants, Mummies, and Magic",
+      "words": 963,
+      "est_minutes": 5.5,
+      "tell_me_more": []
+     },
+     {
+      "file": "content/day05-british-museum/kid/05-best-rooms-treasure-route.md",
+      "title": "Best Rooms for Kids: The British Museum Treasure Route",
+      "words": 703,
+      "est_minutes": 4.0,
+      "tell_me_more": []
+     }
+    ],
+    "adult": [
+     {
+      "file": "content/day05-british-museum/adult/01-museum-and-court.md",
+      "title": "The British Museum: The First Museum of Everything",
+      "words": 227,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day05-british-museum/adult/01-museum-more.md",
+        "title": "Tell Me More: The Restitution Question, Properly",
+        "words": 242,
+        "est_minutes": 1.6
+       },
+       {
+        "file": "content/day05-british-museum/adult/01-museum-and-court-more-1.md",
+        "title": "The Parthenon Marbles, Up Close",
+        "words": 326,
+        "est_minutes": 2.2
+       },
+       {
+        "file": "content/day05-british-museum/adult/01-museum-and-court-more-2.md",
+        "title": "Nineveh, and the Night the Flood Was Read",
+        "words": 352,
+        "est_minutes": 2.3
+       }
+      ]
+     },
+     {
+      "file": "content/day05-british-museum/adult/02-rosetta-decipherment.md",
+      "title": "The Rosetta Stone and the Race to Read Egypt",
+      "words": 211,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day05-british-museum/adult/02-rosetta-more.md",
+        "title": "Tell Me More: What the Egyptians Wrote",
+        "words": 249,
+        "est_minutes": 1.7
+       },
+       {
+        "file": "content/day05-british-museum/adult/02-rosetta-decipherment-more-1.md",
+        "title": "The Stone's Own Biography",
+        "words": 378,
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day05-british-museum/adult/02-rosetta-decipherment-more-2.md",
+        "title": "Why the Stone Speaks Three Languages",
+        "words": 377,
+        "est_minutes": 2.5
+       }
+      ]
+     },
+     {
+      "file": "content/day05-british-museum/adult/03-sutton-hoo-lewis.md",
+      "title": "Sutton Hoo and the Lewis Chessmen: Two Buried Worlds",
+      "words": 230,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day05-british-museum/adult/03-suttonhoo-lewis-more.md",
+        "title": "Tell Me More: Basil Brown, Edith Pretty, and the Berserkers",
+        "words": 239,
+        "est_minutes": 1.6
+       },
+       {
+        "file": "content/day05-british-museum/adult/03-sutton-hoo-lewis-more-1.md",
+        "title": "Reading the Treasure in the Case",
+        "words": 354,
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day05-british-museum/adult/03-sutton-hoo-lewis-more-2.md",
+        "title": "The Vanished King and Two Altars",
+        "words": 364,
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day05-british-museum/adult/03-sutton-hoo-lewis-more-3.md",
+        "title": "The Chessmen and the Piece in the Drawer",
+        "words": 377,
+        "est_minutes": 2.5
+       }
+      ]
+     },
+     {
+      "file": "content/day05-british-museum/adult/04-egyptian-rooms-route.md",
+      "title": "The Egyptian Rooms: Power, Afterlife, and the Human Scale",
+      "words": 949,
+      "est_minutes": 6.3,
+      "tell_me_more": []
+     },
+     {
+      "file": "content/day05-british-museum/adult/05-best-rooms-family-route.md",
+      "title": "A Family Route Through the Best British Museum Rooms",
+      "words": 743,
+      "est_minutes": 5.0,
+      "tell_me_more": []
+     }
+    ]
+   },
+   "kid_total_minutes": 13.6,
+   "adult_total_minutes": 15.7
+  },
+  {
+   "id": "day05-national-gallery",
+   "name": "National Gallery",
+   "day": 5,
+   "date": "Wed Jul 15",
+   "note": "11:00 AM booked entry",
+   "tracks": {
+    "kid": [
+     {
+      "file": "content/day05-national-gallery/kid/01-sunflowers-and-horse.md",
+      "title": "Van Gogh's Missing Sunflowers and a Giant Horse",
+      "words": 200,
+      "est_minutes": 1.3,
+      "tell_me_more": [
+       {
+        "file": "content/day05-national-gallery/kid/01-sunflowers-horse-more.md",
+        "title": "Tell Me More: Van Gogh and Stubbs",
+        "words": 242,
+        "est_minutes": 1.6
+       },
+       {
+        "file": "content/day05-national-gallery/kid/01-sunflowers-and-horse-more-1.md",
+        "title": "The Empty Chair and the Broken Friendship",
+        "words": 248,
+        "est_minutes": 1.7
+       },
+       {
+        "file": "content/day05-national-gallery/kid/01-sunflowers-and-horse-more-2.md",
+        "title": "Whistlejacket's Racing World",
+        "words": 261,
+        "est_minutes": 1.7
+       }
+      ]
+     },
+     {
+      "file": "content/day05-national-gallery/kid/02-hidden-skull.md",
+      "title": "The Hidden Skull and the Mirror Trick",
+      "words": 210,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day05-national-gallery/kid/02-hidden-skull-more.md",
+        "title": "Tell Me More: Painted Secrets Everywhere",
+        "words": 223,
+        "est_minutes": 1.5
+       },
+       {
+        "file": "content/day05-national-gallery/kid/02-hidden-skull-more-1.md",
+        "title": "How the Skull Trick Works",
+        "words": 247,
+        "est_minutes": 1.6
+       },
+       {
+        "file": "content/day05-national-gallery/kid/02-hidden-skull-more-2.md",
+        "title": "Two Ambassadors and a King's Big Argument",
+        "words": 264,
+        "est_minutes": 1.8
+       }
+      ]
+     },
+     {
+      "file": "content/day05-national-gallery/kid/03-fighting-temeraire.md",
+      "title": "The Fighting Temeraire: A Hero's Last Trip",
+      "words": 217,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day05-national-gallery/kid/03-temeraire-more.md",
+        "title": "Tell Me More: Turner the Wild Man",
+        "words": 231,
+        "est_minutes": 1.5
+       },
+       {
+        "file": "content/day05-national-gallery/kid/03-fighting-temeraire-more-1.md",
+        "title": "The Real Ship and Her Last Battle",
+        "words": 266,
+        "est_minutes": 1.8
+       },
+       {
+        "file": "content/day05-national-gallery/kid/03-fighting-temeraire-more-2.md",
+        "title": "The Painter Who Chased the Light",
+        "words": 269,
+        "est_minutes": 1.8
+       }
+      ]
+     },
+     {
+      "file": "content/day05-national-gallery/kid/04-impressionists.md",
+      "title": "The Room Where Paintings Are Made of Light",
+      "words": 263,
+      "est_minutes": 1.8,
+      "tell_me_more": [
+       {
+        "file": "content/day05-national-gallery/kid/04-impressionists-more-1.md",
+        "title": "Monet, the Man Who Painted the Same Thing Forever",
+        "words": 269,
+        "est_minutes": 1.8
+       },
+       {
+        "file": "content/day05-national-gallery/kid/04-impressionists-more-2.md",
+        "title": "The Rebels Who Made Their Own Show",
+        "words": 266,
+        "est_minutes": 1.8
+       }
+      ]
+     },
+     {
+      "file": "content/day05-national-gallery/kid/05-pointillism.md",
+      "title": "The Painting Made of Thousands of Dots",
+      "words": 265,
+      "est_minutes": 1.8,
+      "tell_me_more": [
+       {
+        "file": "content/day05-national-gallery/kid/05-pointillism-more-1.md",
+        "title": "Why the Dots Turn Into Light",
+        "words": 275,
+        "est_minutes": 1.8
+       },
+       {
+        "file": "content/day05-national-gallery/kid/05-pointillism-more-2.md",
+        "title": "The Science Painter and His Friends",
+        "words": 281,
+        "est_minutes": 1.9
+       }
+      ]
+     },
+     {
+      "file": "content/day05-national-gallery/kid/06-impressionists-pointillists-route.md",
+      "title": "Impressionists and Dots: A Light Detective Route",
+      "words": 706,
+      "est_minutes": 4.0,
+      "tell_me_more": []
+     },
+     {
+      "file": "content/day05-national-gallery/kid/07-past-future-art-route.md",
+      "title": "Time Travel Art: From Mirror Tricks to Motion Machines",
+      "words": 646,
+      "est_minutes": 3.7,
+      "tell_me_more": []
+     }
+    ],
+    "adult": [
+     {
+      "file": "content/day05-national-gallery/adult/01-collection.md",
+      "title": "The National Gallery: A Collection Built Backwards",
+      "words": 225,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day05-national-gallery/adult/01-collection-more.md",
+        "title": "Tell Me More: How the Pictures Got Here — and Nearly Didn't",
+        "words": 233,
+        "est_minutes": 1.6
+       },
+       {
+        "file": "content/day05-national-gallery/adult/01-collection-more-1.md",
+        "title": "Tell Me More: The Building and Its Battles",
+        "words": 251,
+        "est_minutes": 1.7
+       },
+       {
+        "file": "content/day05-national-gallery/adult/01-collection-more-2.md",
+        "title": "Tell Me More: How the Impressionists Arrived",
+        "words": 240,
+        "est_minutes": 1.6
+       }
+      ]
+     },
+     {
+      "file": "content/day05-national-gallery/adult/02-holbein-van-eyck.md",
+      "title": "Holbein and Van Eyck: Painting as Puzzle",
+      "words": 217,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day05-national-gallery/adult/02-holbein-vaneyck-more.md",
+        "title": "Tell Me More: Reading the Objects",
+        "words": 241,
+        "est_minutes": 1.6
+       },
+       {
+        "file": "content/day05-national-gallery/adult/02-holbein-van-eyck-more-1.md",
+        "title": "Tell Me More: Holbein at a Dangerous Court",
+        "words": 257,
+        "est_minutes": 1.7
+       },
+       {
+        "file": "content/day05-national-gallery/adult/02-holbein-van-eyck-more-2.md",
+        "title": "Tell Me More: Van Eyck and the Oil Revolution",
+        "words": 260,
+        "est_minutes": 1.7
+       }
+      ]
+     },
+     {
+      "file": "content/day05-national-gallery/adult/03-turner-vangogh.md",
+      "title": "Turner's Temeraire and Van Gogh's Absent Sunflowers",
+      "words": 220,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day05-national-gallery/adult/03-turner-vangogh-more.md",
+        "title": "Tell Me More: Bequests, Bonfires and Chemistry",
+        "words": 235,
+        "est_minutes": 1.6
+       },
+       {
+        "file": "content/day05-national-gallery/adult/03-turner-vangogh-more-1.md",
+        "title": "Tell Me More: Turner, Father of the Impressionists",
+        "words": 263,
+        "est_minutes": 1.8
+       },
+       {
+        "file": "content/day05-national-gallery/adult/03-turner-vangogh-more-2.md",
+        "title": "Tell Me More: Van Gogh's Chair and the Yellow House",
+        "words": 262,
+        "est_minutes": 1.7
+       }
+      ]
+     },
+     {
+      "file": "content/day05-national-gallery/adult/04-impressionists.md",
+      "title": "The Impressionist Rooms",
+      "words": 250,
+      "est_minutes": 1.7,
+      "tell_me_more": [
+       {
+        "file": "content/day05-national-gallery/adult/04-impressionists-more-1.md",
+        "title": "Tell Me More: Why It Looked Like an Outrage",
+        "words": 259,
+        "est_minutes": 1.7
+       },
+       {
+        "file": "content/day05-national-gallery/adult/04-impressionists-more-2.md",
+        "title": "Tell Me More: Six Pictures Worth Slowing For",
+        "words": 250,
+        "est_minutes": 1.7
+       }
+      ]
+     },
+     {
+      "file": "content/day05-national-gallery/adult/05-pointillism.md",
+      "title": "Pointillism and Seurat",
+      "words": 251,
+      "est_minutes": 1.7,
+      "tell_me_more": [
+       {
+        "file": "content/day05-national-gallery/adult/05-pointillism-more-1.md",
+        "title": "Tell Me More: The Science Behind the Dots",
+        "words": 264,
+        "est_minutes": 1.8
+       },
+       {
+        "file": "content/day05-national-gallery/adult/05-pointillism-more-2.md",
+        "title": "Tell Me More: Seurat, Signac and the Neo-Impressionists",
+        "words": 267,
+        "est_minutes": 1.8
+       }
+      ]
+     },
+     {
+      "file": "content/day05-national-gallery/adult/06-impressionists-pointillists-route.md",
+      "title": "From Impressionism to Pointillism: Light, Colour, and Control",
+      "words": 762,
+      "est_minutes": 5.1,
+      "tell_me_more": []
+     },
+     {
+      "file": "content/day05-national-gallery/adult/07-past-future-art-route.md",
+      "title": "Past to Future: How Modern Art Starts Before Modern Art",
+      "words": 736,
+      "est_minutes": 4.9,
+      "tell_me_more": []
+     }
+    ]
+   },
+   "kid_total_minutes": 11.9,
+   "adult_total_minutes": 14.4
+  },
+  {
+   "id": "day06-westminster-walk",
+   "name": "Westminster Walk",
+   "day": 6,
+   "date": "Thu Jul 16",
+   "note": "Mall, Trafalgar, Whitehall, Big Ben, Abbey, St James's",
+   "tracks": {
+    "kid": [
+     {
+      "file": "content/day06-westminster-walk/kid/08-admiralty-mall.md",
+      "title": "The Arch, the Secret Nose, and the Red Road",
+      "est_minutes": 1.8,
+      "tell_me_more": [
+       {
+        "file": "content/day06-westminster-walk/kid/08-admiralty-mall-more-1.md",
+        "title": "The Secret of the Nose",
+        "est_minutes": 2.8
+       },
+       {
+        "file": "content/day06-westminster-walk/kid/08-admiralty-mall-more-2.md",
+        "title": "The Royal Red Road",
+        "est_minutes": 2.4
+       }
+      ]
+     },
+     {
+      "file": "content/day06-westminster-walk/kid/03-park-and-lions.md",
+      "title": "Pelicans, Lions and a One-Armed Hero",
+      "words": 210,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day06-westminster-walk/kid/03-park-and-lions-more-1.md",
+        "title": "Duck Island and the Pelican's Amazing Pouch",
+        "words": 366,
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day06-westminster-walk/kid/03-park-and-lions-more-2.md",
+        "title": "Dinner on Top of a Column",
+        "words": 375,
+        "est_minutes": 2.5
+       }
+      ]
+     },
+     {
+      "file": "content/day06-westminster-walk/kid/07-horse-guards.md",
+      "title": "The Guards Who Must Not Move",
+      "est_minutes": 1.8,
+      "tell_me_more": [
+       {
+        "file": "content/day06-westminster-walk/kid/07-horse-guards-more-1.md",
+        "title": "The King Who Lost His Head",
+        "est_minutes": 2.6
+       },
+       {
+        "file": "content/day06-westminster-walk/kid/07-horse-guards-more-2.md",
+        "title": "Statues That Breathe",
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day06-westminster-walk/kid/07-horse-guards-more-3.md",
+        "title": "The Painted Ceiling and the Birthday Parade",
+        "est_minutes": 2.5
+       }
+      ]
+     },
+     {
+      "file": "content/day06-westminster-walk/kid/06-whitehall.md",
+      "title": "The Street That Runs the Country",
+      "est_minutes": 1.6,
+      "tell_me_more": [
+       {
+        "file": "content/day06-westminster-walk/kid/06-whitehall-more-1.md",
+        "title": "The Empty Tomb in the Middle of the Road",
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day06-westminster-walk/kid/06-whitehall-more-2.md",
+        "title": "The Most Famous Front Door in Britain",
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day06-westminster-walk/kid/06-whitehall-more-3.md",
+        "title": "The Palace That Vanished",
+        "est_minutes": 2.7
+       }
+      ]
+     },
+     {
+      "file": "content/day06-westminster-walk/kid/01-big-ben.md",
+      "title": "Big Ben: The Most Famous Bong in the World",
+      "words": 208,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day06-westminster-walk/kid/01-big-ben-more-1.md",
+        "title": "The Bell That Crossed the Bridge",
+        "words": 366,
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day06-westminster-walk/kid/01-big-ben-more-2.md",
+        "title": "A Secret Light and Four Giant Clocks",
+        "words": 363,
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day06-westminster-walk/kid/01-big-ben-more-3.md",
+        "title": "The Great Clean-Up",
+        "words": 376,
+        "est_minutes": 2.5
+       }
+      ]
+     },
+     {
+      "file": "content/day06-westminster-walk/kid/02-parliament.md",
+      "title": "The Houses of Parliament and the Gunpowder Plot",
+      "words": 209,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day06-westminster-walk/kid/02-parliament-more-1.md",
+        "title": "The Hall That Beat the Fire",
+        "words": 385,
+        "est_minutes": 2.6
+       },
+       {
+        "file": "content/day06-westminster-walk/kid/02-parliament-more-2.md",
+        "title": "Green Benches, Red Benches, and a Golden Stick",
+        "words": 378,
+        "est_minutes": 2.5
+       }
+      ]
+     },
+     {
+      "file": "content/day06-westminster-walk/kid/05-parliament-square.md",
+      "title": "A Square Full of Heroes",
+      "est_minutes": 1.6,
+      "tell_me_more": [
+       {
+        "file": "content/day06-westminster-walk/kid/05-parliament-square-more-1.md",
+        "title": "The First Woman in the Square",
+        "est_minutes": 2.3
+       },
+       {
+        "file": "content/day06-westminster-walk/kid/05-parliament-square-more-2.md",
+        "title": "Meet the Rest of the Giants",
+        "est_minutes": 2.5
+       }
+      ]
+     },
+     {
+      "file": "content/day06-westminster-walk/kid/04-abbey.md",
+      "title": "The Church Where Kings Are Crowned",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day06-westminster-walk/kid/04-abbey-more-1.md",
+        "title": "The Oldest Chair in the Kingdom",
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day06-westminster-walk/kid/04-abbey-more-2.md",
+        "title": "Two Enemy Queens in One Grave",
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day06-westminster-walk/kid/04-abbey-more-3.md",
+        "title": "The Grave Nobody Steps On",
+        "est_minutes": 2.7
+       }
+      ]
+     }
+    ],
+    "adult": [
+     {
+      "file": "content/day06-westminster-walk/adult/08-admiralty-mall.md",
+      "title": "Admiralty Arch and The Mall: The Ceremonial Way",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day06-westminster-walk/adult/08-admiralty-mall-more-1.md",
+        "title": "Admiralty Arch and the Nose in the Wall",
+        "est_minutes": 3.0
+       },
+       {
+        "file": "content/day06-westminster-walk/adult/08-admiralty-mall-more-2.md",
+        "title": "The Mall: A Nation on Parade",
+        "est_minutes": 2.7
+       }
+      ]
+     },
+     {
+      "file": "content/day06-westminster-walk/adult/03-park-and-square.md",
+      "title": "St James's Park and Trafalgar Square: Power as Landscape",
+      "words": 214,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day06-westminster-walk/adult/03-park-and-square-more-1.md",
+        "title": "St James's Park: From Swamp to Stage Set",
+        "words": 374,
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day06-westminster-walk/adult/03-park-and-square-more-2.md",
+        "title": "The Nation's Front Room",
+        "words": 419,
+        "est_minutes": 2.8
+       }
+      ]
+     },
+     {
+      "file": "content/day06-westminster-walk/adult/07-horse-guards.md",
+      "title": "Horse Guards: Sentries, Parade, and a Scaffold",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day06-westminster-walk/adult/07-horse-guards-more-1.md",
+        "title": "The King's Life Guard",
+        "est_minutes": 2.6
+       },
+       {
+        "file": "content/day06-westminster-walk/adult/07-horse-guards-more-2.md",
+        "title": "The King Who Would Not Shiver",
+        "est_minutes": 2.7
+       },
+       {
+        "file": "content/day06-westminster-walk/adult/07-horse-guards-more-3.md",
+        "title": "Inigo Jones, Rubens, and the Colour",
+        "est_minutes": 2.7
+       }
+      ]
+     },
+     {
+      "file": "content/day06-westminster-walk/adult/06-whitehall.md",
+      "title": "Whitehall: The Street That Means Government",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day06-westminster-walk/adult/06-whitehall-more-1.md",
+        "title": "The Cenotaph: An Empty Tomb of Genius",
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day06-westminster-walk/adult/06-whitehall-more-2.md",
+        "title": "Ten Downing Street and the Chief Mouser",
+        "est_minutes": 2.7
+       },
+       {
+        "file": "content/day06-westminster-walk/adult/06-whitehall-more-3.md",
+        "title": "The Ghost Palace and the Empty Coats",
+        "est_minutes": 2.6
+       }
+      ]
+     },
+     {
+      "file": "content/day06-westminster-walk/adult/01-big-ben.md",
+      "title": "The Elizabeth Tower: Precision, Cracks and Pennies",
+      "words": 225,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day06-westminster-walk/adult/01-big-ben-more-1.md",
+        "title": "The Foundry, the Horses, and the Name",
+        "words": 366,
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day06-westminster-walk/adult/01-big-ben-more-2.md",
+        "title": "The Ayrton Light and the Reading of the Dials",
+        "words": 342,
+        "est_minutes": 2.3
+       },
+       {
+        "file": "content/day06-westminster-walk/adult/01-big-ben-more-3.md",
+        "title": "Conservation as National Surgery",
+        "words": 378,
+        "est_minutes": 2.5
+       }
+      ]
+     },
+     {
+      "file": "content/day06-westminster-walk/adult/02-parliament.md",
+      "title": "The Palace of Westminster: Fire, Gothic and the Longest Hall",
+      "words": 227,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day06-westminster-walk/adult/02-parliament-more-1.md",
+        "title": "The Other Tower and the Skin of the Law",
+        "words": 372,
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day06-westminster-walk/adult/02-parliament-more-2.md",
+        "title": "Green Benches, Red Benches, and a Sack of Wool",
+        "words": 367,
+        "est_minutes": 2.4
+       }
+      ]
+     },
+     {
+      "file": "content/day06-westminster-walk/adult/05-parliament-square.md",
+      "title": "Parliament Square: An Argument Cast in Bronze",
+      "est_minutes": 1.6,
+      "tell_me_more": [
+       {
+        "file": "content/day06-westminster-walk/adult/05-parliament-square-more-1.md",
+        "title": "Millicent Fawcett and the Woman Who Was Missing",
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day06-westminster-walk/adult/05-parliament-square-more-2.md",
+        "title": "Reading the Rest of the Square",
+        "est_minutes": 2.5
+       }
+      ]
+     },
+     {
+      "file": "content/day06-westminster-walk/adult/04-abbey.md",
+      "title": "Westminster Abbey: A Thousand Years of Crowns",
+      "est_minutes": 1.7,
+      "tell_me_more": [
+       {
+        "file": "content/day06-westminster-walk/adult/04-abbey-more-1.md",
+        "title": "The Coronation Chair and the Stone of Destiny",
+        "est_minutes": 2.6
+       },
+       {
+        "file": "content/day06-westminster-walk/adult/04-abbey-more-2.md",
+        "title": "Enemies in Marble: The Tudor Tombs",
+        "est_minutes": 2.7
+       },
+       {
+        "file": "content/day06-westminster-walk/adult/04-abbey-more-3.md",
+        "title": "Poets, Scientists, and the Unknown Warrior",
+        "est_minutes": 2.8
+       }
+      ]
+     }
+    ]
+   },
+   "kid_total_minutes": 4.2,
+   "adult_total_minutes": 4.4
+  },
+  {
+   "id": "day07-hampton-court",
+   "name": "Hampton Court Palace",
+   "day": 7,
+   "date": "Fri Jul 17",
+   "note": "Maze, Tudor kitchens, ghosts",
+   "tracks": {
+    "kid": [
+     {
+      "file": "content/day07-hampton-court/kid/01-henry-and-wolsey.md",
+      "title": "The Palace a King Took for Himself",
+      "est_minutes": 1.3,
+      "tell_me_more": [
+       {
+        "file": "content/day07-hampton-court/kid/01-henry-and-wolsey-more-1.md",
+        "title": "The Six Wives Who Lived Here",
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day07-hampton-court/kid/01-henry-and-wolsey-more-2.md",
+        "title": "Arrive by River, and Look Up",
+        "est_minutes": 2.4
+       }
+      ]
+     },
+     {
+      "file": "content/day07-hampton-court/kid/02-tudor-kitchens.md",
+      "title": "The Tudor Kitchens: Feeding 600 People Twice a Day",
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day07-hampton-court/kid/02-tudor-kitchens-more-1.md",
+        "title": "A Kitchen Boy's Long Day",
+        "est_minutes": 2.4
+       }
+      ]
+     },
+     {
+      "file": "content/day07-hampton-court/kid/03-ghosts.md",
+      "title": "The Screaming Gallery: Britain's Most Haunted Palace",
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day07-hampton-court/kid/03-ghosts-more-1.md",
+        "title": "Catherine Howard: The Real Girl Behind the Scream",
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day07-hampton-court/kid/03-ghosts-more-2.md",
+        "title": "The White Lady, Skeletor, and Ghost Science",
+        "est_minutes": 2.4
+       }
+      ]
+     },
+     {
+      "file": "content/day07-hampton-court/kid/04-maze-magic-garden.md",
+      "title": "The Maze: 350 Years of People Getting Lost",
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day07-hampton-court/kid/04-maze-magic-garden-more-1.md",
+        "title": "The Oldest Grapevine and the King's Weird Tennis",
+        "est_minutes": 2.5
+       }
+      ]
+     },
+     {
+      "file": "content/day07-hampton-court/kid/05-two-palaces.md",
+      "title": "One Palace, Two Worlds",
+      "est_minutes": 1.3,
+      "tell_me_more": [
+       {
+        "file": "content/day07-hampton-court/kid/05-two-palaces-more-1.md",
+        "title": "The Mole and Wren's Half-Built Palace",
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day07-hampton-court/kid/05-two-palaces-more-2.md",
+        "title": "Golden Treasure and a Prisoner King",
+        "est_minutes": 2.5
+       }
+      ]
+     }
+    ],
+    "adult": [
+     {
+      "file": "content/day07-hampton-court/adult/01-wolsey-henry.md",
+      "title": "Wolsey's Palace, Henry's Prize",
+      "est_minutes": 1.6,
+      "tell_me_more": [
+       {
+        "file": "content/day07-hampton-court/adult/01-wolsey-henry-more-1.md",
+        "title": "The Six Wives, in These Rooms",
+        "est_minutes": 2.2
+       },
+       {
+        "file": "content/day07-hampton-court/adult/01-wolsey-henry-more-2.md",
+        "title": "Reading the Tudor Skin: Emperors, a Clock, and a Cardinal's Ego",
+        "est_minutes": 2.2
+       }
+      ]
+     },
+     {
+      "file": "content/day07-hampton-court/adult/02-kitchens-court.md",
+      "title": "The Machinery of Magnificence: Kitchens and Court",
+      "est_minutes": 1.6,
+      "tell_me_more": [
+       {
+        "file": "content/day07-hampton-court/adult/02-kitchens-court-more-1.md",
+        "title": "The Chocolate Kitchen and the Court's Long Afterlife of Appetite",
+        "est_minutes": 2.2
+       }
+      ]
+     },
+     {
+      "file": "content/day07-hampton-court/adult/03-baroque-wren.md",
+      "title": "William, Mary and Wren: The Unfinished Versailles",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day07-hampton-court/adult/03-baroque-wren-more-1.md",
+        "title": "The Gardens as Statecraft: Restoring a King's View",
+        "est_minutes": 2.2
+       },
+       {
+        "file": "content/day07-hampton-court/adult/03-baroque-wren-more-2.md",
+        "title": "The Great Vine and the Oldest Tennis Court",
+        "est_minutes": 2.1
+       }
+      ]
+     },
+     {
+      "file": "content/day07-hampton-court/adult/04-ghosts-legends.md",
+      "title": "Ghost Stories as Compressed History",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day07-hampton-court/adult/04-ghosts-legends-more-1.md",
+        "title": "The Manufacture of a Haunted Palace",
+        "est_minutes": 2.3
+       }
+      ]
+     },
+     {
+      "file": "content/day07-hampton-court/adult/05-tapestries-art.md",
+      "title": "Woven Gold: The Art You Might Walk Past",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day07-hampton-court/adult/05-tapestries-art-more-1.md",
+        "title": "Mantegna's Triumphs of Caesar: The Renaissance in a Side Gallery",
+        "est_minutes": 2.2
+       },
+       {
+        "file": "content/day07-hampton-court/adult/05-tapestries-art-more-2.md",
+        "title": "Charles the First's Two Hampton Courts: Collector and Captive",
+        "est_minutes": 2.3
+       }
+      ]
+     }
+    ]
+   },
+   "kid_total_minutes": 6.8,
+   "adult_total_minutes": 7.7
+  },
+  {
+   "id": "day08-train-north",
+   "name": "Train to Edinburgh",
+   "day": 8,
+   "date": "Sat Jul 18",
+   "note": "East Coast Main Line, listen on board",
+   "tracks": {
+    "kid": [
+     {
+      "file": "content/day08-train-north/kid/01-east-coast-line.md",
+      "title": "Racing North on the Flying Scotsman's Line",
+      "words": 216,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day08-train-north/kid/01-east-coast-line-more-1.md",
+        "title": "The Bullet Train and a Queen Under the Floor",
+        "words": 432,
+        "est_minutes": 2.9
+       },
+       {
+        "file": "content/day08-train-north/kid/01-east-coast-line-more-2.md",
+        "title": "The Duck That Broke the World Record",
+        "words": 459,
+        "est_minutes": 3.1
+       },
+       {
+        "file": "content/day08-train-north/kid/01-east-coast-line-more-3.md",
+        "title": "The Bridges of the Tyne and the Giant Angel",
+        "words": 408,
+        "est_minutes": 2.7
+       }
+      ]
+     },
+     {
+      "file": "content/day08-train-north/kid/02-crossing-the-border.md",
+      "title": "Crossing into Scotland",
+      "words": 213,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day08-train-north/kid/02-crossing-the-border-more-1.md",
+        "title": "Holy Island and the Vikings",
+        "words": 383,
+        "est_minutes": 2.6
+       },
+       {
+        "file": "content/day08-train-north/kid/02-crossing-the-border-more-2.md",
+        "title": "Castles by the Sea",
+        "words": 417,
+        "est_minutes": 2.8
+       },
+       {
+        "file": "content/day08-train-north/kid/02-crossing-the-border-more-3.md",
+        "title": "A Volcano and a Station in a Vanished Lake",
+        "words": 399,
+        "est_minutes": 2.7
+       }
+      ]
+     }
+    ],
+    "adult": [
+     {
+      "file": "content/day08-train-north/adult/01-east-coast-line.md",
+      "title": "The East Coast Main Line: Racing History",
+      "words": 218,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day08-train-north/adult/01-east-coast-line-more-1.md",
+        "title": "Out of King's Cross: The Modern Racers and a Buried Queen",
+        "words": 408,
+        "est_minutes": 2.7
+       },
+       {
+        "file": "content/day08-train-north/adult/01-east-coast-line-more-2.md",
+        "title": "Gresley, the A4s, and Why Mallard Still Wins",
+        "words": 382,
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day08-train-north/adult/01-east-coast-line-more-3.md",
+        "title": "Prince-Bishops, the Tyne, and the Angel",
+        "words": 391,
+        "est_minutes": 2.6
+       }
+      ]
+     },
+     {
+      "file": "content/day08-train-north/adult/02-border-and-arrival.md",
+      "title": "Berwick, the Border, and Arriving in Edinburgh",
+      "words": 229,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day08-train-north/adult/02-border-and-arrival-more-1.md",
+        "title": "Lindisfarne and the Northumberland Coast",
+        "words": 418,
+        "est_minutes": 2.8
+       },
+       {
+        "file": "content/day08-train-north/adult/02-border-and-arrival-more-2.md",
+        "title": "The Border and the Debatable Land",
+        "words": 392,
+        "est_minutes": 2.6
+       },
+       {
+        "file": "content/day08-train-north/adult/02-border-and-arrival-more-3.md",
+        "title": "Arthur's Seat, the Nor Loch, and Waverley",
+        "words": 361,
+        "est_minutes": 2.4
+       }
+      ]
+     }
+    ]
+   },
+   "kid_total_minutes": 2.8,
+   "adult_total_minutes": 3.0
+  },
+  {
+   "id": "day09-edinburgh-castle",
+   "name": "Edinburgh Castle",
+   "day": 9,
+   "date": "Sun Jul 19",
+   "note": "3:00 PM timed entry",
+   "tracks": {
+    "kid": [
+     {
+      "file": "content/day09-edinburgh-castle/kid/01-castle-rock.md",
+      "title": "The Most Attacked Castle in Britain",
+      "words": 221,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day09-edinburgh-castle/kid/01-castle-rock-more.md",
+        "title": "Tell Me More: Sieges, Dogs and a Piper",
+        "words": 266,
+        "est_minutes": 1.8
+       },
+       {
+        "file": "content/day09-edinburgh-castle/kid/01-castle-rock-more-2.md",
+        "title": "The Volcano Under Your Feet",
+        "words": 381,
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day09-edinburgh-castle/kid/01-castle-rock-more-3.md",
+        "title": "The Tiny Oldest Building",
+        "words": 377,
+        "est_minutes": 2.5
+       }
+      ]
+     },
+     {
+      "file": "content/day09-edinburgh-castle/kid/02-one-oclock-gun.md",
+      "title": "BANG! The One O'Clock Gun",
+      "words": 225,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day09-edinburgh-castle/kid/02-gun-more.md",
+        "title": "Tell Me More: Gun Stories",
+        "words": 253,
+        "est_minutes": 1.7
+       },
+       {
+        "file": "content/day09-edinburgh-castle/kid/02-one-oclock-gun-more-2.md",
+        "title": "Inside the Great Hall",
+        "words": 346,
+        "est_minutes": 2.3
+       }
+      ]
+     },
+     {
+      "file": "content/day09-edinburgh-castle/kid/03-crown-jewels-stone.md",
+      "title": "The Hidden Crown and the Stolen Stone",
+      "words": 231,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day09-edinburgh-castle/kid/03-crown-stone-more.md",
+        "title": "Tell Me More: The Student Heist of 1950",
+        "words": 266,
+        "est_minutes": 1.8
+       },
+       {
+        "file": "content/day09-edinburgh-castle/kid/03-crown-jewels-stone-more-2.md",
+        "title": "The Baby Prince Born on the Rock",
+        "words": 395,
+        "est_minutes": 2.6
+       },
+       {
+        "file": "content/day09-edinburgh-castle/kid/03-crown-jewels-stone-more-3.md",
+        "title": "Where the Stone Is Now",
+        "words": 381,
+        "est_minutes": 2.5
+       }
+      ]
+     }
+    ],
+    "adult": [
+     {
+      "file": "content/day09-edinburgh-castle/adult/01-rock-and-sieges.md",
+      "title": "Castle Rock: Geology as Destiny",
+      "words": 250,
+      "est_minutes": 1.7,
+      "tell_me_more": [
+       {
+        "file": "content/day09-edinburgh-castle/adult/01-rock-more.md",
+        "title": "Tell Me More: The Castle as Working Fortress",
+        "words": 273,
+        "est_minutes": 1.8
+       },
+       {
+        "file": "content/day09-edinburgh-castle/adult/01-rock-and-sieges-more-2.md",
+        "title": "A Volcano Carved by Ice",
+        "words": 374,
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day09-edinburgh-castle/adult/01-rock-and-sieges-more-3.md",
+        "title": "The Oldest Room in Edinburgh",
+        "words": 374,
+        "est_minutes": 2.5
+       }
+      ]
+     },
+     {
+      "file": "content/day09-edinburgh-castle/adult/02-honours-stone.md",
+      "title": "The Honours and the Stone: Objects of State",
+      "words": 295,
+      "est_minutes": 2.0,
+      "tell_me_more": [
+       {
+        "file": "content/day09-edinburgh-castle/adult/02-honours-more.md",
+        "title": "Tell Me More: Scott's Treasure Hunt and Wartime Burial",
+        "words": 265,
+        "est_minutes": 1.8
+       },
+       {
+        "file": "content/day09-edinburgh-castle/adult/02-honours-stone-more-2.md",
+        "title": "The Birth of a King",
+        "words": 381,
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day09-edinburgh-castle/adult/02-honours-stone-more-3.md",
+        "title": "The Stone's New Home",
+        "words": 398,
+        "est_minutes": 2.7
+       }
+      ]
+     },
+     {
+      "file": "content/day09-edinburgh-castle/adult/03-gun-war-memorial.md",
+      "title": "The Gun, the Guns, and the Shrine",
+      "words": 249,
+      "est_minutes": 1.7,
+      "tell_me_more": [
+       {
+        "file": "content/day09-edinburgh-castle/adult/03-memorial-more.md",
+        "title": "Tell Me More: Reading the War Memorial",
+        "words": 279,
+        "est_minutes": 1.9
+       },
+       {
+        "file": "content/day09-edinburgh-castle/adult/03-gun-war-memorial-more-2.md",
+        "title": "Mons Meg: Biography of a Superweapon",
+        "words": 409,
+        "est_minutes": 2.7
+       }
+      ]
+     }
+    ]
+   },
+   "kid_total_minutes": 4.5,
+   "adult_total_minutes": 5.4
+  },
+  {
+   "id": "day09-royal-mile",
+   "name": "Royal Mile & Old Town",
+   "day": 9,
+   "date": "Sun Jul 19",
+   "note": "Before/during the 10 AM walking tour",
+   "tracks": {
+    "kid": [
+     {
+      "file": "content/day09-royal-mile/kid/01-crag-and-tail.md",
+      "title": "A City Built on a Volcano's Tail",
+      "words": 229,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day09-royal-mile/kid/01-crag-more.md",
+        "title": "Tell Me More: Reading the Old Town Like a Detective",
+        "words": 252,
+        "est_minutes": 1.7
+       },
+       {
+        "file": "content/day09-royal-mile/kid/01-crag-and-tail-more-1.md",
+        "title": "Tell Me More: The Rock Detective",
+        "words": 378,
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day09-royal-mile/kid/01-crag-and-tail-more-2.md",
+        "title": "Tell Me More: Climbing Up a Land",
+        "words": 377,
+        "est_minutes": 2.5
+       }
+      ]
+     },
+     {
+      "file": "content/day09-royal-mile/kid/02-gardyloo.md",
+      "title": "Gardyloo! The Smelliest City in Europe",
+      "words": 204,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day09-royal-mile/kid/02-gardyloo-more.md",
+        "title": "Tell Me More: Doctors, Body Snatchers and the Smell of Progress",
+        "words": 246,
+        "est_minutes": 1.6
+       },
+       {
+        "file": "content/day09-royal-mile/kid/02-gardyloo-more-1.md",
+        "title": "Tell Me More: The Street Under the Street",
+        "words": 374,
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day09-royal-mile/kid/02-gardyloo-more-2.md",
+        "title": "Tell Me More: The Stinky Lake and the Witch Test",
+        "words": 413,
+        "est_minutes": 2.8
+       }
+      ]
+     },
+     {
+      "file": "content/day09-royal-mile/kid/03-heart-and-bobby.md",
+      "title": "Spit on the Heart, Salute the Dog",
+      "words": 218,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day09-royal-mile/kid/03-heart-bobby-more.md",
+        "title": "Tell Me More: More Street Legends",
+        "words": 239,
+        "est_minutes": 1.6
+       },
+       {
+        "file": "content/day09-royal-mile/kid/03-heart-and-bobby-more-1.md",
+        "title": "Tell Me More: The Gentleman Burglar",
+        "words": 420,
+        "est_minutes": 2.8
+       },
+       {
+        "file": "content/day09-royal-mile/kid/03-heart-and-bobby-more-2.md",
+        "title": "Tell Me More: Was Bobby Really Real?",
+        "words": 391,
+        "est_minutes": 2.6
+       }
+      ]
+     }
+    ],
+    "adult": [
+     {
+      "file": "content/day09-royal-mile/adult/01-old-town.md",
+      "title": "The Old Town: Vertical City",
+      "words": 251,
+      "est_minutes": 1.7,
+      "tell_me_more": [
+       {
+        "file": "content/day09-royal-mile/adult/01-oldtown-more.md",
+        "title": "Tell Me More: The Enlightenment in a Half Square Mile",
+        "words": 262,
+        "est_minutes": 1.7
+       },
+       {
+        "file": "content/day09-royal-mile/adult/01-old-town-more-1.md",
+        "title": "Tell Me More: The Man Who Found Deep Time",
+        "words": 406,
+        "est_minutes": 2.7
+       },
+       {
+        "file": "content/day09-royal-mile/adult/01-old-town-more-2.md",
+        "title": "Tell Me More: The Making of Two Cities",
+        "words": 408,
+        "est_minutes": 2.7
+       }
+      ]
+     },
+     {
+      "file": "content/day09-royal-mile/adult/02-st-giles-covenant.md",
+      "title": "St Giles, the Covenant, and a Thrown Stool",
+      "words": 241,
+      "est_minutes": 1.6,
+      "tell_me_more": [
+       {
+        "file": "content/day09-royal-mile/adult/02-stgiles-more.md",
+        "title": "Tell Me More: The Reformation's Long Shadow",
+        "words": 258,
+        "est_minutes": 1.7
+       },
+       {
+        "file": "content/day09-royal-mile/adult/02-st-giles-covenant-more-1.md",
+        "title": "Tell Me More: A Cathedral That Isn't, and a Chapel of Thorns",
+        "words": 401,
+        "est_minutes": 2.7
+       },
+       {
+        "file": "content/day09-royal-mile/adult/02-st-giles-covenant-more-2.md",
+        "title": "Tell Me More: Knox, Mary, and the Woman with the Stool",
+        "words": 404,
+        "est_minutes": 2.7
+       }
+      ]
+     },
+     {
+      "file": "content/day09-royal-mile/adult/03-underground-city.md",
+      "title": "The City Beneath: Closes, Vaults and Plague Stories",
+      "words": 229,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day09-royal-mile/adult/03-underground-more.md",
+        "title": "Tell Me More: Deacon Brodie and the City of Doubles",
+        "words": 257,
+        "est_minutes": 1.7
+       },
+       {
+        "file": "content/day09-royal-mile/adult/03-underground-city-more-1.md",
+        "title": "Tell Me More: Burke, Hare, and the Anatomy Act",
+        "words": 414,
+        "est_minutes": 2.8
+       },
+       {
+        "file": "content/day09-royal-mile/adult/03-underground-city-more-2.md",
+        "title": "Tell Me More: Greyfriars, a Poltergeist and a Doubtful Dog",
+        "words": 403,
+        "est_minutes": 2.7
+       }
+      ]
+     }
+    ]
+   },
+   "kid_total_minutes": 4.4,
+   "adult_total_minutes": 4.8
+  },
+  {
+   "id": "day10-inchcolm-island",
+   "name": "Inchcolm Island & Forth Bridge",
+   "day": 10,
+   "date": "Mon Jul 20",
+   "note": "12:15 PM sailing from Hawes Pier",
+   "tracks": {
+    "kid": [
+     {
+      "file": "content/day10-inchcolm-island/kid/01-forth-bridge.md",
+      "title": "The Big Red Bridge Made of 6.5 Million Rivets",
+      "words": 225,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day10-inchcolm-island/kid/01-forth-bridge-more-1.md",
+        "title": "The Three Men and the Chairs",
+        "words": 381,
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day10-inchcolm-island/kid/01-forth-bridge-more-2.md",
+        "title": "How Tall, How Long, How Heavy",
+        "words": 380,
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day10-inchcolm-island/kid/01-forth-bridge-more-3.md",
+        "title": "Three Bridges in a Row",
+        "words": 371,
+        "est_minutes": 2.5
+       }
+      ]
+     },
+     {
+      "file": "content/day10-inchcolm-island/kid/02-abbey.md",
+      "title": "The Island of the Monks",
+      "words": 223,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day10-inchcolm-island/kid/02-abbey-more-1.md",
+        "title": "The Island in a Shakespeare Play",
+        "words": 405,
+        "est_minutes": 2.7
+       },
+       {
+        "file": "content/day10-inchcolm-island/kid/02-abbey-more-2.md",
+        "title": "Secrets to Find in the Ruins",
+        "words": 347,
+        "est_minutes": 2.3
+       }
+      ]
+     },
+     {
+      "file": "content/day10-inchcolm-island/kid/03-seals-and-war.md",
+      "title": "Seals, Seabirds and Secret War Tunnels",
+      "words": 225,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day10-inchcolm-island/kid/03-seals-and-war-more-1.md",
+        "title": "The Soldiers' Island",
+        "words": 361,
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day10-inchcolm-island/kid/03-seals-and-war-more-2.md",
+        "title": "Where the Animals Live",
+        "words": 388,
+        "est_minutes": 2.6
+       }
+      ]
+     }
+    ],
+    "adult": [
+     {
+      "file": "content/day10-inchcolm-island/adult/01-forth-bridge.md",
+      "title": "The Forth Bridge: Engineering as Public Reassurance",
+      "words": 262,
+      "est_minutes": 1.7,
+      "tell_me_more": [
+       {
+        "file": "content/day10-inchcolm-island/adult/01-forth-bridge-more-1.md",
+        "title": "The Human Cantilever",
+        "words": 397,
+        "est_minutes": 2.6
+       },
+       {
+        "file": "content/day10-inchcolm-island/adult/01-forth-bridge-more-2.md",
+        "title": "The Numbers That Still Astonish",
+        "words": 381,
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day10-inchcolm-island/adult/01-forth-bridge-more-3.md",
+        "title": "Three Bridges, Three Centuries",
+        "words": 338,
+        "est_minutes": 2.3
+       }
+      ]
+     },
+     {
+      "file": "content/day10-inchcolm-island/adult/02-abbey.md",
+      "title": "Inchcolm Abbey: Scotland's Best-Preserved Monastery",
+      "words": 247,
+      "est_minutes": 1.6,
+      "tell_me_more": [
+       {
+        "file": "content/day10-inchcolm-island/adult/02-abbey-more-1.md",
+        "title": "The Literary Island",
+        "words": 365,
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day10-inchcolm-island/adult/02-abbey-more-2.md",
+        "title": "Why the Ruin Is So Complete",
+        "words": 359,
+        "est_minutes": 2.4
+       }
+      ]
+     },
+     {
+      "file": "content/day10-inchcolm-island/adult/03-fortress-island.md",
+      "title": "The Armed Island: Two World Wars on Inchcolm",
+      "words": 244,
+      "est_minutes": 1.6,
+      "tell_me_more": [
+       {
+        "file": "content/day10-inchcolm-island/adult/03-fortress-more-1.md",
+        "title": "The Guns of Inchcolm, Up Close",
+        "words": 343,
+        "est_minutes": 2.3
+       },
+       {
+        "file": "content/day10-inchcolm-island/adult/03-fortress-more-2.md",
+        "title": "Rosyth and the Grand Fleet",
+        "words": 353,
+        "est_minutes": 2.4
+       }
+      ]
+     }
+    ]
+   },
+   "kid_total_minutes": 4.5,
+   "adult_total_minutes": 4.9
+  },
+  {
+   "id": "day11-stirling-castle",
+   "name": "Stirling Castle",
+   "day": 11,
+   "date": "Tue Jul 21",
+   "note": "Listen on the ScotRail train",
+   "tracks": {
+    "kid": [
+     {
+      "file": "content/day11-stirling-castle/kid/01-key-to-scotland.md",
+      "title": "The Castle That Was the Key to Scotland",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day11-stirling-castle/kid/01-key-to-scotland-more-1.md",
+        "title": "The Trap at Stirling Bridge",
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day11-stirling-castle/kid/01-key-to-scotland-more-2.md",
+        "title": "Bannockburn and the Castle on a Volcano",
+        "est_minutes": 2.6
+       }
+      ]
+     },
+     {
+      "file": "content/day11-stirling-castle/kid/02-palace-unicorns.md",
+      "title": "A Painted Palace and the Kingdom of Unicorns",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day11-stirling-castle/kid/02-palace-unicorns-more-1.md",
+        "title": "The Faces in the Ceiling",
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day11-stirling-castle/kid/02-palace-unicorns-more-2.md",
+        "title": "The Golden Hall and the Busy Kitchens",
+        "est_minutes": 2.6
+       }
+      ]
+     },
+     {
+      "file": "content/day11-stirling-castle/kid/03-baby-queen-flying-man.md",
+      "title": "A Nine-Month-Old Queen and the Man Who Tried to Fly",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day11-stirling-castle/kid/03-baby-queen-flying-man-more-1.md",
+        "title": "The Flying Abbot and His Wings",
+        "est_minutes": 2.9
+       },
+       {
+        "file": "content/day11-stirling-castle/kid/03-baby-queen-flying-man-more-2.md",
+        "title": "The Baby Prince's Fireworks Party",
+        "est_minutes": 2.8
+       },
+       {
+        "file": "content/day11-stirling-castle/kid/03-baby-queen-flying-man-more-3.md",
+        "title": "Mary's Great Escape",
+        "est_minutes": 2.9
+       }
+      ]
+     }
+    ],
+    "adult": [
+     {
+      "file": "content/day11-stirling-castle/adult/01-key-to-scotland.md",
+      "title": "Stirling: The Brooch That Clasps Scotland",
+      "est_minutes": 1.6,
+      "tell_me_more": [
+       {
+        "file": "content/day11-stirling-castle/adult/01-key-to-scotland-more-1.md",
+        "title": "Anatomy of an Ambush: Stirling Bridge",
+        "est_minutes": 2.6
+       },
+       {
+        "file": "content/day11-stirling-castle/adult/01-key-to-scotland-more-2.md",
+        "title": "Bannockburn, and a Castle Nobody Could Keep",
+        "est_minutes": 2.6
+       }
+      ]
+     },
+     {
+      "file": "content/day11-stirling-castle/adult/02-renaissance-court.md",
+      "title": "James V's Palace: Renaissance Propaganda in Stone",
+      "est_minutes": 1.7,
+      "tell_me_more": [
+       {
+        "file": "content/day11-stirling-castle/adult/02-renaissance-court-more-1.md",
+        "title": "The Stirling Heads: A Ceiling of Kings",
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day11-stirling-castle/adult/02-renaissance-court-more-2.md",
+        "title": "The Great Hall, the Chapel, and the Knot Below",
+        "est_minutes": 2.7
+       }
+      ]
+     },
+     {
+      "file": "content/day11-stirling-castle/adult/03-mary-and-court-life.md",
+      "title": "Coronations, Childhoods and a Court of Characters",
+      "est_minutes": 1.7,
+      "tell_me_more": [
+       {
+        "file": "content/day11-stirling-castle/adult/03-mary-and-court-life-more-1.md",
+        "title": "John Damian: Alchemy, Feathers and a Poet's Revenge",
+        "est_minutes": 2.7
+       },
+       {
+        "file": "content/day11-stirling-castle/adult/03-mary-and-court-life-more-2.md",
+        "title": "The Baptism of 1566: A Party as Policy",
+        "est_minutes": 2.3
+       },
+       {
+        "file": "content/day11-stirling-castle/adult/03-mary-and-court-life-more-3.md",
+        "title": "The Nursery of a Kingdom",
+        "est_minutes": 2.5
+       }
+      ]
+     }
+    ]
+   },
+   "kid_total_minutes": 4.5,
+   "adult_total_minutes": 5.0
+  },
+  {
+   "id": "day12-arthurs-seat",
+   "name": "Arthur's Seat",
+   "day": 12,
+   "date": "Wed Jul 22",
+   "note": "Morning hike, Salisbury Crags",
+   "tracks": {
+    "kid": [
+     {
+      "file": "content/day12-arthurs-seat/kid/01-climbing-a-volcano.md",
+      "title": "You Are Climbing a Volcano",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day12-arthurs-seat/kid/01-climbing-a-volcano-more-1.md",
+        "title": "The People Who Lived on the Volcano",
+        "est_minutes": 2.9
+       },
+       {
+        "file": "content/day12-arthurs-seat/kid/01-climbing-a-volcano-more-2.md",
+        "title": "The Best View in the City",
+        "est_minutes": 3.0
+       },
+       {
+        "file": "content/day12-arthurs-seat/kid/01-climbing-a-volcano-more-3.md",
+        "title": "Dragons, Knights, and a Road Built by Hand",
+        "est_minutes": 3.1
+       }
+      ]
+     },
+     {
+      "file": "content/day12-arthurs-seat/kid/02-tiny-coffins.md",
+      "title": "The Mystery of the Seventeen Tiny Coffins",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day12-arthurs-seat/kid/02-tiny-coffins-more-1.md",
+        "title": "The Little Coffins Up Close",
+        "est_minutes": 3.1
+       },
+       {
+        "file": "content/day12-arthurs-seat/kid/02-tiny-coffins-more-2.md",
+        "title": "Detective Time: Who and Why?",
+        "est_minutes": 3.0
+       },
+       {
+        "file": "content/day12-arthurs-seat/kid/02-tiny-coffins-more-3.md",
+        "title": "The Ones That Survived",
+        "est_minutes": 3.1
+       }
+      ]
+     }
+    ],
+    "adult": [
+     {
+      "file": "content/day12-arthurs-seat/adult/01-hutton-deep-time.md",
+      "title": "Salisbury Crags: Where Deep Time Was Discovered",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day12-arthurs-seat/adult/01-hutton-deep-time-more-1.md",
+        "title": "Reading the Crags, and the Quarry That Nearly Ate Them",
+        "est_minutes": 3.1
+       },
+       {
+        "file": "content/day12-arthurs-seat/adult/01-hutton-deep-time-more-2.md",
+        "title": "The Radical Road and the Royal Wilderness",
+        "est_minutes": 3.1
+       },
+       {
+        "file": "content/day12-arthurs-seat/adult/01-hutton-deep-time-more-3.md",
+        "title": "The Fort, the Terraces, and the View",
+        "est_minutes": 3.2
+       }
+      ]
+     },
+     {
+      "file": "content/day12-arthurs-seat/adult/02-legends-coffins.md",
+      "title": "Arthur, Miniature Coffins, and a Park Full of Stories",
+      "est_minutes": 1.6,
+      "tell_me_more": [
+       {
+        "file": "content/day12-arthurs-seat/adult/02-legends-coffins-more-1.md",
+        "title": "The Coffins as Objects: What the Evidence Actually Says",
+        "est_minutes": 3.2
+       },
+       {
+        "file": "content/day12-arthurs-seat/adult/02-legends-coffins-more-2.md",
+        "title": "The Park's Other Ghosts: Chapels, Cairns, and a Skating Minister",
+        "est_minutes": 3.1
+       },
+       {
+        "file": "content/day12-arthurs-seat/adult/02-legends-coffins-more-3.md",
+        "title": "Arthur, Camelot, and the Old North",
+        "est_minutes": 3.1
+       }
+      ]
+     }
+    ]
+   },
+   "kid_total_minutes": 3.0,
+   "adult_total_minutes": 3.1
+  },
+  {
+   "id": "day13-york",
+   "name": "York & the Minster",
+   "day": 13,
+   "date": "Thu Jul 23",
+   "note": "Walls, Shambles, 3:45 PM Minster entry",
+   "tracks": {
+    "kid": [
+     {
+      "file": "content/day13-york/kid/01-walls-and-romans.md",
+      "title": "York: Walk on Top of a City's Armor",
+      "words": 204,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day13-york/kid/01-walls-and-romans-more-1.md",
+        "title": "The Legion That Vanished",
+        "words": 384,
+        "est_minutes": 2.6
+       },
+       {
+        "file": "content/day13-york/kid/01-walls-and-romans-more-2.md",
+        "title": "The Wooden Castle and the Saddest Night",
+        "words": 366,
+        "est_minutes": 2.4
+       }
+      ]
+     },
+     {
+      "file": "content/day13-york/kid/02-shambles.md",
+      "title": "The Shambles: The Wonkiest Street in Britain",
+      "words": 201,
+      "est_minutes": 1.3,
+      "tell_me_more": [
+       {
+        "file": "content/day13-york/kid/02-shambles-more-1.md",
+        "title": "The Ghost Soldiers in the Cellar",
+        "words": 350,
+        "est_minutes": 2.3
+       },
+       {
+        "file": "content/day13-york/kid/02-shambles-more-2.md",
+        "title": "The Boy from York Who Tried to Blow Up Parliament",
+        "words": 345,
+        "est_minutes": 2.3
+       }
+      ]
+     },
+     {
+      "file": "content/day13-york/kid/03-minster.md",
+      "title": "York Minster: 250 Years of Building",
+      "words": 220,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day13-york/kid/03-minster-more-1.md",
+        "title": "Monsters and a Clock for the Stars",
+        "words": 362,
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day13-york/kid/03-minster-more-2.md",
+        "title": "The Night the Minster Caught Fire",
+        "words": 368,
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day13-york/kid/03-minster-more-3.md",
+        "title": "The Room with No Middle, and a Viking's Horn",
+        "words": 318,
+        "est_minutes": 2.1
+       }
+      ]
+     }
+    ],
+    "adult": [
+     {
+      "file": "content/day13-york/adult/01-eboracum-to-york.md",
+      "title": "From Eboracum to York: A Capital in Layers",
+      "words": 254,
+      "est_minutes": 1.7,
+      "tell_me_more": [
+       {
+        "file": "content/day13-york/adult/01-eboracum-to-york-more-1.md",
+        "title": "The Ninth Legion and the Working Fortress",
+        "words": 394,
+        "est_minutes": 2.6
+       },
+       {
+        "file": "content/day13-york/adult/01-eboracum-to-york-more-2.md",
+        "title": "Clifford's Tower and the Sabbath of 1190",
+        "words": 396,
+        "est_minutes": 2.6
+       }
+      ]
+     },
+     {
+      "file": "content/day13-york/adult/02-minster-glass.md",
+      "title": "The Minster: Glass, Fire and the Long Build",
+      "words": 264,
+      "est_minutes": 1.8,
+      "tell_me_more": [
+       {
+        "file": "content/day13-york/adult/02-minster-glass-more-1.md",
+        "title": "The Chapter House, the Clock, and the Treasures",
+        "words": 389,
+        "est_minutes": 2.6
+       },
+       {
+        "file": "content/day13-york/adult/02-minster-glass-more-2.md",
+        "title": "Saint William, the Doomstone, and the Long Campaign",
+        "words": 384,
+        "est_minutes": 2.6
+       }
+      ]
+     },
+     {
+      "file": "content/day13-york/adult/03-shambles-snickelways.md",
+      "title": "The Shambles and the Snickelways: Medieval Streetscape as Survival",
+      "words": 256,
+      "est_minutes": 1.7,
+      "tell_me_more": [
+       {
+        "file": "content/day13-york/adult/03-shambles-snickelways-more-1.md",
+        "title": "Guy Fawkes and the Catholic Underground",
+        "words": 374,
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day13-york/adult/03-shambles-snickelways-more-2.md",
+        "title": "The Treasurer's House and the Ghosts of a Haunted City",
+        "words": 390,
+        "est_minutes": 2.6
+       }
+      ]
+     }
+    ]
+   },
+   "kid_total_minutes": 4.2,
+   "adult_total_minutes": 5.2
+  },
+  {
+   "id": "day14-jorvik",
+   "name": "JORVIK & Viking York",
+   "day": 14,
+   "date": "Fri Jul 24",
+   "note": "10:00 AM timed entry",
+   "tracks": {
+    "kid": [
+     {
+      "file": "content/day14-jorvik/kid/01-vikings-take-york.md",
+      "title": "The Vikings Are Coming — And Staying",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day14-jorvik/kid/01-vikings-take-york-more-1.md",
+        "title": "The Great Horned Helmet Lie",
+        "est_minutes": 2.7
+       },
+       {
+        "file": "content/day14-jorvik/kid/01-vikings-take-york-more-2.md",
+        "title": "A Day on a Viking Street",
+        "est_minutes": 2.9
+       }
+      ]
+     },
+     {
+      "file": "content/day14-jorvik/kid/02-coppergate-dig.md",
+      "title": "The Muddy Miracle Under Your Feet",
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day14-jorvik/kid/02-coppergate-dig-more-1.md",
+        "title": "The Helmet at the Bottom of the Pit",
+        "est_minutes": 2.9
+       },
+       {
+        "file": "content/day14-jorvik/kid/02-coppergate-dig-more-2.md",
+        "title": "The Cleverest Hands in Jorvik",
+        "est_minutes": 2.8
+       }
+      ]
+     },
+     {
+      "file": "content/day14-jorvik/kid/03-the-famous-poo.md",
+      "title": "The Most Famous Poo in the World",
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day14-jorvik/kid/03-the-famous-poo-more-1.md",
+        "title": "What Was for Dinner in Jorvik?",
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day14-jorvik/kid/03-the-famous-poo-more-2.md",
+        "title": "Your Ride Through a Thousand Years",
+        "est_minutes": 2.9
+       }
+      ]
+     }
+    ],
+    "adult": [
+     {
+      "file": "content/day14-jorvik/adult/01-viking-york.md",
+      "title": "Jorvik: The Viking Capital of England",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day14-jorvik/adult/01-viking-york-more-1.md",
+        "title": "The Horned Helmet That Never Was",
+        "est_minutes": 2.9
+       },
+       {
+        "file": "content/day14-jorvik/adult/01-viking-york-more-2.md",
+        "title": "Egil, Bloodaxe, and the Poem That Bought a Head",
+        "est_minutes": 2.8
+       }
+      ]
+     },
+     {
+      "file": "content/day14-jorvik/adult/02-coppergate-archaeology.md",
+      "title": "Coppergate: The Dig That Changed Urban Archaeology",
+      "est_minutes": 1.6,
+      "tell_me_more": [
+       {
+        "file": "content/day14-jorvik/adult/02-coppergate-archaeology-more-1.md",
+        "title": "The Coppergate Helmet",
+        "est_minutes": 2.9
+       },
+       {
+        "file": "content/day14-jorvik/adult/02-coppergate-archaeology-more-2.md",
+        "title": "The Workshops of Coppergate",
+        "est_minutes": 2.9
+       }
+      ]
+     },
+     {
+      "file": "content/day14-jorvik/adult/03-what-remains.md",
+      "title": "What the Vikings Left Behind — and a Trip Coda",
+      "est_minutes": 1.6,
+      "tell_me_more": [
+       {
+        "file": "content/day14-jorvik/adult/03-what-remains-more-1.md",
+        "title": "The Body of Evidence: Food, Dress, and Health",
+        "est_minutes": 2.8
+       },
+       {
+        "file": "content/day14-jorvik/adult/03-what-remains-more-2.md",
+        "title": "Silver, Coins, and the Making of a Market",
+        "est_minutes": 2.8
+       }
+      ]
+     }
+    ]
+   },
+   "kid_total_minutes": 4.3,
+   "adult_total_minutes": 4.7
   }
+ ],
+ "totals": {
+  "files": 425,
+  "kid_words": 71064,
+  "kid_est_minutes": 463,
+  "adult_words": 74093,
+  "adult_est_minutes": 483,
+  "note": "Base + tell_me_more chapters."
+ }
 }

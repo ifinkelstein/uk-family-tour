@@ -1,19 +1,156 @@
 {
-  "day02-richmond-park":        {"emoji": "🦌", "color": "#4E6E3A", "wiki": ["Richmond Park", "Red deer", "King Henry's Mound", "Rose-ringed parakeet"]},
-  "day03-tower-of-london":      {"emoji": "🏰", "color": "#8A8D93", "wiki": ["Tower of London", "Imperial State Crown", "Ravens of the Tower of London", "Traitors' Gate", "Yeomen Warders"]},
-  "day03-tower-bridge":         {"emoji": "🌉", "color": "#3B6EA5", "wiki": ["Tower Bridge"]},
-  "day03-city-walk":            {"emoji": "⛪", "color": "#7A6A53", "wiki": ["St Dunstan-in-the-East", "St Paul's Cathedral"]},
-  "day04-greenwich":            {"emoji": "⏰", "color": "#1F5673", "wiki": ["Cutty Sark", "Royal Observatory, Greenwich", "John Harrison", "National Maritime Museum"]},
-  "day05-westminster-walk":     {"emoji": "🦁", "color": "#9A6A1F", "wiki": ["Big Ben", "Palace of Westminster", "Trafalgar Square"]},
-  "day05-national-gallery":     {"emoji": "🎨", "color": "#7C3B4E", "wiki": ["Sunflowers (Van Gogh series)", "The Ambassadors (Holbein)", "The Fighting Temeraire"]},
-  "day05-british-museum":       {"emoji": "🗿", "color": "#5E5A50", "wiki": ["British Museum", "Rosetta Stone", "Sutton Hoo helmet"]},
-  "day07-hampton-court":        {"emoji": "👑", "color": "#8A3B2E", "wiki": ["Hampton Court Palace", "Henry VIII", "Great Hall, Hampton Court Palace", "Hampton Court Maze", "William III of England"]},
-  "day08-train-north":          {"emoji": "🚂", "color": "#37474F", "wiki": ["East Coast Main Line", "Royal Border Bridge"]},
-  "day09-royal-mile":           {"emoji": "🎪", "color": "#5A4632", "wiki": ["Royal Mile", "St Giles' Cathedral", "Greyfriars Bobby"]},
-  "day09-edinburgh-castle":     {"emoji": "🛡️", "color": "#4A4E69", "wiki": ["Edinburgh Castle", "Honours of Scotland", "One O'Clock Gun"]},
-  "day10-inchcolm-island":      {"emoji": "⛴️", "color": "#20627A", "wiki": ["Forth Bridge", "Inchcolm Abbey", "Inchcolm"]},
-  "day11-stirling-castle":      {"emoji": "🦄", "color": "#6C4AB0", "wiki": ["Stirling Castle", "Royal Palace, Stirling Castle", "Mary, Queen of Scots"]},
-  "day12-arthurs-seat":         {"emoji": "🌋", "color": "#7B5B3A", "wiki": ["Arthur's Seat", "Arthur's Seat coffins"]},
-  "day13-york":                 {"emoji": "🧱", "color": "#8C5A2E", "wiki": ["York city walls", "The Shambles", "York Minster"]},
-  "day14-jorvik":               {"emoji": "🪓", "color": "#0E7C7B", "wiki": ["Jorvik Viking Centre", "Coppergate helmet", "Lloyds Bank coprolite"]}
+ "day02-richmond-park": {
+  "emoji": "🦌",
+  "color": "#4E6E3A",
+  "wiki": [
+   "Richmond Park",
+   "Red deer",
+   "King Henry's Mound",
+   "Rose-ringed parakeet"
+  ]
+ },
+ "day03-tower-of-london": {
+  "emoji": "🏰",
+  "color": "#8A8D93",
+  "wiki": [
+   "Tower of London",
+   "Imperial State Crown",
+   "Ravens of the Tower of London",
+   "Traitors' Gate",
+   "Yeomen Warders"
+  ]
+ },
+ "day03-tower-bridge": {
+  "emoji": "🌉",
+  "color": "#3B6EA5",
+  "wiki": [
+   "Tower Bridge"
+  ]
+ },
+ "day03-city-walk": {
+  "emoji": "⛪",
+  "color": "#7A6A53",
+  "wiki": [
+   "St Dunstan-in-the-East",
+   "St Paul's Cathedral"
+  ]
+ },
+ "day04-greenwich": {
+  "emoji": "⏰",
+  "color": "#1F5673",
+  "wiki": [
+   "Cutty Sark",
+   "Royal Observatory, Greenwich",
+   "John Harrison",
+   "National Maritime Museum"
+  ]
+ },
+ "day05-national-gallery": {
+  "emoji": "🎨",
+  "color": "#7C3B4E",
+  "wiki": [
+   "Sunflowers (Van Gogh series)",
+   "The Ambassadors (Holbein)",
+   "The Fighting Temeraire"
+  ]
+ },
+ "day05-british-museum": {
+  "emoji": "🗿",
+  "color": "#5E5A50",
+  "wiki": [
+   "British Museum",
+   "Rosetta Stone",
+   "Sutton Hoo helmet"
+  ]
+ },
+ "day07-hampton-court": {
+  "emoji": "👑",
+  "color": "#8A3B2E",
+  "wiki": [
+   "Hampton Court Palace",
+   "Henry VIII",
+   "Great Hall, Hampton Court Palace",
+   "Hampton Court Maze",
+   "William III of England"
+  ]
+ },
+ "day08-train-north": {
+  "emoji": "🚂",
+  "color": "#37474F",
+  "wiki": [
+   "East Coast Main Line",
+   "Royal Border Bridge"
+  ]
+ },
+ "day09-royal-mile": {
+  "emoji": "🎪",
+  "color": "#5A4632",
+  "wiki": [
+   "Royal Mile",
+   "St Giles' Cathedral",
+   "Greyfriars Bobby"
+  ]
+ },
+ "day09-edinburgh-castle": {
+  "emoji": "🛡️",
+  "color": "#4A4E69",
+  "wiki": [
+   "Edinburgh Castle",
+   "Honours of Scotland",
+   "One O'Clock Gun"
+  ]
+ },
+ "day10-inchcolm-island": {
+  "emoji": "⛴️",
+  "color": "#20627A",
+  "wiki": [
+   "Forth Bridge",
+   "Inchcolm Abbey",
+   "Inchcolm"
+  ]
+ },
+ "day11-stirling-castle": {
+  "emoji": "🦄",
+  "color": "#6C4AB0",
+  "wiki": [
+   "Stirling Castle",
+   "Royal Palace, Stirling Castle",
+   "Mary, Queen of Scots"
+  ]
+ },
+ "day12-arthurs-seat": {
+  "emoji": "🌋",
+  "color": "#7B5B3A",
+  "wiki": [
+   "Arthur's Seat",
+   "Arthur's Seat coffins"
+  ]
+ },
+ "day13-york": {
+  "emoji": "🧱",
+  "color": "#8C5A2E",
+  "wiki": [
+   "York city walls",
+   "The Shambles",
+   "York Minster"
+  ]
+ },
+ "day14-jorvik": {
+  "emoji": "🪓",
+  "color": "#0E7C7B",
+  "wiki": [
+   "Jorvik Viking Centre",
+   "Coppergate helmet",
+   "Lloyds Bank coprolite"
+  ]
+ },
+ "day06-westminster-walk": {
+  "emoji": "🦁",
+  "color": "#9A6A1F",
+  "wiki": [
+   "Big Ben",
+   "Palace of Westminster",
+   "Trafalgar Square"
+  ]
+ }
 }

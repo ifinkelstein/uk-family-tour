@@ -253,12 +253,14 @@ async function paintSavedBadges() {
 
 // ---- expand queues ----
 function sightQueue(s) { return tracksOf(s).map(t => ({ file: t.file, title: t.title, isMore: false, sight: s.name, sid: s.id })); }
+// Whole-day queue: base stories only. Deep dives are opt-in via Tell-me-more —
+// pre-expanding every chapter made a day ~2.5h of mandatory audio.
 function dayQueue(day) {
   const items = [];
   MAN.sights.filter(s => s.day === day).forEach(s =>
     tracksOf(s).forEach(t => {
-      items.push({ file: t.file, title: t.title, isMore: false, sight: s.name, sid: s.id });
-      (t.tell_me_more || []).forEach(c => items.push({ file: c.file, title: c.title, isMore: true, sight: s.name, sid: s.id }));
+      const moreMin = (t.tell_me_more || []).reduce((x, c) => x + (c.est_minutes || 0), 0);
+      items.push({ file: t.file, title: t.title, isMore: false, sight: s.name, sid: s.id, moreMin });
     }));
   return items;
 }
@@ -377,7 +379,7 @@ function renderDayPlay(day) {
   const rows = items.map((it, i) => `<div class="track ${pos === i ? 'on' : ''}" onclick="jump(${i})">
     <div class="tnum">${pos === i ? '▶' : (it.isMore ? '·' : i + 1)}</div>
     <div style="flex:1"><h4 class="serif" style="font-weight:${it.isMore ? 400 : 600}">${esc(it.title)}</h4>
-    <div class="tm">${it.isMore ? 'deep dive · ' : ''}${esc(it.sight || '')}</div></div></div>`).join('');
+    <div class="tm">${it.isMore ? 'deep dive · ' : ''}${esc(it.sight || '')}${!it.isMore && it.moreMin ? ` · +${Math.round(it.moreMin)} min extras` : ''}</div></div></div>`).join('');
   el.innerHTML = `<div class="topbar"><button class="iconbtn" onclick="goDays()">←</button>
     <div style="flex:1"><h2 class="serif" style="margin:0">Play the whole day</h2>
     <div class="daylabel" style="color:${a}">Day ${day} · ${cityName(day)} · ${items.length} stories</div></div>${toggleHTML()}</div>
@@ -393,7 +395,10 @@ function paintPlayer() {
   const day = screen.day || (screen.id && MAN.sights.find(s => s.id === screen.id)?.day) || 2;
   const a = accent(day);
   const cur = queue[pos];
-  const inSight = screen.name === 'sight' && cur && !cur.isMore;
+  // Tell-me-more works on both the sight screen and the whole-day player.
+  const onPlayerScreen = screen.name === 'sight' || screen.name === 'dayplay';
+  const base = onPlayerScreen && cur && !cur.isMore ? findBaseTrack(cur.file) : null;
+  const inSight = !!(base && (base.tell_me_more || []).length);
   document.querySelectorAll('.player').forEach(n => n.remove());
   const bar = document.createElement('div'); bar.className = 'player';
   bar.innerHTML = `<div class="inner">

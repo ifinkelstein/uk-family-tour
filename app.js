@@ -84,27 +84,26 @@ function setNotice(t) {
 }
 au.addEventListener('ended', () => {
   const it = queue[pos]; if (it) markHeard(it.file);
-  if (pos + 1 < queue.length) startGap();
-  else { paintControls(); }
+  const nxt = queue[pos + 1];
+  if (nxt && nxt.isMore) startGap();   // chain this story's sub-chapters
+  else {
+    // Story complete: stop rather than run into the next main story.
+    // Play (or next) resumes with the next story when the family is ready.
+    if (nxt) setNotice(`Story complete — up next: ${nxt.title}`);
+    paintPlayer();
+  }
 });
 function markHeard(f) { heard.add(f); saveJSON('heard', [...heard]); }
 
-/* Walking gap: a story ends, the family strolls to the next spot, then the
-   next story starts. The countdown is visible and skippable; child chapters
-   chain after 1s; a hidden page (phone pocketed) chains
-   immediately, because suspended timers would otherwise kill the tour. */
-let gap = null; // { deadline, iv } while counting down
+/* Sub-chapter chain: within one story, child chapters follow after a short
+   beat (immediately when the phone is pocketed). Playback never crosses into
+   the NEXT main story on its own — see the 'ended' handler. */
+let gap = null; // { deadline, iv } while counting down (legacy long-gap UI)
 function startGap() {
-  const len = document.hidden ? 0 : (queue[pos + 1].isMore ? 1000 : GAP);
+  const len = document.hidden ? 0 : 1000;
   cancelGap();
-  if (len < 1500) {
-    if (len) gapTimer = setTimeout(() => setPos(pos + 1), len);
-    else setPos(pos + 1);
-    return;
-  }
-  gap = { deadline: Date.now() + len, iv: setInterval(paintGap, 1000) };
-  gapTimer = setTimeout(advanceNow, len);
-  paintPlayer();
+  if (len) gapTimer = setTimeout(() => setPos(pos + 1), len);
+  else setPos(pos + 1);
 }
 function gapLeft() { return gap ? Math.max(0, Math.ceil((gap.deadline - Date.now()) / 1000)) : 0; }
 function cancelGap() {
@@ -267,10 +266,12 @@ function queueItemsForTrack(s, t, baseIndex) {
   return [
     {
       file: t.file, title: displayTitle(t.title), isMore: false, baseIndex,
+      num: `${baseIndex + 1}`,
       sight: s.name, sid: s.id, chapterCount: more.length, totalMin: trackMinutes(t)
     },
     ...more.map((c, chapterIndex) => ({
       file: c.file, title: displayTitle(c.title), isMore: true, baseIndex, chapterIndex,
+      num: `${baseIndex + 1}.${chapterIndex + 1}`,
       sight: s.name, sid: s.id, parentTitle: t.title, estMin: c.est_minutes || 0
     }))
   ];
@@ -388,12 +389,12 @@ function renderSight(s) {
       const con = cur && cur.file === c.file;
       return `<div class="track subtrack ${con ? 'on' : ''}" onclick="playSightFile('${jsq(s.id)}','${jsq(c.file)}')">
         <div class="tnum">${con ? '▶' : (heard.has(c.file) ? '✔' : '·')}</div>
-        <div style="flex:1"><h4 class="serif">${esc(displayTitle(c.title))}</h4>
-        <div class="tm">chapter ${j + 1} · ≈ ${Math.round(c.est_minutes || 1)} min</div></div></div>`;
+        <div style="flex:1"><h4 class="serif">${i + 1}.${j + 1} ${esc(displayTitle(c.title))}</h4>
+        <div class="tm">≈ ${Math.round(c.est_minutes || 1)} min</div></div></div>`;
     }).join('');
     return `<div class="track ${on ? 'on' : ''}" onclick="playSightFile('${jsq(s.id)}','${jsq(t.file)}')">
       <div class="tnum">${on ? '▶' : (heard.has(t.file) ? '✔' : (i + 1))}</div>
-      <div style="flex:1"><h4 class="serif">${esc(displayTitle(t.title))}</h4>
+      <div style="flex:1"><h4 class="serif">${i + 1}. ${esc(displayTitle(t.title))}</h4>
       <div class="tm">≈ ${Math.round(t.est_minutes || 1)} min${more.length ? ` · ${more.length} chapters · ${Math.round(trackMinutes(t))} min total` : ''}</div></div></div>${childRows}`;
   }).join('');
   el.innerHTML = `<div class="topbar"><button class="iconbtn" onclick="goDays()">←</button>
@@ -418,13 +419,12 @@ function renderDayPlay(day) {
   const a = accent(day);
   document.documentElement.style.setProperty('--accent', a);
   const items = queue.length ? queue : dayQueue(day);
-  let baseNo = 0;
   const rows = items.map((it, i) => {
-    const label = it.isMore ? '·' : ++baseNo;
+    const label = it.isMore ? '·' : (it.num || '');
     return `<div class="track ${it.isMore ? 'subtrack' : ''} ${pos === i ? 'on' : ''}" onclick="jump(${i})">
     <div class="tnum">${pos === i ? '▶' : label}</div>
-    <div style="flex:1"><h4 class="serif" style="font-weight:${it.isMore ? 400 : 600}">${esc(it.title)}</h4>
-    <div class="tm">${it.isMore ? `chapter ${(it.chapterIndex ?? 0) + 1} · ` : ''}${esc(it.sight || '')}${!it.isMore && it.chapterCount ? ` · ${it.chapterCount} chapters · ${Math.round(it.totalMin || 0)} min total` : ''}</div></div></div>`;
+    <div style="flex:1"><h4 class="serif" style="font-weight:${it.isMore ? 400 : 600}">${it.num ? `${it.num} ` : ''}${esc(it.title)}</h4>
+    <div class="tm">${esc(it.sight || '')}${!it.isMore && it.chapterCount ? ` · ${it.chapterCount} chapters · ${Math.round(it.totalMin || 0)} min total` : ''}</div></div></div>`;
   }).join('');
   el.innerHTML = `<div class="topbar"><button class="iconbtn" onclick="goDays()">←</button>
     <div style="flex:1"><h2 class="serif" style="margin:0">Play the whole day</h2>

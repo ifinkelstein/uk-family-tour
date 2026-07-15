@@ -1,0 +1,11 @@
+# The Facade Is Younger Than You Think
+
+The elevation in front of you is an architectural palimpsest, the work of three hands across nearly a century, and untangling them is one of the quiet pleasures of standing here.
+
+Start with the bones. John Nash, working for George the Fourth in the eighteen twenties, created the palace we would half recognise, three ranges built around an open courtyard, a great U opening toward the Mall, faced in warm Bath stone with a French neoclassical flourish. Nash's core still stands, though you cannot see much of it from here, because it was later boxed in.
+
+The boxing-in was the work of Edward Blore, who in eighteen forty seven closed off Nash's open courtyard with an entirely new East Front, the range that now faces you and conceals the quadrangle behind. Blore's front was built by the great contractor Thomas Cubitt, and the whole enterprise was paid for by selling George the Fourth's Royal Pavilion at Brighton. It was Blore's front, incidentally, that displaced Marble Arch, which was shifted to its present home near Hyde Park.
+
+Now the surprise. Blore's stonework weathered badly in London's coal soot, and by the early twentieth century it looked distinctly shabby. So in nineteen thirteen the architect Sir Aston Webb refaced the entire East Front in gleaming Portland stone, the surface you see today. The astonishing part is the speed. Webb had the new stone cut and prepared in advance, and the actual refacing on site was carried out in roughly thirteen weeks, timed to begin the moment the royal family left for their summer holidays and to finish before they returned.
+
+So the face of Buckingham Palace, the image on a million postcards, is the newest layer of all, barely a century old, wrapped around Blore's Victorian front, which in turn encloses Nash's Georgian palace. When you photograph the balcony, you are photographing Webb's Edwardian skin over Blore's bones over Nash's heart. Few great buildings wear their history quite so literally, one coat pulled on over another. And there is a neat symmetry to it, since Webb was refacing the palace at almost exactly the moment he was completing the Victoria Memorial just in front, so the whole tableau you are looking at, building and monument together, is essentially a single Edwardian composition laid over three earlier centuries.

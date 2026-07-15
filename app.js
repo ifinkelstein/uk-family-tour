@@ -139,32 +139,16 @@ function setPos(i) {
 }
 
 function announceThenPlay(it, token) {
-  const start = () => {
-    if (token !== announceToken) return;
+  // Headings are baked into each track's audio (spoken title before the
+  // narration, same voice) — no browser TTS, so clips never overlap.
+  if (token !== announceToken) return;
+  if (it?.isMore) {
+    setNotice(`Next chapter: ${it.title}`);
+    setTimeout(() => { if (token === announceToken) setNotice(''); }, 4000);
+  } else {
     setNotice('');
-    au.play().catch(() => { });
-  };
-  if (!it?.isMore || !('speechSynthesis' in window)) {
-    start();
-    return;
   }
-  setNotice(`Next chapter: ${it.title}`);
-  let done = false;
-  const finish = () => {
-    if (done) return;
-    done = true;
-    start();
-  };
-  try {
-    const u = new SpeechSynthesisUtterance(`Next chapter: ${it.title}.`);
-    u.rate = 0.95;
-    u.onend = finish;
-    u.onerror = finish;
-    speechSynthesis.speak(u);
-    setTimeout(finish, Math.min(5000, 1400 + it.title.length * 45));
-  } catch (_) {
-    finish();
-  }
+  au.play().catch(() => { });
 }
 
 // ---- resume where the family left off ----

@@ -1,0 +1,98 @@
+{
+  "kid": [
+    {
+      "file": "content/day06-buckingham-palace/kid/01-history.md",
+      "title": "The Palace That Started as a Big House",
+      "words": 419,
+      "est_minutes": 2.8,
+      "tell_me_more": [
+        {
+          "file": "content/day06-buckingham-palace/kid/01-history-more-1.md",
+          "title": "A House, a King, and Fifteen Children",
+          "words": 342,
+          "est_minutes": 2.3
+        },
+        {
+          "file": "content/day06-buckingham-palace/kid/01-history-more-2.md",
+          "title": "The King Who Wanted a Palace",
+          "words": 366,
+          "est_minutes": 2.4
+        },
+        {
+          "file": "content/day06-buckingham-palace/kid/01-history-more-3.md",
+          "title": "Bombs, Bravery, and a Very Busy Palace",
+          "words": 377,
+          "est_minutes": 2.5
+        }
+      ]
+    },
+    {
+      "file": "content/day06-buckingham-palace/kid/02-architecture.md",
+      "title": "How to Read a Palace",
+      "words": 372,
+      "est_minutes": 2.5,
+      "tell_me_more": [
+        {
+          "file": "content/day06-buckingham-palace/kid/02-architecture-more-1.md",
+          "title": "The Palace That Changed Its Clothes",
+          "words": 347,
+          "est_minutes": 2.3
+        },
+        {
+          "file": "content/day06-buckingham-palace/kid/02-architecture-more-2.md",
+          "title": "The Golden Lady and the Giant House",
+          "words": 352,
+          "est_minutes": 2.3
+        }
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day06-buckingham-palace/adult/01-history.md",
+      "title": "The House That Became a Palace",
+      "words": 385,
+      "est_minutes": 2.6,
+      "tell_me_more": [
+        {
+          "file": "content/day06-buckingham-palace/adult/01-history-more-1.md",
+          "title": "The Queen's House",
+          "words": 375,
+          "est_minutes": 2.5
+        },
+        {
+          "file": "content/day06-buckingham-palace/adult/01-history-more-2.md",
+          "title": "Nash's Ambition and Victoria's Arrival",
+          "words": 351,
+          "est_minutes": 2.3
+        },
+        {
+          "file": "content/day06-buckingham-palace/adult/01-history-more-3.md",
+          "title": "The Blitz and the Working Palace",
+          "words": 339,
+          "est_minutes": 2.3
+        }
+      ]
+    },
+    {
+      "file": "content/day06-buckingham-palace/adult/02-architecture.md",
+      "title": "What the Gates Let You See",
+      "words": 342,
+      "est_minutes": 2.3,
+      "tell_me_more": [
+        {
+          "file": "content/day06-buckingham-palace/adult/02-architecture-more-1.md",
+          "title": "The Facade Is Younger Than You Think",
+          "words": 385,
+          "est_minutes": 2.6
+        },
+        {
+          "file": "content/day06-buckingham-palace/adult/02-architecture-more-2.md",
+          "title": "The Wedding Cake and the Hidden Palace",
+          "words": 352,
+          "est_minutes": 2.3
+        }
+      ]
+    }
+  ]
+}

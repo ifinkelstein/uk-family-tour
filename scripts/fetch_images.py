@@ -27,7 +27,7 @@ OUT_DIR = APP_ASSETS / "images"
 # Wikimedia asks for a descriptive User-Agent with contact info; a generic one
 # gets rate-limited (HTTP 429). See https://meta.wikimedia.org/wiki/User-Agent_policy
 HEADERS = {
-    "User-Agent": "UKFamilyTour/1.0 (private family trip app; contact ilya@finkelsteinlab.org)",
+    "User-Agent": "UKFamilyTour/1.0 (private family trip app; https://github.com/ifinkelstein/uk-family-tour)",
     "Accept": "application/json",
 }
 TARGET_WIDTH = 800          # bundled image width; never upscale past the original

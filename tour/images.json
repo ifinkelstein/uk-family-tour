@@ -9,15 +9,12 @@
    "Rose-ringed parakeet"
   ]
  },
- "day03-tower-of-london": {
-  "emoji": "🏰",
-  "color": "#8A8D93",
+ "day03-city-walk": {
+  "emoji": "⛪",
+  "color": "#7A6A53",
   "wiki": [
-   "Tower of London",
-   "Imperial State Crown",
-   "Ravens of the Tower of London",
-   "Traitors' Gate",
-   "Yeomen Warders"
+   "St Dunstan-in-the-East",
+   "St Paul's Cathedral"
   ]
  },
  "day03-tower-bridge": {
@@ -27,12 +24,15 @@
    "Tower Bridge"
   ]
  },
- "day03-city-walk": {
-  "emoji": "⛪",
-  "color": "#7A6A53",
+ "day03-tower-of-london": {
+  "emoji": "🏰",
+  "color": "#8A8D93",
   "wiki": [
-   "St Dunstan-in-the-East",
-   "St Paul's Cathedral"
+   "Tower of London",
+   "Imperial State Crown",
+   "Ravens of the Tower of London",
+   "Traitors' Gate",
+   "Yeomen Warders"
   ]
  },
  "day04-greenwich": {
@@ -45,6 +45,15 @@
    "National Maritime Museum"
   ]
  },
+ "day05-british-museum": {
+  "emoji": "🗿",
+  "color": "#5E5A50",
+  "wiki": [
+   "British Museum",
+   "Rosetta Stone",
+   "Sutton Hoo helmet"
+  ]
+ },
  "day05-national-gallery": {
   "emoji": "🎨",
   "color": "#7C3B4E",
@@ -54,13 +63,22 @@
    "The Fighting Temeraire"
   ]
  },
- "day05-british-museum": {
-  "emoji": "🗿",
-  "color": "#5E5A50",
+ "day06-buckingham-palace": {
+  "emoji": "👑",
+  "color": "#7A1F3D",
   "wiki": [
-   "British Museum",
-   "Rosetta Stone",
-   "Sutton Hoo helmet"
+   "Buckingham Palace",
+   "Victoria Memorial, London",
+   "Buckingham Palace Garden"
+  ]
+ },
+ "day06-westminster-walk": {
+  "emoji": "🦁",
+  "color": "#9A6A1F",
+  "wiki": [
+   "Big Ben",
+   "Palace of Westminster",
+   "Trafalgar Square"
   ]
  },
  "day07-hampton-court": {
@@ -82,15 +100,6 @@
    "Royal Border Bridge"
   ]
  },
- "day09-royal-mile": {
-  "emoji": "🎪",
-  "color": "#5A4632",
-  "wiki": [
-   "Royal Mile",
-   "St Giles' Cathedral",
-   "Greyfriars Bobby"
-  ]
- },
  "day09-edinburgh-castle": {
   "emoji": "🛡️",
   "color": "#4A4E69",
@@ -98,6 +107,15 @@
    "Edinburgh Castle",
    "Honours of Scotland",
    "One O'Clock Gun"
+  ]
+ },
+ "day09-royal-mile": {
+  "emoji": "🎪",
+  "color": "#5A4632",
+  "wiki": [
+   "Royal Mile",
+   "St Giles' Cathedral",
+   "Greyfriars Bobby"
   ]
  },
  "day10-inchcolm-island": {
@@ -142,15 +160,6 @@
    "Jorvik Viking Centre",
    "Coppergate helmet",
    "Lloyds Bank coprolite"
-  ]
- },
- "day06-westminster-walk": {
-  "emoji": "🦁",
-  "color": "#9A6A1F",
-  "wiki": [
-   "Big Ben",
-   "Palace of Westminster",
-   "Trafalgar Square"
   ]
  }
 }

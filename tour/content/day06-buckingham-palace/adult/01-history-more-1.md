@@ -1,0 +1,11 @@
+# The Queen's House
+
+Let us dwell on the building's quiet beginnings, because they are more charming than its later grandeur suggests. When George the Third acquired Buckingham House in seventeen sixty one, he was a young king, newly married to Charlotte of Mecklenburg-Strelitz, and what he wanted was not a stage for royal spectacle but a private family retreat, conveniently close to the formal court at nearby St James's Palace.
+
+The house suited that purpose beautifully. It was handsome, comfortable, and set in its own gardens, and the King and Queen filled it with domestic life on a grand scale. They had fifteen children in all, and all but one were born here, in what everyone came to call the Queen's House. For decades this was, in effect, a royal family home rather than a palace of state, and the difference in feeling would have been obvious to anyone who stepped inside.
+
+George the Third was also a man of serious intellectual passions, and the house reflected them. He was a devoted collector of books, assembling one of the finest libraries in the country, thousands upon thousands of volumes that eventually formed the core of the King's Library now held by the British Library. He loved fine clocks, maps and scientific instruments too, and the rooms hummed with the mechanisms of a curious, orderly mind.
+
+There is a gentle irony worth savouring here. The building that would become the ultimate symbol of royal ceremony and public display began its royal life as very nearly the opposite, a place of privacy, family, and quiet study. The grandeur was bolted on later, by a different king with a very different temperament.
+
+So when you picture the palace's origins, do not picture crowds and gold. Picture a scholarly king among his books and clocks, a large brood of children underfoot, and a house that was loved precisely because it felt like a home. That domestic character never entirely left the building, even after it grew into the vast working palace we see today. It is a useful thing to carry with you at the railings, because the frontage in front of you was engineered to project power, and yet the thing it wraps around was, at its heart, somebody's family home.

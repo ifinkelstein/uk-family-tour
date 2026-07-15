@@ -18,7 +18,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 import java.util.Locale
 
-enum class PlayState { IDLE, PLAYING, PAUSED }
+enum class PlayState { IDLE, PLAYING, PAUSED, GAP }
 
 /** One item in the play queue: a base track or a queued "Tell me more". */
 data class QueueItem(val file: String, val title: String, val isMore: Boolean, val baseIndex: Int)
@@ -29,9 +29,11 @@ data class PlayerUi(
     val position: Int = -1,
     val progress: Float = 0f,          // 0..1 within the current item
     val usingRecordedAudio: Boolean = false,
-    val speechRate: Float = 1.0f
+    val speechRate: Float = 1.0f,
+    val gapRemaining: Int = 0          // seconds left in the walking gap (state == GAP)
 ) {
     val current: QueueItem? get() = queue.getOrNull(position)
+    val next: QueueItem? get() = queue.getOrNull(position + 1)
 }
 
 /**
@@ -109,8 +111,17 @@ class TourPlayer(
         when (_ui.value.state) {
             PlayState.PLAYING -> pause()
             PlayState.PAUSED -> resume()
+            // During the walking gap, the play button means "next story now".
+            PlayState.GAP -> skipTo(_ui.value.position + 1)
             PlayState.IDLE -> if (_ui.value.position >= 0) playCurrent()
         }
+    }
+
+    /** "Stay here": cancel the pending auto-advance and go quiet. */
+    fun cancelGap() {
+        if (_ui.value.state != PlayState.GAP) return
+        gapJob?.cancel()
+        _ui.value = _ui.value.copy(state = PlayState.IDLE, gapRemaining = 0)
     }
 
     fun skipTo(index: Int) {
@@ -230,12 +241,20 @@ class TourPlayer(
         media?.release(); media = null
         val ui = _ui.value
         if (ui.position + 1 < ui.queue.size) {
-            // Hold a silence gap at the end of the track, then auto-advance.
-            _ui.value = ui.copy(progress = 1f)
+            // Walking gap before the next stop's story; chapters of the same
+            // deep dive chain after a beat instead of 30s of dead air.
+            val gapSec = if (ui.queue[ui.position + 1].isMore) 1 else (gapMs / 1000L).toInt()
+            _ui.value = ui.copy(state = PlayState.GAP, progress = 1f, gapRemaining = gapSec)
             gapJob?.cancel()
-            gapJob = scope.launch { delay(gapMs); skipTo(ui.position + 1) }
+            gapJob = scope.launch {
+                for (s in gapSec downTo 1) {
+                    _ui.value = _ui.value.copy(gapRemaining = s)
+                    delay(1000)
+                }
+                skipTo(_ui.value.position + 1)
+            }
         } else {
-            _ui.value = ui.copy(state = PlayState.IDLE, progress = 1f)
+            _ui.value = ui.copy(state = PlayState.IDLE, progress = 1f, gapRemaining = 0)
             abandonFocus()
         }
     }
@@ -248,6 +267,12 @@ class TourPlayer(
     }
 
     private fun resume() {
+        // The engine may be gone (e.g. the track finished while paused).
+        if (_ui.value.usingRecordedAudio && media == null) {
+            if (_ui.value.position + 1 < _ui.value.queue.size) skipTo(_ui.value.position + 1)
+            else skipTo(_ui.value.position)
+            return
+        }
         requestFocus()
         _ui.value = _ui.value.copy(state = PlayState.PLAYING)
         if (_ui.value.usingRecordedAudio) { media?.start(); watchMediaProgress() }
@@ -259,7 +284,7 @@ class TourPlayer(
         progressJob?.cancel()
         tts?.stop()
         media?.release(); media = null
-        _ui.value = _ui.value.copy(state = PlayState.IDLE)
+        _ui.value = _ui.value.copy(state = PlayState.IDLE, gapRemaining = 0)
     }
 
     private fun watchMediaProgress() {

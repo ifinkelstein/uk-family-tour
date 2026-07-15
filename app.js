@@ -70,7 +70,32 @@ function setPos(i) {
   au.src = audioURL(queue[i].file);
   au.playbackRate = speed;
   au.play().catch(() => { });
+  updateMediaSession(queue[i]);
   paintPlayer();
+}
+
+// ---- lock-screen / earbud controls ----
+function updateMediaSession(it) {
+  if (!('mediaSession' in navigator) || !it) return;
+  try {
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: it.title,
+      artist: it.sight || 'UK Family Tour',
+      album: 'UK Family Tour',
+      artwork: it.sid ? [{ src: imgURL(it.sid, 0), sizes: '512x512', type: 'image/jpeg' }] : [],
+    });
+  } catch (_) { }
+}
+if ('mediaSession' in navigator) {
+  const ms = navigator.mediaSession;
+  const set = (a, fn) => { try { ms.setActionHandler(a, fn); } catch (_) { } };
+  set('play', () => playPause());
+  set('pause', () => playPause());
+  set('previoustrack', () => prev());
+  set('nexttrack', () => next());
+  set('seekto', d => { if (au.duration && d.seekTime != null) au.currentTime = d.seekTime; });
+  set('seekbackward', d => { au.currentTime = Math.max(0, au.currentTime - (d.seekOffset || 10)); });
+  set('seekforward', d => { if (au.duration) au.currentTime = Math.min(au.duration, au.currentTime + (d.seekOffset || 10)); });
 }
 function playPause() { if (au.paused) au.play().catch(() => { }); else { clearTimeout(gapTimer); au.pause(); } paintControls(); }
 function next() { if (pos + 1 < queue.length) setPos(pos + 1); }
@@ -84,7 +109,7 @@ function tellMore() {
   const base = tracksOf(s).find(t => t.file === it.file);
   const more = base && base.tell_me_more || [];
   if (!more.length) return;
-  const items = more.map(c => ({ file: c.file, title: c.title, isMore: true }));
+  const items = more.map(c => ({ file: c.file, title: c.title, isMore: true, sight: it.sight, sid: it.sid }));
   queue.splice(pos + 1, 0, ...items);
   setPos(pos + 1);
 }
@@ -102,13 +127,13 @@ function cacheDay(day) {
 }
 
 // ---- expand queues ----
-function sightQueue(s) { return tracksOf(s).map(t => ({ file: t.file, title: t.title, isMore: false })); }
+function sightQueue(s) { return tracksOf(s).map(t => ({ file: t.file, title: t.title, isMore: false, sight: s.name, sid: s.id })); }
 function dayQueue(day) {
   const items = [];
   MAN.sights.filter(s => s.day === day).forEach(s =>
     tracksOf(s).forEach(t => {
-      items.push({ file: t.file, title: t.title, isMore: false, sight: s.name });
-      (t.tell_me_more || []).forEach(c => items.push({ file: c.file, title: c.title, isMore: true, sight: s.name }));
+      items.push({ file: t.file, title: t.title, isMore: false, sight: s.name, sid: s.id });
+      (t.tell_me_more || []).forEach(c => items.push({ file: c.file, title: c.title, isMore: true, sight: s.name, sid: s.id }));
     }));
   return items;
 }

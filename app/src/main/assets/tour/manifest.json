@@ -773,6 +773,13 @@
             "words": 963,
             "est_minutes": 5.5,
             "tell_me_more": []
+          },
+          {
+            "file": "content/day05-british-museum/kid/05-best-rooms-treasure-route.md",
+            "title": "Best Rooms for Kids: The British Museum Treasure Route",
+            "words": 703,
+            "est_minutes": 4.0,
+            "tell_me_more": []
           }
         ],
         "adult": [
@@ -866,11 +873,18 @@
             "words": 949,
             "est_minutes": 6.3,
             "tell_me_more": []
+          },
+          {
+            "file": "content/day05-british-museum/adult/05-best-rooms-family-route.md",
+            "title": "A Family Route Through the Best British Museum Rooms",
+            "words": 743,
+            "est_minutes": 5.0,
+            "tell_me_more": []
           }
         ]
       },
-      "kid_total_minutes": 9.6,
-      "adult_total_minutes": 10.7
+      "kid_total_minutes": 13.6,
+      "adult_total_minutes": 15.7
     },
     {
       "id": "day05-national-gallery",

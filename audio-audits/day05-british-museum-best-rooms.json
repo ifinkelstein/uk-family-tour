@@ -1,0 +1,38 @@
+{
+  "manifest": "app/src/main/assets/tour/manifest.json",
+  "out": "app/src/main/assets/tour/audio",
+  "kid_voice": "bf_emma",
+  "adult_voice": "bm_george",
+  "speed": 0.92,
+  "expected_wpm": 175.0,
+  "min_wpm": 130.0,
+  "max_wpm": 220.0,
+  "elapsed_seconds": 84.56486320495605,
+  "tracks": [
+    {
+      "file": "content/day05-british-museum/kid/05-best-rooms-treasure-route.md",
+      "audience": "kid",
+      "voice": "bf_emma",
+      "words": 703,
+      "chunks": 7,
+      "duration_seconds": 233.675,
+      "spoken_wpm": 180.50711458221886,
+      "target_seconds": 241.0285714285714,
+      "ok": true,
+      "skipped": false
+    },
+    {
+      "file": "content/day05-british-museum/adult/05-best-rooms-family-route.md",
+      "audience": "adult",
+      "voice": "bm_george",
+      "words": 743,
+      "chunks": 8,
+      "duration_seconds": 311.625,
+      "spoken_wpm": 143.05655836341757,
+      "target_seconds": 254.74285714285713,
+      "ok": true,
+      "skipped": false
+    }
+  ],
+  "failures": []
+}

@@ -9,7 +9,10 @@ const au = document.getElementById('au');
 let MAN = null, ART = {}, kid = true, GAP = 30000;
 let queue = [], pos = -1, gapTimer = null, dragging = false, speed = 1.0;
 let screen = { name: 'days' };
-const heard = new Set(JSON.parse(localStorage.getItem('heard') || '[]'));
+// A corrupted localStorage value must never brick the app at load time.
+function loadJSON(k, fb) { try { return JSON.parse(localStorage.getItem(k)) ?? fb; } catch (_) { return fb; } }
+function saveJSON(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (_) { } }
+const heard = new Set(loadJSON('heard', []));
 
 const speedList = [0.8, 1.0, 1.2, 1.5];
 const cityVar = d => d <= 7 ? '--london' : d <= 12 ? '--edinburgh' : '--york';
@@ -29,10 +32,22 @@ const sightComplete = s => tracksOf(s).every(t => heard.has(t.file));
 
 // ---- boot ----
 async function boot() {
-  MAN = await fetch(`${ASSETS}/manifest.json`).then(r => r.json());
+  // Register the SW before anything can fail, so the shell caches ASAP.
+  if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => { });
+  try {
+    const r = await fetch(`${ASSETS}/manifest.json`);
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    MAN = await r.json();
+  } catch (_) {
+    el.innerHTML = `<div class="wrap" style="padding-top:80px;text-align:center">
+      <div style="font-size:44px">📻</div>
+      <h2 class="serif">Can't load the tour</h2>
+      <p style="color:var(--muted)">Check wifi or signal, then try again.</p>
+      <button class="retrybtn" onclick="location.reload()">Try again</button></div>`;
+    return;
+  }
   ART = await fetch(`${ASSETS}/images.json`).then(r => r.json()).catch(() => ({}));
   render();
-  if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => { });
 }
 
 // ---- audio ----
@@ -42,7 +57,7 @@ au.addEventListener('ended', () => {
   if (pos + 1 < queue.length) { clearTimeout(gapTimer); gapTimer = setTimeout(() => setPos(pos + 1), GAP); }
   else { paintControls(); }
 });
-function markHeard(f) { heard.add(f); localStorage.setItem('heard', JSON.stringify([...heard])); }
+function markHeard(f) { heard.add(f); saveJSON('heard', [...heard]); }
 
 function loadQueue(items, i = 0, day) {
   clearTimeout(gapTimer);

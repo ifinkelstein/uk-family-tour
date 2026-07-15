@@ -60,4 +60,6 @@ input[type=range]::-moz-range-thumb{width:16px;height:16px;border:0;border-radiu
 .speed{font-weight:800;color:var(--accent);width:48px}
 .mic{width:40px;text-align:center;font-size:18px}
 .badge{font-size:12px;color:var(--muted);padding:2px 8px}
+.retrybtn{margin-top:16px;padding:14px 28px;border:0;border-radius:26px;background:var(--accent);
+  color:#fff;font:inherit;font-weight:700;font-size:16px;cursor:pointer}
 .dlbar{font-size:12px;color:var(--gold);text-align:center;padding:2px}

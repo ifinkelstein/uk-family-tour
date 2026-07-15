@@ -1194,6 +1194,23 @@
         "est_minutes": 2.5
        }
       ]
+     },
+     {
+      "file": "content/day06-buckingham-palace/kid/02-architecture.md",
+      "title": "How to Read a Palace",
+      "est_minutes": 2.5,
+      "tell_me_more": [
+       {
+        "file": "content/day06-buckingham-palace/kid/02-architecture-more-1.md",
+        "title": "The Palace That Changed Its Clothes",
+        "est_minutes": 2.3
+       },
+       {
+        "file": "content/day06-buckingham-palace/kid/02-architecture-more-2.md",
+        "title": "The Golden Lady and the Giant House",
+        "est_minutes": 2.3
+       }
+      ]
      }
     ],
     "adult": [
@@ -1215,6 +1232,23 @@
        {
         "file": "content/day06-buckingham-palace/adult/01-history-more-3.md",
         "title": "The Blitz and the Working Palace",
+        "est_minutes": 2.3
+       }
+      ]
+     },
+     {
+      "file": "content/day06-buckingham-palace/adult/02-architecture.md",
+      "title": "What the Gates Let You See",
+      "est_minutes": 2.3,
+      "tell_me_more": [
+       {
+        "file": "content/day06-buckingham-palace/adult/02-architecture-more-1.md",
+        "title": "The Facade Is Younger Than You Think",
+        "est_minutes": 2.6
+       },
+       {
+        "file": "content/day06-buckingham-palace/adult/02-architecture-more-2.md",
+        "title": "The Wedding Cake and the Hidden Palace",
         "est_minutes": 2.3
        }
       ]

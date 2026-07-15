@@ -119,8 +119,33 @@ function setPos(i) {
   au.playbackRate = speed;
   au.play().catch(() => { });
   updateMediaSession(queue[i]);
+  saveResume();
   render(); // repaint lists too: auto-advance must move the highlight + now-playing title
 }
+
+// ---- resume where the family left off ----
+let lastSaveT = 0;
+function saveResume() {
+  if (pos < 0 || !queue[pos]) return;
+  saveJSON('resume', { screen, queue, pos, t: Math.floor(au.currentTime || 0), kid });
+}
+au.addEventListener('timeupdate', () => {
+  const n = Date.now();
+  if (n - lastSaveT > 5000) { lastSaveT = n; saveResume(); }
+});
+au.addEventListener('pause', saveResume);
+window.resumeLast = () => {
+  const rs = loadJSON('resume', null);
+  if (!rs || !rs.queue || !rs.queue[rs.pos]) return;
+  kid = !!rs.kid;
+  if (rs.screen && rs.screen.name) screen = rs.screen;
+  queue = rs.queue;
+  const t = rs.t || 0;
+  au.addEventListener('loadedmetadata', () => {
+    if (t > 3 && au.duration && t < au.duration - 3) au.currentTime = t;
+  }, { once: true });
+  setPos(rs.pos);
+};
 
 // ---- lock-screen / earbud controls ----
 function updateMediaSession(it) {
@@ -239,6 +264,11 @@ function remapQueue() {
 function renderDays() {
   let h = `<div class="wrap"><div class="kicker">Our big trip · July 2026</div>
     <h1 class="title serif">London → Edinburgh → York</h1>${toggleHTML()}</div>`;
+  const rs = pos < 0 ? loadJSON('resume', null) : null;
+  if (rs && rs.queue && rs.queue[rs.pos]) {
+    h += `<div class="resume" onclick="resumeLast()">▶&nbsp; Continue: <b>${esc(rs.queue[rs.pos].title)}</b>
+      <span>${esc(rs.queue[rs.pos].sight || '')}</span></div>`;
+  }
   daysGroups().forEach(([day, sights]) => {
     const a = accent(day);
     h += `<div class="dayhead"><span class="dot" style="background:${a}"></span>

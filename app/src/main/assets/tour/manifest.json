@@ -766,6 +766,13 @@
                 "est_minutes": 2.5
               }
             ]
+          },
+          {
+            "file": "content/day05-british-museum/kid/04-egyptian-rooms-route.md",
+            "title": "Egypt Rooms Mission: Giants, Mummies, and Magic",
+            "words": 963,
+            "est_minutes": 5.5,
+            "tell_me_more": []
           }
         ],
         "adult": [
@@ -852,11 +859,18 @@
                 "est_minutes": 2.5
               }
             ]
+          },
+          {
+            "file": "content/day05-british-museum/adult/04-egyptian-rooms-route.md",
+            "title": "The Egyptian Rooms: Power, Afterlife, and the Human Scale",
+            "words": 949,
+            "est_minutes": 6.3,
+            "tell_me_more": []
           }
         ]
       },
-      "kid_total_minutes": 4.1,
-      "adult_total_minutes": 4.4
+      "kid_total_minutes": 9.6,
+      "adult_total_minutes": 10.7
     },
     {
       "id": "day05-national-gallery",

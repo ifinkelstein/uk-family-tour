@@ -27,6 +27,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -381,7 +382,8 @@ private fun SightPlayerScreen(
                 onPrev = player::previous,
                 onTellMore = { currentTrack?.let(player::tellMeMore) },
                 onRate = player::setSpeechRate,
-                onSeek = player::seekTo
+                onSeek = player::seekTo,
+                onCancelGap = player::cancelGap
             )
         }
     ) { pad ->
@@ -537,7 +539,8 @@ private fun DayPlayerScreen(
                 ui = ui, accent = accent, canTellMore = false, kidMode = kidMode,
                 onPlayPause = { if (ui.position < 0) player.loadQueue(rows.map { it.item }) else player.playPause() },
                 onNext = player::next, onPrev = player::previous,
-                onTellMore = {}, onRate = player::setSpeechRate, onSeek = player::seekTo
+                onTellMore = {}, onRate = player::setSpeechRate, onSeek = player::seekTo,
+                onCancelGap = player::cancelGap
             )
         }
     ) { pad ->
@@ -581,7 +584,8 @@ private fun PlayerBar(
     onPrev: () -> Unit,
     onTellMore: () -> Unit,
     onRate: (Float) -> Unit,
-    onSeek: (Float) -> Unit
+    onSeek: (Float) -> Unit,
+    onCancelGap: () -> Unit = {}
 ) {
     Surface(shadowElevation = 12.dp) {
         Column(Modifier.fillMaxWidth().padding(bottom = 12.dp)) {
@@ -599,6 +603,27 @@ private fun PlayerBar(
                 ),
                 modifier = Modifier.fillMaxWidth().padding(horizontal = 10.dp)
             )
+            if (ui.state == PlayState.GAP && ui.next != null) {
+                // Visible, skippable walking gap: ▶ = next story now, ✕ = stay here.
+                Row(
+                    Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 20.dp, vertical = 4.dp)
+                        .clip(RoundedCornerShape(14.dp))
+                        .background(MaterialTheme.colorScheme.onBackground.copy(alpha = 0.06f))
+                        .padding(start = 14.dp, end = 4.dp),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Text(
+                        "Next: ${ui.next!!.title} in ${ui.gapRemaining}s",
+                        modifier = Modifier.weight(1f),
+                        style = MaterialTheme.typography.bodyMedium,
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis
+                    )
+                    TextButton(onClick = onCancelGap) { Text("✕ stay") }
+                }
+            }
             if (canTellMore) {
                 Button(
                     onClick = onTellMore,

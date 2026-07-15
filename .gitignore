@@ -2,6 +2,7 @@
 *.apk
 app/build/
 build/
+build-cache/
 .gradle/
 local.properties
 *.iml

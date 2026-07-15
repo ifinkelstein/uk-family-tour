@@ -2,6 +2,8 @@
 const ASSETS = 'app/src/main/assets/tour';
 const audioURL = f => `${ASSETS}/audio/` + f.replace(/^content\//, '').replace(/\.md$/, '.mp3');
 const imgURL = (sid, i) => `${ASSETS}/images/${sid}-${i}.jpg`;
+const readingFile = (s, ext) => `${String(s.day).padStart(2, '0')} ${s.name} - ${kid ? 'Kids' : 'Grown-ups'}.${ext}`;
+const readingURL = (s, ext) => `${ext === 'pdf' ? 'reading-pdfs' : 'reading-epubs'}/${encodeURIComponent(readingFile(s, ext))}`;
 
 const el = document.getElementById('app');
 const au = document.getElementById('au');
@@ -153,6 +155,10 @@ function renderSight(s) {
     <div style="flex:1"><h2 class="serif" style="margin:0">${esc(s.name)}</h2>
     <div class="daylabel" style="color:${a}">Day ${s.day} · ${esc(s.date || '')}</div></div>${toggleHTML()}</div>
     <div class="hero"><img src="${imgURL(s.id, 0)}" onerror="this.style.display='none'"></div>
+    <div class="readlinks"><span>Read offline</span>
+      <a href="${readingURL(s, 'pdf')}" download>PDF</a>
+      <a href="${readingURL(s, 'epub')}" download>EPUB</a>
+    </div>
     ${cur ? `<div class="nowtitle serif">${esc(cur.title)}</div>` : ''}
     <div>${list}</div>`;
 }

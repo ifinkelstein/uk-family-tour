@@ -3,6 +3,7 @@
    on demand when the user starts playing that day. */
 const SHELL = 'shell-v1';
 const AUDIO = 'audio-v1';
+const READING = 'reading-v1';
 const A = 'app/src/main/assets/tour';
 const SHELL_URLS = [
   './', 'index.html', 'app.js', 'styles.css', 'manifest.webmanifest',
@@ -15,7 +16,7 @@ self.addEventListener('install', e => {
 });
 self.addEventListener('activate', e => {
   e.waitUntil(caches.keys().then(ks =>
-    Promise.all(ks.filter(k => k !== SHELL && k !== AUDIO).map(k => caches.delete(k)))
+    Promise.all(ks.filter(k => k !== SHELL && k !== AUDIO && k !== READING).map(k => caches.delete(k)))
   ).then(() => self.clients.claim()));
 });
 
@@ -50,6 +51,19 @@ self.addEventListener('fetch', e => {
       try {
         const r = await fetch(req);
         if (r.ok) { const c = await caches.open(AUDIO); c.put(req, r.clone()); }
+        return r;
+      } catch (_) { return cached || Response.error(); }
+    })());
+    return;
+  }
+  // Reading downloads: cache after first fetch.
+  if (url.pathname.includes('/reading-pdfs/') || url.pathname.includes('/reading-epubs/')) {
+    e.respondWith((async () => {
+      const cached = await caches.match(req);
+      if (cached) return cached;
+      try {
+        const r = await fetch(req);
+        if (r.ok) { const c = await caches.open(READING); c.put(req, r.clone()); }
         return r;
       } catch (_) { return cached || Response.error(); }
     })());

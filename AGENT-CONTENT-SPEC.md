@@ -24,7 +24,9 @@ the main story and auto-plays them after the main story.
      before TTS). Then the narration body as flowing prose.
 3. **Length target:** the WHOLE sight should total **~15–20 minutes of NEW narration per
    audience** across all its chapters — roughly **2500–3000 words per audience**. Give the
-   richest stories more chapters. Each chapter ~350–520 words.
+   richest stories more chapters. Chapter length should FIT THE MATERIAL: ~300 words for a
+   single tight anecdote, up to ~900 for a story that earns it. Do not pad thin material or
+   squeeze rich material to hit a uniform ~2-minute length; variety is good.
 4. Write a sidecar `<assets root>/content/<SIGHT>/tracks.json` — see format below.
 
 ## Quality bar

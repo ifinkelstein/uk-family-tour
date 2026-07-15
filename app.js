@@ -118,7 +118,7 @@ function setPos(i) {
   au.playbackRate = speed;
   au.play().catch(() => { });
   updateMediaSession(queue[i]);
-  paintPlayer();
+  render(); // repaint lists too: auto-advance must move the highlight + now-playing title
 }
 
 // ---- lock-screen / earbud controls ----

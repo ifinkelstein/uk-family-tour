@@ -1489,6 +1489,16 @@
         "file": "content/day06-westminster-walk/kid/04-abbey-more-3.md",
         "title": "The Grave Nobody Steps On",
         "est_minutes": 2.7
+       },
+       {
+        "file": "content/day06-westminster-walk/kid/04-abbey-more-4.md",
+        "title": "Reading the Abbey From the Pavement",
+        "est_minutes": 2.9
+       },
+       {
+        "file": "content/day06-westminster-walk/kid/04-abbey-more-5.md",
+        "title": "A Church That Still Has a Job",
+        "est_minutes": 3.0
        }
       ]
      }
@@ -1667,6 +1677,16 @@
         "file": "content/day06-westminster-walk/adult/04-abbey-more-3.md",
         "title": "Poets, Scientists, and the Unknown Warrior",
         "est_minutes": 2.8
+       },
+       {
+        "file": "content/day06-westminster-walk/adult/04-abbey-more-4.md",
+        "title": "Decoding the Abbey From Outside",
+        "est_minutes": 3.0
+       },
+       {
+        "file": "content/day06-westminster-walk/adult/04-abbey-more-5.md",
+        "title": "A Working Church, Not a Museum",
+        "est_minutes": 3.0
        }
       ]
      }

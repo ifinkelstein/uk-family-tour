@@ -1,0 +1,11 @@
+# The Pelican Keeper's Bucket of Fish
+
+Here is a secret that could make your afternoon. Every single day, at about half past two, a keeper walks down to the edge of the lake carrying a bucket of fresh fish, and the pelicans know exactly what that means. If you are near the water around then, watch what happens. The great white birds stop lounging about, heave themselves up on their big webbed feet, and come waddling over like guests who have heard the dinner bell. The keeper hands them roach and tench and carp and trout, sometimes a herring or a sardine, and the pelicans open those enormous beaks and gulp them straight down. It is one of the oldest daily routines in all of London, and hardly anyone knows to come and watch.
+
+The pelicans here even have names. Right now the flock includes birds called Isla and Tiffany and Gargi, and three more named Sun, Moon, and Star. Imagine having a job where you know each pelican by name and they come when you call.
+
+And here is the truly amazing part. For more than three hundred and sixty years, ever since that gift from the Russian ambassador long ago, no baby pelican had ever hatched in this park. Not one. New pelicans always had to be sent in from far away. Then, just this year, in 2026, four fluffy pelican chicks hatched right here on the island, the very first ones ever born in St James's Park. So some of the birds you are looking at are brand new to the world, taking their first proper swims in a lake older than almost any building you will see today.
+
+Now, pelicans are not always polite. One bird that used to live here got bored of waiting for the keeper and worked out something cheeky. A few miles north, in Regent's Park, there is a whole zoo, and the zoo feeds fish to its animals. So this pelican would simply spread its huge wings, fly all the way across London to the zoo, help itself to a free lunch of somebody else's fish, and then fly home again as if nothing had happened. A pelican thief, cruising over the rooftops, following its stomach.
+
+So while you are cooling off in the shade here, keep half an eye on the lake. If a keeper appears with a bucket, you are about to see a ceremony that kings once watched, performed by birds who have owned this park longer than anyone. Give the new chicks a wave. They have a very long London life ahead of them.

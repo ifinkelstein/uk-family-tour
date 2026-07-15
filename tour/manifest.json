@@ -1644,6 +1644,40 @@
         "est_minutes": 1.9
        }
       ]
+     },
+     {
+      "file": "content/day06-churchill-war-rooms/kid/03-life-below-ground.md",
+      "title": "Life Below Ground",
+      "est_minutes": 2.2,
+      "tell_me_more": [
+       {
+        "file": "content/day06-churchill-war-rooms/kid/03-life-below-ground-more-1.md",
+        "title": "The Toilet That Was a Lie",
+        "est_minutes": 1.9
+       },
+       {
+        "file": "content/day06-churchill-war-rooms/kid/03-life-below-ground-more-2.md",
+        "title": "Secrets in the Walls",
+        "est_minutes": 2.0
+       }
+      ]
+     },
+     {
+      "file": "content/day06-churchill-war-rooms/kid/04-london-at-war.md",
+      "title": "London at War",
+      "est_minutes": 2.1,
+      "tell_me_more": [
+       {
+        "file": "content/day06-churchill-war-rooms/kid/04-london-at-war-more-1.md",
+        "title": "Bombs, a Palace, and a Miracle",
+        "est_minutes": 1.8
+       },
+       {
+        "file": "content/day06-churchill-war-rooms/kid/04-london-at-war-more-2.md",
+        "title": "How Close It All Was",
+        "est_minutes": 1.9
+       }
+      ]
      }
     ],
     "adult": [
@@ -1678,6 +1712,40 @@
         "file": "content/day06-churchill-war-rooms/adult/02-churchill-the-man-more-2.md",
         "title": "Cigars, Siren Suits, and the Long Goodbye",
         "est_minutes": 2.0
+       }
+      ]
+     },
+     {
+      "file": "content/day06-churchill-war-rooms/adult/03-life-below-ground.md",
+      "title": "Life Below Ground",
+      "est_minutes": 2.2,
+      "tell_me_more": [
+       {
+        "file": "content/day06-churchill-war-rooms/adult/03-life-below-ground-more-1.md",
+        "title": "The Toilet That Wasn't",
+        "est_minutes": 1.8
+       },
+       {
+        "file": "content/day06-churchill-war-rooms/adult/03-life-below-ground-more-2.md",
+        "title": "The Beauty Chorus and Other Relics",
+        "est_minutes": 1.9
+       }
+      ]
+     },
+     {
+      "file": "content/day06-churchill-war-rooms/adult/04-london-at-war.md",
+      "title": "London at War",
+      "est_minutes": 2.2,
+      "tell_me_more": [
+       {
+        "file": "content/day06-churchill-war-rooms/adult/04-london-at-war-more-1.md",
+        "title": "The Palace, the Cathedral, and the Few",
+        "est_minutes": 1.9
+       },
+       {
+        "file": "content/day06-churchill-war-rooms/adult/04-london-at-war-more-2.md",
+        "title": "The Vengeance Weapons and the Long View",
+        "est_minutes": 1.8
        }
       ]
      }

@@ -1018,6 +1018,13 @@
             "words": 706,
             "est_minutes": 4.0,
             "tell_me_more": []
+          },
+          {
+            "file": "content/day05-national-gallery/kid/07-past-future-art-route.md",
+            "title": "Time Travel Art: From Mirror Tricks to Motion Machines",
+            "words": 646,
+            "est_minutes": 3.7,
+            "tell_me_more": []
           }
         ],
         "adult": [
@@ -1145,11 +1152,18 @@
             "words": 762,
             "est_minutes": 5.1,
             "tell_me_more": []
+          },
+          {
+            "file": "content/day05-national-gallery/adult/07-past-future-art-route.md",
+            "title": "Past to Future: How Modern Art Starts Before Modern Art",
+            "words": 736,
+            "est_minutes": 4.9,
+            "tell_me_more": []
           }
         ]
       },
-      "kid_total_minutes": 8.2,
-      "adult_total_minutes": 9.5
+      "kid_total_minutes": 11.9,
+      "adult_total_minutes": 14.4
     },
     {
       "id": "day05-westminster-walk",

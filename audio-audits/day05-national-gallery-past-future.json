@@ -1,0 +1,38 @@
+{
+  "manifest": "app/src/main/assets/tour/manifest.json",
+  "out": "app/src/main/assets/tour/audio",
+  "kid_voice": "bf_emma",
+  "adult_voice": "bm_george",
+  "speed": 0.92,
+  "expected_wpm": 175.0,
+  "min_wpm": 130.0,
+  "max_wpm": 220.0,
+  "elapsed_seconds": 74.4378399848938,
+  "tracks": [
+    {
+      "file": "content/day05-national-gallery/kid/07-past-future-art-route.md",
+      "audience": "kid",
+      "voice": "bf_emma",
+      "words": 646,
+      "chunks": 6,
+      "duration_seconds": 213.025958,
+      "spoken_wpm": 181.94965704602063,
+      "target_seconds": 221.48571428571427,
+      "ok": true,
+      "skipped": false
+    },
+    {
+      "file": "content/day05-national-gallery/adult/07-past-future-art-route.md",
+      "audience": "adult",
+      "voice": "bm_george",
+      "words": 736,
+      "chunks": 8,
+      "duration_seconds": 299.575,
+      "spoken_wpm": 147.4088291746641,
+      "target_seconds": 252.34285714285713,
+      "ok": true,
+      "skipped": false
+    }
+  ],
+  "failures": []
+}

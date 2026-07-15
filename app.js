@@ -20,6 +20,10 @@ const cityVar = d => d <= 7 ? '--london' : d <= 12 ? '--edinburgh' : '--york';
 const cityName = d => d <= 7 ? 'LONDON' : d <= 12 ? 'EDINBURGH' : 'YORK';
 const accent = d => getComputedStyle(document.documentElement).getPropertyValue(cityVar(d)).trim();
 const esc = s => s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+// For strings interpolated into inline onclick='...' JS: hex-escape everything
+// non-alphanumeric so neither the JS string nor the HTML attribute can break.
+const jsq = s => String(s).replace(/[^A-Za-z0-9 _.\-]/g, c => '\\u' + c.charCodeAt(0).toString(16).padStart(4, '0'));
+const safeColor = c => /^#[0-9a-fA-F]{3,8}$/.test(c || '') ? c : '#888888';
 
 function daysGroups() {
   const m = new Map();
@@ -326,8 +330,8 @@ function renderDays() {
       const art = ART[s.id] || {};
       const img = imgURL(s.id, 0);
       const a2 = accent(day);
-      h += `<div class="card" onclick="openSight('${s.id}')">
-        <img class="thumb" src="${img}" onerror="this.replaceWith(emojiThumb('${esc(art.emoji || '📍')}','${art.color || '#888'}'))">
+      h += `<div class="card" onclick="openSight('${jsq(s.id)}')">
+        <img class="thumb" src="${img}" onerror="this.replaceWith(emojiThumb('${jsq(art.emoji || '📍')}','${safeColor(art.color)}'))">
         <div style="flex:1"><h3 class="serif">${esc(s.name)}</h3>
         <div class="sub">${esc(s.note || '')}</div>
         <div class="meta" style="color:${a2}">${tracksOf(s).length} stories · up to ${sightMinutes(s)} min${sightComplete(s) ? ' · ✓' : ''}</div></div>
@@ -367,7 +371,7 @@ function renderSight(s) {
   const list = tracksOf(s).map((t, i) => {
     const on = cur && cur.file === t.file;
     const more = (t.tell_me_more || []).length;
-    return `<div class="track ${on ? 'on' : ''}" onclick="playSightTrack('${s.id}',${i})">
+    return `<div class="track ${on ? 'on' : ''}" onclick="playSightTrack('${jsq(s.id)}',${i})">
       <div class="tnum">${on ? '▶' : (heard.has(t.file) ? '✔' : (i + 1))}</div>
       <div style="flex:1"><h4 class="serif">${esc(t.title)}</h4>
       <div class="tm">≈ ${Math.round(t.est_minutes || 1)} min${more ? ` · +${Math.round((t.tell_me_more).reduce((x, c) => x + c.est_minutes, 0))} min more` : ''}</div></div></div>`;

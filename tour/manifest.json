@@ -1627,6 +1627,23 @@
         "est_minutes": 2.0
        }
       ]
+     },
+     {
+      "file": "content/day06-churchill-war-rooms/kid/02-churchill-the-man.md",
+      "title": "Churchill the Man",
+      "est_minutes": 2.2,
+      "tell_me_more": [
+       {
+        "file": "content/day06-churchill-war-rooms/kid/02-churchill-the-man-more-1.md",
+        "title": "The Words That Fought Back",
+        "est_minutes": 1.9
+       },
+       {
+        "file": "content/day06-churchill-war-rooms/kid/02-churchill-the-man-more-2.md",
+        "title": "A Funny, Flawed Giant",
+        "est_minutes": 1.9
+       }
+      ]
      }
     ],
     "adult": [
@@ -1644,6 +1661,23 @@
         "file": "content/day06-churchill-war-rooms/adult/01-secret-bunker-more-2.md",
         "title": "Frozen and Rediscovered",
         "est_minutes": 1.9
+       }
+      ]
+     },
+     {
+      "file": "content/day06-churchill-war-rooms/adult/02-churchill-the-man.md",
+      "title": "Churchill the Man",
+      "est_minutes": 2.3,
+      "tell_me_more": [
+       {
+        "file": "content/day06-churchill-war-rooms/adult/02-churchill-the-man-more-1.md",
+        "title": "The Wilderness and the Word",
+        "est_minutes": 2.0
+       },
+       {
+        "file": "content/day06-churchill-war-rooms/adult/02-churchill-the-man-more-2.md",
+        "title": "Cigars, Siren Suits, and the Long Goodbye",
+        "est_minutes": 2.0
        }
       ]
      }

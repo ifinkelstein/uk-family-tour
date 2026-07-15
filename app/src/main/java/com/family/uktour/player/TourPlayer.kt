@@ -61,6 +61,7 @@ class TourPlayer(
 
     private val audioManager = context.getSystemService(Context.AUDIO_SERVICE) as AudioManager
     private var focusRequest: AudioFocusRequest? = null
+    private var pausedByFocusLoss = false
 
     init {
         tts = TextToSpeech(context) { status ->
@@ -312,15 +313,32 @@ class TourPlayer(
                     .build()
             )
             .setOnAudioFocusChangeListener { change ->
-                if (change == AudioManager.AUDIOFOCUS_LOSS ||
-                    change == AudioManager.AUDIOFOCUS_LOSS_TRANSIENT
-                ) {
-                    if (_ui.value.state == PlayState.PLAYING) pause()
+                when (change) {
+                    AudioManager.AUDIOFOCUS_LOSS -> {
+                        // Another app took over for good: release the (now stale)
+                        // request so the next play re-acquires focus properly.
+                        pausedByFocusLoss = false
+                        if (_ui.value.state == PlayState.PLAYING) pause()
+                        abandonFocus()
+                    }
+                    AudioManager.AUDIOFOCUS_LOSS_TRANSIENT -> {
+                        if (_ui.value.state == PlayState.PLAYING) {
+                            pause(); pausedByFocusLoss = true
+                        }
+                    }
+                    AudioManager.AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK ->
+                        media?.setVolume(0.25f, 0.25f)
+                    AudioManager.AUDIOFOCUS_GAIN -> {
+                        media?.setVolume(1f, 1f)
+                        // Navigation prompt / phone call over: pick the tour back up.
+                        if (pausedByFocusLoss) { pausedByFocusLoss = false; resume() }
+                    }
                 }
             }
             .build()
-        audioManager.requestAudioFocus(req)
-        focusRequest = req
+        if (audioManager.requestAudioFocus(req) == AudioManager.AUDIOFOCUS_REQUEST_GRANTED) {
+            focusRequest = req
+        }
     }
 
     private fun abandonFocus() {

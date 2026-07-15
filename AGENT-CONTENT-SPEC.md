@@ -28,6 +28,8 @@ the main story and auto-plays them after the main story.
    single tight anecdote, up to ~900 for a story that earns it. Do not pad thin material or
    squeeze rich material to hit a uniform ~2-minute length; variety is good. Adult chapters
    and sub-chapters especially may run LONG (up to ~1000 words) when the material rewards it.
+   Kid chapters too: ENGAGEMENT above all else — if the story holds an 8-year-old, let it run
+   long; if it doesn't, no length saves it.
 4. Write a sidecar `<assets root>/content/<SIGHT>/tracks.json` — see format below.
 
 ## Quality bar

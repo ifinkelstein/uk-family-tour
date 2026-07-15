@@ -6,12 +6,13 @@ const imgURL = (sid, i) => `${ASSETS}/images/${sid}-${i}.jpg`;
 const el = document.getElementById('app');
 const au = document.getElementById('au');
 
-let MAN = null, ART = {}, kid = true, GAP = 30000;
-let queue = [], pos = -1, gapTimer = null, dragging = false, speed = 1.0;
-let screen = { name: 'days' };
 // A corrupted localStorage value must never brick the app at load time.
 function loadJSON(k, fb) { try { return JSON.parse(localStorage.getItem(k)) ?? fb; } catch (_) { return fb; } }
 function saveJSON(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (_) { } }
+
+let MAN = null, ART = {}, kid = loadJSON('kid', true), GAP = 30000;
+let queue = [], pos = -1, gapTimer = null, dragging = false, speed = 1.0;
+let screen = { name: 'days' };
 const heard = new Set(loadJSON('heard', []));
 
 const speedList = [0.8, 1.0, 1.2, 1.5];
@@ -157,10 +158,17 @@ function prev() { if (au.currentTime > 3 || pos === 0) au.currentTime = 0; else 
 function seek(frac) { if (au.duration) au.currentTime = frac * au.duration; }
 function cycleSpeed() { speed = speedList[(speedList.indexOf(speed) + 1) % speedList.length]; au.playbackRate = speed; paintControls(); }
 
+// Find a base track by file across every sight and BOTH audiences, so the
+// lookup still works mid-toggle and outside the sight screen.
+function findBaseTrack(file) {
+  for (const s of MAN.sights)
+    for (const a of ['kid', 'adult'])
+      for (const t of s.tracks[a]) if (t.file === file) return t;
+  return null;
+}
 function tellMore() {
   const it = queue[pos]; if (!it) return;
-  const s = MAN.sights.find(x => x.id === screen.id);
-  const base = tracksOf(s).find(t => t.file === it.file);
+  const base = findBaseTrack(it.file);
   const more = base && base.tell_me_more || [];
   if (!more.length) return;
   const items = more.map(c => ({ file: c.file, title: c.title, isMore: true, sight: it.sight, sid: it.sid }));
@@ -203,7 +211,30 @@ function toggleHTML() {
   return `<div class="toggle"><button class="${kid ? 'on' : ''}" onclick="setKid(true)">🧒 Kids</button>
     <button class="${!kid ? 'on' : ''}" onclick="setKid(false)">🧑 Grown-ups</button></div>`;
 }
-window.setKid = v => { kid = v; render(); };
+window.setKid = v => {
+  if (v === kid) return;
+  kid = v; saveJSON('kid', v);
+  remapQueue();
+  render();
+};
+
+/* Switching Kids/Grown-ups mid-tour used to leave the other mode's audio
+   playing against the new mode's track list (and Tell-me-more no-oped).
+   Rebuild the live queue in the new mode at the same story instead. */
+function remapQueue() {
+  if (pos < 0 || !queue.length) return;
+  const active = gap || !au.ended || (au.paused && au.currentTime > 0);
+  if (!active) return;
+  const cur = queue[pos];
+  const s0 = MAN.sights.find(x => x.id === cur.sid);
+  if (!s0) { cancelGap(); return; }
+  const multiSight = new Set(queue.map(it => it.sid)).size > 1;
+  const items = multiSight ? dayQueue(s0.day) : sightQueue(s0);
+  const baseOrdinal = Math.max(0, queue.slice(0, pos + 1).filter(it => !it.isMore).length - 1);
+  const baseIdxs = items.map((it, i) => (it.isMore ? -1 : i)).filter(i => i >= 0);
+  queue = items;
+  setPos(baseIdxs[Math.min(baseOrdinal, baseIdxs.length - 1)] ?? 0);
+}
 
 function renderDays() {
   let h = `<div class="wrap"><div class="kicker">Our big trip · July 2026</div>

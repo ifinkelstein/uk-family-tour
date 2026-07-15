@@ -22,7 +22,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
-ASSETS = ROOT / "app/src/main/assets/tour"
+ASSETS = ROOT / "tour"
 MAN = ASSETS / "manifest.json"
 VOICES = HERE / "voices"
 PY = HERE / "venv/bin/python"
@@ -49,11 +49,13 @@ def run_worker(flt):
     env = dict(os.environ, HF_HUB_OFFLINE="1", PYTHONUNBUFFERED="1")
     cmd = [str(PY), str(GEN),
            "--manifest", str(MAN),
-           "--out", str(ASSETS / "audio"),
+           "--out", str(OUT),
            "--kid-voice", str(VOICES / "bf_emma.pt"),
            "--adult-voice", str(VOICES / "bm_george.pt"),
            "--speed", "1.0",
            "--only", flt]
+    if FORCE:
+        cmd.append("--force")
     r = subprocess.run(cmd, env=env, capture_output=True, text=True)
     rendered = r.stdout.count("] content/")
     tag = "ok" if r.returncode == 0 else f"FAIL({r.returncode})"
@@ -66,7 +68,13 @@ def main():
     ap.add_argument("--sights", nargs="*", default=[])
     ap.add_argument("--only", nargs="*", default=[])
     ap.add_argument("--workers", type=int, default=4)
+    ap.add_argument("--out", default=str(ASSETS / "audio"))
+    ap.add_argument("--force", action="store_true")
     args = ap.parse_args()
+
+    global OUT, FORCE
+    OUT = Path(args.out)
+    FORCE = args.force
 
     filters = list(args.only) + (filters_for_sights(args.sights) if args.sights else [])
     if not filters:

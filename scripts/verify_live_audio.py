@@ -15,7 +15,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent.parent
-ASSETS = ROOT / "app/src/main/assets/tour"
+ASSETS = ROOT / "tour"
 DEFAULT_BASE_URL = "https://ifinkelstein.github.io/uk-family-tour/"
 
 
@@ -90,7 +90,7 @@ def main() -> None:
             rel = audio_rel(content_rel)
             local = ASSETS / "audio" / rel
             live = tmp / rel.replace("/", "__")
-            url_path = urllib.parse.quote(f"app/src/main/assets/tour/audio/{rel}")
+            url_path = urllib.parse.quote(f"tour/audio/{rel}")
             url = urllib.parse.urljoin(base_url, url_path)
             download(url, live)
             local_duration = duration_seconds(local)

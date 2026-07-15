@@ -12,7 +12,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent.parent
-ASSETS = ROOT / "app/src/main/assets/tour"
+ASSETS = ROOT / "tour"
 PDF_DIR = ROOT / "reading-pdfs"
 EPUB_DIR = ROOT / "reading-epubs"
 TEX_CACHE = ROOT / "build-cache/tex"

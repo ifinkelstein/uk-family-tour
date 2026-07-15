@@ -29,8 +29,8 @@ python3 fetch_images.py
 
 echo "== 4/4 Generating voices (Kokoro-82M — first run downloads ~330MB model) =="
 python3 generate_audio.py \
-  --manifest ../app/src/main/assets/tour/manifest.json \
-  --out ../app/src/main/assets/tour/audio \
+  --manifest ../tour/manifest.json \
+  --out ../tour/audio \
   --kid-voice "${KID_VOICE:-bf_emma}" \
   --adult-voice "${ADULT_VOICE:-bm_george}" \
   --speed "${SPEED:-1.0}"
@@ -39,4 +39,4 @@ echo "== Verifying =="
 python3 verify_assets.py
 
 echo
-echo "Assets ready. Now build the app (see AGENT.md or README.md)."
+echo "Assets ready. Serve the web app from the project root (see AGENT.md or README.md)."

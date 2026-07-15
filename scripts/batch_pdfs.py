@@ -4,7 +4,7 @@ read-later skill, collecting them into one folder with clean names."""
 import json, subprocess, shutil, os
 from pathlib import Path
 
-ASSETS = Path("/Users/ilya/projects/London-trip-vacation/tour-app/app/src/main/assets/tour")
+ASSETS = Path("/Users/ilya/projects/London-trip-vacation/tour-app/tour")
 SCRIPTS = Path("/Users/ilya/projects/London-trip-vacation/tour-app/scripts")
 SCRATCH = Path("/private/tmp/claude-502/-Users-ilya-projects-London-trip-vacation/c1c8ad87-7830-4567-99e1-9b08493f82d1/scratchpad")
 TXT = SCRATCH/"reading-txt"

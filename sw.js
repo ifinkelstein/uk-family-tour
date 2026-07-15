@@ -2,11 +2,11 @@
    App shell + images cached on install/first use; a day's audio is pre-cached
    on demand when the user starts playing that day.
    Shell is served stale-while-revalidate so deploys reach installed phones. */
-const VERSION = 'v3';
+const VERSION = 'v4';
 const SHELL = `shell-${VERSION}`;
-const AUDIO = 'audio-v1'; // survives shell version bumps: audio never changes
+const AUDIO = 'audio-v2';
 const READING = 'reading-v1';
-const A = 'app/src/main/assets/tour';
+const A = 'tour';
 const SHELL_URLS = [
   './', 'index.html', 'app.js', 'styles.css', 'manifest.webmanifest',
   'icons/icon-192.png', 'icons/icon-512.png',

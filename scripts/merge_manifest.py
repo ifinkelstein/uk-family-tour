@@ -15,7 +15,7 @@ Run from the scripts/ dir (or anywhere): python3 merge_manifest.py
 import json
 from pathlib import Path
 
-ASSETS = Path(__file__).resolve().parent.parent / "app/src/main/assets/tour"
+ASSETS = Path(__file__).resolve().parent.parent / "tour"
 MAN = ASSETS / "manifest.json"
 
 

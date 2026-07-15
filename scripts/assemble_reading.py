@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Assemble per-sight reading text (base stories + deep-dive chapters, in manifest
+"""Assemble per-sight reading text (base stories + sub-chapters, in manifest
 order) into blank-line-separated paragraphs with asterisk section breaks, ready for
 the read-later skill's format-article.py. One .txt per sight per audience.
 
@@ -7,7 +7,7 @@ Usage: python3 assemble_reading.py <out_dir> [--audience adult|kid|both] [--sigh
 import argparse, json
 from pathlib import Path
 
-ASSETS = Path("/Users/ilya/projects/London-trip-vacation/tour-app/app/src/main/assets/tour")
+ASSETS = Path("/Users/ilya/projects/London-trip-vacation/tour-app/tour")
 
 def md_title(rel):
     first = (ASSETS/rel).read_text().splitlines()[0].strip()

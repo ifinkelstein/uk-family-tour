@@ -6,7 +6,7 @@ import json, re, subprocess, sys
 from pathlib import Path
 
 ROOT = Path("/Users/ilya/projects/London-trip-vacation/tour-app")
-ASSETS = ROOT/"app/src/main/assets/tour"
+ASSETS = ROOT/"tour"
 TITLES = ROOT/"build-audio/titles"
 VOICES = ROOT/"scripts/voices"
 

@@ -13,11 +13,10 @@ SETUP (Mac):
     (First run downloads the ~330 MB model from Hugging Face automatically.)
 
 USAGE:
-    python generate_audio.py --manifest ../app/src/main/assets/tour/manifest.json \
-                             --out ../app/src/main/assets/tour/audio
+    python generate_audio.py --manifest ../tour/manifest.json \
+                             --out ../tour/audio
 
-    Then just rebuild the app: it automatically prefers these files over
-    on-device TTS (you'll see the 🎙 icon in the player instead of 🤖).
+    Then serve the web app. It plays the generated files from tour/audio/.
 
 VOICES (British, fitting the trip — change with --kid-voice / --adult-voice):
     bf_emma    warm British female (default for kid tracks)
@@ -30,7 +29,7 @@ new notebook, and run:
     !pip -q install kokoro soundfile
     # upload manifest.json + content/ (zip them), unzip, then:
     !python generate_audio.py --manifest manifest.json --out audio
-    # zip the audio/ folder and download it into app/src/main/assets/tour/
+    # zip the audio/ folder and copy it into tour/audio/
 """
 
 import argparse
@@ -158,6 +157,8 @@ def main():
     ap.add_argument("--mp3", action="store_true", default=True,
                     help="convert to mp3 with ffmpeg (default on; wav kept if ffmpeg missing)")
     ap.add_argument("--only", default=None, help="substring filter, e.g. day03")
+    ap.add_argument("--shard-count", type=int, default=1, help="split manifest tracks across N workers")
+    ap.add_argument("--shard-index", type=int, default=0, help="0-based shard index for this worker")
     ap.add_argument("--verify-report", default=None, help="write JSON duration audit")
     ap.add_argument("--expected-wpm", type=float, default=175.0)
     ap.add_argument("--min-wpm", type=float, default=130.0)
@@ -187,6 +188,12 @@ def main():
     tracks = load_tracks(manifest)
     if args.only:
         tracks = [t for t in tracks if args.only in t[1]]
+    if args.shard_count < 1:
+        sys.exit("--shard-count must be >= 1")
+    if not 0 <= args.shard_index < args.shard_count:
+        sys.exit("--shard-index must be between 0 and shard-count - 1")
+    if args.shard_count > 1:
+        tracks = [t for idx, t in enumerate(tracks) if idx % args.shard_count == args.shard_index]
     print(f"{len(tracks)} tracks to render", flush=True)
     report = []
     started = time.time()
@@ -278,7 +285,7 @@ def main():
         }
         report_path.write_text(json.dumps(summary, indent=2))
         print(f"duration audit: {report_path} ({len(summary['failures'])} outside range)", flush=True)
-    print(f"\nDone. Audio in {out_root}/ — rebuild the app and it will use these files.", flush=True)
+    print(f"\nDone. Audio in {out_root}/ - serve the web app and it will use these files.", flush=True)
 
 
 if __name__ == "__main__":

@@ -1,5 +1,5 @@
 'use strict';
-const ASSETS = 'app/src/main/assets/tour';
+const ASSETS = 'tour';
 const audioURL = f => `${ASSETS}/audio/` + f.replace(/^content\//, '').replace(/\.md$/, '.mp3');
 const imgURL = (sid, i) => `${ASSETS}/images/${sid}-${i}.jpg`;
 const readingFile = (s, ext) => `${String(s.day).padStart(2, '0')} ${s.name} - ${kid ? 'Kids' : 'Grown-ups'}.${ext}`;
@@ -14,6 +14,7 @@ function saveJSON(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } ca
 
 let MAN = null, ART = {}, kid = loadJSON('kid', true), GAP = 30000;
 let queue = [], pos = -1, gapTimer = null, dragging = false, speed = 1.0;
+let announceToken = 0;
 let screen = { name: 'days' };
 const heard = new Set(loadJSON('heard', []));
 
@@ -26,6 +27,11 @@ const esc = s => s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&
 // non-alphanumeric so neither the JS string nor the HTML attribute can break.
 const jsq = s => String(s).replace(/[^A-Za-z0-9 _.\-]/g, c => '\\u' + c.charCodeAt(0).toString(16).padStart(4, '0'));
 const safeColor = c => /^#[0-9a-fA-F]{3,8}$/.test(c || '') ? c : '#888888';
+const displayTitle = s => String(s || '').replace(/^\s*Tell Me More:\s*/i, '');
+const chaptersOf = t => t.tell_me_more || [];
+const trackMinutes = t => (t.est_minutes || 0) + chaptersOf(t).reduce((x, c) => x + (c.est_minutes || 0), 0);
+const trackFiles = t => [t.file, ...chaptersOf(t).map(c => c.file)];
+const sightFiles = s => tracksOf(s).flatMap(trackFiles);
 
 function daysGroups() {
   const m = new Map();
@@ -33,9 +39,9 @@ function daysGroups() {
   return [...m.entries()].sort((a, b) => a[0] - b[0]);
 }
 const tracksOf = s => s.tracks[kid ? 'kid' : 'adult'];
-const sightMinutes = s => Math.round(tracksOf(s).reduce((a, t) =>
-  a + (t.est_minutes || 0) + (t.tell_me_more || []).reduce((x, c) => x + (c.est_minutes || 0), 0), 0));
-const sightComplete = s => tracksOf(s).every(t => heard.has(t.file));
+const sightMinutes = s => Math.round(tracksOf(s).reduce((a, t) => a + trackMinutes(t), 0));
+const sightComplete = s => sightFiles(s).every(f => heard.has(f));
+const expandedCount = s => sightFiles(s).length;
 
 // ---- boot ----
 async function boot() {
@@ -77,15 +83,15 @@ function setNotice(t) {
   if (n) { n.textContent = t; n.style.display = t ? '' : 'none'; }
 }
 au.addEventListener('ended', () => {
-  const it = queue[pos]; if (it && !it.isMore) markHeard(it.file);
+  const it = queue[pos]; if (it) markHeard(it.file);
   if (pos + 1 < queue.length) startGap();
   else { paintControls(); }
 });
 function markHeard(f) { heard.add(f); saveJSON('heard', [...heard]); }
 
 /* Walking gap: a story ends, the family strolls to the next spot, then the
-   next story starts. The countdown is visible and skippable; chapters of the
-   same deep dive chain after 1s; a hidden page (phone pocketed) chains
+   next story starts. The countdown is visible and skippable; child chapters
+   chain after 1s; a hidden page (phone pocketed) chains
    immediately, because suspended timers would otherwise kill the tour. */
 let gap = null; // { deadline, iv } while counting down
 function startGap() {
@@ -121,13 +127,44 @@ function loadQueue(items, i = 0, day) {
 function setPos(i) {
   cancelGap();
   setNotice('');
+  announceToken++;
+  if ('speechSynthesis' in window) speechSynthesis.cancel();
   pos = i;
   au.src = audioURL(queue[i].file);
   au.playbackRate = speed;
-  au.play().catch(() => { });
   updateMediaSession(queue[i]);
   saveResume();
   render(); // repaint lists too: auto-advance must move the highlight + now-playing title
+  announceThenPlay(queue[i], announceToken);
+}
+
+function announceThenPlay(it, token) {
+  const start = () => {
+    if (token !== announceToken) return;
+    setNotice('');
+    au.play().catch(() => { });
+  };
+  if (!it?.isMore || !('speechSynthesis' in window)) {
+    start();
+    return;
+  }
+  setNotice(`Next chapter: ${it.title}`);
+  let done = false;
+  const finish = () => {
+    if (done) return;
+    done = true;
+    start();
+  };
+  try {
+    const u = new SpeechSynthesisUtterance(`Next chapter: ${it.title}.`);
+    u.rate = 0.95;
+    u.onend = finish;
+    u.onerror = finish;
+    speechSynthesis.speak(u);
+    setTimeout(finish, Math.min(5000, 1400 + it.title.length * 45));
+  } catch (_) {
+    finish();
+  }
 }
 
 // ---- resume where the family left off ----
@@ -190,24 +227,6 @@ function prev() { if (au.currentTime > 3 || pos === 0) au.currentTime = 0; else 
 function seek(frac) { if (au.duration) au.currentTime = frac * au.duration; }
 function cycleSpeed() { speed = speedList[(speedList.indexOf(speed) + 1) % speedList.length]; au.playbackRate = speed; paintControls(); }
 
-// Find a base track by file across every sight and BOTH audiences, so the
-// lookup still works mid-toggle and outside the sight screen.
-function findBaseTrack(file) {
-  for (const s of MAN.sights)
-    for (const a of ['kid', 'adult'])
-      for (const t of s.tracks[a]) if (t.file === file) return t;
-  return null;
-}
-function tellMore() {
-  const it = queue[pos]; if (!it) return;
-  const base = findBaseTrack(it.file);
-  const more = base && base.tell_me_more || [];
-  if (!more.length) return;
-  const items = more.map(c => ({ file: c.file, title: c.title, isMore: true, sight: it.sight, sid: it.sid }));
-  queue.splice(pos + 1, 0, ...items);
-  setPos(pos + 1);
-}
-
 // tell the service worker to pre-cache this whole day's audio for offline touring
 // (BOTH audiences — the family toggles Kids/Grown-ups on one phone mid-walk)
 function dayAudioURLs(day) {
@@ -245,7 +264,7 @@ if ('serviceWorker' in navigator) navigator.serviceWorker.addEventListener('mess
 async function paintSavedBadges() {
   if (!('caches' in window) || !MAN) return;
   try {
-    const c = await caches.open('audio-v1');
+    const c = await caches.open('audio-v2');
     const keys = new Set((await c.keys()).map(r => r.url));
     daysGroups().forEach(([day]) => {
       const b = document.getElementById(`dl-${day}`);
@@ -259,16 +278,24 @@ async function paintSavedBadges() {
 }
 
 // ---- expand queues ----
-function sightQueue(s) { return tracksOf(s).map(t => ({ file: t.file, title: t.title, isMore: false, sight: s.name, sid: s.id })); }
-// Whole-day queue: base stories only. Deep dives are opt-in via Tell-me-more —
-// pre-expanding every chapter made a day ~2.5h of mandatory audio.
+function queueItemsForTrack(s, t, baseIndex) {
+  const more = chaptersOf(t);
+  return [
+    {
+      file: t.file, title: displayTitle(t.title), isMore: false, baseIndex,
+      sight: s.name, sid: s.id, chapterCount: more.length, totalMin: trackMinutes(t)
+    },
+    ...more.map((c, chapterIndex) => ({
+      file: c.file, title: displayTitle(c.title), isMore: true, baseIndex, chapterIndex,
+      sight: s.name, sid: s.id, parentTitle: t.title, estMin: c.est_minutes || 0
+    }))
+  ];
+}
+function sightQueue(s) { return tracksOf(s).flatMap((t, i) => queueItemsForTrack(s, t, i)); }
 function dayQueue(day) {
   const items = [];
   MAN.sights.filter(s => s.day === day).forEach(s =>
-    tracksOf(s).forEach(t => {
-      const moreMin = (t.tell_me_more || []).reduce((x, c) => x + (c.est_minutes || 0), 0);
-      items.push({ file: t.file, title: t.title, isMore: false, sight: s.name, sid: s.id, moreMin });
-    }));
+    tracksOf(s).forEach((t, i) => items.push(...queueItemsForTrack(s, t, i))));
   return items;
 }
 
@@ -336,7 +363,7 @@ function renderDays() {
         <img class="thumb" src="${img}" onerror="this.replaceWith(emojiThumb('${jsq(art.emoji || '📍')}','${safeColor(art.color)}'))">
         <div style="flex:1"><h3 class="serif">${esc(s.name)}</h3>
         <div class="sub">${esc(s.note || '')}</div>
-        <div class="meta" style="color:${a2}">${tracksOf(s).length} stories · up to ${sightMinutes(s)} min${sightComplete(s) ? ' · ✓' : ''}</div></div>
+        <div class="meta" style="color:${a2}">${tracksOf(s).length} headings · ${expandedCount(s)} chapters · ${sightMinutes(s)} min${sightComplete(s) ? ' · ✓' : ''}</div></div>
         ${sightComplete(s) ? '<div class="stamp">✔</div>' : ''}</div>`;
     });
   });
@@ -372,11 +399,18 @@ function renderSight(s) {
   const cur = queue[pos];
   const list = tracksOf(s).map((t, i) => {
     const on = cur && cur.file === t.file;
-    const more = (t.tell_me_more || []).length;
-    return `<div class="track ${on ? 'on' : ''}" onclick="playSightTrack('${jsq(s.id)}',${i})">
+    const more = chaptersOf(t);
+    const childRows = more.map((c, j) => {
+      const con = cur && cur.file === c.file;
+      return `<div class="track subtrack ${con ? 'on' : ''}" onclick="playSightFile('${jsq(s.id)}','${jsq(c.file)}')">
+        <div class="tnum">${con ? '▶' : (heard.has(c.file) ? '✔' : '·')}</div>
+        <div style="flex:1"><h4 class="serif">${esc(displayTitle(c.title))}</h4>
+        <div class="tm">chapter ${j + 1} · ≈ ${Math.round(c.est_minutes || 1)} min</div></div></div>`;
+    }).join('');
+    return `<div class="track ${on ? 'on' : ''}" onclick="playSightFile('${jsq(s.id)}','${jsq(t.file)}')">
       <div class="tnum">${on ? '▶' : (heard.has(t.file) ? '✔' : (i + 1))}</div>
-      <div style="flex:1"><h4 class="serif">${esc(t.title)}</h4>
-      <div class="tm">≈ ${Math.round(t.est_minutes || 1)} min${more ? ` · +${Math.round((t.tell_me_more).reduce((x, c) => x + c.est_minutes, 0))} min more` : ''}</div></div></div>`;
+      <div style="flex:1"><h4 class="serif">${esc(displayTitle(t.title))}</h4>
+      <div class="tm">≈ ${Math.round(t.est_minutes || 1)} min${more.length ? ` · ${more.length} chapters · ${Math.round(trackMinutes(t))} min total` : ''}</div></div></div>${childRows}`;
   }).join('');
   el.innerHTML = `<div class="topbar"><button class="iconbtn" onclick="goDays()">←</button>
     <div style="flex:1"><h2 class="serif" style="margin:0">${esc(s.name)}</h2>
@@ -389,22 +423,28 @@ function renderSight(s) {
     ${cur ? `<div class="nowtitle serif">${esc(cur.title)}</div>` : ''}
     <div>${list}</div>`;
 }
-window.playSightTrack = (sid, i) => {
+window.playSightFile = (sid, file) => {
   const s = MAN.sights.find(x => x.id === sid);
-  loadQueue(sightQueue(s), i, s.day); render();
+  const items = sightQueue(s);
+  const idx = Math.max(0, items.findIndex(it => it.file === file));
+  loadQueue(items, idx, s.day); render();
 };
 
 function renderDayPlay(day) {
   const a = accent(day);
   document.documentElement.style.setProperty('--accent', a);
   const items = queue.length ? queue : dayQueue(day);
-  const rows = items.map((it, i) => `<div class="track ${pos === i ? 'on' : ''}" onclick="jump(${i})">
-    <div class="tnum">${pos === i ? '▶' : (it.isMore ? '·' : i + 1)}</div>
+  let baseNo = 0;
+  const rows = items.map((it, i) => {
+    const label = it.isMore ? '·' : ++baseNo;
+    return `<div class="track ${it.isMore ? 'subtrack' : ''} ${pos === i ? 'on' : ''}" onclick="jump(${i})">
+    <div class="tnum">${pos === i ? '▶' : label}</div>
     <div style="flex:1"><h4 class="serif" style="font-weight:${it.isMore ? 400 : 600}">${esc(it.title)}</h4>
-    <div class="tm">${it.isMore ? 'deep dive · ' : ''}${esc(it.sight || '')}${!it.isMore && it.moreMin ? ` · +${Math.round(it.moreMin)} min extras` : ''}</div></div></div>`).join('');
+    <div class="tm">${it.isMore ? `chapter ${(it.chapterIndex ?? 0) + 1} · ` : ''}${esc(it.sight || '')}${!it.isMore && it.chapterCount ? ` · ${it.chapterCount} chapters · ${Math.round(it.totalMin || 0)} min total` : ''}</div></div></div>`;
+  }).join('');
   el.innerHTML = `<div class="topbar"><button class="iconbtn" onclick="goDays()">←</button>
     <div style="flex:1"><h2 class="serif" style="margin:0">Play the whole day</h2>
-    <div class="daylabel" style="color:${a}">Day ${day} · ${cityName(day)} · ${items.length} stories</div></div>${toggleHTML()}</div>
+    <div class="daylabel" style="color:${a}">Day ${day} · ${cityName(day)} · ${items.length} chapters</div></div>${toggleHTML()}</div>
     <div>${rows}</div>`;
 }
 window.jump = i => { setPos(i); render(); };
@@ -417,10 +457,6 @@ function paintPlayer() {
   const day = screen.day || (screen.id && MAN.sights.find(s => s.id === screen.id)?.day) || 2;
   const a = accent(day);
   const cur = queue[pos];
-  // Tell-me-more works on both the sight screen and the whole-day player.
-  const onPlayerScreen = screen.name === 'sight' || screen.name === 'dayplay';
-  const base = onPlayerScreen && cur && !cur.isMore ? findBaseTrack(cur.file) : null;
-  const inSight = !!(base && (base.tell_me_more || []).length);
   document.querySelectorAll('.player').forEach(n => n.remove());
   const bar = document.createElement('div'); bar.className = 'player';
   bar.innerHTML = `<div class="inner">
@@ -430,7 +466,6 @@ function paintPlayer() {
     ${gap && queue[pos + 1] ? `<div class="gapchip">
       <span>Next: <b>${esc(queue[pos + 1].title)}</b> in <span id="gapleft">${gapLeft()}</span>s</span>
       <button class="gapstay" onclick="stayHere()">✕ stay</button></div>` : ''}
-    ${inSight ? `<button class="tellmore" onclick="tellMore()">${kid ? '✨ Tell me MORE!' : 'Tell me more'}</button>` : ''}
     <div class="controls">
       <button class="speed" onclick="cycleSpeed()">${speed}×</button>
       <button onclick="prev()">⏮</button>

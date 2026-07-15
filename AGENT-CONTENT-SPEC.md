@@ -1,12 +1,14 @@
-# Deep-dive content agent — shared contract
+# Sub-chapter content agent - shared contract
 
 You are writing narration scripts for an **offline audio walking-tour app** used by one
 family (worldly, well-travelled adults + kids about 8–11) on a July 2026 UK trip. You are
-expanding the **"Tell me more" deep-dive** content for ONE sight, in a **per-story
-mini-series** structure: each existing base story gets 2–3 new sub-chapters.
+expanding the sub-chapter content for ONE sight, in a **per-story mini-series**
+structure: each existing base story gets 2–3 new sub-chapters. The manifest field is still
+named `tell_me_more` for compatibility, but the web UI presents these as child rows under
+the main story and auto-plays them after the main story.
 
 ## Paths
-- Assets root: `/Users/ilya/projects/London-trip-vacation/tour-app/app/src/main/assets/tour`
+- Assets root: `/Users/ilya/projects/London-trip-vacation/tour-app/tour`
 - Manifest: `<assets root>/manifest.json`
 - Your sight's content: `<assets root>/content/<SIGHT>/kid/` and `.../adult/`
 
@@ -41,7 +43,7 @@ mini-series** structure: each existing base story gets 2–3 new sub-chapters.
   numbers. Prefer commas to dashes. Vary sentence length; it should sound spoken.
 - No repetition between chapters, or with the base story.
 
-## Sidecar format — `content/<SIGHT>/tracks.json`
+## Sidecar format - `content/<SIGHT>/tracks.json`
 The COMPLETE tracks object for your sight, ready to drop into the manifest. Preserve each
 base story's existing `file`/`title`/`est_minutes` EXACTLY; add a `tell_me_more` array of
 your chapters. `est_minutes` for any chapter = its word count divided by 150, rounded to

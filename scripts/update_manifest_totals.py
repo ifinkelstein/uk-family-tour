@@ -9,7 +9,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent.parent
-ASSETS = ROOT / "app/src/main/assets/tour"
+ASSETS = ROOT / "tour"
 
 
 def main() -> None:

@@ -1,6 +1,4 @@
-# Build outputs / huge binaries (GitHub rejects >100MB; APKs are ~400MB)
-*.apk
-app/build/
+# Build outputs / large generated files
 build/
 build-cache/
 .gradle/
@@ -8,7 +6,7 @@ local.properties
 *.iml
 .idea/
 
-# TTS/audio intermediates (the composited audio under app/src/main/assets/tour/audio IS committed & hosted)
+# TTS/audio intermediates (the composited audio under tour/audio is committed)
 audio-raw/
 build-audio/
 build-articles/
@@ -25,3 +23,6 @@ __pycache__/
 
 # scratch
 *.log
+
+# generated audit reports
+audio-audits/

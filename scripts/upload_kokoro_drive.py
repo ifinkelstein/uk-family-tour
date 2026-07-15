@@ -4,7 +4,7 @@ Idempotent: skips files already present. Usage: python3 upload_kokoro_drive.py <
 import json, os, subprocess, sys
 from pathlib import Path
 
-AUDIO = Path("/Users/ilya/projects/London-trip-vacation/tour-app/app/src/main/assets/tour/audio")
+AUDIO = Path("/Users/ilya/projects/London-trip-vacation/tour-app/tour/audio")
 PARENT = sys.argv[1]
 # gws only allows --upload of files within the current working directory, so run from AUDIO
 # and pass paths relative to it.

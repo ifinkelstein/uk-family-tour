@@ -1,74 +1,68 @@
-# UK Family Tour — Android App + Content + Voice Pipeline
+# UK Family Tour - Web Audio Tour
 
-Everything for your audio tour of the July 2026 trip (London → Edinburgh → York):
-the Android app, all 220 narration scripts baked in, and scripts to add
-natural voices and offline images.
+Static offline-capable web app for the July 2026 UK trip. The project is now
+web-only: no Android app, Gradle build, or APK packaging is supported.
 
-## Fully offline
+## Run locally
 
-The app makes zero network requests — no INTERNET permission at all. All
-photos and all narration audio are bundled into the APK during the prepare
-step below, so it works in castle basements, on the Inchcolm ferry, and in
-airplane mode. One command prepares everything:
+```bash
+python3 -m http.server 8787
+open http://127.0.0.1:8787/
+```
 
-    cd scripts && ./prepare_assets.sh
-
-(downloads sight images from Wikipedia + renders all 220 tracks with the
-free Kokoro-82M voices, then verifies completeness). Full agent-friendly
-build/install runbook: see AGENT.md.
-
-## What's in the box
-
-    app/                     Android app (Kotlin + Jetpack Compose)
-      src/main/assets/tour/  manifest.json, all content .md files, images.json
-    scripts/
-      generate_audio.py      free high-quality voice generation (Kokoro-82M)
-      fetch_images.py        optional: bundle images for offline use
-    README.md                this file
-
-## Build the app (10 minutes)
-
-1. Install Android Studio (free) on your Mac.
-2. Open Android Studio → "Open" → select this folder. Let Gradle sync.
-3. Plug in a phone with USB debugging enabled (or use the emulator) and press Run ▶.
-   To share with the rest of the family: Build → Generate Signed App Bundle/APK
-   → APK, then send the APK file to their Android phones.
+The app can be installed from the browser as a PWA. Once the shell and a day's
+audio are cached, it works offline.
 
 ## What the app does
 
-- **Journey screen** — the itinerary day by day, color-coded per city
-  (postbox red = London, thistle = Edinburgh, teal = York). Tap a sight.
-- **Kids / Grown-ups toggle** — everywhere; kids get bigger art, playful type,
-  and the same places told their way.
-- **Player** — play/pause (works mid-sentence), next/previous, per-track
-  progress bar, playback speed (0.8×–1.5×), and automatic advance to the
-  next story. Audio pauses politely for phone calls and navigation prompts.
-- **✨ Tell me MORE!** — after any story, one tap queues the deeper extension
-  track for that exact subject, then continues the tour.
-- **Images** — each sight and story shows real photos (Tower ravens, the
-  Rosetta Stone, the Forth Bridge...) bundled into the app by
-  `prepare_assets.sh`; no connection needed on the trip.
-- **Tour Passport** — kids collect a gold VISITED stamp for each sight where
-  they've heard every story. 18 stamps to earn across the trip.
-- **Checkmarks** — finished tracks are remembered, so you can pick up where
-  you left off after lunch.
+- Journey view for the itinerary, grouped by day and sight.
+- Shared kids/grown-ups interface; the toggle changes the content and audio,
+  not the controls.
+- Audio player with play/pause, previous/next, scrubber, speed control, and
+  automatic advance.
+- Sub-chapters are shown as rows under each main story. Playing a main story
+  automatically continues into its sub-chapters, announcing each sub-chapter
+  title before the audio starts.
+- Progress is remembered locally, including sub-chapter completion.
+- Images, markdown, and MP3 narration are served from committed static assets.
 
-## Voices
+## Project layout
 
-`prepare_assets.sh` renders every track with Kokoro-82M — a free,
-Apache-licensed model with genuinely good intonation. Defaults: warm British
-female (bf_emma) for kid tracks, measured British male (bm_george) for
-adults — override with KID_VOICE / ADULT_VOICE env vars, e.g.
-`KID_VOICE=bf_isabella ./prepare_assets.sh`. About 3 hours of audio renders
-in well under an hour on an Apple Silicon Mac; a free Colab (cloud GPU)
-recipe is in the header of generate_audio.py. Expect ~150–200 MB of MP3s.
-The player shows 🎙 when using these; if you build without running the
-prepare step, the app still works using Android's built-in UK voice (🤖) —
-its only rough edge, and the images will be emoji placeholders.
+```text
+index.html              web app shell
+app.js                  UI, player, queueing, progress
+styles.css              web styling
+sw.js                   offline shell/audio cache
+manifest.webmanifest    PWA metadata
+icons/                  PWA icons
+tour/
+  manifest.json         itinerary and track manifest
+  images.json           sight image metadata
+  content/              narration markdown
+  audio/                rendered Kokoro MP3 files
+  images/               bundled sight photos
+reading-pdfs/           optional reading downloads
+reading-epubs/          optional reading downloads
+scripts/                asset, audio, and validation tools
+```
 
-## Notes
+## Verify
 
-- Content and images are for your family's private use on the trip.
-- No accounts, no tracking, no ads, no network access whatsoever.
-- manifest.json remains the single source of truth — edit any .md file or
-  add tracks there and the app picks them up on rebuild.
+```bash
+python3 scripts/verify_assets.py
+node --check app.js
+python3 -m json.tool tour/manifest.json >/tmp/manifest-check.json
+```
+
+`scripts/verify_assets.py` is the asset completeness gate. It checks that every
+manifest track has markdown and MP3 audio, including sub-chapters.
+
+## Voices and assets
+
+Kokoro-generated MP3s are committed under `tour/audio/` and are the audio the
+web app serves. To regenerate audio, use the scripts in `scripts/`; generated
+intermediates go under ignored directories such as `audio-raw/` and
+`build-audio/`.
+
+`tour/manifest.json` remains the single source of truth. Edit the markdown and
+manifest together, then rerun the verification commands above.

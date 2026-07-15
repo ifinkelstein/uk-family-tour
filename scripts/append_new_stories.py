@@ -5,7 +5,7 @@ recomputes totals. Usage: python3 append_new_stories.py <sight-id>"""
 import json, sys
 from pathlib import Path
 
-ASSETS = Path("/Users/ilya/projects/London-trip-vacation/tour-app/app/src/main/assets/tour")
+ASSETS = Path("/Users/ilya/projects/London-trip-vacation/tour-app/tour")
 MAN = ASSETS/"manifest.json"
 
 def main():

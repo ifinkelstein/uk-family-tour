@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """Composite each track's final audio = region intro music + spoken title +
 narration + region outro music (short gaps between). Raw narration is preserved
-in audio-raw/; composites overwrite assets/tour/audio/ (what the APK bundles).
+in audio-raw/; composites overwrite tour/audio/ (what the web app serves).
 
-The 30-second end gap is handled in-app (TourPlayer), not baked, to avoid bloat."""
+The end gap is handled in-app, not baked, to avoid bloat."""
 import json, shutil, subprocess
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
 
 ROOT = Path("/Users/ilya/projects/London-trip-vacation/tour-app")
-ASSETS = ROOT/"app/src/main/assets/tour"
+ASSETS = ROOT/"tour"
 AUDIO = ASSETS/"audio"
 RAW = ROOT/"audio-raw"
 TITLES = ROOT/"build-audio/titles"

@@ -10,7 +10,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import mimo
 
 ROOT = Path("/Users/ilya/projects/London-trip-vacation/tour-app")
-ASSETS = ROOT / "app/src/main/assets/tour"
+ASSETS = ROOT / "tour"
 RAW = ROOT / "audio-raw"
 TITLES = ROOT / "build-audio/titles"
 MARK = ROOT / "scripts/revoice-done.json"

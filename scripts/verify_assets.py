@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Verify the app's offline assets are complete before building:
+Verify the app's offline assets are complete before serving:
   - every sight in images.json has at least its first image bundled
   - every track in manifest.json (base + tell_me_more) has generated audio
-Exit code 0 = ready to build fully offline. Non-zero = something missing.
+Exit code 0 = ready to serve fully offline. Non-zero = something missing.
 
 USAGE:
     python3 verify_assets.py            # human-readable report
@@ -15,7 +15,7 @@ import json
 import sys
 from pathlib import Path
 
-ASSETS = Path(__file__).resolve().parent.parent / "app/src/main/assets/tour"
+ASSETS = Path(__file__).resolve().parent.parent / "tour"
 
 
 def main():
@@ -65,14 +65,14 @@ def main():
         problems.append(f"...and {missing_audio - 5} more missing audio files")
     print(f"audio:  {total_tracks - missing_audio}/{total_tracks} tracks rendered")
     if missing_audio == total_tracks:
-        print("        (no audio generated yet — app would fall back to robotic on-device TTS)")
+        print("        (no audio generated yet)")
 
     if problems:
         print("\nNOT fully offline yet:")
         for p in problems:
             print("  -", p)
         sys.exit(1)
-    print("\nAll assets present — the app is fully offline. Build away.")
+    print("\nAll assets present - the app is fully offline.")
 
 
 if __name__ == "__main__":

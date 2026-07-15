@@ -5,7 +5,7 @@ Optional: pre-download the sight images so the app works fully offline
 live from Wikipedia and caches them on the phone.
 
 Downloads the lead image of each Wikipedia article listed in images.json
-into app/src/main/assets/tour/images/<sight-id>-<index>.jpg. The app checks
+into tour/images/<sight-id>-<index>.jpg. The app checks
 for these files first and only goes online if they're missing.
 
 USAGE (from the scripts/ folder, needs only the Python standard library):
@@ -20,7 +20,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-APP_ASSETS = Path(__file__).resolve().parent.parent / "app/src/main/assets/tour"
+APP_ASSETS = Path(__file__).resolve().parent.parent / "tour"
 IMAGES_JSON = APP_ASSETS / "images.json"
 OUT_DIR = APP_ASSETS / "images"
 

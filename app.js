@@ -202,15 +202,53 @@ function tellMore() {
 }
 
 // tell the service worker to pre-cache this whole day's audio for offline touring
-function cacheDay(day) {
-  const sights = MAN.sights.filter(s => s.day === day);
+// (BOTH audiences — the family toggles Kids/Grown-ups on one phone mid-walk)
+function dayAudioURLs(day) {
   const urls = [];
-  sights.forEach(s => tracksOf(s).forEach(t => {
-    urls.push(audioURL(t.file));
-    (t.tell_me_more || []).forEach(c => urls.push(audioURL(c.file)));
-  }));
-  if (navigator.serviceWorker && navigator.serviceWorker.controller)
-    navigator.serviceWorker.controller.postMessage({ type: 'cacheDay', urls });
+  MAN.sights.filter(s => s.day === day).forEach(s =>
+    ['kid', 'adult'].forEach(a => s.tracks[a].forEach(t => {
+      urls.push(audioURL(t.file));
+      (t.tell_me_more || []).forEach(c => urls.push(audioURL(c.file)));
+    })));
+  return urls.map(u => new URL(u, location.href).href);
+}
+function cacheDay(day) {
+  if (!('serviceWorker' in navigator)) return;
+  // .ready (not .controller) so this works on the very first visit too
+  navigator.serviceWorker.ready.then(reg => {
+    if (reg.active) reg.active.postMessage({ type: 'cacheDay', day, urls: dayAudioURLs(day) });
+  }).catch(() => { });
+}
+window.saveDay = day => {
+  const b = document.getElementById(`dl-${day}`);
+  if (b) b.textContent = 'saving…';
+  cacheDay(day);
+};
+if ('serviceWorker' in navigator) navigator.serviceWorker.addEventListener('message', e => {
+  const d = e.data || {};
+  if (d.type !== 'dayProgress') return;
+  const b = document.getElementById(`dl-${d.day}`);
+  if (!b) return;
+  if (d.done + d.failed >= d.total) {
+    b.textContent = d.failed ? `⚠ ${d.done}/${d.total}` : '✓ saved';
+    if (!d.failed) b.classList.add('done');
+  } else b.textContent = `${d.done}/${d.total}`;
+});
+// On the days screen, show which days are already fully saved for offline.
+async function paintSavedBadges() {
+  if (!('caches' in window) || !MAN) return;
+  try {
+    const c = await caches.open('audio-v1');
+    const keys = new Set((await c.keys()).map(r => r.url));
+    daysGroups().forEach(([day]) => {
+      const b = document.getElementById(`dl-${day}`);
+      if (!b) return;
+      const urls = dayAudioURLs(day);
+      const saved = urls.filter(u => keys.has(u)).length;
+      if (saved >= urls.length) { b.textContent = '✓ saved'; b.classList.add('done'); }
+      else if (saved > 0) b.textContent = `⬇ ${saved}/${urls.length}`;
+    });
+  } catch (_) { }
 }
 
 // ---- expand queues ----
@@ -275,6 +313,7 @@ function renderDays() {
     h += `<div class="dayhead${today ? ' today' : ''}" id="day-${day}"><span class="dot" style="background:${a}"></span>
       <span class="daylabel" style="color:${a}">Day ${day} · ${esc(sights[0].date || '')} · ${cityName(day)}</span>
       ${today ? '<span class="todaypill">TODAY</span>' : ''}
+      <button class="dlbtn" id="dl-${day}" onclick="saveDay(${day})">⬇</button>
       <button class="playday" style="background:${a}22;color:${a}" onclick="openDayPlay(${day})">▶ Play day</button></div>`;
     sights.forEach(s => {
       const art = ART[s.id] || {};
@@ -289,6 +328,7 @@ function renderDays() {
     });
   });
   el.innerHTML = h;
+  paintSavedBadges();
   // Once per launch, open the list at today's leg of the trip.
   if (!renderDays.scrolled) {
     const t = el.querySelector('.dayhead.today');

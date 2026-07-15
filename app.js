@@ -266,7 +266,7 @@ function queueItemsForTrack(s, t, baseIndex) {
   return [
     {
       file: t.file, title: displayTitle(t.title), isMore: false, baseIndex,
-      num: `${baseIndex + 1}`,
+      num: `${baseIndex + 1}.0`,
       sight: s.name, sid: s.id, chapterCount: more.length, totalMin: trackMinutes(t)
     },
     ...more.map((c, chapterIndex) => ({
@@ -393,8 +393,8 @@ function renderSight(s) {
         <div class="tm">≈ ${Math.round(c.est_minutes || 1)} min</div></div></div>`;
     }).join('');
     return `<div class="track ${on ? 'on' : ''}" onclick="playSightFile('${jsq(s.id)}','${jsq(t.file)}')">
-      <div class="tnum">${on ? '▶' : (heard.has(t.file) ? '✔' : (i + 1))}</div>
-      <div style="flex:1"><h4 class="serif">${i + 1}. ${esc(displayTitle(t.title))}</h4>
+      <div class="tnum">${on ? '▶' : (heard.has(t.file) ? '✔' : `${i + 1}.0`)}</div>
+      <div style="flex:1"><h4 class="serif">${i + 1}.0 ${esc(displayTitle(t.title))}</h4>
       <div class="tm">≈ ${Math.round(t.est_minutes || 1)} min${more.length ? ` · ${more.length} chapters · ${Math.round(trackMinutes(t))} min total` : ''}</div></div></div>${childRows}`;
   }).join('');
   el.innerHTML = `<div class="topbar"><button class="iconbtn" onclick="goDays()">←</button>

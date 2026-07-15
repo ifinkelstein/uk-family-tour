@@ -17,6 +17,8 @@ scripts/sample-*.mp3
 scripts/*.raw
 scripts/revoice-done.json
 scripts/doc.json
+__pycache__/
+*.pyc
 
 # macOS
 .DS_Store

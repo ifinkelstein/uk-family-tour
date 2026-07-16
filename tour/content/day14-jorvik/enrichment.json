@@ -1,0 +1,56 @@
+{
+  "kid": {
+    "subs": {
+      "02-coppergate-dig": [
+        {"file": "content/day14-jorvik/kid/02-coppergate-dig-more-3.md", "title": "The Dig Everyone Came to Watch", "est_minutes": 2.5}
+      ]
+    },
+    "new_bases": [
+      {
+        "file": "content/day14-jorvik/kid/04-end-of-viking-age.md",
+        "title": "The Battle That Ended the Vikings",
+        "est_minutes": 1.5,
+        "tell_me_more": [
+          {"file": "content/day14-jorvik/kid/04-end-of-viking-age-more-1.md", "title": "How the Whole Adventure Started", "est_minutes": 2.7},
+          {"file": "content/day14-jorvik/kid/04-end-of-viking-age-more-2.md", "title": "The Man Who Held the Bridge", "est_minutes": 4.1}
+        ]
+      },
+      {
+        "file": "content/day14-jorvik/kid/05-sons-of-ragnar.md",
+        "title": "The Sons of Ragnar",
+        "est_minutes": 1.6,
+        "tell_me_more": [
+          {"file": "content/day14-jorvik/kid/05-sons-of-ragnar-more-1.md", "title": "Ragnar and the Snake Pit", "est_minutes": 3.1},
+          {"file": "content/day14-jorvik/kid/05-sons-of-ragnar-more-2.md", "title": "Why Every Street Ends in Gate", "est_minutes": 3.0}
+        ]
+      }
+    ]
+  },
+  "adult": {
+    "subs": {
+      "02-coppergate-archaeology": [
+        {"file": "content/day14-jorvik/adult/02-coppergate-archaeology-more-3.md", "title": "The Viking Dig, and the Flood That Nearly Ended It", "est_minutes": 3.2}
+      ]
+    },
+    "new_bases": [
+      {
+        "file": "content/day14-jorvik/adult/04-end-of-viking-age.md",
+        "title": "1066: The Viking Age Ends Just Up the Road",
+        "est_minutes": 1.4,
+        "tell_me_more": [
+          {"file": "content/day14-jorvik/adult/04-end-of-viking-age-more-1.md", "title": "Where It All Began: Lindisfarne, 793", "est_minutes": 2.8},
+          {"file": "content/day14-jorvik/adult/04-end-of-viking-age-more-2.md", "title": "Three Battles in Three Weeks, and the Road to the Tower", "est_minutes": 4.4}
+        ]
+      },
+      {
+        "file": "content/day14-jorvik/adult/05-sons-of-ragnar.md",
+        "title": "The Sons of Ragnar and the Danelaw",
+        "est_minutes": 1.6,
+        "tell_me_more": [
+          {"file": "content/day14-jorvik/adult/05-sons-of-ragnar-more-1.md", "title": "Ragnar, the Snake Pit, and the Blood Eagle", "est_minutes": 3.1},
+          {"file": "content/day14-jorvik/adult/05-sons-of-ragnar-more-2.md", "title": "Half of England Under Danish Law, and the Streets That Prove It", "est_minutes": 3.3}
+        ]
+      }
+    ]
+  }
+}

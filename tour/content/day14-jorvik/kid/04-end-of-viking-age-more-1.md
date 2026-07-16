@@ -1,0 +1,11 @@
+# How the Whole Adventure Started
+
+Before we get to the end of the Vikings, let us go right back to the very beginning, because you have already visited it on this trip without quite realising. Do you remember, on the train on the eighth day, looking out at a low, flat island just off the coast, with the sea washing all around it? That was Lindisfarne, and that little island is where the whole Viking story is said to have begun.
+
+Picture the scene. It is the summer of the year seven ninety-three, more than twelve hundred years ago. On Lindisfarne there is a monastery, a quiet, peaceful place full of monks who spend their days praying and making the most beautiful books in the world, painted with gold and swirling patterns. It is the holiest, safest place anyone can imagine. Nobody would ever dare attack it.
+
+And then, out of the grey sea, come ships. Long, low, fast ships with striped sails and carved animal heads on the front. The Vikings. They leap ashore with axes and swords, and they do something no one thought possible. They rob the holy monastery, they smash and grab all its gold and treasure, they hurt the monks, and they sail away again before anyone can stop them. When the news spread, people all over Europe were absolutely horrified. A famous writer of the time, a man from York funnily enough, wrote a letter saying that never, ever, had such a terror appeared in Britain before. Everyone was asking the same frightened question. Who are these people, and where did they come from, and will they come back?
+
+They came back. That single raid on Lindisfarne was just the very first drop of rain before a huge storm. For the next hundred years the Vikings came again and again, more and more of them, until they stopped just robbing and started staying, and building towns, and one of those towns was Jorvik, right here.
+
+So hold this in your head today. It began with terrifying raiders bursting out of the sea at Lindisfarne, the island you saw from the train. It carried on with clever traders and busy families in the muddy streets under your feet. And, as you are about to find out, it ended with one last enormous battle in a field just outside this very city. You have seen the beginning and you are standing in the middle, all on the same holiday. Now for the end.

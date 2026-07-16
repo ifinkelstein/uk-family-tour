@@ -1,0 +1,7 @@
+# The Wild Tenants of the Firth
+
+For all the history stacked on these islands, do not spend the whole crossing looking at bridges and battlements, because the Forth is one of the great wildlife estuaries of Britain, and the show is often happening just off the rail. This is a rich larder, a broad tidal firth stiff with fish, ringed by rocky skerries that make perfect refuges, and the wildlife has been exploiting it far longer than the monks or the gunners ever did.
+
+Watch the low rocks and buoys for seals hauled out to rest, and the water around the boat for the smooth dark heads that surface, stare, and slip under again, sometimes trailing the ferry out of pure curiosity. Two different seals share this water, and it is worth learning to tell them apart. Overhead and on the island itself, expect eider ducks, terns, and gulls, the last of them thoroughly emboldened in July, when there are chicks to defend.
+
+One honest word about puffins, since everyone hopes for them. You may glimpse a few whirring past on their fast little wings, but Inchcolm is not really their island. The great puffin city lies further out at the Isle of May, and the planet's largest gannet colony further still on the Bass Rock. Here, the stars are the seals and the eiders. So keep half an eye on the sea the whole way over. Every splash, every bobbing head, is one of the firth's oldest residents going about its business.

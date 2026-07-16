@@ -1,0 +1,7 @@
+# The Queen's Ferry: Nine Centuries of Crossing
+
+Notice where you set out from. The whole reason there is a pier here, a town here, and three of the world's great bridges gathered in a single view, is that this is the pinch of the Forth, the narrowest place a wide and dangerous firth ever lets you cross. For a thousand years, whoever wanted to get from Edinburgh to the old capital at Dunfermline, or on to the shrine at Saint Andrews, came to this exact squeeze of water to do it.
+
+And the crossing has a name, and the name has a queen. In the late eleventh century, Queen Margaret, the devout wife of King Malcolm the Third, established a ferry across the firth here for pilgrims, and paid for it herself so that the poor could cross without a fare. That was the Queen's Ferry. It is why the little town under the rail bridge is called South Queensferry, why the village on the Fife shore opposite is North Queensferry, and why the newest bridge is the Queensferry Crossing. A single act of medieval charity named the whole place, and everything you can see from this deck.
+
+Boats worked that crossing, in an unbroken line, for roughly nine hundred years, right up until the Forth Road Bridge opened in 1964 and finally made the ferry unnecessary. Your Maid of the Forth is the last echo of it, still carrying passengers across the Queen's own water, though today you are crossing for the pleasure of it rather than to save your soul.

@@ -2946,6 +2946,12 @@
         "title": "Secrets to Find in the Ruins",
         "words": 347,
         "est_minutes": 2.3
+       },
+       {
+        "file": "content/day10-inchcolm-island/kid/02-abbey-more-3.md",
+        "title": "The Viking Stone Shaped Like a House",
+        "words": 410,
+        "est_minutes": 2.7
        }
       ]
      },
@@ -2966,6 +2972,52 @@
         "title": "Where the Animals Live",
         "words": 388,
         "est_minutes": 2.6
+       },
+       {
+        "file": "content/day10-inchcolm-island/kid/03-seals-and-war-more-3.md",
+        "title": "The Day the Bombs Fell from the Sky",
+        "words": 379,
+        "est_minutes": 2.5
+       }
+      ]
+     },
+     {
+      "file": "content/day10-inchcolm-island/kid/04-queens-ferry.md",
+      "title": "The Queen's Own Ferry Boat",
+      "words": 220,
+      "est_minutes": 1.5,
+      "tell_me_more": [
+       {
+        "file": "content/day10-inchcolm-island/kid/04-queens-ferry-more-1.md",
+        "title": "The Queen Who Gave Everyone a Free Ride",
+        "words": 367,
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day10-inchcolm-island/kid/04-queens-ferry-more-2.md",
+        "title": "Nine Hundred Years of Boats",
+        "words": 380,
+        "est_minutes": 2.5
+       }
+      ]
+     },
+     {
+      "file": "content/day10-inchcolm-island/kid/05-secret-islands.md",
+      "title": "The Secret Islands of the Forth",
+      "words": 215,
+      "est_minutes": 1.4,
+      "tell_me_more": [
+       {
+        "file": "content/day10-inchcolm-island/kid/05-secret-islands-more-1.md",
+        "title": "The Island That Dressed Up as a Battleship",
+        "words": 350,
+        "est_minutes": 2.3
+       },
+       {
+        "file": "content/day10-inchcolm-island/kid/05-secret-islands-more-2.md",
+        "title": "Islands with Very Strange Names",
+        "words": 422,
+        "est_minutes": 2.8
        }
       ]
      }
@@ -3014,6 +3066,12 @@
         "title": "Why the Ruin Is So Complete",
         "words": 359,
         "est_minutes": 2.4
+       },
+       {
+        "file": "content/day10-inchcolm-island/adult/02-abbey-more-3.md",
+        "title": "The Hog-Backed Stone and the Island's Norse Dead",
+        "words": 390,
+        "est_minutes": 2.6
        }
       ]
      },
@@ -3034,6 +3092,52 @@
         "title": "Rosyth and the Grand Fleet",
         "words": 353,
         "est_minutes": 2.4
+       },
+       {
+        "file": "content/day10-inchcolm-island/adult/03-fortress-more-3.md",
+        "title": "The Forth's First Air Raid",
+        "words": 411,
+        "est_minutes": 2.7
+       }
+      ]
+     },
+     {
+      "file": "content/day10-inchcolm-island/adult/04-queens-ferry.md",
+      "title": "The Queen's Ferry: Nine Centuries of Crossing",
+      "words": 255,
+      "est_minutes": 1.7,
+      "tell_me_more": [
+       {
+        "file": "content/day10-inchcolm-island/adult/04-queens-ferry-more-1.md",
+        "title": "Saint Margaret's Passage",
+        "words": 383,
+        "est_minutes": 2.6
+       },
+       {
+        "file": "content/day10-inchcolm-island/adult/04-queens-ferry-more-2.md",
+        "title": "The Islands of the Forth",
+        "words": 378,
+        "est_minutes": 2.5
+       }
+      ]
+     },
+     {
+      "file": "content/day10-inchcolm-island/adult/05-forth-wildlife.md",
+      "title": "The Wild Tenants of the Firth",
+      "words": 247,
+      "est_minutes": 1.6,
+      "tell_me_more": [
+       {
+        "file": "content/day10-inchcolm-island/adult/05-forth-wildlife-more-1.md",
+        "title": "Seals: Grey and Harbour",
+        "words": 392,
+        "est_minutes": 2.6
+       },
+       {
+        "file": "content/day10-inchcolm-island/adult/05-forth-wildlife-more-2.md",
+        "title": "The Seabird City",
+        "words": 390,
+        "est_minutes": 2.6
        }
       ]
      }

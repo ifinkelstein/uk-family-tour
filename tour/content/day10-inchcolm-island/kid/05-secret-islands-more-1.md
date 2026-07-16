@@ -1,0 +1,9 @@
+# The Island That Dressed Up as a Battleship
+
+Out in the water, keep a lookout for a small, low island absolutely covered in lumpy grey concrete buildings. It is called Inchmickery, and it is tiny, but from far away it plays the best trick in the whole firth. Squint at it, and it does not look like an island at all. It looks exactly like a big grey warship sitting on the water, with what seems like a tall bridge in the middle and shapes that look just like gun turrets. Honestly, it is spooky how much it looks like a real battleship.
+
+And for a long, long time, people told a brilliant story about it. They said the soldiers had built it that way on purpose, as a clever disguise. The idea was that enemy submarines and enemy planes would peek at the firth, spot what looked like a mighty battleship on guard, get scared, and stay away. A whole island wearing a battleship costume to trick the enemy. How cool is that?
+
+But wait, because here comes the true part, and it is important to be honest. That story is probably just a legend. When clever historians studied the island really carefully, they could not find any proof that anyone built it to look like a ship on purpose. It turns out the buildings were just plonked wherever the guns could see the water best, and wherever there was room to squeeze in beds for the soldiers. It only ended up looking like a battleship by pure accident.
+
+So which is more amazing? A secret trick island? Or an island that turned into a fake battleship completely by chance, without anyone even trying? I think the accident is the really funny bit. Because even if nobody planned it, that little island has still managed to fool loads and loads of people over the years into thinking it was a warship. Trick or accident, it worked. So as you pass it, have a good long squint. Can you see the battleship hiding in the island? Once you spot it, you will never be able to unsee it.

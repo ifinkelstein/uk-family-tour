@@ -1,0 +1,11 @@
+# Islands with Very Strange Names
+
+Now for a quick tour of the weirdest islands and rocks around you, because they have some brilliant secrets and some very silly names.
+
+First, look for a skinny tower that seems to be standing all by itself right in the open sea, with no island under it at all. That is the Oxcars lighthouse. Why put a lighthouse there, in the middle of nowhere? Because just under the surface there hide some really dangerous rocks, sneaky ones you cannot see until your boat crunches into them, and over the years they have ripped holes in loads of ships. So the lighthouse stands there like a night-time guard, shining out, saying, careful, careful, rocks down here. And here is the fun bit. Some of the rocks nearby are named the Cow and the Calf, as if a stone cow and her stone baby were paddling in the sea.
+
+Next, look under the middle of the big red railway bridge. See that rocky little island the huge bridge legs are standing on? That is Inchgarvie. Long ago it had a real castle on it, and even stranger, it was once used to keep sick people away from everybody else, all alone out on the rock, so their illness could not spread. Imagine being sent to live on a tiny island just because you had a cough.
+
+Then there is Cramond Island, closer to the city, and it has the best trick of all. When the tide goes out, a stone path appears out of the sea, and you can walk all the way to the island on foot. But you have to be quick, because when the tide comes back in, the sea gobbles up the path again. Every year some people forget, dawdle too long, and get stuck out there, and someone has to come and rescue them. So it is a walk-to island, but only if you can beat the sea.
+
+And far, far out toward the open ocean sit two superstar islands you might only just glimpse. One is the Isle of May, home to thousands and thousands of puffins in summer. The other is the Bass Rock, a great lump of stone that looks like it is covered in snow all year round. But it is not snow. It is birds. Tens of thousands of big white seabirds packed together so tightly they turn the whole rock white. So even the islands too far to reach have secrets. This firth is basically a giant puzzle box, made of rocks.

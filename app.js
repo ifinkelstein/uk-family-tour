@@ -3,6 +3,8 @@ const ASSETS = 'tour';
 const audioURL = f => `${ASSETS}/audio/` + f.replace(/^content\//, '').replace(/\.md$/, '.mp3');
 const imgURL = (sid, i) => `${ASSETS}/images/${sid}-${i}.jpg`;
 const mapURL = id => `${ASSETS}/maps/${id}${id.endsWith('-indoor') ? '.svg' : '.png'}`;
+const INDOOR_MAPS = ['day06-churchill-war-rooms', 'day07-hampton-court'];
+const DAY_MAPS = [3, 5, 6, 9];
 const readingFile = (s, ext) => `${String(s.day).padStart(2, '0')} ${s.name} - ${kid ? 'Kids' : 'Grown-ups'}.${ext}`;
 const readingURL = (s, ext) => `${ext === 'pdf' ? 'reading-pdfs' : 'reading-epubs'}/${encodeURIComponent(readingFile(s, ext))}`;
 
@@ -226,11 +228,16 @@ function cycleSpeed() { speed = speedList[(speedList.indexOf(speed) + 1) % speed
 // (BOTH audiences — the family toggles Kids/Grown-ups on one phone mid-walk)
 function dayAudioURLs(day) {
   const urls = [];
-  MAN.sights.filter(s => s.day === day).forEach(s =>
+  MAN.sights.filter(s => s.day === day).forEach(s => {
     ['kid', 'adult'].forEach(a => s.tracks[a].forEach(t => {
       urls.push(audioURL(t.file));
       (t.tell_me_more || []).forEach(c => urls.push(audioURL(c.file)));
-    })));
+    }));
+    // maps ride along so the ⬇ button makes the whole day work offline
+    urls.push(mapURL(s.id));
+    if (INDOOR_MAPS.includes(s.id)) urls.push(mapURL(s.id + '-indoor'));
+  });
+  if (DAY_MAPS.includes(day)) urls.push(mapURL(`day-${String(day).padStart(2, '0')}`));
   return urls.map(u => new URL(u, location.href).href);
 }
 function cacheDay(day) {

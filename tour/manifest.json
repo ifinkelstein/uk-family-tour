@@ -2430,6 +2430,26 @@
         "title": "The Tiny Oldest Building",
         "words": 377,
         "est_minutes": 2.5
+       },
+       {
+        "file": "content/day09-edinburgh-castle/kid/01-castle-rock-more-4.md",
+        "title": "The Prison in the Rock",
+        "est_minutes": 3.0
+       },
+       {
+        "file": "content/day09-edinburgh-castle/kid/01-castle-rock-more-5.md",
+        "title": "The Castle That Wouldn't Give Up",
+        "est_minutes": 3.0
+       },
+       {
+        "file": "content/day09-edinburgh-castle/kid/01-castle-rock-more-6.md",
+        "title": "The Volcano's Family",
+        "est_minutes": 2.7
+       },
+       {
+        "file": "content/day09-edinburgh-castle/kid/01-castle-rock-more-7.md",
+        "title": "The Dog Soldiers' Graveyard",
+        "est_minutes": 2.6
        }
       ]
      },
@@ -2450,6 +2470,11 @@
         "title": "Inside the Great Hall",
         "words": 346,
         "est_minutes": 2.3
+       },
+       {
+        "file": "content/day09-edinburgh-castle/kid/02-one-oclock-gun-more-3.md",
+        "title": "The Memorial Full of Animals",
+        "est_minutes": 2.7
        }
       ]
      },
@@ -2478,6 +2503,18 @@
         "est_minutes": 2.5
        }
       ]
+     },
+     {
+      "file": "content/day09-edinburgh-castle/kid/04-black-dinner.md",
+      "title": "The Scariest Dinner in the Castle",
+      "est_minutes": 3.1,
+      "tell_me_more": []
+     },
+     {
+      "file": "content/day09-edinburgh-castle/kid/05-treasure-hunt.md",
+      "title": "Your Castle Treasure Hunt",
+      "est_minutes": 2.8,
+      "tell_me_more": []
      }
     ],
     "adult": [
@@ -2504,6 +2541,21 @@
         "title": "The Oldest Room in Edinburgh",
         "words": 374,
         "est_minutes": 2.5
+       },
+       {
+        "file": "content/day09-edinburgh-castle/adult/01-rock-and-sieges-more-4.md",
+        "title": "The Lang Siege and the Buried Tower",
+        "est_minutes": 3.4
+       },
+       {
+        "file": "content/day09-edinburgh-castle/adult/01-rock-and-sieges-more-5.md",
+        "title": "Din Eidyn: The Fortress Before the Castle",
+        "est_minutes": 3.3
+       },
+       {
+        "file": "content/day09-edinburgh-castle/adult/01-rock-and-sieges-more-6.md",
+        "title": "Arthur's Seat and the Family of Volcanoes",
+        "est_minutes": 3.4
        }
       ]
      },
@@ -2550,8 +2602,30 @@
         "title": "Mons Meg: Biography of a Superweapon",
         "words": 409,
         "est_minutes": 2.7
+       },
+       {
+        "file": "content/day09-edinburgh-castle/adult/03-gun-war-memorial-more-3.md",
+        "title": "The Great Hall: Oak and Power",
+        "est_minutes": 3.2
+       },
+       {
+        "file": "content/day09-edinburgh-castle/adult/03-gun-war-memorial-more-4.md",
+        "title": "The Esplanade, the Loch, and the Witches",
+        "est_minutes": 3.3
        }
       ]
+     },
+     {
+      "file": "content/day09-edinburgh-castle/adult/04-black-dinner.md",
+      "title": "The Black Dinner",
+      "est_minutes": 3.5,
+      "tell_me_more": []
+     },
+     {
+      "file": "content/day09-edinburgh-castle/adult/05-prisons-in-the-rock.md",
+      "title": "The Prisons in the Rock",
+      "est_minutes": 3.7,
+      "tell_me_more": []
      }
     ]
    },

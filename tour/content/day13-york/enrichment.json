@@ -1,0 +1,112 @@
+{
+  "kid": {
+    "subs": {
+      "01-walls-and-romans": [
+        {
+          "file": "content/day13-york/kid/01-walls-and-romans-more-3.md",
+          "title": "Heads on Spikes and a Falling Iron Gate",
+          "words": 455,
+          "est_minutes": 3.0
+        }
+      ],
+      "02-shambles": [
+        {
+          "file": "content/day13-york/kid/02-shambles-more-3.md",
+          "title": "Secret Passages: The Snickelways",
+          "words": 426,
+          "est_minutes": 2.8
+        },
+        {
+          "file": "content/day13-york/kid/02-shambles-more-4.md",
+          "title": "The Brave Woman at Number Thirty-Five",
+          "words": 440,
+          "est_minutes": 2.9
+        }
+      ],
+      "03-minster": [
+        {
+          "file": "content/day13-york/kid/03-minster-more-4.md",
+          "title": "The Biggest Picture in the World",
+          "words": 462,
+          "est_minutes": 3.1
+        },
+        {
+          "file": "content/day13-york/kid/03-minster-more-5.md",
+          "title": "The Cathedral That Was Falling Down",
+          "words": 452,
+          "est_minutes": 3.0
+        }
+      ]
+    },
+    "new_bases": [
+      {
+        "file": "content/day13-york/kid/04-war-of-the-flowers.md",
+        "title": "The War of the Flowers",
+        "words": 494,
+        "est_minutes": 3.3,
+        "tell_me_more": [
+          {
+            "file": "content/day13-york/kid/04-war-of-the-flowers-more-1.md",
+            "title": "Dick Turpin: The Ride That Never Happened",
+            "words": 466,
+            "est_minutes": 3.1
+          }
+        ]
+      }
+    ]
+  },
+  "adult": {
+    "subs": {
+      "01-eboracum-to-york": [
+        {
+          "file": "content/day13-york/adult/01-eboracum-to-york-more-3.md",
+          "title": "The Bar Walls and the Four Great Gates",
+          "words": 447,
+          "est_minutes": 3.0
+        }
+      ],
+      "02-minster-glass": [
+        {
+          "file": "content/day13-york/adult/02-minster-glass-more-3.md",
+          "title": "The Tower That Nearly Fell, and the Fort Beneath",
+          "words": 533,
+          "est_minutes": 3.6
+        },
+        {
+          "file": "content/day13-york/adult/02-minster-glass-more-4.md",
+          "title": "The Great East Window: How to Read the End of the World",
+          "words": 499,
+          "est_minutes": 3.3
+        },
+        {
+          "file": "content/day13-york/adult/02-minster-glass-more-5.md",
+          "title": "The Rose Window and the Screen of Kings",
+          "words": 471,
+          "est_minutes": 3.1
+        }
+      ]
+    },
+    "new_bases": [
+      {
+        "file": "content/day13-york/adult/04-white-rose.md",
+        "title": "The White Rose: York and the Wars of the Roses",
+        "words": 506,
+        "est_minutes": 3.4,
+        "tell_me_more": [
+          {
+            "file": "content/day13-york/adult/04-white-rose-more-1.md",
+            "title": "Henry the Eighth and the Breaking of the North",
+            "words": 528,
+            "est_minutes": 3.5
+          },
+          {
+            "file": "content/day13-york/adult/04-white-rose-more-2.md",
+            "title": "Dick Turpin and the Gallows on the Knavesmire",
+            "words": 469,
+            "est_minutes": 3.1
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -2462,6 +2462,43 @@
         "est_minutes": 2.5
        }
       ]
+     },
+     {
+      "file": "content/day07-hampton-court/kid/08-dont-miss.md",
+      "title": "The Treasure Hunt List: Don't Miss These",
+      "est_minutes": 2.9,
+      "tell_me_more": [
+       {
+        "file": "content/day07-hampton-court/kid/08-dont-miss-more-1.md",
+        "title": "The Tiny Golden Room That Survived",
+        "est_minutes": 2.8
+       },
+       {
+        "file": "content/day07-hampton-court/kid/08-dont-miss-more-2.md",
+        "title": "The Most Dangerous Room Has No Swords",
+        "est_minutes": 2.9
+       },
+       {
+        "file": "content/day07-hampton-court/kid/08-dont-miss-more-3.md",
+        "title": "The Palace Was a Whole Town",
+        "est_minutes": 2.9
+       },
+       {
+        "file": "content/day07-hampton-court/kid/08-dont-miss-more-4.md",
+        "title": "The Crown That Was Turned into Coins",
+        "est_minutes": 3.0
+       },
+       {
+        "file": "content/day07-hampton-court/kid/08-dont-miss-more-5.md",
+        "title": "Chocolate for Breakfast, and the Family Who Left",
+        "est_minutes": 2.9
+       },
+       {
+        "file": "content/day07-hampton-court/kid/08-dont-miss-more-6.md",
+        "title": "The Secret Sewing School in the Palace",
+        "est_minutes": 2.9
+       }
+      ]
      }
     ],
     "adult": [
@@ -2605,6 +2642,43 @@
         "file": "content/day07-hampton-court/adult/07-court-theatre-more-1.md",
         "title": "The Groom of the Stool, or Power at Its Most Intimate",
         "est_minutes": 2.6
+       }
+      ]
+     },
+     {
+      "file": "content/day07-hampton-court/adult/08-dont-miss.md",
+      "title": "Don't Miss These: A Checklist Walk",
+      "est_minutes": 3.0,
+      "tell_me_more": [
+       {
+        "file": "content/day07-hampton-court/adult/08-dont-miss-more-1.md",
+        "title": "The Wolsey Closet: A Fragment of the Lost Palace",
+        "est_minutes": 2.8
+       },
+       {
+        "file": "content/day07-hampton-court/adult/08-dont-miss-more-2.md",
+        "title": "The Council Chamber: Government at the Table",
+        "est_minutes": 2.8
+       },
+       {
+        "file": "content/day07-hampton-court/adult/08-dont-miss-more-3.md",
+        "title": "The Palace Was a City",
+        "est_minutes": 2.9
+       },
+       {
+        "file": "content/day07-hampton-court/adult/08-dont-miss-more-4.md",
+        "title": "Henry's Crown, and the Regalia England Destroyed",
+        "est_minutes": 2.9
+       },
+       {
+        "file": "content/day07-hampton-court/adult/08-dont-miss-more-5.md",
+        "title": "The Georgians: Last Family in the Palace",
+        "est_minutes": 2.8
+       },
+       {
+        "file": "content/day07-hampton-court/adult/08-dont-miss-more-6.md",
+        "title": "The Secret Tenant: The Royal School of Needlework",
+        "est_minutes": 2.8
        }
       ]
      }

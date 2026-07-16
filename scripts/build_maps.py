@@ -65,7 +65,16 @@ GEO = {
         "09": [51.5062, -0.1281],   # Red London (bus hop, Whitehall top)
     }},
     "day06-churchill-war-rooms": {"c": [51.5022, -0.1263]},
-    "day07-hampton-court": {"c": [51.4036, -0.3378]},
+    "day07-hampton-court": {"c": [51.4036, -0.3378], "stops": {
+        "01": [51.4038, -0.3395],   # Base Court / Great Gatehouse
+        "02": [51.4039, -0.3380],   # Tudor kitchens (north range)
+        "03": [51.4036, -0.3370],   # Chapel Royal / Haunted Gallery
+        "04": [51.4063, -0.3376],   # The Maze (Wilderness, north gardens)
+        "05": [51.4032, -0.3369],   # Fountain Court (Wren's palace)
+        "06": [51.4032, -0.3392],   # Great House of Easement (south-west)
+        "07": [51.4041, -0.3358],   # Royal (real) tennis court, east side
+        "08": [51.4041, -0.3415],   # Trophy Gates — start of the don't-miss walk
+    }},
     "day08-train-north": {"c": [54.5, -1.6], "zoom": 6},  # route overview
     "day09-edinburgh-castle": {"c": [55.9486, -3.1999]},
     "day09-royal-mile": {"c": [55.9502, -3.1870], "stops": {

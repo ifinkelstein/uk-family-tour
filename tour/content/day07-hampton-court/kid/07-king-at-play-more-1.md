@@ -1,0 +1,10 @@
+# The Crash That Changed a King
+Here is one of the great what-if moments in all of history, and it happened because of a game.
+
+By the year fifteen thirty-six, Henry was in his mid forties, still jousting, still trying to prove he was the strong young champion he used to be. On the twenty-fourth of January that year, at another of his palaces, he climbed onto his warhorse in full armour and charged. Something went horribly wrong. His horse, which was also wearing heavy armour, stumbled and crashed down, and the whole enormous weight of the armoured horse landed right on top of the fallen king.
+
+Henry did not move. He lay there, completely still, knocked out cold. For two whole hours, everyone around him believed the King of England was dead. Messengers were probably already working out how to break the terrible news. And then, at last, he woke up.
+
+He survived. But some historians think Henry was never quite the same again, and here is their idea. A bang on the head as bad as that can sometimes injure a person's brain in ways you cannot see from the outside, and it can slowly change how they behave, making them more forgetful, more moody, quicker to fly into a rage. On top of that, the crash badly hurt Henry's leg, and it never properly healed. It left him in pain, and unable to exercise, for the rest of his life. The dashing, athletic young king gradually became a huge, aching, short-tempered old man.
+
+Now, we cannot prove that the accident caused all of that. People change for lots of reasons, and Henry had plenty of other troubles too. But look at what happened next, because the timing is spooky. Within just a few months of that fall, Henry had his second wife, Anne Boleyn, arrested and beheaded, and from then on his reign grew darker and more frightening year by year. So some people wonder, if that one horse had only kept its footing on that one January day, might the whole story of Henry and his six wives, and even the history of England, have turned out completely differently? A single stumble. Two hours of silence. And maybe, just maybe, a king changed forever.

@@ -1,0 +1,67 @@
+{
+  "kid": {
+    "subs": {
+      "01-henry-and-wolsey": [
+        {"file": "content/day07-hampton-court/kid/01-henry-and-wolsey-more-3.md", "title": "What Happened to Cardinal Wolsey", "est_minutes": 2.4}
+      ],
+      "02-tudor-kitchens": [
+        {"file": "content/day07-hampton-court/kid/02-tudor-kitchens-more-2.md", "title": "Weird and Wonderful Feast Food", "est_minutes": 2.6}
+      ],
+      "04-maze-magic-garden": [
+        {"file": "content/day07-hampton-court/kid/04-maze-magic-garden-more-2.md", "title": "Deer, Fountains, and the Secret of the Magic Garden", "est_minutes": 2.6}
+      ]
+    },
+    "new_bases": [
+      {
+        "file": "content/day07-hampton-court/kid/06-gross-secrets.md",
+        "title": "The Grossest Secrets of the Palace",
+        "est_minutes": 2.1,
+        "tell_me_more": [
+          {"file": "content/day07-hampton-court/kid/06-gross-secrets-more-1.md", "title": "The Man Who Helped the King on the Toilet", "est_minutes": 2.7},
+          {"file": "content/day07-hampton-court/kid/06-gross-secrets-more-2.md", "title": "Fleas, Baths, and Keeping Clean the Tudor Way", "est_minutes": 2.4}
+        ]
+      },
+      {
+        "file": "content/day07-hampton-court/kid/07-king-at-play.md",
+        "title": "How a King Had Fun",
+        "est_minutes": 2.5,
+        "tell_me_more": [
+          {"file": "content/day07-hampton-court/kid/07-king-at-play-more-1.md", "title": "The Crash That Changed a King", "est_minutes": 2.5},
+          {"file": "content/day07-hampton-court/kid/07-king-at-play-more-2.md", "title": "The Music King, and the Song He Did Not Write", "est_minutes": 2.5}
+        ]
+      }
+    ]
+  },
+  "adult": {
+    "subs": {
+      "01-wolsey-henry": [
+        {"file": "content/day07-hampton-court/adult/01-wolsey-henry-more-3.md", "title": "The Fall of Wolsey", "est_minutes": 2.7}
+      ],
+      "02-kitchens-court": [
+        {"file": "content/day07-hampton-court/adult/02-kitchens-court-more-2.md", "title": "Plumbing, Waste, and the Great House of Easement", "est_minutes": 2.7}
+      ],
+      "03-baroque-wren": [
+        {"file": "content/day07-hampton-court/adult/03-baroque-wren-more-3.md", "title": "The Fire of 1986 and What It Revealed", "est_minutes": 2.4}
+      ]
+    },
+    "new_bases": [
+      {
+        "file": "content/day07-hampton-court/adult/06-chapel-royal.md",
+        "title": "The Chapel Royal and the Word of God",
+        "est_minutes": 2.7,
+        "tell_me_more": [
+          {"file": "content/day07-hampton-court/adult/06-chapel-royal-more-1.md", "title": "The Book That Came Out of the Conference", "est_minutes": 2.9},
+          {"file": "content/day07-hampton-court/adult/06-chapel-royal-more-2.md", "title": "The Georgian Sunset, and Why No Monarch Has Slept Here Since", "est_minutes": 2.8}
+        ]
+      },
+      {
+        "file": "content/day07-hampton-court/adult/07-court-theatre.md",
+        "title": "The Court as Theatre: The Long Road to the King",
+        "est_minutes": 2.7,
+        "tell_me_more": [
+          {"file": "content/day07-hampton-court/adult/07-court-theatre-more-1.md", "title": "The Groom of the Stool, or Power at Its Most Intimate", "est_minutes": 2.6}
+        ]
+      }
+    ]
+  }
+}

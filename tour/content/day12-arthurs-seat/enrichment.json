@@ -1,0 +1,49 @@
+{
+  "kid": {
+    "subs": {
+      "01-climbing-a-volcano": [
+        {"file": "content/day12-arthurs-seat/kid/01-climbing-a-volcano-more-4.md", "title": "A Beach Smell and Invisible Singers", "est_minutes": 3.2},
+        {"file": "content/day12-arthurs-seat/kid/01-climbing-a-volcano-more-5.md", "title": "Three Lochs and the Swans", "est_minutes": 2.9}
+      ]
+    },
+    "new_bases": [
+      {
+        "file": "content/day12-arthurs-seat/kid/03-sheep-heid.md",
+        "title": "The Pub with a Sheep's Head Name",
+        "est_minutes": 2.8,
+        "tell_me_more": [
+          {"file": "content/day12-arthurs-seat/kid/03-sheep-heid-more-1.md", "title": "The Oldest Game of Skittles", "est_minutes": 2.7}
+        ]
+      },
+      {
+        "file": "content/day12-arthurs-seat/kid/04-frozen-loch.md",
+        "title": "The Loch Where a Sport Was Born",
+        "est_minutes": 2.8,
+        "tell_me_more": [
+          {"file": "content/day12-arthurs-seat/kid/04-frozen-loch-more-1.md", "title": "The Sneaky Innocent Railway", "est_minutes": 2.7}
+        ]
+      }
+    ]
+  },
+  "adult": {
+    "subs": {
+      "01-hutton-deep-time": [
+        {"file": "content/day12-arthurs-seat/adult/01-hutton-deep-time-more-4.md", "title": "The Man Himself, and the Friend Who Rescued Him", "est_minutes": 4.8}
+      ],
+      "02-legends-coffins": [
+        {"file": "content/day12-arthurs-seat/adult/02-legends-coffins-more-4.md", "title": "Three Lochs, and the Volcano You'll See Again Tonight", "est_minutes": 3.8}
+      ]
+    },
+    "new_bases": [
+      {
+        "file": "content/day12-arthurs-seat/adult/03-sheep-heid.md",
+        "title": "The Sheep Heid Inn and the Village Below",
+        "est_minutes": 3.3,
+        "tell_me_more": [
+          {"file": "content/day12-arthurs-seat/adult/03-sheep-heid-more-1.md", "title": "The Oldest Skittle Alley in the Land", "est_minutes": 2.2},
+          {"file": "content/day12-arthurs-seat/adult/03-sheep-heid-more-2.md", "title": "The Innocent Railway", "est_minutes": 3.1}
+        ]
+      }
+    ]
+  }
+}

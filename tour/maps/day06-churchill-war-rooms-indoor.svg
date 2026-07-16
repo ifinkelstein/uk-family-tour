@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" font-family="Helvetica, Arial, sans-serif">
+  <rect width="1000" height="560" fill="#F2EFE7"/>
+  <text x="30" y="42" font-size="26" font-weight="700" fill="#333">Churchill War Rooms — schematic (not to scale)</text>
+  <text x="30" y="66" font-size="15" fill="#777">One long corridor under the Treasury. You walk it one way; the museum sits halfway.</text>
+
+  <!-- corridor spine -->
+  <rect x="60" y="250" width="880" height="56" rx="8" fill="#D9D2C0" stroke="#B7AE97" stroke-width="2"/>
+  <text x="500" y="284" font-size="15" fill="#8B8268" text-anchor="middle" letter-spacing="3">MAIN CORRIDOR</text>
+
+  <!-- entrance -->
+  <g>
+    <rect x="60" y="330" width="120" height="70" rx="8" fill="#B3222E"/>
+    <text x="120" y="360" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">ENTRANCE</text>
+    <text x="120" y="380" font-size="12" fill="#fff" text-anchor="middle">Clive Steps</text>
+    <path d="M120 330 L120 306" stroke="#B3222E" stroke-width="4"/>
+  </g>
+
+  <!-- rooms above corridor -->
+  <g stroke="#8E8568" stroke-width="2" fill="#EFE9D8">
+    <rect x="90"  y="140" width="170" height="90" rx="8"/>
+    <rect x="290" y="140" width="170" height="90" rx="8"/>
+    <rect x="490" y="140" width="130" height="90" rx="8"/>
+    <rect x="650" y="140" width="120" height="90" rx="8"/>
+    <rect x="800" y="140" width="150" height="90" rx="8"/>
+  </g>
+  <g font-size="15" fill="#4A452F" text-anchor="middle" font-weight="700">
+    <text x="175" y="178">War Cabinet Room</text>
+    <text x="375" y="178">Map Room</text>
+    <text x="555" y="178">Churchill's</text>
+    <text x="710" y="178">Phone Room</text>
+    <text x="875" y="178">Typists &amp;</text>
+  </g>
+  <g font-size="12.5" fill="#7A7355" text-anchor="middle">
+    <text x="175" y="198">where the War Cabinet met</text>
+    <text x="375" y="198">pins, phones, lights on 24/7</text>
+    <text x="555" y="196">bedroom</text>
+    <text x="555" y="212">(rarely slept in)</text>
+    <text x="710" y="198">disguised as a</text>
+    <text x="710" y="214">toilet — "engaged"</text>
+    <text x="875" y="198">switchboard</text>
+    <text x="875" y="214">the people below</text>
+  </g>
+  <!-- connectors -->
+  <g stroke="#B7AE97" stroke-width="3">
+    <path d="M175 230 L175 250"/><path d="M375 230 L375 250"/><path d="M555 230 L555 250"/>
+    <path d="M710 230 L710 250"/><path d="M875 230 L875 250"/>
+  </g>
+
+  <!-- museum below corridor -->
+  <rect x="330" y="340" width="380" height="120" rx="10" fill="#DCE4D5" stroke="#93A487" stroke-width="2"/>
+  <text x="520" y="386" font-size="17" fill="#3E4C37" text-anchor="middle" font-weight="700">Churchill Museum</text>
+  <text x="520" y="410" font-size="13" fill="#6C7B63" text-anchor="middle">find the 15-metre Lifeline table — press everything</text>
+  <path d="M520 340 L520 306" stroke="#93A487" stroke-width="3"/>
+
+  <!-- exit -->
+  <g>
+    <rect x="820" y="330" width="120" height="70" rx="8" fill="#5B6E56"/>
+    <text x="880" y="360" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">SHOP + EXIT</text>
+    <text x="880" y="380" font-size="12" fill="#fff" text-anchor="middle">back to daylight</text>
+    <path d="M880 330 L880 306" stroke="#5B6E56" stroke-width="4"/>
+  </g>
+
+  <text x="30" y="520" font-size="13" fill="#999">Sweet spots: the Map Room's coloured phones, the sugar cubes drawer, the weather board that says "windy" during raids.</text>
+</svg>

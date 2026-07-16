@@ -104,3 +104,14 @@ input[type=range]::-moz-range-thumb{width:22px;height:22px;border:0;border-radiu
 .mic{width:40px;text-align:center;font-size:18px}
 .badge{font-size:12px;color:var(--muted);padding:2px 8px}
 .dlbar{font-size:12px;color:var(--gold);text-align:center;padding:2px}
+
+/* ---- maps ---- */
+.maprow{display:flex;align-items:center;gap:12px;margin:10px 16px;padding:8px;
+  border:1px solid var(--line,#3333);border-radius:12px;cursor:pointer;font-size:14px}
+.maprow .mapthumb{width:86px;height:60px;object-fit:cover;border-radius:8px}
+.mapoverlay{position:fixed;inset:0;background:rgba(10,12,10,.92);z-index:60;
+  display:flex;flex-direction:column}
+.mapoverlay .mapbar{display:flex;justify-content:space-between;align-items:center;
+  padding:10px 14px;color:#fff;font-weight:600}
+.mapoverlay .mapscroll{flex:1;overflow:auto;-webkit-overflow-scrolling:touch}
+.mapoverlay .mapscroll img{min-width:100%;width:1000px;max-width:none;display:block}

@@ -2,6 +2,7 @@
 const ASSETS = 'tour';
 const audioURL = f => `${ASSETS}/audio/` + f.replace(/^content\//, '').replace(/\.md$/, '.mp3');
 const imgURL = (sid, i) => `${ASSETS}/images/${sid}-${i}.jpg`;
+const mapURL = id => `${ASSETS}/maps/${id}${id.endsWith('-indoor') ? '.svg' : '.png'}`;
 const readingFile = (s, ext) => `${String(s.day).padStart(2, '0')} ${s.name} - ${kid ? 'Kids' : 'Grown-ups'}.${ext}`;
 const readingURL = (s, ext) => `${ext === 'pdf' ? 'reading-pdfs' : 'reading-epubs'}/${encodeURIComponent(readingFile(s, ext))}`;
 
@@ -149,6 +150,17 @@ function announceThenPlay(it, token) {
   }
   au.play().catch(() => { });
 }
+
+// ---- map overlay ----
+window.showMap = (id, title) => {
+  const ov = document.createElement('div');
+  ov.className = 'mapoverlay';
+  ov.innerHTML = `<div class="mapbar"><span>${esc(title || 'Map')}</span>
+    <button class="iconbtn" onclick="this.closest('.mapoverlay').remove()">✕</button></div>
+    <div class="mapscroll"><img src="${mapURL(id)}" alt="map"></div>`;
+  ov.addEventListener('click', e => { if (e.target === ov) ov.remove(); });
+  document.body.appendChild(ov);
+};
 
 // ---- resume where the family left off ----
 let lastSaveT = 0;
@@ -338,6 +350,7 @@ function renderDays() {
     h += `<div class="dayhead${today ? ' today' : ''}" id="day-${day}"><span class="dot" style="background:${a}"></span>
       <span class="daylabel" style="color:${a}">Day ${day} · ${esc(sights[0].date || '')} · ${cityName(day)}</span>
       ${today ? '<span class="todaypill">TODAY</span>' : ''}
+      ${sights.length > 1 ? `<button class="dlbtn" onclick="showMap('day-${String(day).padStart(2, '0')}', 'Day ${day} overview')">🗺</button>` : ''}
       <button class="dlbtn" id="dl-${day}" onclick="saveDay(${day})">⬇</button>
       <button class="playday" style="background:${a}22;color:${a}" onclick="openDayPlay(${day})">▶ Play day</button></div>`;
     sights.forEach(s => {
@@ -401,6 +414,12 @@ function renderSight(s) {
     <div style="flex:1"><h2 class="serif" style="margin:0">${esc(s.name)}</h2>
     <div class="daylabel" style="color:${a}">Day ${s.day} · ${esc(s.date || '')}</div></div>${toggleHTML()}</div>
     <div class="hero"><img src="${imgURL(s.id, 0)}" onerror="this.style.display='none'"></div>
+    <div class="maprow" onclick="showMap('${jsq(s.id)}','${jsq(s.name)}')">
+      <img class="mapthumb" src="${mapURL(s.id)}" onerror="this.closest('.maprow').style.display='none'">
+      <span>🗺 Map — numbered stops match the stories</span></div>
+    <div class="maprow" onclick="showMap('${jsq(s.id)}-indoor','${jsq(s.name)} — inside')">
+      <img class="mapthumb" src="${mapURL(s.id + '-indoor')}" onerror="this.closest('.maprow').style.display='none'">
+      <span>🏛 Inside — room-by-room sketch</span></div>
     <div class="readlinks"><span>Read offline</span>
       <a href="${readingURL(s, 'pdf')}" download>PDF</a>
       <a href="${readingURL(s, 'epub')}" download>EPUB</a>

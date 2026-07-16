@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" font-family="Helvetica, Arial, sans-serif">
+  <rect width="1000" height="620" fill="#F2EFE7"/>
+  <text x="30" y="42" font-size="26" font-weight="700" fill="#333">Hampton Court — schematic (not to scale)</text>
+  <text x="30" y="66" font-size="15" fill="#777">Two palaces stitched together: Tudor brick at the front, Wren's baroque behind. Gardens wrap the east side.</text>
+
+  <!-- Tudor half -->
+  <rect x="60" y="130" width="380" height="330" rx="10" fill="#E7D7C3" stroke="#B08A5F" stroke-width="3"/>
+  <text x="250" y="118" font-size="14" fill="#B08A5F" text-anchor="middle" font-weight="700" letter-spacing="2">TUDOR PALACE (HENRY VIII)</text>
+
+  <rect x="90" y="170" width="140" height="100" rx="8" fill="#F4E9D8" stroke="#B08A5F" stroke-width="2"/>
+  <text x="160" y="212" font-size="15" fill="#6B4F2A" text-anchor="middle" font-weight="700">Base Court</text>
+  <text x="160" y="232" font-size="12" fill="#96794F" text-anchor="middle">wine fountain</text>
+
+  <rect x="260" y="170" width="150" height="100" rx="8" fill="#F4E9D8" stroke="#B08A5F" stroke-width="2"/>
+  <text x="335" y="206" font-size="15" fill="#6B4F2A" text-anchor="middle" font-weight="700">Clock Court</text>
+  <text x="335" y="226" font-size="12" fill="#96794F" text-anchor="middle">astronomical clock</text>
+  <text x="335" y="242" font-size="12" fill="#96794F" text-anchor="middle">(tide at London Bridge)</text>
+
+  <rect x="90" y="300" width="140" height="130" rx="8" fill="#EBD3B9" stroke="#B08A5F" stroke-width="2"/>
+  <text x="160" y="348" font-size="15" fill="#6B4F2A" text-anchor="middle" font-weight="700">Great Kitchens</text>
+  <text x="160" y="368" font-size="12" fill="#96794F" text-anchor="middle">600 mouths, twice a day</text>
+  <text x="160" y="384" font-size="12" fill="#96794F" text-anchor="middle">turnspit boys</text>
+
+  <rect x="260" y="300" width="150" height="60" rx="8" fill="#EBD3B9" stroke="#B08A5F" stroke-width="2"/>
+  <text x="335" y="326" font-size="15" fill="#6B4F2A" text-anchor="middle" font-weight="700">Great Hall</text>
+  <text x="335" y="344" font-size="12" fill="#96794F" text-anchor="middle">eavesdroppers in the roof</text>
+
+  <rect x="260" y="372" width="150" height="58" rx="8" fill="#EBD3B9" stroke="#B08A5F" stroke-width="2"/>
+  <text x="335" y="397" font-size="15" fill="#6B4F2A" text-anchor="middle" font-weight="700">Chapel Royal</text>
+  <text x="335" y="415" font-size="12" fill="#96794F" text-anchor="middle">blue-and-gold ceiling</text>
+
+  <!-- Wren half -->
+  <rect x="470" y="130" width="280" height="330" rx="10" fill="#E3DED2" stroke="#8B8B7A" stroke-width="3"/>
+  <text x="610" y="118" font-size="14" fill="#8B8B7A" text-anchor="middle" font-weight="700" letter-spacing="2">WREN'S BAROQUE (WILLIAM &amp; MARY)</text>
+
+  <rect x="500" y="170" width="220" height="110" rx="8" fill="#EFEBE0" stroke="#8B8B7A" stroke-width="2"/>
+  <text x="610" y="212" font-size="15" fill="#55554A" text-anchor="middle" font-weight="700">Fountain Court</text>
+  <text x="610" y="232" font-size="12" fill="#82826F" text-anchor="middle">the "second palace"</text>
+
+  <rect x="500" y="300" width="220" height="130" rx="8" fill="#EFEBE0" stroke="#8B8B7A" stroke-width="2"/>
+  <text x="610" y="348" font-size="15" fill="#55554A" text-anchor="middle" font-weight="700">State Apartments</text>
+  <text x="610" y="368" font-size="12" fill="#82826F" text-anchor="middle">the graded approach to the king</text>
+  <text x="610" y="384" font-size="12" fill="#82826F" text-anchor="middle">(court as theatre)</text>
+
+  <!-- gardens -->
+  <rect x="780" y="130" width="160" height="330" rx="10" fill="#DCE8D2" stroke="#7FA06B" stroke-width="3"/>
+  <text x="860" y="118" font-size="14" fill="#7FA06B" text-anchor="middle" font-weight="700" letter-spacing="2">GARDENS</text>
+  <g font-size="14" fill="#48603B" text-anchor="middle" font-weight="700">
+    <text x="860" y="180">The Maze</text>
+    <text x="860" y="260">Magic Garden</text>
+    <text x="860" y="340">Great Vine</text>
+  </g>
+  <g font-size="12" fill="#6F8A5E" text-anchor="middle">
+    <text x="860" y="198">half a mile of paths</text>
+    <text x="860" y="278">built on the tiltyard</text>
+    <text x="860" y="358">planted 1768, still</text>
+    <text x="860" y="374">growing grapes</text>
+  </g>
+
+  <!-- entrance + flow -->
+  <g>
+    <rect x="60" y="500" width="150" height="60" rx="8" fill="#B3222E"/>
+    <text x="135" y="526" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">MAIN GATE</text>
+    <text x="135" y="546" font-size="12" fill="#fff" text-anchor="middle">Trophy Gates, west front</text>
+    <path d="M135 500 L135 462" stroke="#B3222E" stroke-width="4"/>
+  </g>
+  <g>
+    <rect x="790" y="500" width="150" height="60" rx="8" fill="#5B6E56"/>
+    <text x="865" y="526" font-size="15" fill="#fff" text-anchor="middle" font-weight="700">MUTE SWAN</text>
+    <text x="865" y="546" font-size="12" fill="#fff" text-anchor="middle">early dinner, by the gates</text>
+  </g>
+
+  <text x="30" y="595" font-size="13" fill="#999">Route idea: Base Court → Clock Court → Great Hall → kitchens → Wren's side → gardens, maze last so nobody melts early.</text>
+</svg>

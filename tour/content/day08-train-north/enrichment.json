@@ -1,0 +1,81 @@
+{
+  "kid": {
+    "subs": {
+      "01-east-coast-line": [
+        {
+          "file": "content/day08-train-north/kid/01-east-coast-line-more-4.md",
+          "title": "The Warrior Queen Under the Platform",
+          "est_minutes": 2.6
+        },
+        {
+          "file": "content/day08-train-north/kid/01-east-coast-line-more-5.md",
+          "title": "A Peek at York, Where You'll Be Soon",
+          "est_minutes": 2.2
+        },
+        {
+          "file": "content/day08-train-north/kid/01-east-coast-line-more-6.md",
+          "title": "The Fastest, Flattest Bit and a Falling Apple",
+          "est_minutes": 2.8
+        }
+      ],
+      "02-crossing-the-border": [
+        {
+          "file": "content/day08-train-north/kid/02-crossing-the-border-more-4.md",
+          "title": "The Silver Water and the Mountain You'll Climb",
+          "est_minutes": 3.0
+        }
+      ]
+    },
+    "new_bases": [
+      {
+        "file": "content/day08-train-north/kid/03-lumo-racing.md",
+        "title": "Your Train Is in a Secret Race",
+        "est_minutes": 3.2,
+        "tell_me_more": []
+      },
+      {
+        "file": "content/day08-train-north/kid/04-flying-scotsman-engine.md",
+        "title": "The Most Famous Engine in the World",
+        "est_minutes": 3.2,
+        "tell_me_more": []
+      }
+    ]
+  },
+  "adult": {
+    "subs": {
+      "01-east-coast-line": [
+        {
+          "file": "content/day08-train-north/adult/01-east-coast-line-more-4.md",
+          "title": "The Station You Left: Cubitt's Shed and a Buried Queen",
+          "est_minutes": 3.0
+        },
+        {
+          "file": "content/day08-train-north/adult/01-east-coast-line-more-5.md",
+          "title": "The Racing Ground and a First Sight of York",
+          "est_minutes": 3.1
+        }
+      ],
+      "02-border-and-arrival": [
+        {
+          "file": "content/day08-train-north/adult/02-border-and-arrival-more-4.md",
+          "title": "The Firth Opens and the Volcano Waits",
+          "est_minutes": 2.5
+        }
+      ]
+    },
+    "new_bases": [
+      {
+        "file": "content/day08-train-north/adult/03-lumo-new-race.md",
+        "title": "Lumo, and the Race North Begins Again",
+        "est_minutes": 4.4,
+        "tell_me_more": []
+      },
+      {
+        "file": "content/day08-train-north/adult/04-building-the-line.md",
+        "title": "How the Line Was Stitched Together",
+        "est_minutes": 4.4,
+        "tell_me_more": []
+      }
+    ]
+  }
+}

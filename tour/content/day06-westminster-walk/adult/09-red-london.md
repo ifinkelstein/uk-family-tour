@@ -1,0 +1,7 @@
+# Red London: The City's Livery
+
+Forget the buildings for a moment and look at the machine you're riding in. This double-decker gliding down Whitehall is as much a London monument as anything carved in Portland stone, and you have contrived to see it from the finest vantage point in the city, the front of the top deck, directly above the driver, with a full-width window and nobody's head in the way. There is no better piece of theatre in London and it costs almost nothing. Under-elevens ride the buses free, at any hour, no ticket required, which is why the front seats are so often colonised by delighted children.
+
+What you're really sitting inside is a decision about colour. London chose, and has never wavered, to paint its public life a single defiant red. The buses are red. The telephone boxes are red. The pillar postboxes are red. The Underground roundel outside every station is red. This is not an accident of taste but a century of accumulated identity, each red object designed by a named individual, several of them quietly among the most influential pieces of industrial design ever produced in Britain.
+
+Over the next few minutes, as Whitehall slides past that window, we'll take the red city apart, piece by piece. The double-decker beneath you and its beloved ancestor the Routemaster. The phone box and the postbox, and the surprising men behind them. And the roundel, the world's first underground railway, and the almost unbelievable feat of memory demanded of every black-cab driver. It's all out there on the street. Let's read it.

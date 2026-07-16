@@ -1,0 +1,50 @@
+{
+  "kid": [
+    {
+      "file": "content/day06-westminster-walk/kid/09-red-london.md",
+      "title": "Red London and the Best Seat in the City",
+      "est_minutes": 1.5,
+      "tell_me_more": [
+        {
+          "file": "content/day06-westminster-walk/kid/09-red-london-more-1.md",
+          "title": "The Bus You Could Jump Onto",
+          "est_minutes": 2.3
+        },
+        {
+          "file": "content/day06-westminster-walk/kid/09-red-london-more-2.md",
+          "title": "The Little Red Box and the Man Who Loved Big Ones",
+          "est_minutes": 2.1
+        },
+        {
+          "file": "content/day06-westminster-walk/kid/09-red-london-more-3.md",
+          "title": "Steam Trains Underground and the Cleverest Drivers Alive",
+          "est_minutes": 2.4
+        }
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day06-westminster-walk/adult/09-red-london.md",
+      "title": "Red London: The City's Livery",
+      "est_minutes": 1.7,
+      "tell_me_more": [
+        {
+          "file": "content/day06-westminster-walk/adult/09-red-london-more-1.md",
+          "title": "Why Red, and the Cult of the Routemaster",
+          "est_minutes": 2.4
+        },
+        {
+          "file": "content/day06-westminster-walk/adult/09-red-london-more-2.md",
+          "title": "The Kiosk, the Power Station, and the Novelist's Postbox",
+          "est_minutes": 2.5
+        },
+        {
+          "file": "content/day06-westminster-walk/adult/09-red-london-more-3.md",
+          "title": "The Roundel, the First Underground, and the Knowledge",
+          "est_minutes": 2.5
+        }
+      ]
+    }
+  ]
+}

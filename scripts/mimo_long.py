@@ -105,6 +105,8 @@ def main():
     lines = args.md.read_text().splitlines()
     if lines and lines[0].startswith("#"):
         lines = lines[1:]
+    # ">" lines are cross-reference callouts, never spoken
+    lines = [l for l in lines if not l.lstrip().startswith(">")]
     text = "\n".join(lines).strip()
 
     desc, style = ((mimo.KID_DESC, mimo.KID_STYLE) if args.audience == "kid"

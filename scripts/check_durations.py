@@ -30,6 +30,8 @@ def words(rel: str) -> int:
     lines = (ASSETS / rel).read_text().splitlines()
     if lines and lines[0].startswith("#"):
         lines = lines[1:]
+    # ">" lines are cross-reference callouts, not narration
+    lines = [l for l in lines if not l.lstrip().startswith(">")]
     return len(" ".join(lines).split())
 
 

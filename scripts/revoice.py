@@ -21,6 +21,8 @@ VC = {"adult": (mimo.ADULT_DESC, mimo.ADULT_STYLE, 1.25),
 def body(rel):
     lines = (ASSETS / rel).read_text().splitlines()
     if lines and lines[0].startswith("#"): lines = lines[1:]
+    # ">" lines are cross-reference callouts, never spoken
+    lines = [l for l in lines if not l.lstrip().startswith(">")]
     t = " ".join(l.strip() for l in lines if l.strip())
     t = t.replace("—", ", ").replace("–", ", ")
     return re.sub(r"\s+", " ", t).strip()

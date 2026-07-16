@@ -13,3 +13,6 @@ After Whitehall burned, the court fell back on St James's Palace, the red brick 
 And then, at last, this. Buckingham became the sovereign's London home only when the young Queen Victoria moved in, in eighteen thirty seven. The address you are looking at is the newest of them all.
 
 So there is your thread. Tower, Westminster, Whitehall, St James's, Buckingham. Let me take you deeper into each.
+
+> Related listening: The royal address story starts at the Tower, the Conqueror's first London stronghold. Listen back — “The White Tower: Architecture as Intimidation” (Tower of London, Day 3).
+> Related listening: Next stop on the royal-homes trail: Henry the Eighth's great palace at Hampton Court. Coming up — “Wolsey's Palace, Henry's Prize” (Hampton Court Palace, Day 7).

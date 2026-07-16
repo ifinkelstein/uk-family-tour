@@ -15,3 +15,6 @@ After that, the king moved to St James's Palace, a red brick palace right beside
 And then, at last, a young queen named Victoria moved into Buckingham Palace, and kings and queens have lived here ever since.
 
 So there is the puzzle solved. Five homes. Tower, Westminster, Whitehall, St James's, and here. Let me tell you more about each one.
+
+> Related listening: The royal address story starts at the Tower, the Conqueror's first London stronghold. Listen back — “The White Tower: 950 Years Old” (Tower of London, Day 3).
+> Related listening: Next stop on the royal-homes trail: Henry the Eighth's great palace at Hampton Court. Coming up — “The Palace a King Took for Himself” (Hampton Court Palace, Day 7).

@@ -5,3 +5,6 @@ Here is something amazing that almost nobody knows. The whole Viking age, all th
 So think about what that means. This one city holds both ends of the Viking story. Underneath your feet is where the Vikings settled and built their busy trading town, Jorvik, right at the beginning. And seven miles that way, in an ordinary green field, is where the Viking age finally ran out, at the end. You could ride a bike from one to the other in an afternoon.
 
 And there is one more twist coming, because just three weeks after that battle, on the other side of England, something even more famous happened, and the two events are secretly the same story. Stick with me. It starts with a lonely warrior, an axe, and a bridge.
+
+> Related listening: Holy Island, seen from the train, is where the Viking Age began in 793. Listen back — “Crossing into Scotland” (Train to Edinburgh, Day 8).
+> Related listening: 1066 joins them: the Viking Age ended near York the same year the Conqueror's Tower story began. Listen back — “The White Tower: 950 Years Old” (Tower of London, Day 3).

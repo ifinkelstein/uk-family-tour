@@ -62,6 +62,8 @@ def md_to_speech_text(path: Path) -> str:
     lines = path.read_text().splitlines()
     if lines and lines[0].startswith("#"):
         lines = lines[1:]
+    # ">" lines are cross-reference callouts for the app/reading builds, never spoken
+    lines = [l for l in lines if not l.lstrip().startswith(">")]
     text = "\n".join(l.strip() for l in lines if l.strip())
     text = text.replace("\u2014", ", ").replace("\u2013", ", ")  # dashes -> pauses
     text = re.sub(r"\s+", " ", text).strip()

@@ -47,6 +47,8 @@ the main story and auto-plays them after the main story.
   headings inside the body, no URLs, no heavy parentheticals, spell out symbols and odd
   numbers. Prefer commas to dashes. Vary sentence length; it should sound spoken.
 - No repetition between chapters, or with the base story.
+- Lines starting with `>` are reserved for cross-reference callouts (managed by
+  `scripts/add_related.py`); never write them as narration — TTS skips them.
 
 ## Sidecar format - `content/<SIGHT>/tracks.json`
 The COMPLETE tracks object for your sight, ready to drop into the manifest. Preserve each

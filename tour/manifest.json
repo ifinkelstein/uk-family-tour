@@ -52,6 +52,14 @@
         "title": "Now Turn Around",
         "est_minutes": 3.1
        }
+      ],
+      "related": [
+       {
+        "sight": "day07-hampton-court",
+        "file": "content/day07-hampton-court/kid/01-henry-and-wolsey.md",
+        "title": "The Palace a King Took for Himself",
+        "note": "The same Henry the Eighth of the mound legend took Hampton Court from Cardinal Wolsey."
+       }
       ]
      }
     ],
@@ -97,6 +105,14 @@
         "file": "content/day02-richmond-park/adult/02-kings-mound-more-3.md",
         "title": "Beyond the Keyhole",
         "est_minutes": 3.1
+       }
+      ],
+      "related": [
+       {
+        "sight": "day07-hampton-court",
+        "file": "content/day07-hampton-court/adult/01-wolsey-henry.md",
+        "title": "Wolsey's Palace, Henry's Prize",
+        "note": "The same Henry the Eighth of the mound legend took Hampton Court from Cardinal Wolsey."
        }
       ]
      }
@@ -155,6 +171,26 @@
         "title": "The Cathedral of Famous Days, and a Magic Staircase",
         "est_minutes": 2.6
        }
+      ],
+      "related": [
+       {
+        "sight": "day06-churchill-war-rooms",
+        "file": "content/day06-churchill-war-rooms/kid/04-london-at-war.md",
+        "title": "London at War",
+        "note": "The dome that survived the Blitz and the bunker that directed the fight are one story."
+       },
+       {
+        "sight": "day04-greenwich",
+        "file": "content/day04-greenwich/kid/04-time-ball-and-museum.md",
+        "title": "Nelson's Coat and a Ball That Tells Time",
+        "note": "Christopher Wren designed both the cathedral and Greenwich's riverside masterpiece."
+       },
+       {
+        "sight": "day07-hampton-court",
+        "file": "content/day07-hampton-court/kid/05-two-palaces.md",
+        "title": "One Palace, Two Worlds",
+        "note": "Wren again: fresh from St Paul's, he rebuilt half of Hampton Court for William and Mary."
+       }
       ]
      }
     ],
@@ -201,6 +237,26 @@
         "title": "The Nation's Stage, and the Geometric Staircase",
         "est_minutes": 2.8
        }
+      ],
+      "related": [
+       {
+        "sight": "day06-churchill-war-rooms",
+        "file": "content/day06-churchill-war-rooms/adult/04-london-at-war.md",
+        "title": "London at War",
+        "note": "The dome that survived the Blitz and the bunker that directed the fight are one story."
+       },
+       {
+        "sight": "day04-greenwich",
+        "file": "content/day04-greenwich/adult/04-maritime-greenwich.md",
+        "title": "Maritime Greenwich: Baroque Splendor and a Bullet Hole",
+        "note": "Christopher Wren designed both the cathedral and Greenwich's riverside masterpiece."
+       },
+       {
+        "sight": "day07-hampton-court",
+        "file": "content/day07-hampton-court/adult/03-baroque-wren.md",
+        "title": "William, Mary and Wren: The Unfinished Versailles",
+        "note": "Wren again: fresh from St Paul's, he rebuilt half of Hampton Court for William and Mary."
+       }
       ]
      }
     ]
@@ -230,6 +286,14 @@
         "file": "content/day03-tower-bridge/kid/01-opening-bridge-more-2.md",
         "title": "Watch an Opening Happen",
         "est_minutes": 2.5
+       }
+      ],
+      "related": [
+       {
+        "sight": "day10-inchcolm-island",
+        "file": "content/day10-inchcolm-island/kid/01-forth-bridge.md",
+        "title": "The Big Red Bridge Made of 6.5 Million Rivets",
+        "note": "Two great Victorian bridges, opened four years apart: one dressed as a castle, one all bare steel."
        }
       ]
      },
@@ -293,6 +357,14 @@
         "file": "content/day03-tower-bridge/adult/01-engineering-more-3.md",
         "title": "Building in a Living River",
         "est_minutes": 2.5
+       }
+      ],
+      "related": [
+       {
+        "sight": "day10-inchcolm-island",
+        "file": "content/day10-inchcolm-island/adult/01-forth-bridge.md",
+        "title": "The Forth Bridge: Engineering as Public Reassurance",
+        "note": "Two great Victorian bridges, opened four years apart: one dressed as a castle, one all bare steel."
        }
       ]
      },
@@ -358,6 +430,14 @@
         "title": "The Line of Kings and Henry's Armour",
         "est_minutes": 2.3
        }
+      ],
+      "related": [
+       {
+        "sight": "day14-jorvik",
+        "file": "content/day14-jorvik/kid/04-end-of-viking-age.md",
+        "title": "The Battle That Ended the Vikings",
+        "note": "1066 joins them: the Viking Age ended near York the same year the Conqueror's Tower story began."
+       }
       ]
      },
      {
@@ -374,6 +454,14 @@
         "file": "content/day03-tower-of-london/kid/02-crown-jewels-more-2.md",
         "title": "The Spoon That Survived",
         "est_minutes": 2.3
+       }
+      ],
+      "related": [
+       {
+        "sight": "day09-edinburgh-castle",
+        "file": "content/day09-edinburgh-castle/kid/03-crown-jewels-stone.md",
+        "title": "The Hidden Crown and the Stolen Stone",
+        "note": "England's Crown Jewels and Scotland's older Honours, each with its own famous heist story."
        }
       ]
      },
@@ -403,6 +491,14 @@
         "file": "content/day03-tower-of-london/kid/04-prisoners-more-2.md",
         "title": "The Ghosts of the Tower",
         "est_minutes": 2.4
+       }
+      ],
+      "related": [
+       {
+        "sight": "day07-hampton-court",
+        "file": "content/day07-hampton-court/kid/03-ghosts.md",
+        "title": "The Screaming Gallery: Britain's Most Haunted Palace",
+        "note": "Two of Henry's queens link these places: accused at Hampton Court, executed at the Tower."
        }
       ]
      },
@@ -435,6 +531,14 @@
         "title": "The Line of Kings and the King's Armour",
         "est_minutes": 2.3
        }
+      ],
+      "related": [
+       {
+        "sight": "day14-jorvik",
+        "file": "content/day14-jorvik/adult/04-end-of-viking-age.md",
+        "title": "1066: The Viking Age Ends Just Up the Road",
+        "note": "1066 joins them: the Viking Age ended near York the same year the Conqueror's Tower story began."
+       }
       ]
      },
      {
@@ -451,6 +555,14 @@
         "file": "content/day03-tower-of-london/adult/02-crown-jewels-more-2.md",
         "title": "The Spoon That Survived",
         "est_minutes": 2.5
+       }
+      ],
+      "related": [
+       {
+        "sight": "day09-edinburgh-castle",
+        "file": "content/day09-edinburgh-castle/adult/02-honours-stone.md",
+        "title": "The Honours and the Stone: Objects of State",
+        "note": "England's Crown Jewels and Scotland's older Honours, each with its own famous heist story."
        }
       ]
      },
@@ -480,6 +592,14 @@
         "file": "content/day03-tower-of-london/adult/04-prisoners-more-2.md",
         "title": "The Ghosts of the Tower",
         "est_minutes": 2.4
+       }
+      ],
+      "related": [
+       {
+        "sight": "day07-hampton-court",
+        "file": "content/day07-hampton-court/adult/04-ghosts-legends.md",
+        "title": "Ghost Stories as Compressed History",
+        "note": "Two of Henry's queens link these places: accused at Hampton Court, executed at the Tower."
        }
       ]
      },
@@ -522,6 +642,14 @@
         "file": "content/day04-greenwich/kid/01-cutty-sark-more-2.md",
         "title": "The Great Rudder Rescue",
         "est_minutes": 2.3
+       }
+      ],
+      "related": [
+       {
+        "sight": "day05-national-gallery",
+        "file": "content/day05-national-gallery/kid/03-fighting-temeraire.md",
+        "title": "The Fighting Temeraire: A Hero's Last Trip",
+        "note": "Turner painted sail giving way to steam; Cutty Sark lived that same ending."
        }
       ]
      },
@@ -574,6 +702,20 @@
         "title": "The Ghost on the Spiral Stairs",
         "est_minutes": 2.2
        }
+      ],
+      "related": [
+       {
+        "sight": "day03-city-walk",
+        "file": "content/day03-city-walk/kid/02-st-pauls.md",
+        "title": "St Paul's: The Dome That Refused to Burn",
+        "note": "Christopher Wren designed both the cathedral and Greenwich's riverside masterpiece."
+       },
+       {
+        "sight": "day06-westminster-walk",
+        "file": "content/day06-westminster-walk/kid/03-park-and-lions.md",
+        "title": "Pelicans, Lions and a One-Armed Hero",
+        "note": "Nelson's coat is at Greenwich; his column and lions preside over Trafalgar Square."
+       }
       ]
      },
      {
@@ -586,7 +728,15 @@
       "file": "content/day04-greenwich/kid/06-timekeeping.md",
       "title": "The Story of Time: From Shadows to Atoms",
       "est_minutes": 4.9,
-      "tell_me_more": []
+      "tell_me_more": [],
+      "related": [
+       {
+        "sight": "day06-westminster-walk",
+        "file": "content/day06-westminster-walk/kid/01-big-ben.md",
+        "title": "Big Ben: The Most Famous Bong in the World",
+        "note": "From Greenwich's master clocks to Britain's most famous public clock."
+       }
+      ]
      }
     ],
     "adult": [
@@ -604,6 +754,14 @@
         "file": "content/day04-greenwich/adult/01-cutty-sark-more-2.md",
         "title": "Afterlives: Ferreira, Whisky and the Figureheads",
         "est_minutes": 2.3
+       }
+      ],
+      "related": [
+       {
+        "sight": "day05-national-gallery",
+        "file": "content/day05-national-gallery/adult/03-turner-vangogh.md",
+        "title": "Turner's Temeraire and Van Gogh's Absent Sunflowers",
+        "note": "Turner painted sail giving way to steam; Cutty Sark lived that same ending."
        }
       ]
      },
@@ -656,6 +814,20 @@
         "title": "The Tulip Stairs, the Armada, and the Reckoning",
         "est_minutes": 2.2
        }
+      ],
+      "related": [
+       {
+        "sight": "day03-city-walk",
+        "file": "content/day03-city-walk/adult/02-st-pauls.md",
+        "title": "St Paul's: Wren's Second City",
+        "note": "Christopher Wren designed both the cathedral and Greenwich's riverside masterpiece."
+       },
+       {
+        "sight": "day06-westminster-walk",
+        "file": "content/day06-westminster-walk/adult/03-park-and-square.md",
+        "title": "St James's Park and Trafalgar Square: Power as Landscape",
+        "note": "Nelson's coat is at Greenwich; his column and lions preside over Trafalgar Square."
+       }
       ]
      },
      {
@@ -668,7 +840,15 @@
       "file": "content/day04-greenwich/adult/06-timekeeping.md",
       "title": "The Story of Time: From Sundials to the Atomic Second",
       "est_minutes": 11.4,
-      "tell_me_more": []
+      "tell_me_more": [],
+      "related": [
+       {
+        "sight": "day06-westminster-walk",
+        "file": "content/day06-westminster-walk/adult/01-big-ben.md",
+        "title": "The Elizabeth Tower: Precision, Cracks and Pennies",
+        "note": "From Greenwich's master clocks to Britain's most famous public clock."
+       }
+      ]
      }
     ]
    },
@@ -764,6 +944,14 @@
         "title": "A Stone Giant and a Skull That Fooled Everyone",
         "words": 369,
         "est_minutes": 2.5
+       }
+      ],
+      "related": [
+       {
+        "sight": "day14-jorvik",
+        "file": "content/day14-jorvik/kid/01-vikings-take-york.md",
+        "title": "The Vikings Are Coming — And Staying",
+        "note": "The museum's buried ship and walrus-ivory chessmen set the stage for Viking York."
        }
       ]
      },
@@ -864,6 +1052,14 @@
         "title": "The Chessmen and the Piece in the Drawer",
         "words": 377,
         "est_minutes": 2.5
+       }
+      ],
+      "related": [
+       {
+        "sight": "day14-jorvik",
+        "file": "content/day14-jorvik/adult/01-viking-york.md",
+        "title": "Jorvik: The Viking Capital of England",
+        "note": "The museum's buried ship and walrus-ivory chessmen set the stage for Viking York."
        }
       ]
      },
@@ -969,6 +1165,14 @@
         "title": "The Painter Who Chased the Light",
         "words": 269,
         "est_minutes": 1.8
+       }
+      ],
+      "related": [
+       {
+        "sight": "day04-greenwich",
+        "file": "content/day04-greenwich/kid/01-cutty-sark.md",
+        "title": "Cutty Sark: The Fastest Ship of Her Day",
+        "note": "Turner painted sail giving way to steam; Cutty Sark lived that same ending."
        }
       ]
      },
@@ -1104,6 +1308,14 @@
         "words": 262,
         "est_minutes": 1.7
        }
+      ],
+      "related": [
+       {
+        "sight": "day04-greenwich",
+        "file": "content/day04-greenwich/adult/01-cutty-sark.md",
+        "title": "Cutty Sark: The End of the Age of Sail",
+        "note": "Turner painted sail giving way to steam; Cutty Sark lived that same ending."
+       }
       ]
      },
      {
@@ -1236,6 +1448,20 @@
         "words": 362,
         "est_minutes": 2.4
        }
+      ],
+      "related": [
+       {
+        "sight": "day03-tower-of-london",
+        "file": "content/day03-tower-of-london/kid/01-white-tower.md",
+        "title": "The White Tower: 950 Years Old",
+        "note": "The royal address story starts at the Tower, the Conqueror's first London stronghold."
+       },
+       {
+        "sight": "day07-hampton-court",
+        "file": "content/day07-hampton-court/kid/01-henry-and-wolsey.md",
+        "title": "The Palace a King Took for Himself",
+        "note": "Next stop on the royal-homes trail: Henry the Eighth's great palace at Hampton Court."
+       }
       ]
      }
     ],
@@ -1302,6 +1528,20 @@
         "title": "Palace or Castle",
         "words": 346,
         "est_minutes": 2.3
+       }
+      ],
+      "related": [
+       {
+        "sight": "day03-tower-of-london",
+        "file": "content/day03-tower-of-london/adult/01-white-tower.md",
+        "title": "The White Tower: Architecture as Intimidation",
+        "note": "The royal address story starts at the Tower, the Conqueror's first London stronghold."
+       },
+       {
+        "sight": "day07-hampton-court",
+        "file": "content/day07-hampton-court/adult/01-wolsey-henry.md",
+        "title": "Wolsey's Palace, Henry's Prize",
+        "note": "Next stop on the royal-homes trail: Henry the Eighth's great palace at Hampton Court."
        }
       ]
      }
@@ -1370,6 +1610,14 @@
         "file": "content/day06-westminster-walk/kid/03-park-and-lions-more-4.md",
         "title": "The King Who Kept a Crocodile in the Park",
         "est_minutes": 3.0
+       }
+      ],
+      "related": [
+       {
+        "sight": "day04-greenwich",
+        "file": "content/day04-greenwich/kid/04-time-ball-and-museum.md",
+        "title": "Nelson's Coat and a Ball That Tells Time",
+        "note": "Nelson's coat is at Greenwich; his column and lions preside over Trafalgar Square."
        }
       ]
      },
@@ -1441,6 +1689,14 @@
         "words": 376,
         "est_minutes": 2.5
        }
+      ],
+      "related": [
+       {
+        "sight": "day04-greenwich",
+        "file": "content/day04-greenwich/kid/06-timekeeping.md",
+        "title": "The Story of Time: From Shadows to Atoms",
+        "note": "From Greenwich's master clocks to Britain's most famous public clock."
+       }
       ]
      },
      {
@@ -1460,6 +1716,14 @@
         "title": "Green Benches, Red Benches, and a Golden Stick",
         "words": 378,
         "est_minutes": 2.5
+       }
+      ],
+      "related": [
+       {
+        "sight": "day13-york",
+        "file": "content/day13-york/kid/02-shambles.md",
+        "title": "The Shambles: The Wonkiest Street in Britain",
+        "note": "Guy Fawkes, the man behind the Gunpowder Plot, was born and raised in York."
        }
       ]
      },
@@ -1509,6 +1773,20 @@
         "file": "content/day06-westminster-walk/kid/04-abbey-more-5.md",
         "title": "A Church That Still Has a Job",
         "est_minutes": 3.0
+       }
+      ],
+      "related": [
+       {
+        "sight": "day09-edinburgh-castle",
+        "file": "content/day09-edinburgh-castle/kid/03-crown-jewels-stone.md",
+        "title": "The Hidden Crown and the Stolen Stone",
+        "note": "The Stone of Destiny sat under the Abbey's Coronation Chair for seven hundred years before returning to Scotland."
+       },
+       {
+        "sight": "day11-stirling-castle",
+        "file": "content/day11-stirling-castle/kid/03-baby-queen-flying-man.md",
+        "title": "A Nine-Month-Old Queen and the Man Who Tried to Fly",
+        "note": "Mary, Queen of Scots was crowned at Stirling and lies buried in the Abbey."
        }
       ]
      },
@@ -1591,6 +1869,14 @@
         "title": "Duck Island and the Little Cottage of the Bird Society",
         "est_minutes": 2.9
        }
+      ],
+      "related": [
+       {
+        "sight": "day04-greenwich",
+        "file": "content/day04-greenwich/adult/04-maritime-greenwich.md",
+        "title": "Maritime Greenwich: Baroque Splendor and a Bullet Hole",
+        "note": "Nelson's coat is at Greenwich; his column and lions preside over Trafalgar Square."
+       }
       ]
      },
      {
@@ -1661,6 +1947,14 @@
         "words": 378,
         "est_minutes": 2.5
        }
+      ],
+      "related": [
+       {
+        "sight": "day04-greenwich",
+        "file": "content/day04-greenwich/adult/06-timekeeping.md",
+        "title": "The Story of Time: From Sundials to the Atomic Second",
+        "note": "From Greenwich's master clocks to Britain's most famous public clock."
+       }
       ]
      },
      {
@@ -1680,6 +1974,14 @@
         "title": "Green Benches, Red Benches, and a Sack of Wool",
         "words": 367,
         "est_minutes": 2.4
+       }
+      ],
+      "related": [
+       {
+        "sight": "day13-york",
+        "file": "content/day13-york/adult/03-shambles-snickelways.md",
+        "title": "The Shambles and the Snickelways: Medieval Streetscape as Survival",
+        "note": "Guy Fawkes, the man behind the Gunpowder Plot, was born and raised in York."
        }
       ]
      },
@@ -1729,6 +2031,20 @@
         "file": "content/day06-westminster-walk/adult/04-abbey-more-5.md",
         "title": "A Working Church, Not a Museum",
         "est_minutes": 3.0
+       }
+      ],
+      "related": [
+       {
+        "sight": "day09-edinburgh-castle",
+        "file": "content/day09-edinburgh-castle/adult/02-honours-stone.md",
+        "title": "The Honours and the Stone: Objects of State",
+        "note": "The Stone of Destiny sat under the Abbey's Coronation Chair for seven hundred years before returning to Scotland."
+       },
+       {
+        "sight": "day11-stirling-castle",
+        "file": "content/day11-stirling-castle/adult/03-mary-and-court-life.md",
+        "title": "Coronations, Childhoods and a Court of Characters",
+        "note": "Mary, Queen of Scots was crowned at Stirling and lies buried in the Abbey."
        }
       ]
      },
@@ -1858,6 +2174,20 @@
         "title": "Sent Away",
         "est_minutes": 3.8
        }
+      ],
+      "related": [
+       {
+        "sight": "day03-city-walk",
+        "file": "content/day03-city-walk/kid/02-st-pauls.md",
+        "title": "St Paul's: The Dome That Refused to Burn",
+        "note": "The dome that survived the Blitz and the bunker that directed the fight are one story."
+       },
+       {
+        "sight": "day10-inchcolm-island",
+        "file": "content/day10-inchcolm-island/kid/03-seals-and-war.md",
+        "title": "Seals, Seabirds and Secret War Tunnels",
+        "note": "The same war on two fronts: London's bunker and the fortress island guarding the Forth."
+       }
       ]
      }
     ],
@@ -1958,6 +2288,20 @@
         "title": "London Can Take It: Myth and Record",
         "est_minutes": 3.7
        }
+      ],
+      "related": [
+       {
+        "sight": "day03-city-walk",
+        "file": "content/day03-city-walk/adult/02-st-pauls.md",
+        "title": "St Paul's: Wren's Second City",
+        "note": "The dome that survived the Blitz and the bunker that directed the fight are one story."
+       },
+       {
+        "sight": "day10-inchcolm-island",
+        "file": "content/day10-inchcolm-island/adult/03-fortress-island.md",
+        "title": "The Armed Island: Two World Wars on Inchcolm",
+        "note": "The same war on two fronts: London's bunker and the fortress island guarding the Forth."
+       }
       ]
      }
     ]
@@ -1990,6 +2334,14 @@
         "file": "content/day07-hampton-court/kid/01-henry-and-wolsey-more-3.md",
         "title": "What Happened to Cardinal Wolsey",
         "est_minutes": 2.4
+       }
+      ],
+      "related": [
+       {
+        "sight": "day02-richmond-park",
+        "file": "content/day02-richmond-park/kid/02-kings-mound.md",
+        "title": "King Henry's Mound and the Secret Keyhole",
+        "note": "The same Henry the Eighth of the mound legend took Hampton Court from Cardinal Wolsey."
        }
       ]
      },
@@ -2025,6 +2377,14 @@
         "title": "The White Lady, Skeletor, and Ghost Science",
         "est_minutes": 2.4
        }
+      ],
+      "related": [
+       {
+        "sight": "day03-tower-of-london",
+        "file": "content/day03-tower-of-london/kid/04-prisoners.md",
+        "title": "Prisoners, Traitors and a Polar Bear",
+        "note": "Two of Henry's queens link these places: accused at Hampton Court, executed at the Tower."
+       }
       ]
      },
      {
@@ -2058,6 +2418,14 @@
         "file": "content/day07-hampton-court/kid/05-two-palaces-more-2.md",
         "title": "Golden Treasure and a Prisoner King",
         "est_minutes": 2.5
+       }
+      ],
+      "related": [
+       {
+        "sight": "day03-city-walk",
+        "file": "content/day03-city-walk/kid/02-st-pauls.md",
+        "title": "St Paul's: The Dome That Refused to Burn",
+        "note": "Wren again: fresh from St Paul's, he rebuilt half of Hampton Court for William and Mary."
        }
       ]
      },
@@ -2117,6 +2485,14 @@
         "title": "The Fall of Wolsey",
         "est_minutes": 2.7
        }
+      ],
+      "related": [
+       {
+        "sight": "day02-richmond-park",
+        "file": "content/day02-richmond-park/adult/02-kings-mound.md",
+        "title": "King Henry's Mound: The Protected View",
+        "note": "The same Henry the Eighth of the mound legend took Hampton Court from Cardinal Wolsey."
+       }
       ]
      },
      {
@@ -2156,6 +2532,14 @@
         "title": "The Fire of 1986 and What It Revealed",
         "est_minutes": 2.4
        }
+      ],
+      "related": [
+       {
+        "sight": "day03-city-walk",
+        "file": "content/day03-city-walk/adult/02-st-pauls.md",
+        "title": "St Paul's: Wren's Second City",
+        "note": "Wren again: fresh from St Paul's, he rebuilt half of Hampton Court for William and Mary."
+       }
       ]
      },
      {
@@ -2167,6 +2551,14 @@
         "file": "content/day07-hampton-court/adult/04-ghosts-legends-more-1.md",
         "title": "The Manufacture of a Haunted Palace",
         "est_minutes": 2.3
+       }
+      ],
+      "related": [
+       {
+        "sight": "day03-tower-of-london",
+        "file": "content/day03-tower-of-london/adult/04-prisoners.md",
+        "title": "Scaffold Site and Traitors' Gate: The Political Prison",
+        "note": "Two of Henry's queens link these places: accused at Hampton Court, executed at the Tower."
        }
       ]
      },
@@ -2268,6 +2660,14 @@
         "title": "The Fastest, Flattest Bit and a Falling Apple",
         "est_minutes": 2.8
        }
+      ],
+      "related": [
+       {
+        "sight": "day13-york",
+        "file": "content/day13-york/kid/01-walls-and-romans.md",
+        "title": "York: Walk on Top of a City's Armor",
+        "note": "The line races right past York; you'll walk its walls in a few days."
+       }
       ]
      },
      {
@@ -2298,6 +2698,14 @@
         "file": "content/day08-train-north/kid/02-crossing-the-border-more-4.md",
         "title": "The Silver Water and the Mountain You'll Climb",
         "est_minutes": 3.0
+       }
+      ],
+      "related": [
+       {
+        "sight": "day14-jorvik",
+        "file": "content/day14-jorvik/kid/04-end-of-viking-age.md",
+        "title": "The Battle That Ended the Vikings",
+        "note": "Holy Island, seen from the train, is where the Viking Age began in 793."
        }
       ]
      },
@@ -2349,6 +2757,14 @@
         "title": "The Racing Ground and a First Sight of York",
         "est_minutes": 3.1
        }
+      ],
+      "related": [
+       {
+        "sight": "day13-york",
+        "file": "content/day13-york/adult/01-eboracum-to-york.md",
+        "title": "From Eboracum to York: A Capital in Layers",
+        "note": "The line races right past York; you'll walk its walls in a few days."
+       }
       ]
      },
      {
@@ -2379,6 +2795,14 @@
         "file": "content/day08-train-north/adult/02-border-and-arrival-more-4.md",
         "title": "The Firth Opens and the Volcano Waits",
         "est_minutes": 2.5
+       }
+      ],
+      "related": [
+       {
+        "sight": "day14-jorvik",
+        "file": "content/day14-jorvik/adult/04-end-of-viking-age.md",
+        "title": "1066: The Viking Age Ends Just Up the Road",
+        "note": "Holy Island, seen from the train, is where the Viking Age began in 793."
        }
       ]
      },
@@ -2451,6 +2875,20 @@
         "title": "The Dog Soldiers' Graveyard",
         "est_minutes": 2.6
        }
+      ],
+      "related": [
+       {
+        "sight": "day12-arthurs-seat",
+        "file": "content/day12-arthurs-seat/kid/01-climbing-a-volcano.md",
+        "title": "You Are Climbing a Volcano",
+        "note": "Castle Rock and Arthur's Seat are siblings, vents of the same ancient volcano field."
+       },
+       {
+        "sight": "day11-stirling-castle",
+        "file": "content/day11-stirling-castle/kid/01-key-to-scotland.md",
+        "title": "The Castle That Was the Key to Scotland",
+        "note": "Scotland's two great fortress rocks, contested in the same wars."
+       }
       ]
      },
      {
@@ -2501,6 +2939,20 @@
         "title": "Where the Stone Is Now",
         "words": 381,
         "est_minutes": 2.5
+       }
+      ],
+      "related": [
+       {
+        "sight": "day03-tower-of-london",
+        "file": "content/day03-tower-of-london/kid/02-crown-jewels.md",
+        "title": "The Crown Jewels: The World's Most Guarded Sparkle",
+        "note": "England's Crown Jewels and Scotland's older Honours, each with its own famous heist story."
+       },
+       {
+        "sight": "day06-westminster-walk",
+        "file": "content/day06-westminster-walk/kid/04-abbey.md",
+        "title": "The Church Where Kings Are Crowned",
+        "note": "The Stone of Destiny sat under the Abbey's Coronation Chair for seven hundred years before returning to Scotland."
        }
       ]
      },
@@ -2557,6 +3009,20 @@
         "title": "Arthur's Seat and the Family of Volcanoes",
         "est_minutes": 3.4
        }
+      ],
+      "related": [
+       {
+        "sight": "day12-arthurs-seat",
+        "file": "content/day12-arthurs-seat/adult/01-hutton-deep-time.md",
+        "title": "Salisbury Crags: Where Deep Time Was Discovered",
+        "note": "Castle Rock and Arthur's Seat are siblings, vents of the same ancient volcano field."
+       },
+       {
+        "sight": "day11-stirling-castle",
+        "file": "content/day11-stirling-castle/adult/01-key-to-scotland.md",
+        "title": "Stirling: The Brooch That Clasps Scotland",
+        "note": "Scotland's two great fortress rocks, contested in the same wars."
+       }
       ]
      },
      {
@@ -2582,6 +3048,20 @@
         "title": "The Stone's New Home",
         "words": 398,
         "est_minutes": 2.7
+       }
+      ],
+      "related": [
+       {
+        "sight": "day03-tower-of-london",
+        "file": "content/day03-tower-of-london/adult/02-crown-jewels.md",
+        "title": "The Crown Jewels: Regalia, Destruction and Rebirth",
+        "note": "England's Crown Jewels and Scotland's older Honours, each with its own famous heist story."
+       },
+       {
+        "sight": "day06-westminster-walk",
+        "file": "content/day06-westminster-walk/adult/04-abbey.md",
+        "title": "Westminster Abbey: A Thousand Years of Crowns",
+        "note": "The Stone of Destiny sat under the Abbey's Coronation Chair for seven hundred years before returning to Scotland."
        }
       ]
      },
@@ -2663,6 +3143,14 @@
         "title": "Tell Me More: Climbing Up a Land",
         "words": 377,
         "est_minutes": 2.5
+       }
+      ],
+      "related": [
+       {
+        "sight": "day12-arthurs-seat",
+        "file": "content/day12-arthurs-seat/kid/01-climbing-a-volcano.md",
+        "title": "You Are Climbing a Volcano",
+        "note": "The Old Town rides the volcano's tail; the climb takes you up the volcano itself."
        }
       ]
      },
@@ -2748,6 +3236,14 @@
         "words": 325,
         "est_minutes": 2.2
        }
+      ],
+      "related": [
+       {
+        "sight": "day11-stirling-castle",
+        "file": "content/day11-stirling-castle/kid/03-baby-queen-flying-man.md",
+        "title": "A Nine-Month-Old Queen and the Man Who Tried to Fly",
+        "note": "Mary, Queen of Scots again: crowned at Stirling, at home, and in trouble, at Holyrood."
+       }
       ]
      },
      {
@@ -2796,6 +3292,14 @@
         "words": 396,
         "est_minutes": 2.6
        }
+      ],
+      "related": [
+       {
+        "sight": "day12-arthurs-seat",
+        "file": "content/day12-arthurs-seat/adult/01-hutton-deep-time.md",
+        "title": "Salisbury Crags: Where Deep Time Was Discovered",
+        "note": "The Old Town rides the volcano's tail; the climb takes you up the volcano itself."
+       }
       ]
      },
      {
@@ -2821,6 +3325,14 @@
         "title": "Tell Me More: Knox, Mary, and the Woman with the Stool",
         "words": 404,
         "est_minutes": 2.7
+       }
+      ],
+      "related": [
+       {
+        "sight": "day11-stirling-castle",
+        "file": "content/day11-stirling-castle/adult/03-mary-and-court-life.md",
+        "title": "Coronations, Childhoods and a Court of Characters",
+        "note": "Mary, Queen of Scots again: crowned at Stirling, at home, and in trouble, at Holyrood."
        }
       ]
      },
@@ -2927,6 +3439,14 @@
         "words": 371,
         "est_minutes": 2.5
        }
+      ],
+      "related": [
+       {
+        "sight": "day03-tower-bridge",
+        "file": "content/day03-tower-bridge/kid/01-opening-bridge.md",
+        "title": "A Bridge That Opens Like a Drawbridge",
+        "note": "Two great Victorian bridges, opened four years apart: one dressed as a castle, one all bare steel."
+       }
       ]
      },
      {
@@ -2978,6 +3498,14 @@
         "title": "The Day the Bombs Fell from the Sky",
         "words": 379,
         "est_minutes": 2.5
+       }
+      ],
+      "related": [
+       {
+        "sight": "day06-churchill-war-rooms",
+        "file": "content/day06-churchill-war-rooms/kid/04-london-at-war.md",
+        "title": "London at War",
+        "note": "The same war on two fronts: London's bunker and the fortress island guarding the Forth."
        }
       ]
      },
@@ -3047,6 +3575,14 @@
         "words": 338,
         "est_minutes": 2.3
        }
+      ],
+      "related": [
+       {
+        "sight": "day03-tower-bridge",
+        "file": "content/day03-tower-bridge/adult/01-engineering.md",
+        "title": "Tower Bridge: Victorian Engineering in Gothic Costume",
+        "note": "Two great Victorian bridges, opened four years apart: one dressed as a castle, one all bare steel."
+       }
       ]
      },
      {
@@ -3098,6 +3634,14 @@
         "title": "The Forth's First Air Raid",
         "words": 411,
         "est_minutes": 2.7
+       }
+      ],
+      "related": [
+       {
+        "sight": "day06-churchill-war-rooms",
+        "file": "content/day06-churchill-war-rooms/adult/04-london-at-war.md",
+        "title": "London at War",
+        "note": "The same war on two fronts: London's bunker and the fortress island guarding the Forth."
        }
       ]
      },
@@ -3169,6 +3713,14 @@
         "title": "Bannockburn and the Castle on a Volcano",
         "est_minutes": 2.6
        }
+      ],
+      "related": [
+       {
+        "sight": "day09-edinburgh-castle",
+        "file": "content/day09-edinburgh-castle/kid/01-castle-rock.md",
+        "title": "The Most Attacked Castle in Britain",
+        "note": "Scotland's two great fortress rocks, contested in the same wars."
+       }
       ]
      },
      {
@@ -3223,6 +3775,20 @@
         "title": "Mary's Great Escape",
         "est_minutes": 2.9
        }
+      ],
+      "related": [
+       {
+        "sight": "day06-westminster-walk",
+        "file": "content/day06-westminster-walk/kid/04-abbey.md",
+        "title": "The Church Where Kings Are Crowned",
+        "note": "Mary, Queen of Scots was crowned at Stirling and lies buried in the Abbey."
+       },
+       {
+        "sight": "day09-royal-mile",
+        "file": "content/day09-royal-mile/kid/04-castle-to-palace.md",
+        "title": "A Castle at One End, a Palace at the Other",
+        "note": "Mary, Queen of Scots again: crowned at Stirling, at home, and in trouble, at Holyrood."
+       }
       ]
      },
      {
@@ -3265,6 +3831,14 @@
         "file": "content/day11-stirling-castle/adult/01-key-to-scotland-more-2.md",
         "title": "Bannockburn, and a Castle Nobody Could Keep",
         "est_minutes": 2.6
+       }
+      ],
+      "related": [
+       {
+        "sight": "day09-edinburgh-castle",
+        "file": "content/day09-edinburgh-castle/adult/01-rock-and-sieges.md",
+        "title": "Castle Rock: Geology as Destiny",
+        "note": "Scotland's two great fortress rocks, contested in the same wars."
        }
       ]
      },
@@ -3319,6 +3893,20 @@
         "file": "content/day11-stirling-castle/adult/03-mary-and-court-life-more-4.md",
         "title": "The Candle and the Curtains: 1561",
         "est_minutes": 2.9
+       }
+      ],
+      "related": [
+       {
+        "sight": "day06-westminster-walk",
+        "file": "content/day06-westminster-walk/adult/04-abbey.md",
+        "title": "Westminster Abbey: A Thousand Years of Crowns",
+        "note": "Mary, Queen of Scots was crowned at Stirling and lies buried in the Abbey."
+       },
+       {
+        "sight": "day09-royal-mile",
+        "file": "content/day09-royal-mile/adult/02-st-giles-covenant.md",
+        "title": "St Giles, the Covenant, and a Thrown Stool",
+        "note": "Mary, Queen of Scots again: crowned at Stirling, at home, and in trouble, at Holyrood."
        }
       ]
      },
@@ -3382,6 +3970,20 @@
         "file": "content/day12-arthurs-seat/kid/01-climbing-a-volcano-more-5.md",
         "title": "Three Lochs and the Swans",
         "est_minutes": 2.9
+       }
+      ],
+      "related": [
+       {
+        "sight": "day09-edinburgh-castle",
+        "file": "content/day09-edinburgh-castle/kid/01-castle-rock.md",
+        "title": "The Most Attacked Castle in Britain",
+        "note": "Castle Rock and Arthur's Seat are siblings, vents of the same ancient volcano field."
+       },
+       {
+        "sight": "day09-royal-mile",
+        "file": "content/day09-royal-mile/kid/01-crag-and-tail.md",
+        "title": "A City Built on a Volcano's Tail",
+        "note": "The Old Town rides the volcano's tail; the climb takes you up the volcano itself."
        }
       ]
      },
@@ -3457,6 +4059,20 @@
         "file": "content/day12-arthurs-seat/adult/01-hutton-deep-time-more-4.md",
         "title": "The Man Himself, and the Friend Who Rescued Him",
         "est_minutes": 4.8
+       }
+      ],
+      "related": [
+       {
+        "sight": "day09-edinburgh-castle",
+        "file": "content/day09-edinburgh-castle/adult/01-rock-and-sieges.md",
+        "title": "Castle Rock: Geology as Destiny",
+        "note": "Castle Rock and Arthur's Seat are siblings, vents of the same ancient volcano field."
+       },
+       {
+        "sight": "day09-royal-mile",
+        "file": "content/day09-royal-mile/adult/01-old-town.md",
+        "title": "The Old Town: Vertical City",
+        "note": "The Old Town rides the volcano's tail; the climb takes you up the volcano itself."
        }
       ]
      },
@@ -3572,6 +4188,14 @@
         "title": "The Brave Woman at Number Thirty-Five",
         "words": 440,
         "est_minutes": 2.9
+       }
+      ],
+      "related": [
+       {
+        "sight": "day06-westminster-walk",
+        "file": "content/day06-westminster-walk/kid/02-parliament.md",
+        "title": "The Houses of Parliament and the Gunpowder Plot",
+        "note": "Guy Fawkes, the man behind the Gunpowder Plot, was born and raised in York."
        }
       ]
      },
@@ -3711,6 +4335,14 @@
         "words": 390,
         "est_minutes": 2.6
        }
+      ],
+      "related": [
+       {
+        "sight": "day06-westminster-walk",
+        "file": "content/day06-westminster-walk/adult/02-parliament.md",
+        "title": "The Palace of Westminster: Fire, Gothic and the Longest Hall",
+        "note": "Guy Fawkes, the man behind the Gunpowder Plot, was born and raised in York."
+       }
       ]
      },
      {
@@ -3760,6 +4392,14 @@
         "file": "content/day14-jorvik/kid/01-vikings-take-york-more-2.md",
         "title": "A Day on a Viking Street",
         "est_minutes": 2.9
+       }
+      ],
+      "related": [
+       {
+        "sight": "day05-british-museum",
+        "file": "content/day05-british-museum/kid/03-treasures-hunt.md",
+        "title": "Treasure Hunt: A Ghost Ship and a Chess Army",
+        "note": "The museum's buried ship and walrus-ivory chessmen set the stage for Viking York."
        }
       ]
      },
@@ -3817,6 +4457,20 @@
         "title": "The Man Who Held the Bridge",
         "est_minutes": 4.1
        }
+      ],
+      "related": [
+       {
+        "sight": "day08-train-north",
+        "file": "content/day08-train-north/kid/02-crossing-the-border.md",
+        "title": "Crossing into Scotland",
+        "note": "Holy Island, seen from the train, is where the Viking Age began in 793."
+       },
+       {
+        "sight": "day03-tower-of-london",
+        "file": "content/day03-tower-of-london/kid/01-white-tower.md",
+        "title": "The White Tower: 950 Years Old",
+        "note": "1066 joins them: the Viking Age ended near York the same year the Conqueror's Tower story began."
+       }
       ]
      },
      {
@@ -3852,6 +4506,14 @@
         "file": "content/day14-jorvik/adult/01-viking-york-more-2.md",
         "title": "Egil, Bloodaxe, and the Poem That Bought a Head",
         "est_minutes": 2.8
+       }
+      ],
+      "related": [
+       {
+        "sight": "day05-british-museum",
+        "file": "content/day05-british-museum/adult/03-sutton-hoo-lewis.md",
+        "title": "Sutton Hoo and the Lewis Chessmen: Two Buried Worlds",
+        "note": "The museum's buried ship and walrus-ivory chessmen set the stage for Viking York."
        }
       ]
      },
@@ -3908,6 +4570,20 @@
         "file": "content/day14-jorvik/adult/04-end-of-viking-age-more-2.md",
         "title": "Three Battles in Three Weeks, and the Road to the Tower",
         "est_minutes": 4.4
+       }
+      ],
+      "related": [
+       {
+        "sight": "day08-train-north",
+        "file": "content/day08-train-north/adult/02-border-and-arrival.md",
+        "title": "Berwick, the Border, and Arriving in Edinburgh",
+        "note": "Holy Island, seen from the train, is where the Viking Age began in 793."
+       },
+       {
+        "sight": "day03-tower-of-london",
+        "file": "content/day03-tower-of-london/adult/01-white-tower.md",
+        "title": "The White Tower: Architecture as Intimidation",
+        "note": "1066 joins them: the Viking Age ended near York the same year the Conqueror's Tower story began."
        }
       ]
      },

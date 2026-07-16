@@ -1,0 +1,11 @@
+# The Story Hidden in the Tapestries
+
+Those enormous woven pictures of the unicorn are not just decorations. They tell a story, in order, like a giant comic strip made entirely out of coloured wool. There are seven of them, and if you follow them one by one, you can watch the whole tale unfold. So let me tell you what is really happening in them.
+
+In the first one, a group of hunters and their dogs step into a thick green forest, searching for something rare. In the second, they find it. There is the unicorn, kneeling by a stream, dipping its long magic horn into the water. In the old stories, a unicorn's horn could make poisoned water safe again, so all the other animals of the forest have crept out to gather round and drink safely beside it, rabbits and pheasants and a proud lion, all trusting the unicorn. In the next pictures, the hunters chase it, and the unicorn fights back, kicking and leaping, because it is wild and strong and will not be caught by force.
+
+And here is the secret every hunter knew. There was only one way to catch a unicorn. Not with spears, not with dogs. The only thing that could tame it was gentleness. So in one tapestry, a kind young girl sits quietly in a garden, and the wild unicorn, calm at last, comes and lays its head softly in her lap. That is the moment it is finally caught, not by force, but by kindness.
+
+In the last pictures the hunters take the unicorn away, and it looks like a sad ending. But look at the very last tapestry of all. The unicorn is alive again, resting peacefully inside a little round fence full of flowers, as if by magic it simply could not stay gone. Long ago, people looked at that ending, the creature that dies and yet comes back, and it filled them with hope.
+
+Now remember, the ones hanging here are brand new. A team of eighteen weavers, from all over the world, spent thirteen whole years making these by hand, thread by thread by thread, and some of them worked in a little workshop right here inside the castle. Imagine spending years and years weaving one single picture. Go up close and hunt in the background, because the weavers hid hundreds of tiny plants and flowers and animals in the greenery. See how many creatures you can find hiding in the wool.

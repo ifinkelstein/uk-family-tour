@@ -1,0 +1,56 @@
+{
+  "kid": {
+    "subs": {
+      "02-palace-unicorns": [
+        {"file": "content/day11-stirling-castle/kid/02-palace-unicorns-more-3.md", "title": "The Statues on the Palace Wall", "est_minutes": 2.7},
+        {"file": "content/day11-stirling-castle/kid/02-palace-unicorns-more-4.md", "title": "The Story Hidden in the Tapestries", "est_minutes": 2.8},
+        {"file": "content/day11-stirling-castle/kid/02-palace-unicorns-more-5.md", "title": "Peacocks, Swans and the Turnspit Boys", "est_minutes": 2.8}
+      ]
+    },
+    "new_bases": [
+      {
+        "file": "content/day11-stirling-castle/kid/04-douglas-window.md",
+        "title": "The King, the Earl and the Window",
+        "est_minutes": 2.9,
+        "tell_me_more": [
+          {"file": "content/day11-stirling-castle/kid/04-douglas-window-more-1.md", "title": "The End of the Mighty Douglases", "est_minutes": 2.6}
+        ]
+      },
+      {
+        "file": "content/day11-stirling-castle/kid/05-soldiers-castle.md",
+        "title": "When the Castle Fought Off a Prince",
+        "est_minutes": 2.7,
+        "tell_me_more": [
+          {"file": "content/day11-stirling-castle/kid/05-soldiers-castle-more-1.md", "title": "The Castle Full of Soldiers", "est_minutes": 2.5}
+        ]
+      }
+    ]
+  },
+  "adult": {
+    "subs": {
+      "02-renaissance-court": [
+        {"file": "content/day11-stirling-castle/adult/02-renaissance-court-more-3.md", "title": "The Facade as a Sermon in Stone", "est_minutes": 3.0},
+        {"file": "content/day11-stirling-castle/adult/02-renaissance-court-more-4.md", "title": "The Hunt of the Unicorn: Story and Re-Weaving", "est_minutes": 3.2}
+      ],
+      "03-mary-and-court-life": [
+        {"file": "content/day11-stirling-castle/adult/03-mary-and-court-life-more-4.md", "title": "The Candle and the Curtains: 1561", "est_minutes": 2.9}
+      ]
+    },
+    "new_bases": [
+      {
+        "file": "content/day11-stirling-castle/adult/04-douglas-window.md",
+        "title": "The Douglas Window: Murder Under Safe Conduct",
+        "est_minutes": 3.3,
+        "tell_me_more": [
+          {"file": "content/day11-stirling-castle/adult/04-douglas-window-more-1.md", "title": "The Fall of the Black Douglases", "est_minutes": 3.0}
+        ]
+      },
+      {
+        "file": "content/day11-stirling-castle/adult/05-soldiers-castle.md",
+        "title": "The Long Afterlife: Garrison, the '45, and the Regiment",
+        "est_minutes": 3.7,
+        "tell_me_more": []
+      }
+    ]
+  }
+}

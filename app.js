@@ -15,7 +15,7 @@ const au = document.getElementById('au');
 function loadJSON(k, fb) { try { return JSON.parse(localStorage.getItem(k)) ?? fb; } catch (_) { return fb; } }
 function saveJSON(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (_) { } }
 
-let MAN = null, ART = {}, kid = loadJSON('kid', true), GAP = 30000;
+let MAN = null, ART = {}, MON = null, kid = loadJSON('kid', true), GAP = 30000;
 let queue = [], pos = -1, gapTimer = null, dragging = false, speed = 1.0;
 let announceToken = 0;
 let screen = { name: 'days' };
@@ -63,6 +63,7 @@ async function boot() {
     return;
   }
   ART = await fetch(`${ASSETS}/images.json`).then(r => r.json()).catch(() => ({}));
+  MON = await fetch(`${ASSETS}/monarchy.json`).then(r => r.json()).catch(() => null);
   render();
 }
 
@@ -308,6 +309,7 @@ function render() {
   if (screen.name === 'days') renderDays();
   else if (screen.name === 'sight') renderSight(MAN.sights.find(s => s.id === screen.id));
   else if (screen.name === 'dayplay') renderDayPlay(screen.day);
+  else if (screen.name === 'monarchy') renderMonarchy();
   paintPlayer();
 }
 function toggleHTML() {
@@ -345,6 +347,10 @@ function renderDays() {
   if (needsA2HS()) {
     h += `<div class="a2hs">📲 On iPhone, tap <b>Share → Add to Home Screen</b> — then the whole tour works offline.
       <button onclick="dismissA2HS()">Got it</button></div>`;
+  }
+  if (MON) {
+    h += `<div class="crowncard" onclick="openMonarchy()">👑&nbsp; <b>The Royal Family Tree</b>
+      <span>Meet the kings and queens of the trip</span></div>`;
   }
   const rs = pos < 0 ? loadJSON('resume', null) : null;
   if (rs && rs.queue && rs.queue[rs.pos]) {
@@ -412,10 +418,22 @@ function renderSight(s) {
         <div style="flex:1"><h4 class="serif">${i + 1}.${j + 1} ${esc(displayTitle(c.title))}</h4>
         <div class="tm">≈ ${Math.round(c.est_minutes || 1)} min</div></div></div>`;
     }).join('');
+    const relRows = (t.related || []).map(r => {
+      const rs = MAN.sights.find(x => x.id === r.sight);
+      if (!rs) return '';
+      const when = rs.day > s.day ? `Coming up · Day ${rs.day}` : rs.day < s.day ? `Listen back · Day ${rs.day}` : 'Also today';
+      return `<div class="relrow" onclick="playRelated('${jsq(r.sight)}','${jsq(r.file)}')">
+        <div class="tnum">↪</div>
+        <div style="flex:1"><div class="relhead"><b>${esc(displayTitle(r.title))}</b> — ${esc(rs.name)} <span class="relwhen">${when}</span></div>
+        <div class="tm">${esc(r.note || '')}</div></div></div>`;
+    }).join('');
+    const crowns = crownsForTrack(t);
+    const crownRow = crowns.length ? `<div class="crownrow">${crowns.map(m =>
+      `<button onclick="event.stopPropagation();openMonarchy('${jsq(m.id)}')">👑 ${esc(m.name)}</button>`).join('')}</div>` : '';
     return `<div class="track ${on ? 'on' : ''}" onclick="playSightFile('${jsq(s.id)}','${jsq(t.file)}')">
       <div class="tnum">${on ? '▶' : (heard.has(t.file) ? '✔' : `${i + 1}.0`)}</div>
       <div style="flex:1"><h4 class="serif">${i + 1}.0 ${esc(displayTitle(t.title))}</h4>
-      <div class="tm">≈ ${Math.round(t.est_minutes || 1)} min${more.length ? ` · ${more.length} chapters · ${Math.round(trackMinutes(t))} min total` : ''}</div></div></div>${childRows}`;
+      <div class="tm">≈ ${Math.round(t.est_minutes || 1)} min${more.length ? ` · ${more.length} chapters · ${Math.round(trackMinutes(t))} min total` : ''}</div>${crownRow}</div></div>${childRows}${relRows}`;
   }).join('');
   el.innerHTML = `<div class="topbar"><button class="iconbtn" onclick="goDays()">←</button>
     <div style="flex:1"><h2 class="serif" style="margin:0">${esc(s.name)}</h2>
@@ -440,6 +458,12 @@ window.playSightFile = (sid, file) => {
   const idx = Math.max(0, items.findIndex(it => it.file === file));
   loadQueue(items, idx, s.day); render();
 };
+// Cross-reference jump: open the related sight and play that chapter there.
+window.playRelated = (sid, file) => {
+  screen = { name: 'sight', id: sid };
+  window.playSightFile(sid, file);
+  window.scrollTo(0, 0);
+};
 
 function renderDayPlay(day) {
   const a = accent(day);
@@ -462,6 +486,65 @@ window.openDayPlay = day => { screen = { name: 'dayplay', day }; loadQueue(dayQu
 window.openSight = id => { screen = { name: 'sight', id }; render(); };
 window.goDays = () => { screen = { name: 'days' }; render(); };
 
+// ---- royal family tree ----
+const SECTION_COLOR = { england: '--london', scotland: '--edinburgh', union: '--gold' };
+function trackTitleByFile(sid, file) {
+  const s = MAN.sights.find(x => x.id === sid);
+  for (const a of ['kid', 'adult']) {
+    const t = (s?.tracks[a] || []).find(t => t.file === file);
+    if (t) return displayTitle(t.title);
+  }
+  return '';
+}
+// Monarchs whose stories touch this track (either audience's file matches).
+function crownsForTrack(t) {
+  if (!MON) return [];
+  return MON.monarchs.filter(m => (m.links || []).some(l => l.kid === t.file || l.adult === t.file));
+}
+function renderMonarchy() {
+  const aud = kid ? 'kid' : 'adult';
+  let h = `<div class="topbar"><button class="iconbtn" onclick="goDays()">←</button>
+    <div style="flex:1"><h2 class="serif" style="margin:0">👑 The Royal Family Tree</h2>
+    <div class="daylabel" style="color:var(--gold)">Who's who, London to Edinburgh</div></div>${toggleHTML()}</div>
+    <div class="monintro">${esc(MON.intro || '')}</div>`;
+  MON.sections.forEach(sec => {
+    const col = getComputedStyle(document.documentElement).getPropertyValue(SECTION_COLOR[sec.id] || '--gold').trim();
+    h += `<div class="monsec"><div class="monsechead" style="color:${safeColor(col)}">${esc(sec.title)}</div>
+      <div class="monsecsub">${esc(sec.sub || '')}</div>`;
+    MON.monarchs.filter(m => m.section === sec.id).forEach(m => {
+      const open = screen.open === m.id;
+      const links = (m.links || []).filter(l => l[aud]);
+      h += `<div class="mon ${open ? 'open' : ''}" id="mon-${esc(m.id)}" style="--spine:${safeColor(col)}" onclick="toggleMon('${jsq(m.id)}')">
+        <div class="monface"><img src="${ASSETS}/images/monarchs/${esc(m.id)}.jpg" alt=""
+          onerror="this.replaceWith(document.createTextNode('${jsq(m.emoji || '👑')}'))"></div>
+        <div style="flex:1;min-width:0"><div class="monname serif">${esc(m.name)} <span class="monreign">${esc(m.reign)}</span></div>
+        <div class="monhouse">${esc(m.house)}${m.rel ? ` · ${esc(m.rel)}` : ''}</div>
+        ${open ? `<div class="monblurb">${esc(m.blurb || '')}</div>
+        ${m.spouse ? `<div class="monfam">💍 ${esc(m.spouse)}</div>` : ''}
+        ${m.children ? `<div class="monfam">👶 ${m.children.map(c => typeof c === 'string' ? esc(c)
+          : `<b class="monkin" onclick="event.stopPropagation();openMonarchy('${jsq(c.id)}')">${esc(c.name)}</b>`).join(' · ')}</div>` : ''}
+        ${links.map(l => {
+          const rs = MAN.sights.find(x => x.id === l.sight);
+          return `<div class="monlink" onclick="event.stopPropagation();playRelated('${jsq(l.sight)}','${jsq(l[aud])}')">
+            ▶ <b>${esc(trackTitleByFile(l.sight, l[aud]))}</b> — ${esc(rs ? rs.name : '')} · Day ${rs ? rs.day : ''}
+            <span>${esc(l.why || '')}</span></div>`;
+        }).join('')}
+        ${m.wiki ? `<a class="monwiki" href="https://en.wikipedia.org/wiki/${esc(encodeURIComponent(m.wiki.replace(/ /g, '_')))}"
+          target="_blank" rel="noopener" onclick="event.stopPropagation()">W&nbsp; Read more on Wikipedia ↗</a>` : ''}` : ''}</div></div>`;
+    });
+    h += `</div>`;
+  });
+  h += `<div class="monfoot">${esc(MON.credits || '')}</div>`;
+  el.innerHTML = h;
+  if (screen.focus) {
+    const card = document.getElementById(`mon-${screen.focus}`);
+    if (card) card.scrollIntoView({ block: 'center' });
+    screen.focus = null;
+  }
+}
+window.toggleMon = id => { screen.open = screen.open === id ? null : id; render(); };
+window.openMonarchy = id => { screen = { name: 'monarchy', open: id || null, focus: id || null }; render(); if (!id) window.scrollTo(0, 0); };
+
 // ---- player bar ----
 function paintPlayer() {
   const day = screen.day || (screen.id && MAN.sights.find(s => s.id === screen.id)?.day) || 2;
@@ -470,6 +553,8 @@ function paintPlayer() {
   document.querySelectorAll('.player').forEach(n => n.remove());
   const bar = document.createElement('div'); bar.className = 'player';
   bar.innerHTML = `<div class="inner">
+    ${cur ? `<div class="ptitle serif">${cur.num ? `<span class="pnum" style="color:${a}">${esc(cur.num)}</span> ` : ''}${esc(cur.title)}
+      ${cur.sight ? `<span class="psight">${esc(cur.sight)}</span>` : ''}</div>` : ''}
     <input type="range" id="scrub" min="0" max="1000" value="0" style="accent-color:${a}">
     <div class="times"><span id="tcur">0:00</span><span id="tdur"></span></div>
     <div class="notice" id="notice" style="display:${notice ? '' : 'none'}">${esc(notice)}</div>

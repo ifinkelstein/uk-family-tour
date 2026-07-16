@@ -1,0 +1,642 @@
+{
+  "intro": "A simplified line of the kings and queens you'll keep meeting on this trip. Tap a monarch for their story and jump straight to the chapters where they appear.",
+  "sections": [
+    {
+      "id": "england",
+      "title": "England",
+      "sub": "From the Abbey's founder to the last Tudor"
+    },
+    {
+      "id": "scotland",
+      "title": "Scotland",
+      "sub": "The Bruce to the Stewarts"
+    },
+    {
+      "id": "union",
+      "title": "The Union & Britain",
+      "sub": "One monarch for both kingdoms — then the United Kingdom"
+    }
+  ],
+  "monarchs": [
+    {
+      "id": "edward-confessor",
+      "section": "england",
+      "house": "House of Wessex",
+      "name": "Edward the Confessor",
+      "reign": "1042–1066",
+      "emoji": "⛪",
+      "blurb": "The saint-king who built the first Westminster Abbey, finished just days before he died. He left no children, and the fight over his crown brought on the fateful year 1066.",
+      "links": [
+        {
+          "sight": "day06-westminster-walk",
+          "kid": "content/day06-westminster-walk/kid/04-abbey.md",
+          "adult": "content/day06-westminster-walk/adult/04-abbey.md",
+          "why": "His church became the coronation stage for every monarch since"
+        }
+      ],
+      "wiki": "Edward the Confessor",
+      "spouse": "Edith of Wessex",
+      "children": [
+        "None — and the empty throne set up the fight of 1066"
+      ]
+    },
+    {
+      "id": "harold-ii",
+      "section": "england",
+      "house": "House of Wessex",
+      "rel": "Brother-in-law of Edward",
+      "name": "Harold II",
+      "reign": "1066",
+      "emoji": "🛡",
+      "blurb": "The last Anglo-Saxon king. He crushed the Viking invasion at Stamford Bridge near York, then marched south and lost everything at Hastings three weeks later.",
+      "links": [
+        {
+          "sight": "day14-jorvik",
+          "kid": "content/day14-jorvik/kid/04-end-of-viking-age.md",
+          "adult": "content/day14-jorvik/adult/04-end-of-viking-age.md",
+          "why": "His victory near York ended the Viking Age"
+        }
+      ],
+      "wiki": "Harold Godwinson",
+      "spouse": "Edith Swanneck, then Ealdgyth of Mercia",
+      "children": [
+        "Several sons, scattered into exile after Hastings"
+      ]
+    },
+    {
+      "id": "william-i",
+      "section": "england",
+      "house": "House of Normandy",
+      "rel": "Took the crown from Harold",
+      "name": "William the Conqueror",
+      "reign": "1066–1087",
+      "emoji": "🏰",
+      "blurb": "The Norman duke who won at Hastings and stamped his rule on England in stone — starting with the White Tower, built to overawe London.",
+      "links": [
+        {
+          "sight": "day03-tower-of-london",
+          "kid": "content/day03-tower-of-london/kid/01-white-tower.md",
+          "adult": "content/day03-tower-of-london/adult/01-white-tower.md",
+          "why": "His White Tower still stands at the heart of the fortress"
+        }
+      ],
+      "wiki": "William the Conqueror",
+      "spouse": "Matilda of Flanders",
+      "children": [
+        "Ten — including the next two kings, William Rufus and Henry I"
+      ]
+    },
+    {
+      "id": "edward-i",
+      "section": "england",
+      "house": "House of Plantagenet",
+      "rel": "William's line, six generations on",
+      "name": "Edward I \"Longshanks\"",
+      "reign": "1272–1307",
+      "emoji": "⚔️",
+      "blurb": "The \"Hammer of the Scots\". He carried off Scotland's Stone of Destiny to Westminster, and his armies met William Wallace at Stirling Bridge — and lost.",
+      "links": [
+        {
+          "sight": "day11-stirling-castle",
+          "kid": "content/day11-stirling-castle/kid/01-key-to-scotland.md",
+          "adult": "content/day11-stirling-castle/adult/01-key-to-scotland.md",
+          "why": "His wars made Stirling the key to Scotland"
+        },
+        {
+          "sight": "day09-edinburgh-castle",
+          "kid": "content/day09-edinburgh-castle/kid/03-crown-jewels-stone.md",
+          "adult": "content/day09-edinburgh-castle/adult/02-honours-stone.md",
+          "why": "He's the king who stole the Stone of Destiny"
+        },
+        {
+          "sight": "day06-westminster-walk",
+          "kid": "content/day06-westminster-walk/kid/04-abbey.md",
+          "adult": "content/day06-westminster-walk/adult/04-abbey.md",
+          "why": "The Coronation Chair was built to hold his stolen Stone"
+        }
+      ],
+      "wiki": "Edward I of England",
+      "spouse": "Eleanor of Castile (her memorial crosses gave Charing Cross its name), then Margaret of France",
+      "children": [
+        "At least sixteen with Eleanor",
+        "Edward II, who lost Bannockburn to the Bruce"
+      ]
+    },
+    {
+      "id": "richard-iii",
+      "section": "england",
+      "house": "House of York",
+      "rel": "End of the Wars of the Roses",
+      "name": "Richard III",
+      "reign": "1483–1485",
+      "emoji": "🌹",
+      "blurb": "The last king of the white rose of York, and the last English king to die in battle. His young nephews vanished inside the Tower — a mystery still argued about today.",
+      "links": [
+        {
+          "sight": "day13-york",
+          "kid": "content/day13-york/kid/04-war-of-the-flowers.md",
+          "adult": "content/day13-york/adult/04-white-rose.md",
+          "why": "York's white rose was his family badge"
+        },
+        {
+          "sight": "day03-tower-of-london",
+          "kid": "content/day03-tower-of-london/kid/04-prisoners.md",
+          "adult": "content/day03-tower-of-london/adult/04-prisoners.md",
+          "why": "The Princes in the Tower disappeared on his watch"
+        }
+      ],
+      "wiki": "Richard III of England",
+      "spouse": "Anne Neville",
+      "children": [
+        "One son, Edward — died at ten, a year before his father fell at Bosworth"
+      ]
+    },
+    {
+      "id": "henry-vii",
+      "section": "england",
+      "house": "House of Tudor",
+      "rel": "Beat Richard at Bosworth, married his niece",
+      "name": "Henry VII",
+      "reign": "1485–1509",
+      "emoji": "🤝",
+      "blurb": "He ended the Wars of the Roses by winning the crown in battle and marrying Elizabeth of York — joining the red rose and the white into the Tudor rose.",
+      "links": [
+        {
+          "sight": "day13-york",
+          "kid": "content/day13-york/kid/04-war-of-the-flowers.md",
+          "adult": "content/day13-york/adult/04-white-rose.md",
+          "why": "His marriage ended the war of the two roses"
+        }
+      ],
+      "wiki": "Henry VII of England",
+      "spouse": "Elizabeth of York — the marriage that ended the Wars of the Roses",
+      "children": [
+        {
+          "name": "Henry VIII",
+          "id": "henry-viii"
+        },
+        "Arthur (died at fifteen)",
+        "Margaret, whose Scottish wedding seeded the union of the crowns"
+      ]
+    },
+    {
+      "id": "henry-viii",
+      "section": "england",
+      "house": "House of Tudor",
+      "rel": "Son of Henry VII",
+      "name": "Henry VIII",
+      "reign": "1509–1547",
+      "emoji": "👑",
+      "blurb": "Six wives, a break with Rome, and an appetite for palaces. He took Hampton Court from Cardinal Wolsey, hunted where Richmond Park now stands, and sent two of his queens to the Tower.",
+      "links": [
+        {
+          "sight": "day07-hampton-court",
+          "kid": "content/day07-hampton-court/kid/01-henry-and-wolsey.md",
+          "adult": "content/day07-hampton-court/adult/01-wolsey-henry.md",
+          "why": "His grandest palace, taken from his own cardinal"
+        },
+        {
+          "sight": "day03-tower-of-london",
+          "kid": "content/day03-tower-of-london/kid/04-prisoners.md",
+          "adult": "content/day03-tower-of-london/adult/04-prisoners.md",
+          "why": "Two of his six wives were executed here"
+        },
+        {
+          "sight": "day02-richmond-park",
+          "kid": "content/day02-richmond-park/kid/02-kings-mound.md",
+          "adult": "content/day02-richmond-park/adult/02-kings-mound.md",
+          "why": "The mound legend puts him here, waiting for a signal from the Tower"
+        }
+      ],
+      "wiki": "Henry VIII",
+      "spouse": "Six: Catherine of Aragon, Anne Boleyn, Jane Seymour, Anne of Cleves, Catherine Howard, Catherine Parr — divorced, beheaded, died, divorced, beheaded, survived",
+      "children": [
+        "Mary I",
+        {
+          "name": "Elizabeth I",
+          "id": "elizabeth-i"
+        },
+        "Edward VI — all three reigned"
+      ]
+    },
+    {
+      "id": "elizabeth-i",
+      "section": "england",
+      "house": "House of Tudor",
+      "rel": "Daughter of Henry VIII and Anne Boleyn",
+      "name": "Elizabeth I",
+      "reign": "1558–1603",
+      "emoji": "🚢",
+      "blurb": "Born at Greenwich Palace, she saw off the Spanish Armada and gave her name to a golden age. She died childless — the last Tudor — and the crown passed north to Scotland.",
+      "links": [
+        {
+          "sight": "day06-westminster-walk",
+          "kid": "content/day06-westminster-walk/kid/04-abbey.md",
+          "adult": "content/day06-westminster-walk/adult/04-abbey.md",
+          "why": "She shares an Abbey chapel with her rival cousin Mary"
+        },
+        {
+          "sight": "day04-greenwich",
+          "kid": "content/day04-greenwich/kid/04-time-ball-and-museum.md",
+          "adult": "content/day04-greenwich/adult/04-maritime-greenwich.md",
+          "why": "Born at Greenwich Palace, which stood on this riverside"
+        }
+      ],
+      "wiki": "Elizabeth I",
+      "spouse": "Never married — the Virgin Queen kept her suitors as foreign policy",
+      "children": [
+        "None — the crown passed to her cousin's son",
+        {
+          "name": "James VI & I",
+          "id": "james-vi-i"
+        }
+      ]
+    },
+    {
+      "id": "robert-bruce",
+      "section": "scotland",
+      "house": "House of Bruce",
+      "name": "Robert the Bruce",
+      "reign": "1306–1329",
+      "emoji": "🕷",
+      "blurb": "Scotland's warrior king. His victory at Bannockburn, in sight of Stirling Castle, won back the kingdom Edward Longshanks had tried to hammer flat.",
+      "links": [
+        {
+          "sight": "day11-stirling-castle",
+          "kid": "content/day11-stirling-castle/kid/01-key-to-scotland.md",
+          "adult": "content/day11-stirling-castle/adult/01-key-to-scotland.md",
+          "why": "Bannockburn was fought under these castle walls"
+        }
+      ],
+      "wiki": "Robert the Bruce",
+      "spouse": "Isabella of Mar, then Elizabeth de Burgh",
+      "children": [
+        "David II",
+        "Marjorie — her son began the whole Stewart line"
+      ]
+    },
+    {
+      "id": "james-iv",
+      "section": "scotland",
+      "house": "House of Stewart",
+      "rel": "The Bruce's line, via the Stewarts",
+      "name": "James IV",
+      "reign": "1488–1513",
+      "emoji": "🪶",
+      "blurb": "A true Renaissance king — he funded alchemy, and his Italian alchemist famously strapped on wings and jumped from Stirling's walls. James died leading his army at Flodden.",
+      "links": [
+        {
+          "sight": "day11-stirling-castle",
+          "kid": "content/day11-stirling-castle/kid/03-baby-queen-flying-man.md",
+          "adult": "content/day11-stirling-castle/adult/03-mary-and-court-life.md",
+          "why": "His court alchemist tried to fly from these walls"
+        }
+      ],
+      "wiki": "James IV of Scotland",
+      "spouse": "Margaret Tudor, Henry VII's daughter — the marriage behind the later union",
+      "children": [
+        {
+          "name": "James V",
+          "id": "james-v"
+        }
+      ]
+    },
+    {
+      "id": "james-v",
+      "section": "scotland",
+      "house": "House of Stewart",
+      "rel": "Son of James IV",
+      "name": "James V",
+      "reign": "1513–1542",
+      "emoji": "🦄",
+      "blurb": "He built Stirling's painted Renaissance palace, with carved heads on the ceiling and unicorn tapestries on the walls, to show Europe that Scotland's court could dazzle too.",
+      "links": [
+        {
+          "sight": "day11-stirling-castle",
+          "kid": "content/day11-stirling-castle/kid/02-palace-unicorns.md",
+          "adult": "content/day11-stirling-castle/adult/02-renaissance-court.md",
+          "why": "His palace of unicorns and carved heads"
+        }
+      ],
+      "wiki": "James V of Scotland",
+      "spouse": "Madeleine of France (died within months), then Mary of Guise",
+      "children": [
+        {
+          "name": "Mary, Queen of Scots",
+          "id": "mary-queen-of-scots"
+        },
+        "born six days before he died"
+      ]
+    },
+    {
+      "id": "mary-queen-of-scots",
+      "section": "scotland",
+      "house": "House of Stewart",
+      "rel": "Daughter of James V",
+      "name": "Mary, Queen of Scots",
+      "reign": "1542–1567",
+      "emoji": "♛",
+      "blurb": "Queen at six days old, crowned at Stirling at nine months. Her reign at Holyrood ended in scandal and flight; her cousin Elizabeth kept her prisoner for nineteen years, then had her executed. The two rivals now share the Abbey.",
+      "links": [
+        {
+          "sight": "day11-stirling-castle",
+          "kid": "content/day11-stirling-castle/kid/03-baby-queen-flying-man.md",
+          "adult": "content/day11-stirling-castle/adult/03-mary-and-court-life.md",
+          "why": "Crowned here as a baby"
+        },
+        {
+          "sight": "day09-royal-mile",
+          "kid": "content/day09-royal-mile/kid/04-castle-to-palace.md",
+          "adult": "content/day09-royal-mile/adult/02-st-giles-covenant.md",
+          "why": "Her palace, and her showdowns with John Knox"
+        },
+        {
+          "sight": "day06-westminster-walk",
+          "kid": "content/day06-westminster-walk/kid/04-abbey.md",
+          "adult": "content/day06-westminster-walk/adult/04-abbey.md",
+          "why": "Buried in the Abbey by the son who inherited both crowns"
+        }
+      ],
+      "wiki": "Mary, Queen of Scots",
+      "spouse": "Three: a French boy-king, the murdered Lord Darnley, and Bothwell — each marriage a disaster",
+      "children": [
+        {
+          "name": "James VI & I",
+          "id": "james-vi-i"
+        }
+      ]
+    },
+    {
+      "id": "james-vi-i",
+      "section": "union",
+      "house": "House of Stuart",
+      "rel": "Son of Mary, Queen of Scots — heir to Elizabeth",
+      "name": "James VI & I",
+      "reign": "1567–1625",
+      "emoji": "🔗",
+      "blurb": "Born in a tiny room in Edinburgh Castle, king of Scotland before his first birthday. In 1603 he inherited England too — one king, two kingdoms. He also ordered the Bible translation that bears his name, at a Hampton Court conference.",
+      "links": [
+        {
+          "sight": "day09-edinburgh-castle",
+          "kid": "content/day09-edinburgh-castle/kid/03-crown-jewels-stone.md",
+          "adult": "content/day09-edinburgh-castle/adult/02-honours-stone.md",
+          "why": "Born on the castle rock"
+        },
+        {
+          "sight": "day07-hampton-court",
+          "adult": "content/day07-hampton-court/adult/06-chapel-royal.md",
+          "why": "The King James Bible began at his Hampton Court conference"
+        }
+      ],
+      "wiki": "James VI and I",
+      "spouse": "Anne of Denmark",
+      "children": [
+        {
+          "name": "Charles I",
+          "id": "charles-i"
+        },
+        "Henry (the promising heir, died at eighteen)",
+        "Elizabeth, the 'Winter Queen', whose line later brought in the Hanoverians"
+      ]
+    },
+    {
+      "id": "charles-i",
+      "section": "union",
+      "house": "House of Stuart",
+      "rel": "Son of James VI & I",
+      "name": "Charles I",
+      "reign": "1625–1649",
+      "emoji": "🎨",
+      "blurb": "Britain's greatest royal art collector — and the king who lost the Civil War. He was beheaded outside the Banqueting House at Whitehall, steps from where the Horse Guards stand today.",
+      "links": [
+        {
+          "sight": "day06-westminster-walk",
+          "kid": "content/day06-westminster-walk/kid/07-horse-guards.md",
+          "adult": "content/day06-westminster-walk/adult/07-horse-guards.md",
+          "why": "Executed at Whitehall, beside today's Horse Guards"
+        },
+        {
+          "sight": "day07-hampton-court",
+          "kid": "content/day07-hampton-court/kid/05-two-palaces.md",
+          "adult": "content/day07-hampton-court/adult/05-tapestries-art.md",
+          "why": "Collector of its finest art — and later its prisoner"
+        }
+      ],
+      "wiki": "Charles I of England",
+      "spouse": "Henrietta Maria of France",
+      "children": [
+        {
+          "name": "Charles II",
+          "id": "charles-ii"
+        },
+        "James II",
+        "Mary — mother of the future William III"
+      ]
+    },
+    {
+      "id": "charles-ii",
+      "section": "union",
+      "house": "House of Stuart",
+      "rel": "Son of Charles I — restored in 1660",
+      "name": "Charles II",
+      "reign": "1660–1685",
+      "emoji": "🐦‍⬛",
+      "blurb": "The Merry Monarch of the Restoration. Legend says he ordered the Tower's ravens protected, and when Colonel Blood was caught stealing his crown, Charles pardoned him — and nobody knows why.",
+      "links": [
+        {
+          "sight": "day03-tower-of-london",
+          "kid": "content/day03-tower-of-london/kid/03-ravens.md",
+          "adult": "content/day03-tower-of-london/adult/03-ravens.md",
+          "why": "The raven legend is pinned on him"
+        },
+        {
+          "sight": "day03-tower-of-london",
+          "kid": "content/day03-tower-of-london/kid/02-crown-jewels.md",
+          "adult": "content/day03-tower-of-london/adult/02-crown-jewels.md",
+          "why": "He pardoned the man who stole his crown"
+        }
+      ],
+      "wiki": "Charles II of England",
+      "spouse": "Catherine of Braganza",
+      "children": [
+        "None with the queen (a dozen otherwise) — so the crown passed to his brother James"
+      ]
+    },
+    {
+      "id": "william-mary",
+      "section": "union",
+      "house": "House of Stuart",
+      "rel": "Mary was James VI's great-granddaughter",
+      "name": "William III & Mary II",
+      "reign": "1689–1702",
+      "emoji": "🏛",
+      "blurb": "The double monarchs of the Glorious Revolution. They hired Christopher Wren to rebuild Hampton Court into a British Versailles — a project that got exactly half finished.",
+      "links": [
+        {
+          "sight": "day07-hampton-court",
+          "kid": "content/day07-hampton-court/kid/05-two-palaces.md",
+          "adult": "content/day07-hampton-court/adult/03-baroque-wren.md",
+          "why": "Their half-built baroque palace grafted onto Henry's Tudor one"
+        }
+      ],
+      "wiki": "William III of England",
+      "spouse": "Each other — first cousins, both grandchildren of Charles I's line",
+      "children": [
+        "None — the crown moved to Mary's sister Anne, then the Hanoverians"
+      ]
+    },
+    {
+      "id": "george-iii",
+      "section": "union",
+      "house": "House of Hanover",
+      "name": "George III",
+      "reign": "1760–1820",
+      "emoji": "🏡",
+      "blurb": "He bought a plain brick mansion called Buckingham House as a family home for Queen Charlotte — and filled it with fifteen children. His son later blew a fortune turning it into a palace.",
+      "links": [
+        {
+          "sight": "day06-buckingham-palace",
+          "kid": "content/day06-buckingham-palace/kid/01-history.md",
+          "adult": "content/day06-buckingham-palace/adult/01-history.md",
+          "why": "He bought the house that became the Palace"
+        }
+      ],
+      "wiki": "George III",
+      "spouse": "Queen Charlotte of Mecklenburg-Strelitz",
+      "children": [
+        "Fifteen — including two kings and the father of",
+        {
+          "name": "Victoria",
+          "id": "victoria"
+        }
+      ]
+    },
+    {
+      "id": "victoria",
+      "section": "union",
+      "house": "House of Hanover",
+      "rel": "Granddaughter of George III",
+      "name": "Victoria",
+      "reign": "1837–1901",
+      "emoji": "🖤",
+      "blurb": "The first sovereign to actually live at Buckingham Palace, moving in three weeks after her accession at eighteen. Her golden memorial now anchors the Mall's grand parade route.",
+      "links": [
+        {
+          "sight": "day06-buckingham-palace",
+          "kid": "content/day06-buckingham-palace/kid/01-history.md",
+          "adult": "content/day06-buckingham-palace/adult/01-history.md",
+          "why": "First monarch to call the Palace home"
+        },
+        {
+          "sight": "day06-westminster-walk",
+          "kid": "content/day06-westminster-walk/kid/08-admiralty-mall.md",
+          "adult": "content/day06-westminster-walk/adult/08-admiralty-mall.md",
+          "why": "The Mall was rebuilt as her grand memorial route"
+        }
+      ],
+      "wiki": "Queen Victoria",
+      "spouse": "Prince Albert — she wore mourning black for the forty years after he died",
+      "children": [
+        "Nine, married into thrones across the continent — 'the grandmother of Europe'"
+      ]
+    },
+    {
+      "id": "george-vi",
+      "section": "union",
+      "house": "House of Windsor",
+      "name": "George VI",
+      "reign": "1936–1952",
+      "emoji": "🎖",
+      "blurb": "The reluctant wartime king. When bombs hit Buckingham Palace in the Blitz, he and the Queen stayed put — and worked side by side with Churchill until victory.",
+      "links": [
+        {
+          "sight": "day06-buckingham-palace",
+          "kid": "content/day06-buckingham-palace/kid/01-history.md",
+          "adult": "content/day06-buckingham-palace/adult/01-history.md",
+          "why": "Stayed on as bombs fell on the Palace"
+        },
+        {
+          "sight": "day06-churchill-war-rooms",
+          "kid": "content/day06-churchill-war-rooms/kid/04-london-at-war.md",
+          "adult": "content/day06-churchill-war-rooms/adult/04-london-at-war.md",
+          "why": "His war, run from Churchill's bunker"
+        }
+      ],
+      "wiki": "George VI",
+      "spouse": "Elizabeth Bowes-Lyon, the Queen Mother",
+      "children": [
+        {
+          "name": "Elizabeth II",
+          "id": "elizabeth-ii"
+        },
+        "Margaret"
+      ]
+    },
+    {
+      "id": "elizabeth-ii",
+      "section": "union",
+      "house": "House of Windsor",
+      "rel": "Daughter of George VI",
+      "name": "Elizabeth II",
+      "reign": "1952–2022",
+      "emoji": "📺",
+      "blurb": "Seventy years on the throne — the longest reign in British history. Her 1953 coronation in the Abbey was the first the whole world watched on television.",
+      "links": [
+        {
+          "sight": "day06-westminster-walk",
+          "kid": "content/day06-westminster-walk/kid/04-abbey.md",
+          "adult": "content/day06-westminster-walk/adult/04-abbey.md",
+          "why": "Crowned in the Abbey in 1953"
+        },
+        {
+          "sight": "day06-westminster-walk",
+          "kid": "content/day06-westminster-walk/kid/08-admiralty-mall.md",
+          "adult": "content/day06-westminster-walk/adult/08-admiralty-mall.md",
+          "why": "Her processions made the Mall the world's stage"
+        }
+      ],
+      "wiki": "Elizabeth II",
+      "spouse": "Prince Philip — married 73 years, the longest royal marriage",
+      "children": [
+        {
+          "name": "Charles III",
+          "id": "charles-iii"
+        },
+        "Anne",
+        "Andrew",
+        "Edward"
+      ]
+    },
+    {
+      "id": "charles-iii",
+      "section": "union",
+      "house": "House of Windsor",
+      "rel": "Son of Elizabeth II",
+      "name": "Charles III",
+      "reign": "2022–",
+      "emoji": "🌿",
+      "blurb": "Crowned in the same ancient chair as forty of his predecessors — with the Stone of Destiny brought south from Scotland for the day, then sent straight back.",
+      "links": [
+        {
+          "sight": "day06-westminster-walk",
+          "kid": "content/day06-westminster-walk/kid/04-abbey.md",
+          "adult": "content/day06-westminster-walk/adult/04-abbey.md",
+          "why": "The Coronation Chair did its job again in 2023"
+        },
+        {
+          "sight": "day09-edinburgh-castle",
+          "kid": "content/day09-edinburgh-castle/kid/03-crown-jewels-stone.md",
+          "adult": "content/day09-edinburgh-castle/adult/02-honours-stone.md",
+          "why": "The Stone travelled south for his coronation, then home"
+        }
+      ],
+      "wiki": "Charles III",
+      "spouse": "Diana, Princess of Wales, then Queen Camilla",
+      "children": [
+        "William, next in line",
+        "Harry"
+      ]
+    }
+  ],
+  "credits": "Portraits: Wikipedia / Wikimedia Commons"
+}

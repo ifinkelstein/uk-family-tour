@@ -1,0 +1,11 @@
+# Tell Me More: The Boy Who Drew Treasure Island
+
+Let me tell you about a boy who grew up right here in Edinburgh and turned into one of the greatest adventure-storytellers who ever lived. His name was Robert Louis Stevenson, and when he was your age, he was often too sick to go out and play. He had weak lungs, and he spent heaps of time stuck in bed, coughing, in a chilly Edinburgh house, watching the world go by through the window.
+
+His family had an amazing job, by the way. They built lighthouses, those tall towers that flash in the dark to warn ships off the rocks. His grandfather built one of the most famous and difficult lighthouses in the whole world, out on a reef that disappeared under the sea at high tide. Everybody expected young Robert to grow up and build lighthouses too. But Robert wanted to build something else. He wanted to build stories.
+
+When he was stuck inside on dark evenings, he loved to watch a man called the lamplighter come down the street at dusk with a little ladder and a flame, lighting each gas lamp one by one, so the whole street slowly glowed to life. Robert loved that man so much that he wrote a poem about him, and gave him a name, Leerie, and wished the lamplighter would look up and give a nod to the little sick boy in the window. Imagine wanting so badly to be part of the world going by outside.
+
+Now here's the best bit. When Robert was grown up, one rainy day he was playing with his young stepson, and together they drew a map of a made-up island, just for fun, with hills and coves and a big X to mark buried treasure. And Robert looked at that map, and a whole story came pouring out of him, about a boy, a pirate ship, and a sly one-legged pirate with a parrot, called Long John Silver. That story became Treasure Island, one of the most exciting books ever written, and it's a big reason pirates in films say things like arrr and follow maps with an X on them. He pretty much invented the treasure map.
+
+So a sick boy at an Edinburgh window, who was supposed to build lighthouses, grew up to build pirates instead. Next time you draw a map of a make-believe place, remember, that is exactly how Treasure Island began. A rainy day, and a made-up map. You could do it too.

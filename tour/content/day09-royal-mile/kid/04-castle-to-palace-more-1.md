@@ -1,0 +1,9 @@
+# Tell Me More: The Gate at the World's End
+
+About two thirds of the way down the hill, you're going to cross a spot with a wonderfully spooky name. There's a pub there called The World's End, and it's called that for a real, and rather sad, reason. Stop and look down at the road, and you'll spot lines of shiny brass set into the cobbles, stretching right across the street. Those brass lines mark where a huge gate once stood. It was called the Netherbow Port, and it was the main door in the wall around old Edinburgh, a great stone gatehouse with a heavy portcullis that could crash down to lock the whole city shut.
+
+Now for the shivery bit, and it's true. In the old days, when the city wanted to punish a traitor, they would sometimes stick the poor person's head on a spike right on top of this gate, for everyone to see as they walked in and out. Imagine strolling to the shops under a row of them. Yuck. The gate was finally knocked down about two hundred and sixty years ago because it was blocking the traffic, but its footprint is still there in the brass under your feet.
+
+But why the World's End? Here's the sad part. To go out through that gate, and to come back in again, you had to pay money, a toll, every single time. And lots of people in old Edinburgh were far too poor to pay. So they simply never went out. For them, this gate really was the end of the world. Everything they would ever see in their whole lives was inside the wall, and out beyond the gate was a mystery they would never visit. That's why the alley here, and the pub, got the name the World's End.
+
+So when you cross those brass lines, do something for me. Take one big step over them, and say, out loud if you like, that you just walked out of old Edinburgh and off the edge of somebody's whole world. Because hundreds of years ago, for a lot of people, that is exactly what this spot was.

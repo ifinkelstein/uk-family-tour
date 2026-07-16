@@ -1,0 +1,110 @@
+{
+  "kid": {
+    "subs": {
+      "03-heart-and-bobby": [
+        {
+          "file": "content/day09-royal-mile/kid/03-heart-and-bobby-more-3.md",
+          "title": "Tell Me More: Half-Hangit Maggie",
+          "words": 371,
+          "est_minutes": 2.5
+        }
+      ]
+    },
+    "new_bases": [
+      {
+        "file": "content/day09-royal-mile/kid/04-castle-to-palace.md",
+        "title": "A Castle at One End, a Palace at the Other",
+        "words": 335,
+        "est_minutes": 2.2,
+        "tell_me_more": [
+          {
+            "file": "content/day09-royal-mile/kid/04-castle-to-palace-more-1.md",
+            "title": "Tell Me More: The Gate at the World's End",
+            "words": 354,
+            "est_minutes": 2.4
+          },
+          {
+            "file": "content/day09-royal-mile/kid/04-castle-to-palace-more-2.md",
+            "title": "Tell Me More: The Palace, the Queen, and the Secret Stair",
+            "words": 392,
+            "est_minutes": 2.6
+          },
+          {
+            "file": "content/day09-royal-mile/kid/04-castle-to-palace-more-3.md",
+            "title": "Tell Me More: The Biggest Show on Earth",
+            "words": 325,
+            "est_minutes": 2.2
+          }
+        ]
+      },
+      {
+        "file": "content/day09-royal-mile/kid/05-story-city.md",
+        "title": "The City Made of Stories",
+        "words": 358,
+        "est_minutes": 2.4,
+        "tell_me_more": [
+          {
+            "file": "content/day09-royal-mile/kid/05-story-city-more-1.md",
+            "title": "Tell Me More: The Boy Who Drew Treasure Island",
+            "words": 414,
+            "est_minutes": 2.8
+          }
+        ]
+      }
+    ]
+  },
+  "adult": {
+    "subs": {
+      "01-old-town": [
+        {
+          "file": "content/day09-royal-mile/adult/01-old-town-more-3.md",
+          "title": "Tell Me More: The Grassmarket and Half-Hangit Maggie",
+          "words": 396,
+          "est_minutes": 2.6
+        }
+      ]
+    },
+    "new_bases": [
+      {
+        "file": "content/day09-royal-mile/adult/04-mile-castle-palace.md",
+        "title": "The Mile Itself: Crown to Cross",
+        "words": 390,
+        "est_minutes": 2.6,
+        "tell_me_more": [
+          {
+            "file": "content/day09-royal-mile/adult/04-mile-castle-palace-more-1.md",
+            "title": "Tell Me More: The Canongate and the World's End",
+            "words": 415,
+            "est_minutes": 2.8
+          },
+          {
+            "file": "content/day09-royal-mile/adult/04-mile-castle-palace-more-2.md",
+            "title": "Tell Me More: Holyrood, Palace, Abbey and a Parliament",
+            "words": 578,
+            "est_minutes": 3.9
+          },
+          {
+            "file": "content/day09-royal-mile/adult/04-mile-castle-palace-more-3.md",
+            "title": "Tell Me More: Festival City",
+            "words": 352,
+            "est_minutes": 2.3
+          }
+        ]
+      },
+      {
+        "file": "content/day09-royal-mile/adult/05-writers-city.md",
+        "title": "The Writers' City",
+        "words": 391,
+        "est_minutes": 2.6,
+        "tell_me_more": [
+          {
+            "file": "content/day09-royal-mile/adult/05-writers-city-more-1.md",
+            "title": "Tell Me More: Scott, and the Invention of Scotland",
+            "words": 451,
+            "est_minutes": 3.0
+          }
+        ]
+      }
+    ]
+  }
+}

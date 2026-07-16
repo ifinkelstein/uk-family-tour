@@ -1,0 +1,9 @@
+# The City Made of Stories
+
+Did you know a whole city can be famous for stories? This one is. Edinburgh was the very first place in the entire world to be called a City of Literature, which is a fancy way of saying a city of books and writers. So many brilliant storytellers have lived here that the whole town got a medal for it.
+
+Tucked down one of the narrow closes off the Mile, in an old, old house with crow-step corners like little stairs built for a giant, there's a museum just for writers. It's free, and it's stuffed with treasures: a poet's actual writing desk, the very printing machine that printed some of the most famous Scottish books, and a ring that belonged to the man who wrote Treasure Island. Three writers are the stars of the house, and you'll be meeting one of them properly in a minute.
+
+But here's the part I want you to hunt for. Just outside the museum, look down at the ground. Set right into the stones of the little courtyard are carved words, real lines written by Scottish poets, going back hundreds of years. It's called Makars' Court, and makar is an old Scottish word for a poet. It doesn't mean someone who writes, exactly. It means a maker, someone who makes things out of words, the way a carpenter makes things out of wood. Walk slowly, and read the ground like a giant page.
+
+And now for a giggle, just for your family. Remember dinner last night, at that restaurant called Makars, with all the mashed potato? Well, now you know a secret about its name. Makar means poet. You ate your supper at the poets' table and didn't even know it. And it gets better. The most famous funny poem in all of Scotland is about, of all things, haggis, and it was first printed right here in this very neighbourhood, hundreds of years ago. So this city has been turning food, and mud, and castles, and everything else into stories for a very long time. It's a city made of stories. And you're walking straight through the middle of it.

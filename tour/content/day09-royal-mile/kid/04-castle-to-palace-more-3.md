@@ -1,0 +1,9 @@
+# Tell Me More: The Biggest Show on Earth
+
+You have arrived in the middle of the most show-off city in the world, so let me tell you what happens here in summer. Every August, this very street turns into the biggest arts festival on the whole planet. It's called the Fringe, and it began by accident. Way back in nineteen forty-seven, the city put on a big fancy festival and invited certain performers. But eight groups of actors turned up who hadn't been invited at all, and instead of going home in a huff, they found little halls and put their shows on anyway, around the edges. People started calling them the fringe, meaning the bits around the edge, and now, all these years later, that sneaky uninvited fringe has grown into the giant, and thousands of shows happen here every single day.
+
+If you came back in August, this hill would be packed shoulder to shoulder with performers, all doing their thing at once, all trying to get you to come to their show. You'd see jugglers, a unicyclist wobbling past, someone escaping from chains, a person painted silver standing perfectly still like a statue, and everyone pushing little paper flyers into your hands. The street itself becomes the stage, and you get to be the crowd.
+
+You're here in July, just before all that, but Edinburgh is already making music, because right now the city is holding its Jazz Festival, full of concerts in halls and pubs, and your family is going to some of it. That means you're not just visiting Edinburgh's festival season. You're actually part of it.
+
+And later today, when your walk finishes near a big sloping road called the Mound, there's a festival carnival waiting there, with rides and games and lights, right next to the pretty gardens below the castle. So the plan for today is a castle, then a whole mile of stories, and then a funfair. I'd call that a pretty excellent Sunday.

@@ -1,0 +1,33 @@
+{
+  "kid": {
+    "01-secret-bunker": [
+      {"file": "content/day06-churchill-war-rooms/kid/01-secret-bunker-more-3.md", "title": "The Man Who Kept the Secret", "est_minutes": 2.5},
+      {"file": "content/day06-churchill-war-rooms/kid/01-secret-bunker-more-4.md", "title": "The Day the Lights Went Out", "est_minutes": 2.4}
+    ],
+    "02-churchill-the-man": [
+      {"file": "content/day06-churchill-war-rooms/kid/02-churchill-the-man-more-3.md", "title": "The Great Escape", "est_minutes": 4.4}
+    ],
+    "03-life-below-ground": [
+      {"file": "content/day06-churchill-war-rooms/kid/03-life-below-ground-more-3.md", "title": "The Girl Who Typed for Churchill", "est_minutes": 3.5}
+    ],
+    "04-london-at-war": [
+      {"file": "content/day06-churchill-war-rooms/kid/04-london-at-war-more-3.md", "title": "Sent Away", "est_minutes": 3.8}
+    ]
+  },
+  "adult": {
+    "01-secret-bunker": [
+      {"file": "content/day06-churchill-war-rooms/adult/01-secret-bunker-more-3.md", "title": "The Keeper of the Keys", "est_minutes": 2.8},
+      {"file": "content/day06-churchill-war-rooms/adult/01-secret-bunker-more-4.md", "title": "The Last Entry", "est_minutes": 2.9}
+    ],
+    "02-churchill-the-man": [
+      {"file": "content/day06-churchill-war-rooms/adult/02-churchill-the-man-more-3.md", "title": "The Man Who Was Often Wrong", "est_minutes": 3.7},
+      {"file": "content/day06-churchill-war-rooms/adult/02-churchill-the-man-more-4.md", "title": "Paint, Brick, and the Black Dog", "est_minutes": 3.7}
+    ],
+    "03-life-below-ground": [
+      {"file": "content/day06-churchill-war-rooms/adult/03-life-below-ground-more-3.md", "title": "The People Who Ran It", "est_minutes": 3.7}
+    ],
+    "04-london-at-war": [
+      {"file": "content/day06-churchill-war-rooms/adult/04-london-at-war-more-3.md", "title": "London Can Take It: Myth and Record", "est_minutes": 3.7}
+    ]
+  }
+}

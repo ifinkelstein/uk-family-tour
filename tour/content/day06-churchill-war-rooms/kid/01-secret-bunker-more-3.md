@@ -1,0 +1,10 @@
+# The Man Who Kept the Secret
+Here is a puzzle for you. How do you build a secret headquarters in the middle of a busy city, fill it with beds and desks and telephones and tins of food, and make sure that almost nobody finds out? You can't exactly order a hundred bunk beds and have a lorry drop them at the front door of a government office. People would notice. People would talk. And in wartime, a secret that leaks can get people killed.
+
+The answer to that puzzle was one clever, quiet man, and his name was George Rance. He wasn't a famous general. Before the war he had one of the most boring-sounding jobs you can imagine, sorting out the pay for the cleaning ladies in a government building. But he was trusted, and he was careful, and it turned out he was brilliant at keeping a secret.
+
+Mister Rance was put in charge of turning the basement into the bunker, and he had a sneaky trick. Whenever he needed something, chairs, filing cabinets, all the bits and pieces to fit out the rooms, he would slip his order in alongside the ordinary, allowed orders, asking for a few extra. And he had all the extra things delivered to a special address, care of Mister Rance. That little phrase, care of Mister Rance, became a kind of magic password. Anything sent to it was quietly carried down into the secret rooms, and nobody asking questions ever learned where it really went.
+
+And here is the best part. Mister Rance held the only set of keys. Think about that. The whole beating heart of the British war effort, and the keys to get in lived in one man's pocket. If you wanted through those doors, you went through him.
+
+So as you walk, spare a thought for George Rance. Kings and generals get statues, but wars are also won by careful people doing quiet, unglamorous jobs perfectly. He guarded this secret so well that even years later, most of London had no idea these rooms existed at all. After the war, he was given a special honour by the King for his trouble. Not bad for the man who used to count the cleaners' wages.

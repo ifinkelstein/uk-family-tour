@@ -15,21 +15,52 @@ audio are cached, it works offline.
 
 ## What the app does
 
-- Journey view for the itinerary, grouped by day and sight.
-- Shared kids/grown-ups interface; the toggle changes the content and audio,
-  not the controls.
-- Audio player with play/pause, previous/next, scrubber, speed control, and
-  automatic advance.
-- Sub-chapters are shown as rows under each main story. Playing a main story
-  automatically continues into its sub-chapters, announcing each sub-chapter
-  title before the audio starts.
-- Progress is remembered locally, including sub-chapter completion.
+- Journey view for the itinerary, grouped by day and sight (London → Edinburgh
+  → York). The list auto-scrolls to today's leg and marks it with a TODAY pill.
+- Shared kids/grown-ups interface; the toggle (🧒 Kids / 🧑 Grown-ups, default
+  Kids) changes the content and audio, not the controls. Switching mid-tour
+  rebuilds the live queue in the new mode at the same story.
+- Audio player with play/pause, previous/next, scrubber, and speed control
+  (0.8× / 1.0× / 1.2× / 1.5×).
+- Sub-chapters are shown as indented rows under each main story. Playing a main
+  story automatically continues into its sub-chapters after a short beat
+  (immediately when the phone is pocketed), announcing each sub-chapter title
+  before the audio starts. Playback stops at the end of a story rather than
+  running into the next main story on its own — the player shows "Story
+  complete — up next: …" and ▶/⏭ resumes when the family is ready.
+- Progress ("heard") is remembered locally per file, including sub-chapters;
+  completed sights get a ✔ stamp.
+- Resume-where-you-left-off: the days screen shows a "Continue" card and
+  restores the screen, queue, position, and playback time from `localStorage`.
+- Maps: each sight has an outdoor map (PNG) opened from a map row; two indoor
+  sights (Churchill War Rooms, Hampton Court) also have an indoor SVG sketch;
+  multi-sight days (3, 5, 6, 9) have a day-overview map (🗺 on the day header).
+  All live in `tour/maps/` — see `scripts/build_maps.py`.
+- Offline: a service worker caches the app shell and images. Each day header has
+  a ⬇ button that pre-caches that whole day's audio for BOTH audiences plus its
+  maps; already-saved days show a ✓ badge. Reading downloads are cached after
+  first fetch.
+- Read offline: each sight links to a PDF and EPUB of its narration
+  (audience-specific) under `reading-pdfs/` and `reading-epubs/`.
+- Lock-screen / earbud controls via the Media Session API (play/pause,
+  previous/next, seek), with sight artwork as metadata.
 - Images, markdown, and MP3 narration are served from committed static assets.
 - A "Royal Family Tree" screen (entry card on the days list) shows a simplified
-  monarch timeline with Wikipedia portraits; each monarch links to the chapters
-  where they appear, and tracks show 👑 chips linking back to the tree.
-  Data lives in `tour/monarchy.json`; portraits come from
-  `scripts/fetch_monarch_images.py` into `tour/images/monarchs/`.
+  monarch timeline with Wikipedia portraits, grouped into England / Scotland /
+  Union sections; each monarch links to the chapters where they appear, and
+  tracks show 👑 chips linking back to the tree. Data lives in
+  `tour/monarchy.json`; portraits come from `scripts/fetch_monarch_images.py`
+  into `tour/images/monarchs/`.
+- A per-sight **media drawer** (opt-in): sights listed in `MEDIA_SIGHTS`
+  (app.js) load `tour/media/<sight>.json` and show a "Gallery" row plus a media
+  chip under each chapter. The drawer is a chapter-filtered grid of photos
+  (Wikimedia, with visible credit/licence/source), short YouTube films (played
+  in-app via a `youtube-nocookie` embed), and ~1–2 min period-music clips. Music
+  plays through the main player with a one-tap "↩ Back to the tour"; every tile
+  has a "▶ Listen to this story" backlink into the matching audio chapter.
+  Gallery images and music ride along in the per-day ⬇ offline pre-cache (films
+  stay online). Day 11 (Stirling Castle) is the pilot;
+  `tour/media/<sight>-CREDITS.md` records attribution.
 
 ## Project layout
 
@@ -41,16 +72,25 @@ sw.js                   offline shell/audio cache
 manifest.webmanifest    PWA metadata
 icons/                  PWA icons
 tour/
-  manifest.json         itinerary and track manifest
-  images.json           sight image metadata
+  manifest.json         itinerary and track manifest (source of truth)
+  images.json           sight image metadata ({emoji, color, wiki[]} per sight)
   monarchy.json         royal family tree data + chapter links
-  content/              narration markdown
-  audio/                rendered Kokoro MP3 files
+  content/              narration markdown (per sight: kid/ and adult/)
+  audio/                rendered Kokoro MP3 files (mirrors content/ paths)
   images/               bundled sight photos (+ images/monarchs/ portraits)
-reading-pdfs/           optional reading downloads
-reading-epubs/          optional reading downloads
+  maps/                 outdoor PNGs, indoor SVGs, and day-overview PNGs
+  media/                media drawer: <sight>.json + <sight>/images|audio/
+reading-pdfs/           per-sight, per-audience narration PDFs (in-app links)
+reading-epubs/          per-sight, per-audience narration EPUBs (in-app links)
 scripts/                asset, audio, and validation tools
 ```
+
+`tour/manifest.json` has top-level `title`, `wpm_assumption`, `sights`, and
+`totals`. Each sight has `id`, `name`, `day`, `date`, `note`, per-audience
+`kid_total_minutes` / `adult_total_minutes`, and `tracks.kid` / `tracks.adult`;
+each track has `file`, `title`, `est_minutes`, and an optional `tell_me_more`
+array of sub-chapters (each also `file` / `title` / `est_minutes`). Base tracks
+may also carry a `related` array (see Cross-references below).
 
 ## Verify
 
@@ -61,7 +101,12 @@ python3 -m json.tool tour/manifest.json >/tmp/manifest-check.json
 ```
 
 `scripts/verify_assets.py` is the asset completeness gate. It checks that every
-manifest track has markdown and MP3 audio, including sub-chapters.
+manifest track (base + `tell_me_more`) has rendered audio (MP3 or WAV) and that
+each sight has at least its first image; `--strict` also requires every image
+listed in `images.json`. Related helpers: `scripts/check_durations.py`
+(sanity-checks composited MP3 lengths against word counts) and
+`scripts/verify_live_audio.py` (checks the deployed site serves the same audio
+durations as local).
 
 ## Voices and assets
 

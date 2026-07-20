@@ -7,6 +7,10 @@ const INDOOR_MAPS = ['day06-churchill-war-rooms', 'day07-hampton-court'];
 const DAY_MAPS = [3, 5, 6, 9];
 const readingFile = (s, ext) => `${String(s.day).padStart(2, '0')} ${s.name} - ${kid ? 'Kids' : 'Grown-ups'}.${ext}`;
 const readingURL = (s, ext) => `${ext === 'pdf' ? 'reading-pdfs' : 'reading-epubs'}/${encodeURIComponent(readingFile(s, ext))}`;
+// Media drawer: photos, short films and period music per sight, tagged to a
+// chapter (1-based base-track index). Assets live under tour/media/<sid>/.
+const mediaURL = (sid, f) => `${ASSETS}/media/${sid}/${f}`;
+const MEDIA_SIGHTS = ['day11-stirling-castle']; // sights that ship a media/<id>.json
 
 const el = document.getElementById('app');
 const au = document.getElementById('au');
@@ -19,6 +23,10 @@ let MAN = null, ART = {}, MON = null, kid = loadJSON('kid', true), GAP = 30000;
 let queue = [], pos = -1, gapTimer = null, dragging = false, speed = 1.0;
 let announceToken = 0;
 let screen = { name: 'days' };
+let MEDIA = {};             // sid -> media manifest (null once known to be absent)
+const mediaLoading = {};    // sid -> in-flight promise, to dedupe concurrent loads
+let mediaStash = null;      // saved narration state while a music clip plays
+let mScreen = null;         // open media drawer state: { sid, chapter, openId }
 const heard = new Set(loadJSON('heard', []));
 
 const speedList = [0.8, 1.0, 1.2, 1.5];
@@ -64,7 +72,31 @@ async function boot() {
   }
   ART = await fetch(`${ASSETS}/images.json`).then(r => r.json()).catch(() => ({}));
   MON = await fetch(`${ASSETS}/monarchy.json`).then(r => r.json()).catch(() => null);
+  MEDIA_SIGHTS.forEach(loadMedia); // fire-and-forget so galleries + offline pre-cache are ready
   render();
+}
+
+// ---- media drawer data ----
+function loadMedia(sid) {
+  if (sid in MEDIA) return Promise.resolve(MEDIA[sid]);
+  if (mediaLoading[sid]) return mediaLoading[sid];
+  mediaLoading[sid] = (async () => {
+    let v = null;
+    try { const r = await fetch(`${ASSETS}/media/${sid}.json`); v = r.ok ? await r.json() : null; }
+    catch (_) { v = null; }
+    MEDIA[sid] = v; delete mediaLoading[sid];
+    if (screen.name === 'sight' && screen.id === sid) render(); // reveal the gallery once loaded
+    return v;
+  })();
+  return mediaLoading[sid];
+}
+const mediaCaption = it => (kid && it.kidcaption) ? it.kidcaption : it.caption;
+const chapterLabel = (m, ch) => (m.chapters.find(c => c.n === ch) || {}).label || `Chapter ${ch}`;
+function mediaItems(sid, ch) { const m = MEDIA[sid]; if (!m) return []; return ch ? m.items.filter(i => i.chapter === ch) : m.items; }
+function mediaChipText(items) {
+  const c = { image: 0, video: 0, audio: 0 }; items.forEach(i => c[i.type]++);
+  const p = []; if (c.image) p.push(`🖼 ${c.image}`); if (c.video) p.push(`🎬 ${c.video}`); if (c.audio) p.push(`♪ ${c.audio}`);
+  return p.join('  ·  ');
 }
 
 // ---- audio ----
@@ -87,7 +119,13 @@ function setNotice(t) {
   if (n) { n.textContent = t; n.style.display = t ? '' : 'none'; }
 }
 au.addEventListener('ended', () => {
-  const it = queue[pos]; if (it) markHeard(it.file);
+  const it = queue[pos];
+  if (it && it.isMedia) { // music never auto-advances into the tour
+    if (mediaStash) setNotice('Music finished — tap ↩ Back to the tour to return.');
+    paintPlayer();
+    return;
+  }
+  if (it) markHeard(it.file);
   const nxt = queue[pos + 1];
   if (nxt && nxt.isMore) startGap();   // chain this story's sub-chapters
   else {
@@ -133,8 +171,8 @@ function setPos(i) {
   announceToken++;
   if ('speechSynthesis' in window) speechSynthesis.cancel();
   pos = i;
-  au.src = audioURL(queue[i].file);
-  au.playbackRate = speed;
+  au.src = queue[i].src || audioURL(queue[i].file); // media clips carry a direct src
+  au.playbackRate = queue[i].isMedia ? 1.0 : speed;
   updateMediaSession(queue[i]);
   saveResume();
   render(); // repaint lists too: auto-advance must move the highlight + now-playing title
@@ -165,10 +203,111 @@ window.showMap = (id, title) => {
   document.body.appendChild(ov);
 };
 
+// ---- media drawer (gallery of photos, films and period music) ----
+window.openMedia = (sid, chapter) => { mScreen = { sid, chapter: chapter || 0, openId: null }; drawMedia(); };
+window.closeMedia = () => { mScreen = null; document.querySelector('.mediaoverlay')?.remove(); };
+window.mFilter = ch => { if (mScreen) { mScreen.chapter = ch; mScreen.openId = null; drawMedia(); } };
+window.mOpen = id => { if (mScreen) { mScreen.openId = id; drawMedia(); } };
+window.mBack = () => { if (mScreen) { mScreen.openId = null; drawMedia(); } };
+
+function drawMedia() {
+  const m = MEDIA[mScreen.sid]; if (!m) return;
+  document.querySelector('.mediaoverlay')?.remove();
+  const ov = document.createElement('div'); ov.className = 'mediaoverlay';
+  ov.innerHTML = mScreen.openId ? mediaDetailHTML(m) : mediaGridHTML(m);
+  ov.addEventListener('click', e => { if (e.target === ov) closeMedia(); });
+  document.body.appendChild(ov);
+  const grid = ov.querySelector('.mgrid'); if (grid) grid.scrollTop = 0;
+}
+function mediaGridHTML(m) {
+  const sid = mScreen.sid, cur = mScreen.chapter;
+  const chip = (n, label) => `<button class="mfchip ${cur === n ? 'on' : ''}" onclick="mFilter(${n})">${esc(label)}</button>`;
+  const chips = [chip(0, 'All')].concat(m.chapters.map(c => chip(c.n, `${c.n}. ${c.label}`))).join('');
+  const items = mediaItems(sid, cur || 0);
+  const tiles = items.map(it => mediaTileHTML(sid, it)).join('') ||
+    `<div class="mempty">No media for this chapter.</div>`;
+  return `<div class="mbar"><div class="mbartitle"><b>${esc(m.name)}</b><span>${esc(m.title)}</span></div>
+    <button class="iconbtn mclose" onclick="closeMedia()">✕</button></div>
+    <div class="mfilters">${chips}</div>
+    <div class="mgrid">${tiles}</div>`;
+}
+function mediaTileHTML(sid, it) {
+  const cap = it.type === 'image' ? mediaCaption(it) : (it.title || mediaCaption(it));
+  const art = it.type === 'audio'
+    ? `<span class="mtileart maudio">♪</span>`
+    : `<img class="mtileart" loading="lazy" src="${it.type === 'image' ? mediaURL(sid, it.file) : esc(it.thumb)}" onerror="this.style.visibility='hidden'">`;
+  const badge = it.type === 'video' ? '<span class="mbadge">▶</span>'
+    : it.type === 'audio' ? '<span class="mbadge">♪</span>' : '';
+  return `<button class="mtile mt-${it.type}" onclick="mOpen('${jsq(it.id)}')">
+    <span class="mtileimg">${art}${badge}</span>
+    <span class="mtcap">${esc(cap)}</span></button>`;
+}
+function mediaDetailHTML(m) {
+  const sid = mScreen.sid, it = m.items.find(x => x.id === mScreen.openId);
+  if (!it) return mediaGridHTML(m);
+  const credit = `<div class="mcredit">${esc(it.credit || '')}${it.license ? ` · ${esc(it.license)}` : ''}${it.source ? ` · <a href="${esc(it.source)}" target="_blank" rel="noopener">source ↗</a>` : ''}</div>`;
+  const listen = `<button class="listenbtn" onclick="playChapter('${jsq(sid)}',${it.chapter})">▶ Listen to this story</button>`;
+  let body;
+  if (it.type === 'image') {
+    body = `<div class="mdimg"><img src="${mediaURL(sid, it.file)}" alt=""></div>`;
+  } else if (it.type === 'video') {
+    body = `<div class="mdvideo"><iframe src="https://www.youtube-nocookie.com/embed/${esc(it.youtube_id)}?autoplay=1&rel=0&playsinline=1"
+      title="${esc(it.title || '')}" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe></div>`;
+  } else {
+    body = `<div class="mdaudio"><div class="mdaudioart">♪</div>
+      <button class="mplaybtn" onclick="playMediaAudio('${jsq(sid)}','${jsq(it.id)}')">▶ Play music</button>
+      <div class="mdhint">Plays in the bar below — tap <b>↩ Back to the tour</b> there to return to the story.</div></div>`;
+  }
+  return `<div class="mbar"><button class="iconbtn" onclick="mBack()">←</button>
+    <div class="mbartitle"><b>${esc(it.title || m.name)}</b><span>${esc(chapterLabel(m, it.chapter))}</span></div>
+    <button class="iconbtn mclose" onclick="closeMedia()">✕</button></div>
+    <div class="mdetail">${body}
+      <div class="mdcap">${esc(mediaCaption(it))}</div>
+      ${credit}
+      <div class="mdactions">${listen}</div></div>`;
+}
+// Jump from a media tile straight into the audio story it illustrates.
+window.playChapter = (sid, ch) => {
+  const s = MAN.sights.find(x => x.id === sid); if (!s) return;
+  const items = sightQueue(s);
+  const base = tracksOf(s)[ch - 1];
+  const idx = base ? Math.max(0, items.findIndex(it => it.file === base.file)) : 0;
+  screen = { name: 'sight', id: sid };
+  closeMedia();
+  loadQueue(items, idx, s.day); render(); window.scrollTo(0, 0);
+};
+// Play a short atmospheric music clip through the main player, remembering the
+// narration so the family can pop back with one tap.
+window.playMediaAudio = (sid, id) => {
+  const m = MEDIA[sid]; if (!m) return;
+  const it0 = m.items.find(x => x.id === id); if (!it0) return;
+  const c = queue[pos];
+  if (c && !c.isMedia) mediaStash = { queue: queue.slice(), pos, t: au.currentTime || 0, screen: { ...screen } };
+  const s = MAN.sights.find(x => x.id === sid);
+  closeMedia();
+  loadQueue([{
+    src: mediaURL(sid, it0.file), title: it0.title, sight: (s && s.name) || m.name,
+    sid, isMedia: true, num: '♪', mediaChapter: it0.chapter
+  }], 0, s ? s.day : undefined);
+};
+window.backToTour = () => {
+  const st = mediaStash; mediaStash = null;
+  if (!st) { au.pause(); queue = []; pos = -1; setNotice(''); render(); return; }
+  if (st.screen) screen = st.screen;
+  queue = st.queue;
+  const t = st.t || 0;
+  au.addEventListener('loadedmetadata', function h() {
+    if (t > 1 && au.duration && t < au.duration - 1) au.currentTime = t;
+    au.removeEventListener('loadedmetadata', h);
+  }, { once: true });
+  setPos(st.pos);
+  render();
+};
+
 // ---- resume where the family left off ----
 let lastSaveT = 0;
 function saveResume() {
-  if (pos < 0 || !queue[pos]) return;
+  if (pos < 0 || !queue[pos] || queue[pos].isMedia) return; // don't resume into a music clip
   saveJSON('resume', { screen, queue, pos, t: Math.floor(au.currentTime || 0), kid });
 }
 au.addEventListener('timeupdate', () => {
@@ -239,6 +378,13 @@ function dayAudioURLs(day) {
     if (INDOOR_MAPS.includes(s.id)) urls.push(mapURL(s.id + '-indoor'));
   });
   if (DAY_MAPS.includes(day)) urls.push(mapURL(`day-${String(day).padStart(2, '0')}`));
+  // Gallery images + music ride along so a saved day works offline (videos stay online).
+  MEDIA_SIGHTS.forEach(id => {
+    const s = MAN.sights.find(x => x.id === id);
+    const m = MEDIA[id];
+    if (!s || s.day !== day || !m) return;
+    m.items.forEach(it => { if (it.type === 'image' || it.type === 'audio') urls.push(mediaURL(id, it.file)); });
+  });
   return urls.map(u => new URL(u, location.href).href);
 }
 function cacheDay(day) {
@@ -328,6 +474,7 @@ window.setKid = v => {
    Rebuild the live queue in the new mode at the same story instead. */
 function remapQueue() {
   if (pos < 0 || !queue.length) return;
+  if (queue[pos] && queue[pos].isMedia) return; // a music clip has no audience variant
   const active = gap || !au.ended || (au.paused && au.currentTime > 0);
   if (!active) return;
   const cur = queue[pos];
@@ -408,6 +555,8 @@ function renderSight(s) {
   const a = accent(s.day);
   document.documentElement.style.setProperty('--accent', a);
   const cur = queue[pos];
+  const media = MEDIA[s.id];
+  if (media === undefined && MEDIA_SIGHTS.includes(s.id)) loadMedia(s.id); // re-renders when ready
   const list = tracksOf(s).map((t, i) => {
     const on = cur && cur.file === t.file;
     const more = chaptersOf(t);
@@ -430,10 +579,13 @@ function renderSight(s) {
     const crowns = crownsForTrack(t);
     const crownRow = crowns.length ? `<div class="crownrow">${crowns.map(m =>
       `<button onclick="event.stopPropagation();openMonarchy('${jsq(m.id)}')">👑 ${esc(m.name)}</button>`).join('')}</div>` : '';
+    const mch = media ? mediaItems(s.id, i + 1) : [];
+    const mediaChip = mch.length ? `<div class="mediachip" onclick="event.stopPropagation();openMedia('${jsq(s.id)}',${i + 1})">
+      ${mediaChipText(mch)}<span class="mchgo">Gallery ›</span></div>` : '';
     return `<div class="track ${on ? 'on' : ''}" onclick="playSightFile('${jsq(s.id)}','${jsq(t.file)}')">
       <div class="tnum">${on ? '▶' : (heard.has(t.file) ? '✔' : `${i + 1}.0`)}</div>
       <div style="flex:1"><h4 class="serif">${i + 1}.0 ${esc(displayTitle(t.title))}</h4>
-      <div class="tm">≈ ${Math.round(t.est_minutes || 1)} min${more.length ? ` · ${more.length} chapters · ${Math.round(trackMinutes(t))} min total` : ''}</div>${crownRow}</div></div>${childRows}${relRows}`;
+      <div class="tm">≈ ${Math.round(t.est_minutes || 1)} min${more.length ? ` · ${more.length} chapters · ${Math.round(trackMinutes(t))} min total` : ''}</div>${crownRow}${mediaChip}</div></div>${childRows}${relRows}`;
   }).join('');
   el.innerHTML = `<div class="topbar"><button class="iconbtn" onclick="goDays()">←</button>
     <div style="flex:1"><h2 class="serif" style="margin:0">${esc(s.name)}</h2>
@@ -445,6 +597,10 @@ function renderSight(s) {
     <div class="maprow" onclick="showMap('${jsq(s.id)}-indoor','${jsq(s.name)} — inside')">
       <img class="mapthumb" src="${mapURL(s.id + '-indoor')}" onerror="this.closest('.maprow').style.display='none'">
       <span>🏛 Inside — room-by-room sketch</span></div>
+    ${media ? `<div class="maprow mediarow" onclick="openMedia('${jsq(s.id)}',0)">
+      <div class="mapthumb mediaicon">🖼</div>
+      <span><b>Gallery</b> — ${media.counts.image} photos · ${media.counts.video} films · ${media.counts.audio} music
+      <span class="mediasub">See what to look for, and hear the period music</span></span></div>` : ''}
     <div class="readlinks"><span>Read offline</span>
       <a href="${readingURL(s, 'pdf')}" download>PDF</a>
       <a href="${readingURL(s, 'epub')}" download>EPUB</a>
@@ -558,6 +714,9 @@ function paintPlayer() {
     <input type="range" id="scrub" min="0" max="1000" value="0" style="accent-color:${a}">
     <div class="times"><span id="tcur">0:00</span><span id="tdur"></span></div>
     <div class="notice" id="notice" style="display:${notice ? '' : 'none'}">${esc(notice)}</div>
+    ${cur && cur.isMedia ? `<div class="mediaplaying">
+      <span>♪ Period music${cur.sight ? ` · ${esc(cur.sight)}` : ''}</span>
+      <button class="backtour" onclick="backToTour()">↩ Back to the tour</button></div>` : ''}
     ${gap && queue[pos + 1] ? `<div class="gapchip">
       <span>Next: <b>${esc(queue[pos + 1].title)}</b> in <span id="gapleft">${gapLeft()}</span>s</span>
       <button class="gapstay" onclick="stayHere()">✕ stay</button></div>` : ''}

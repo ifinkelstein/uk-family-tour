@@ -2,7 +2,7 @@
    App shell + images cached on install/first use; a day's audio is pre-cached
    on demand when the user starts playing that day.
    Shell is served stale-while-revalidate so deploys reach installed phones. */
-const VERSION = 'v5';
+const VERSION = 'v6';
 const SHELL = `shell-${VERSION}`;
 const AUDIO = 'audio-v2';
 const READING = 'reading-v1';
@@ -95,7 +95,9 @@ self.addEventListener('fetch', e => {
     e.respondWith(caches.match('index.html').then(r => r || fetch(req)));
     return;
   }
-  if (url.pathname.includes('/audio/') && url.pathname.endsWith('.mp3')) {
+  // Narration MP3s and media-drawer music (.m4a) both live under an /audio/ path
+  // and both need Range-aware serving for iOS Safari's media stack.
+  if (url.pathname.includes('/audio/') && (url.pathname.endsWith('.mp3') || url.pathname.endsWith('.m4a'))) {
     e.respondWith(serveAudio(req));
     return;
   }

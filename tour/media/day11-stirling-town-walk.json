@@ -1,0 +1,127 @@
+{
+ "sight": "day11-stirling-town-walk",
+ "name": "Stirling Old Town Walk",
+ "title": "The walk, stop by stop",
+ "note": "Photos of each stop on the optional walk down from the castle through Stirling's old town to the Old Bridge. Tap any picture for the story and its source.",
+ "chapters": [
+  {
+   "n": 1,
+   "label": "The Old Town Walk"
+  }
+ ],
+ "counts": {
+  "image": 9,
+  "video": 0,
+  "audio": 0
+ },
+ "items": [
+  {
+   "type": "image",
+   "id": "01-broad-street",
+   "chapter": 1,
+   "file": "images/01-broad-street.jpg",
+   "caption": "Broad Street, the wide market spine of the old town. Everything on this walk lies along the ridge running down from the castle to the river.",
+   "kidcaption": "Broad Street, the old town's main street. The whole walk runs downhill from the castle to the river along this ridge.",
+   "credit": "Fabiform at English Wikipedia",
+   "license": "CC BY-SA 3.0",
+   "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:Broad_St_Stirling_Scotland.jpg"
+  },
+  {
+   "type": "image",
+   "id": "02-holy-rude-nave",
+   "chapter": 1,
+   "file": "images/02-holy-rude-nave.jpg",
+   "caption": "Inside the Church of the Holy Rude. In 1567 the infant James VI, Mary's son, was crowned King of Scots here, with John Knox preaching the sermon.",
+   "kidcaption": "Inside the town church. A baby king, James, was crowned right here, just down the hill from where his mum Mary had been crowned in the castle.",
+   "credit": "Robert Cutts from Bristol, England, UK",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:The_Church_of_the_Holy_Rude,_Stirling,_nave_(28596961732).jpg"
+  },
+  {
+   "type": "image",
+   "id": "03-holy-rude-ext",
+   "chapter": 1,
+   "file": "images/03-holy-rude-ext.jpg",
+   "caption": "The Church of the Holy Rude from outside, one of very few churches in Britain to have hosted a coronation, with a medieval graveyard spilling down the slope.",
+   "kidcaption": "The town church from outside. Look for the old, old gravestones tumbling down the hill beside it.",
+   "credit": "David Monniaux",
+   "license": "CC BY-SA 3.0",
+   "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:Stirling_Church_of_the_Holy_Rude_dsc06540.jpg"
+  },
+  {
+   "type": "image",
+   "id": "04-old-town-jail",
+   "chapter": 1,
+   "file": "images/04-old-town-jail.jpg",
+   "caption": "The Old Town Jail, a stern Victorian prison of 1847, now toured with costumed guides. Before it, prisoners were held in the grim old Tolbooth down the street.",
+   "kidcaption": "The Old Town Jail. Costumed guides will show you the cold cells and act out just how tough life was for the prisoners here.",
+   "credit": "Mochaaja",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:The_Old_Town_Jail_in_Stirling.jpg"
+  },
+  {
+   "type": "image",
+   "id": "05-mars-wark",
+   "chapter": 1,
+   "file": "images/05-mars-wark.jpg",
+   "caption": "Mar's Wark, the carved facade of a grand town house begun around 1570 by the Earl of Mar, hereditary keeper of the castle. Never finished, now a striking shell.",
+   "kidcaption": "Mar's Wark. A powerful earl started building this fancy house about 450 years ago, but it was never finished, so now it is a spooky stone shell.",
+   "credit": "dun_deagh",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Mar%27s_Wark,_Stirling_(9955432695).jpg"
+  },
+  {
+   "type": "image",
+   "id": "06-argylls-lodging",
+   "chapter": 1,
+   "file": "images/06-argylls-lodging.jpg",
+   "caption": "Argyll's Lodging, the finest surviving 17th-century town house of its kind in Scotland: how the nobility lived in town, in comfort, just below the fortress.",
+   "kidcaption": "Argyll's Lodging, a rich noble's town house. This is how the fanciest families lived when they came down from the castle into town.",
+   "credit": "Kim Traynor",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Argyll%27s_Lodging,_Stirling,_from_the_courtyard.jpg"
+  },
+  {
+   "type": "image",
+   "id": "07-mercat-unicorn",
+   "chapter": 1,
+   "file": "images/07-mercat-unicorn.jpg",
+   "caption": "The unicorn atop the Mercat Cross, nicknamed 'the Puggy'. The market cross was the heart of town business, proclamations, and public punishments.",
+   "kidcaption": "The unicorn on top of the market cross has a nickname, 'the Puggy'. This spot was where markets, news, and even punishments happened.",
+   "credit": "kim traynor",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Mercat_cross_unicorn,_Broad_Street_-_geograph.org.uk_-_2723362.jpg"
+  },
+  {
+   "type": "image",
+   "id": "08-tolbooth",
+   "chapter": 1,
+   "file": "images/08-tolbooth.jpg",
+   "caption": "The Tolbooth, the old town hall, courthouse and jail rolled into one, where the burgh governed itself, collected its dues, and locked up wrongdoers.",
+   "kidcaption": "The Tolbooth was the town's town hall, court, and jail all in one building. If you broke the rules, this is where you ended up.",
+   "credit": "Eirian Evans",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Tolbooth,_Stirling_-_geograph.org.uk_-_7121405.jpg"
+  },
+  {
+   "type": "image",
+   "id": "09-old-bridge",
+   "chapter": 1,
+   "file": "images/09-old-bridge.jpg",
+   "caption": "The end of the walk: the Old Stirling Bridge, the 15th-century stone successor to the timber bridge where Wallace sprang his trap in 1297.",
+   "kidcaption": "The walk ends at the old stone bridge. The wooden bridge from Wallace's famous trap in 1297 stood right next to it.",
+   "credit": "Richard Sutcliffe",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Old_Stirling_Bridge_-_geograph.org.uk_-_7180834.jpg"
+  }
+ ]
+}

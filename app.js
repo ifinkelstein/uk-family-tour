@@ -10,7 +10,7 @@ const readingURL = (s, ext) => `${ext === 'pdf' ? 'reading-pdfs' : 'reading-epub
 // Media drawer: photos, short films and period music per sight, tagged to a
 // chapter (1-based base-track index). Assets live under tour/media/<sid>/.
 const mediaURL = (sid, f) => `${ASSETS}/media/${sid}/${f}`;
-const MEDIA_SIGHTS = ['day11-stirling-castle']; // sights that ship a media/<id>.json
+const MEDIA_SIGHTS = ['day11-stirling-castle', 'day11-stirling-town-walk']; // sights that ship a media/<id>.json
 
 const el = document.getElementById('app');
 const au = document.getElementById('au');
@@ -510,7 +510,7 @@ function renderDays() {
     h += `<div class="dayhead${today ? ' today' : ''}" id="day-${day}"><span class="dot" style="background:${a}"></span>
       <span class="daylabel" style="color:${a}">Day ${day} · ${esc(sights[0].date || '')} · ${cityName(day)}</span>
       ${today ? '<span class="todaypill">TODAY</span>' : ''}
-      ${sights.length > 1 ? `<button class="dlbtn" onclick="showMap('day-${String(day).padStart(2, '0')}', 'Day ${day} overview')">🗺</button>` : ''}
+      ${sights.length > 1 && DAY_MAPS.includes(day) ? `<button class="dlbtn" onclick="showMap('day-${String(day).padStart(2, '0')}', 'Day ${day} overview')">🗺</button>` : ''}
       <button class="dlbtn" id="dl-${day}" onclick="saveDay(${day})">⬇</button>
       <button class="playday" style="background:${a}22;color:${a}" onclick="openDayPlay(${day})">▶ Play day</button></div>`;
     sights.forEach(s => {

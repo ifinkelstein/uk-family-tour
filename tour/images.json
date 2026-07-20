@@ -170,5 +170,16 @@
    "Coppergate helmet",
    "Lloyds Bank coprolite"
   ]
+ },
+ "day11-stirling-town-walk": {
+  "emoji": "🚶",
+  "color": "#6E5A3E",
+  "wiki": [
+   "Church of the Holy Rude",
+   "Argyll's Lodging",
+   "Mar's Wark",
+   "Old Town Jail",
+   "Old Stirling Bridge"
+  ]
  }
 }

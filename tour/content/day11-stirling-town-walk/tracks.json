@@ -1,0 +1,30 @@
+{
+  "kid": [
+    {
+      "file": "content/day11-stirling-town-walk/kid/01-old-town-walk.md",
+      "title": "The Secret Town Down the Hill",
+      "est_minutes": 1.7,
+      "tell_me_more": [
+        {"file": "content/day11-stirling-town-walk/kid/01-old-town-walk-more-1.md", "title": "The Baby Who Was Crowned King", "est_minutes": 2.4},
+        {"file": "content/day11-stirling-town-walk/kid/01-old-town-walk-more-2.md", "title": "The Spooky Old Jail", "est_minutes": 2.2},
+        {"file": "content/day11-stirling-town-walk/kid/01-old-town-walk-more-3.md", "title": "The Show-Off Houses of the Nobles", "est_minutes": 2.2},
+        {"file": "content/day11-stirling-town-walk/kid/01-old-town-walk-more-4.md", "title": "The Unicorn on the Cross", "est_minutes": 2.3},
+        {"file": "content/day11-stirling-town-walk/kid/01-old-town-walk-more-5.md", "title": "The Bridge With a Battle Secret", "est_minutes": 2.5}
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day11-stirling-town-walk/adult/01-old-town-walk.md",
+      "title": "Stirling's Old Town: An Optional Walk Downhill",
+      "est_minutes": 2.0,
+      "tell_me_more": [
+        {"file": "content/day11-stirling-town-walk/adult/01-old-town-walk-more-1.md", "title": "The Church Where a King Was Crowned", "est_minutes": 2.5},
+        {"file": "content/day11-stirling-town-walk/adult/01-old-town-walk-more-2.md", "title": "The Old Town Jail", "est_minutes": 2.2},
+        {"file": "content/day11-stirling-town-walk/adult/01-old-town-walk-more-3.md", "title": "Two Great Houses: Mar's Wark and Argyll's Lodging", "est_minutes": 2.6},
+        {"file": "content/day11-stirling-town-walk/adult/01-old-town-walk-more-4.md", "title": "The Market Cross and the Heart of the Town", "est_minutes": 2.5},
+        {"file": "content/day11-stirling-town-walk/adult/01-old-town-walk-more-5.md", "title": "The Old Bridge and the Town Walls", "est_minutes": 2.9}
+      ]
+    }
+  ]
+}

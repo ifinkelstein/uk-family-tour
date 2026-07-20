@@ -1,0 +1,8 @@
+# The Show-Off Houses of the Nobles
+Look at this enormous stone wall, covered all over in carvings, right at the top of the street. It is called Mar's Wark, and "wark" is just an old Scottish way of saying "building." Here is the funny thing about it. It is almost all show and no house. If you peek behind that grand, fancy front, there is hardly anything there at all. It is like a giant stage set, or the front of a cardboard castle.
+
+Why would someone build a house that is mostly just a fancy front? Well, the man who built it, the Earl of Mar, had a very important job. His family were the guards of Stirling Castle. For years and years, it was their job to protect the castle, and even to help look after the royal children who grew up inside it. So the Earl wanted everyone walking up to the castle to see just how grand and important he was. He built this show-off wall, all covered in carved figures and animals, right where nobody could possibly miss it. People even say he took the stones for it from an old abbey nearby. Sneaky.
+
+A little further along is another posh house, called Argyll's Lodging, and this one is not a trick, it is real and complete. It is the fanciest old town house left in all of Scotland. One of the men who owned it spent so much money making it beautiful, hoping the king would come and visit, that he ran right out of money and ended up owing coins to just about everybody.
+
+So here is the idea. Up the hill, the king and queen lived in the grandest place of all, the castle. And all the rich, important nobles wanted to live as close to the king as they possibly could, in the fanciest houses they could build. A bit like everyone crowding to sit next to the most popular kid at lunchtime.

@@ -1,0 +1,291 @@
+{
+ "sight": "day09-literary-edinburgh",
+ "name": "Edinburgh, City of Literature",
+ "title": "Writers, portraits, places & readings",
+ "note": "Portraits and places for each writer, a few short films, and read-aloud passages from the classics. Tap a chapter to jump to that author's story.",
+ "chapters": [
+  {
+   "n": 1,
+   "label": "Edinburgh, City of Literature"
+  },
+  {
+   "n": 2,
+   "label": "Robert Burns"
+  },
+  {
+   "n": 3,
+   "label": "Sir Walter Scott"
+  },
+  {
+   "n": 4,
+   "label": "Robert Louis Stevenson"
+  },
+  {
+   "n": 5,
+   "label": "Sherlock Holmes & Conan Doyle"
+  },
+  {
+   "n": 6,
+   "label": "Modern Edinburgh"
+  }
+ ],
+ "counts": {
+  "image": 12,
+  "video": 4,
+  "audio": 4
+ },
+ "items": [
+  {
+   "type": "image",
+   "id": "01-writers-museum",
+   "chapter": 1,
+   "file": "images/01-writers-museum.jpg",
+   "caption": "Lady Stair's House on the Royal Mile, now the Writers' Museum, dedicated to Burns, Scott and Stevenson. Edinburgh was the world's first UNESCO City of Literature.",
+   "kidcaption": "This old house on the Royal Mile is a museum all about Edinburgh's most famous writers. The city was the first ever named a 'City of Literature'.",
+   "credit": "Stephencdickson",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Lady_Stair%27s_House_(the_Writers_Museum),_Lawnmarket,_Edinburgh.jpg"
+  },
+  {
+   "type": "image",
+   "id": "02-burns-portrait",
+   "chapter": 2,
+   "file": "images/02-burns-portrait.jpg",
+   "caption": "Robert Burns, Scotland's national poet. He wrote in Scots, and gave the world Auld Lang Syne and A Red, Red Rose, sung by millions who have no idea they are his.",
+   "kidcaption": "Robert Burns, Scotland's most famous poet. You already know one of his songs: everyone sings Auld Lang Syne at New Year!",
+   "credit": "Alexander Nasmyth and John Beugo",
+   "license": "Public domain",
+   "license_url": "",
+   "source": "https://commons.wikimedia.org/wiki/File:Robert_Burns_Portrait_by_Alexander_Nasmyth_%26_John_Beugo.jpg"
+  },
+  {
+   "type": "video",
+   "id": "vid-LCzvxy5JBDQ",
+   "chapter": 2,
+   "provider": "youtube",
+   "youtube_id": "LCzvxy5JBDQ",
+   "url": "https://www.youtube.com/watch?v=LCzvxy5JBDQ",
+   "thumb": "https://i.ytimg.com/vi/LCzvxy5JBDQ/hqdefault.jpg",
+   "title": "Auld Lang Syne, by Robert Burns",
+   "caption": "A Scots performance of Burns's Auld Lang Syne, the song the whole world sings on New Year's Eve.",
+   "kidcaption": "Listen to the real Scottish song you sing at New Year, written by Robert Burns.",
+   "credit": "ScotsHoose Yaldi",
+   "license": "Linked on YouTube (not redistributed)",
+   "source": "https://www.youtube.com/watch?v=LCzvxy5JBDQ"
+  },
+  {
+   "type": "audio",
+   "id": "reading-burns-red-rose",
+   "chapter": 2,
+   "file": "audio/reading-burns-red-rose.m4a",
+   "title": "Reading: A Red, Red Rose (Burns)",
+   "caption": "A short reading of Burns's most famous love poem.",
+   "kidcaption": "A reading of Burns's famous poem, A Red, Red Rose.",
+   "credit": "Read aloud (Kokoro TTS); text is public domain",
+   "license": "'A Red, Red Rose' by Robert Burns (1794) — public domain",
+   "source": "https://en.wikisource.org/"
+  },
+  {
+   "type": "image",
+   "id": "03-scott-portrait",
+   "chapter": 3,
+   "file": "images/03-scott-portrait.jpg",
+   "caption": "Sir Walter Scott, who all but invented the historical novel (Waverley, Ivanhoe, Rob Roy) and was the most famous writer in the world in his day.",
+   "kidcaption": "Sir Walter Scott, who wrote thrilling adventure stories about the past, like Ivanhoe and Rob Roy. He was a superstar author 200 years ago.",
+   "credit": "Henry Raeburn",
+   "license": "Public domain",
+   "license_url": "",
+   "source": "https://commons.wikimedia.org/wiki/File:Sir_Henry_Raeburn_-_Portrait_of_Sir_Walter_Scott.jpg"
+  },
+  {
+   "type": "image",
+   "id": "04-scott-monument",
+   "chapter": 3,
+   "file": "images/04-scott-monument.jpg",
+   "caption": "The Scott Monument on Princes Street, a 200-foot Gothic rocket of a memorial, often called the largest monument to a writer anywhere. Edinburgh's Waverley Station is named after his novel.",
+   "kidcaption": "The giant black rocket-shaped tower is a monument to one writer, Walter Scott. Even the city's main train station, Waverley, is named after his book!",
+   "credit": "Daniel Kraft",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Edinburgh_Scott_Monument_20211019.jpg"
+  },
+  {
+   "type": "audio",
+   "id": "reading-scott-lady-lake",
+   "chapter": 3,
+   "file": "audio/reading-scott-lady-lake.m4a",
+   "title": "Reading: The Lady of the Lake (Scott)",
+   "caption": "The opening lines of Scott's narrative poem set in the Trossachs, near Stirling.",
+   "kidcaption": "The stag-at-dawn opening of one of Walter Scott's most famous poems.",
+   "credit": "Read aloud (Kokoro TTS); text is public domain",
+   "license": "'The Lady of the Lake' by Sir Walter Scott (1810) — public domain",
+   "source": "https://en.wikisource.org/"
+  },
+  {
+   "type": "image",
+   "id": "05-stevenson-portrait",
+   "chapter": 4,
+   "file": "images/05-stevenson-portrait.jpg",
+   "caption": "Robert Louis Stevenson, Edinburgh-born author of Treasure Island, Kidnapped, and Strange Case of Dr Jekyll and Mr Hyde.",
+   "kidcaption": "Robert Louis Stevenson, who wrote Treasure Island, the pirate story that gave us treasure maps, peg-legs and 'X marks the spot'.",
+   "credit": "John Singer Sargent",
+   "license": "Public domain",
+   "license_url": "",
+   "source": "https://commons.wikimedia.org/wiki/File:Robert_Louis_Stevenson_by_Sargent.jpg"
+  },
+  {
+   "type": "image",
+   "id": "06-treasure-island",
+   "chapter": 4,
+   "file": "images/06-treasure-island.jpg",
+   "caption": "An illustration from Treasure Island. Stevenson set the template for every pirate story since: the map, the black spot, the one-legged Long John Silver.",
+   "kidcaption": "A picture from Treasure Island. Almost everything you picture about pirates, the map, the parrot, 'X marks the spot', comes from this one book.",
+   "credit": "N. C. Wyeth",
+   "license": "Public domain",
+   "license_url": "",
+   "source": "https://commons.wikimedia.org/wiki/File:N._C._Wyeth_-_Treasure_Island_-_Blind_Pew.jpg"
+  },
+  {
+   "type": "image",
+   "id": "07-deacon-brodie",
+   "chapter": 4,
+   "file": "images/07-deacon-brodie.jpg",
+   "caption": "Deacon Brodie's Tavern. The real Brodie was a respectable craftsman by day and a burglar by night, hanged in 1788, and a likely spark for Jekyll and Hyde.",
+   "kidcaption": "This pub is named after Deacon Brodie, a real man who was a respectable gentleman by day and a sneaky burglar by night. Sound like anyone? Jekyll and Hyde!",
+   "credit": "Andraszy",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Deacon_Brodie%27s_Tavern,_Edinburgh.jpg"
+  },
+  {
+   "type": "video",
+   "id": "vid-CtEb8MQOzoI",
+   "chapter": 4,
+   "provider": "youtube",
+   "youtube_id": "CtEb8MQOzoI",
+   "url": "https://www.youtube.com/watch?v=CtEb8MQOzoI",
+   "thumb": "https://i.ytimg.com/vi/CtEb8MQOzoI/hqdefault.jpg",
+   "title": "Treasure Island — animated summary",
+   "caption": "A short animated tour of Stevenson's Treasure Island, the book that invented the pirate story as we know it.",
+   "kidcaption": "A quick cartoon of the whole Treasure Island story: the map, the pirates, and Long John Silver.",
+   "credit": "The Book Tutor",
+   "license": "Linked on YouTube (not redistributed)",
+   "source": "https://www.youtube.com/watch?v=CtEb8MQOzoI"
+  },
+  {
+   "type": "audio",
+   "id": "reading-stevenson-treasure",
+   "chapter": 4,
+   "file": "audio/reading-stevenson-treasure.m4a",
+   "title": "Reading: Treasure Island (Stevenson)",
+   "caption": "The pirate song and the arrival of the old sea-dog, from the opening of Treasure Island.",
+   "kidcaption": "'Fifteen men on the dead man's chest...' the pirate song that opens Treasure Island.",
+   "credit": "Read aloud (Kokoro TTS); text is public domain",
+   "license": "'Treasure Island' by Robert Louis Stevenson (1883) — public domain",
+   "source": "https://en.wikisource.org/"
+  },
+  {
+   "type": "image",
+   "id": "08-conan-doyle",
+   "chapter": 5,
+   "file": "images/08-conan-doyle.jpg",
+   "caption": "Arthur Conan Doyle, born in Edinburgh in 1859, creator of Sherlock Holmes. The model for Holmes was his university teacher Dr Joseph Bell.",
+   "kidcaption": "Arthur Conan Doyle, who invented Sherlock Holmes. He based the great detective on his real teacher, a doctor who could guess a stranger's job at a glance.",
+   "credit": "Elliott & Fry",
+   "license": "Public domain",
+   "license_url": "",
+   "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Arthur_Conan_Doyle.jpg"
+  },
+  {
+   "type": "image",
+   "id": "09-sherlock-paget",
+   "chapter": 5,
+   "file": "images/09-sherlock-paget.jpg",
+   "caption": "Sherlock Holmes as first drawn by Sidney Paget. Detective fiction as we know it was essentially born in an Edinburgh classroom.",
+   "kidcaption": "The very first pictures of Sherlock Holmes looked like this. The whole idea of a brilliant detective solving clues started right here in Edinburgh.",
+   "credit": "Sidney Paget 1860-1908",
+   "license": "Public domain",
+   "license_url": "",
+   "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Sherlock_Holmes_by_Sidney_Paget-Cropped.jpg"
+  },
+  {
+   "type": "video",
+   "id": "vid-Ca1X9k-Y8fU",
+   "chapter": 5,
+   "provider": "youtube",
+   "youtube_id": "Ca1X9k-Y8fU",
+   "url": "https://www.youtube.com/watch?v=Ca1X9k-Y8fU",
+   "thumb": "https://i.ytimg.com/vi/Ca1X9k-Y8fU/hqdefault.jpg",
+   "title": "Dr Joseph Bell — the real-life Sherlock Holmes",
+   "caption": "The story of Dr Joseph Bell, the Edinburgh surgeon whose uncanny powers of observation gave Conan Doyle his Sherlock Holmes.",
+   "kidcaption": "Meet the real doctor whose amazing observation skills gave the world Sherlock Holmes.",
+   "credit": "Professor Graeme Yorston",
+   "license": "Linked on YouTube (not redistributed)",
+   "source": "https://www.youtube.com/watch?v=Ca1X9k-Y8fU"
+  },
+  {
+   "type": "audio",
+   "id": "reading-doyle-sherlock",
+   "chapter": 5,
+   "file": "audio/reading-doyle-sherlock.m4a",
+   "title": "Reading: A Study in Scarlet (Doyle)",
+   "caption": "Holmes's very first deduction about Dr Watson, from the first Sherlock Holmes story.",
+   "kidcaption": "Sherlock's very first magic trick: guessing all about Watson the moment they meet.",
+   "credit": "Read aloud (Kokoro TTS); text is public domain",
+   "license": "'A Study in Scarlet' by Arthur Conan Doyle (1887) — public domain",
+   "source": "https://en.wikisource.org/"
+  },
+  {
+   "type": "image",
+   "id": "10-elephant-house",
+   "chapter": 6,
+   "file": "images/10-elephant-house.jpg",
+   "caption": "The Elephant House cafe, one of the Edinburgh cafes where J.K. Rowling wrote parts of early Harry Potter. (She wrote in several places; enjoy the legend with a pinch of salt.)",
+   "kidcaption": "This cafe is one of the places J.K. Rowling sat and wrote Harry Potter, looking out at the castle. Imagine dreaming up Hogwarts over a cup of hot chocolate!",
+   "credit": "Stephen Montgomery from Kallangur, Australia",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:The_Elephant_House.jpg"
+  },
+  {
+   "type": "image",
+   "id": "11-greyfriars",
+   "chapter": 6,
+   "file": "images/11-greyfriars.jpg",
+   "caption": "Greyfriars Kirkyard, a short walk away. Fans love to point out old gravestones here (including a 'Thomas Riddell') as Harry Potter inspiration, though Rowling has never confirmed it.",
+   "kidcaption": "This spooky old graveyard has a gravestone reading 'Thomas Riddell'. Harry Potter fans think it inspired a certain villain's name. Nobody knows for sure!",
+   "credit": "Brian Deegan",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Mortsafes_Graves,_Greyfriars_Kirkyard_-_geograph.org.uk_-_8171776.jpg"
+  },
+  {
+   "type": "image",
+   "id": "12-george-heriots",
+   "chapter": 6,
+   "file": "images/12-george-heriots.jpg",
+   "caption": "George Heriot's School, an old turreted school beside Greyfriars that fans like to compare to Hogwarts, with its four houses. A fun 'maybe', not a confirmed fact.",
+   "kidcaption": "Does this turreted old school look a bit like Hogwarts to you? It even has four houses! Fans think it gave Rowling ideas, but it is just a fun maybe.",
+   "credit": "LornaMCampbell",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:George_Heriot%27s_School,_Edinburgh.jpg"
+  },
+  {
+   "type": "video",
+   "id": "vid-B1AzpPOoAlw",
+   "chapter": 6,
+   "provider": "youtube",
+   "youtube_id": "B1AzpPOoAlw",
+   "url": "https://www.youtube.com/watch?v=B1AzpPOoAlw",
+   "thumb": "https://i.ytimg.com/vi/B1AzpPOoAlw/hqdefault.jpg",
+   "title": "Harry Potter in Edinburgh — the inspiration spots",
+   "caption": "A walk round the Edinburgh places fans link to Harry Potter, from the cafes to Greyfriars and Victoria Street.",
+   "kidcaption": "See the real Edinburgh streets and graveyards that fans think inspired Harry Potter.",
+   "credit": "Bemayone Vanlife",
+   "license": "Linked on YouTube (not redistributed)",
+   "source": "https://www.youtube.com/watch?v=B1AzpPOoAlw"
+  }
+ ]
+}

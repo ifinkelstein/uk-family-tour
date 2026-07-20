@@ -10,7 +10,7 @@ const readingURL = (s, ext) => `${ext === 'pdf' ? 'reading-pdfs' : 'reading-epub
 // Media drawer: photos, short films and period music per sight, tagged to a
 // chapter (1-based base-track index). Assets live under tour/media/<sid>/.
 const mediaURL = (sid, f) => `${ASSETS}/media/${sid}/${f}`;
-const MEDIA_SIGHTS = ['day11-stirling-castle', 'day11-stirling-town-walk']; // sights that ship a media/<id>.json
+const MEDIA_SIGHTS = ['day11-stirling-castle', 'day11-stirling-town-walk', 'day09-literary-edinburgh']; // sights that ship a media/<id>.json
 
 const el = document.getElementById('app');
 const au = document.getElementById('au');

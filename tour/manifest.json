@@ -3482,6 +3482,83 @@
    "adult_total_minutes": 4.8
   },
   {
+   "id": "day09-literary-edinburgh",
+   "name": "Edinburgh, City of Literature",
+   "day": 9,
+   "date": "Sun Jul 19",
+   "note": "Optional · the writers who made Edinburgh a city of stories",
+   "tracks": {
+    "kid": [
+     {
+      "file": "content/day09-literary-edinburgh/kid/01-city-of-literature.md",
+      "title": "The City That's Famous for Stories",
+      "est_minutes": 2.4,
+      "tell_me_more": [
+       {
+        "file": "content/day09-literary-edinburgh/kid/01-city-of-literature-more-1.md",
+        "title": "The Poet Everyone Sings",
+        "est_minutes": 3.1
+       },
+       {
+        "file": "content/day09-literary-edinburgh/kid/01-city-of-literature-more-2.md",
+        "title": "The Writer With a Train Station Named After Him",
+        "est_minutes": 3.1
+       },
+       {
+        "file": "content/day09-literary-edinburgh/kid/01-city-of-literature-more-3.md",
+        "title": "The Spooky Secret Behind Jekyll and Hyde",
+        "est_minutes": 3.2
+       },
+       {
+        "file": "content/day09-literary-edinburgh/kid/01-city-of-literature-more-4.md",
+        "title": "The Real Man Who Could Read Your Life",
+        "est_minutes": 3.4
+       },
+       {
+        "file": "content/day09-literary-edinburgh/kid/01-city-of-literature-more-5.md",
+        "title": "The Cafes Where Harry Potter Was Written",
+        "est_minutes": 3.4
+       }
+      ]
+     }
+    ],
+    "adult": [
+     {
+      "file": "content/day09-literary-edinburgh/adult/01-city-of-literature.md",
+      "title": "The First City of Literature",
+      "est_minutes": 2.4,
+      "tell_me_more": [
+       {
+        "file": "content/day09-literary-edinburgh/adult/01-city-of-literature-more-1.md",
+        "title": "Robert Burns, Scotland's Voice",
+        "est_minutes": 3.2
+       },
+       {
+        "file": "content/day09-literary-edinburgh/adult/01-city-of-literature-more-2.md",
+        "title": "Sir Walter Scott, the Wizard of the North",
+        "est_minutes": 3.6
+       },
+       {
+        "file": "content/day09-literary-edinburgh/adult/01-city-of-literature-more-3.md",
+        "title": "Robert Louis Stevenson and the City's Double Life",
+        "est_minutes": 3.7
+       },
+       {
+        "file": "content/day09-literary-edinburgh/adult/01-city-of-literature-more-4.md",
+        "title": "Sherlock Holmes Was Born in a Classroom Here",
+        "est_minutes": 3.4
+       },
+       {
+        "file": "content/day09-literary-edinburgh/adult/01-city-of-literature-more-5.md",
+        "title": "Modern Edinburgh, From Miss Brodie to a Boy Wizard",
+        "est_minutes": 3.6
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
    "id": "day10-inchcolm-island",
    "name": "Inchcolm Island & Forth Bridge",
    "day": 10,

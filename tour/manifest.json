@@ -3773,6 +3773,28 @@
    "tracks": {
     "kid": [
      {
+      "file": "content/day11-stirling-castle/kid/00-why-stirling-matters.md",
+      "title": "Why This Castle Is So Special",
+      "est_minutes": 1.6,
+      "tell_me_more": [
+       {
+        "file": "content/day11-stirling-castle/kid/00-why-stirling-matters-more-1.md",
+        "title": "Two Countries Sharing One Island",
+        "est_minutes": 1.7
+       },
+       {
+        "file": "content/day11-stirling-castle/kid/00-why-stirling-matters-more-2.md",
+        "title": "When Did All This Happen?",
+        "est_minutes": 1.6
+       },
+       {
+        "file": "content/day11-stirling-castle/kid/00-why-stirling-matters-more-3.md",
+        "title": "One Family and a Whole Lot of Castles",
+        "est_minutes": 1.6
+       }
+      ]
+     },
+     {
       "file": "content/day11-stirling-castle/kid/01-key-to-scotland.md",
       "title": "The Castle That Was the Key to Scotland",
       "est_minutes": 1.5,
@@ -3891,6 +3913,28 @@
      }
     ],
     "adult": [
+     {
+      "file": "content/day11-stirling-castle/adult/00-why-stirling-matters.md",
+      "title": "Why Stirling Matters",
+      "est_minutes": 2.3,
+      "tell_me_more": [
+       {
+        "file": "content/day11-stirling-castle/adult/00-why-stirling-matters-more-1.md",
+        "title": "Two Kingdoms on One Island",
+        "est_minutes": 2.6
+       },
+       {
+        "file": "content/day11-stirling-castle/adult/00-why-stirling-matters-more-2.md",
+        "title": "A Timeline You Can Hang This On",
+        "est_minutes": 2.9
+       },
+       {
+        "file": "content/day11-stirling-castle/adult/00-why-stirling-matters-more-3.md",
+        "title": "The Family That Ties the Whole Trip Together",
+        "est_minutes": 2.7
+       }
+      ]
+     },
      {
       "file": "content/day11-stirling-castle/adult/01-key-to-scotland.md",
       "title": "Stirling: The Brooch That Clasps Scotland",

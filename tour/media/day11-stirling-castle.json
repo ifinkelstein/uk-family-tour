@@ -6,22 +6,26 @@
  "chapters": [
   {
    "n": 1,
-   "label": "The Key to Scotland — Wallace & Bannockburn"
+   "label": "Why Stirling Matters — the big picture"
   },
   {
    "n": 2,
-   "label": "James V's Renaissance Palace"
+   "label": "The Key to Scotland — Wallace & Bannockburn"
   },
   {
    "n": 3,
-   "label": "Mary, Court Life & the Feasts"
+   "label": "James V's Renaissance Palace"
   },
   {
    "n": 4,
-   "label": "The Douglas Window"
+   "label": "Mary, Court Life & the Feasts"
   },
   {
    "n": 5,
+   "label": "The Douglas Window"
+  },
+  {
+   "n": 6,
    "label": "The Soldiers' Castle"
   }
  ],
@@ -34,7 +38,7 @@
   {
    "type": "image",
    "id": "01-aerial-crag",
-   "chapter": 1,
+   "chapter": 2,
    "file": "images/01-aerial-crag.jpg",
    "caption": "Stirling Castle from the air, riding the same crag-and-tail volcanic rock as Edinburgh. Look how it commands the whole plain: every army moving between Highlands and Lowlands had to pass below.",
    "kidcaption": "The castle sits on top of an old volcano. From up here you can see why nobody could sneak past it.",
@@ -46,7 +50,7 @@
   {
    "type": "image",
    "id": "02-wallace-monument",
-   "chapter": 1,
+   "chapter": 2,
    "file": "images/02-wallace-monument.jpg",
    "caption": "The Wallace Monument on Abbey Craig, across the valley. William Wallace watched the English army form up here before the Battle of Stirling Bridge in 1297.",
    "kidcaption": "This tower marks the hill where William Wallace stood and watched the enemy army before he beat them at Stirling Bridge.",
@@ -58,7 +62,7 @@
   {
    "type": "image",
    "id": "03-bruce-statue",
-   "chapter": 1,
+   "chapter": 2,
    "file": "images/03-bruce-statue.jpg",
    "caption": "Robert the Bruce on the castle esplanade, sword sheathed, looking toward Bannockburn where he won Scotland's freedom in 1314.",
    "kidcaption": "Robert the Bruce, the king who won the great battle at Bannockburn, just down the hill from here.",
@@ -70,7 +74,7 @@
   {
    "type": "image",
    "id": "04-old-bridge",
-   "chapter": 1,
+   "chapter": 2,
    "file": "images/04-old-bridge.jpg",
    "caption": "The Old Stirling Bridge. This 15th-century stone bridge stands just downstream of the narrow timber bridge where Wallace sprang his trap in 1297.",
    "kidcaption": "The old stone bridge. The wooden bridge Wallace used for his trap stood right next to this one.",
@@ -82,7 +86,7 @@
   {
    "type": "video",
    "id": "vid-SrY6l6Uzjqg",
-   "chapter": 1,
+   "chapter": 2,
    "provider": "youtube",
    "youtube_id": "SrY6l6Uzjqg",
    "url": "https://www.youtube.com/watch?v=SrY6l6Uzjqg",
@@ -98,7 +102,7 @@
   {
    "type": "video",
    "id": "vid-sbkK9zehrJw",
-   "chapter": 1,
+   "chapter": 2,
    "provider": "youtube",
    "youtube_id": "sbkK9zehrJw",
    "url": "https://www.youtube.com/watch?v=sbkK9zehrJw",
@@ -114,7 +118,7 @@
   {
    "type": "audio",
    "id": "theme-bannockburn-march",
-   "chapter": 1,
+   "chapter": 2,
    "file": "audio/theme-bannockburn-march.m4a",
    "title": "Hey Tuttie Tatie (fife & drum march)",
    "caption": "'Hey Tuttie Tatie' — by tradition the very air played by Bruce's army at Bannockburn in 1314, here on fife and drum. Burns later set 'Scots Wha Hae' to it.",
@@ -126,7 +130,7 @@
   {
    "type": "audio",
    "id": "theme-scots-wha-hae-pipes",
-   "chapter": 1,
+   "chapter": 2,
    "file": "audio/theme-scots-wha-hae-pipes.m4a",
    "title": "Scots Wha Hae (solo bagpipe air)",
    "caption": "The same melody as a slow bagpipe air — Burns wrote its words as Bruce's address to his troops before Bannockburn. The sound of Scotland in one tune.",
@@ -138,7 +142,7 @@
   {
    "type": "image",
    "id": "05-palace-facade",
-   "chapter": 2,
+   "chapter": 3,
    "file": "images/05-palace-facade.jpg",
    "caption": "The Royal Palace facade built for James V in the 1530s: a parade of gods, soldiers and the king himself, carved in stone to advertise Scotland as a Renaissance power.",
    "kidcaption": "Look closely at the palace wall: it is covered in stone statues of gods, soldiers and the king. A show-off in stone.",
@@ -150,7 +154,7 @@
   {
    "type": "image",
    "id": "06-stirling-head",
-   "chapter": 2,
+   "chapter": 3,
    "file": "images/06-stirling-head.jpg",
    "caption": "A Stirling Head: a metre-wide carved oak medallion of James V, from the ceiling of the King's Presence Chamber. Sometimes called Scotland's 'other' crown jewels.",
    "kidcaption": "One of the giant carved wooden faces, called the Stirling Heads, that stared down from the king's ceiling. This one is King James V.",
@@ -162,7 +166,7 @@
   {
    "type": "image",
    "id": "07-kings-ceiling",
-   "chapter": 2,
+   "chapter": 3,
    "file": "images/07-kings-ceiling.jpg",
    "caption": "The re-created ceiling of oak medallions overhead in the palace. The originals survive upstairs; these bright recarvings show how dazzling the room once was.",
    "kidcaption": "Look up! The ceiling is studded with big carved wooden faces watching everyone below.",
@@ -174,7 +178,7 @@
   {
    "type": "image",
    "id": "08-presence-fireplace",
-   "chapter": 2,
+   "chapter": 3,
    "file": "images/08-presence-fireplace.jpg",
    "caption": "Inside the restored royal apartments. Rather than bare stone, Historic Scotland returned the rooms to their researched 1540s blaze of colour, gilding and tapestry.",
    "kidcaption": "The rooms were painted back to how bright and colourful they would have been 500 years ago, not plain grey stone.",
@@ -186,7 +190,7 @@
   {
    "type": "image",
    "id": "09-unicorn-tapestry",
-   "chapter": 2,
+   "chapter": 3,
    "file": "images/09-unicorn-tapestry.jpg",
    "caption": "A hand-woven 'Hunt of the Unicorn' tapestry in the Queen's chambers, recreated over 14 years from the medieval set now in the Met Cloisters in New York.",
    "kidcaption": "The unicorn tapestry. Weavers spent 14 years making these by hand, copying a set that is now in a museum in New York.",
@@ -198,7 +202,7 @@
   {
    "type": "image",
    "id": "10-great-hall-gold",
-   "chapter": 2,
+   "chapter": 3,
    "file": "images/10-great-hall-gold.jpg",
    "caption": "Straight down onto the castle: the pale-gold Great Hall, the crag-and-tail ridge it sits on, and the royal burial ground beyond. That 'King's Gold' limewash was chosen so the hall could be seen for miles.",
    "kidcaption": "Looking straight down. The pale-gold building is the Great Hall, painted that colour on purpose so people far away could see how rich the king was.",
@@ -210,7 +214,7 @@
   {
    "type": "image",
    "id": "14-james-v",
-   "chapter": 2,
+   "chapter": 3,
    "file": "images/14-james-v.jpg",
    "caption": "James V, who built the Renaissance palace to rival his uncle Henry VIII and his father-in-law Francis I of France. Mary, Queen of Scots was his daughter.",
    "kidcaption": "King James V, who built the fancy painted palace. He was Mary Queen of Scots's dad.",
@@ -222,7 +226,7 @@
   {
    "type": "video",
    "id": "vid-EZ0q8-n1Vwc",
-   "chapter": 2,
+   "chapter": 3,
    "provider": "youtube",
    "youtube_id": "EZ0q8-n1Vwc",
    "url": "https://www.youtube.com/watch?v=EZ0q8-n1Vwc",
@@ -238,7 +242,7 @@
   {
    "type": "video",
    "id": "vid-_dRSTCGiAGY",
-   "chapter": 2,
+   "chapter": 3,
    "provider": "youtube",
    "youtube_id": "_dRSTCGiAGY",
    "url": "https://www.youtube.com/watch?v=_dRSTCGiAGY",
@@ -254,7 +258,7 @@
   {
    "type": "audio",
    "id": "theme-renaissance-lute",
-   "chapter": 2,
+   "chapter": 3,
    "file": "audio/theme-renaissance-lute.m4a",
    "title": "Renaissance lute pavane",
    "caption": "A slow Renaissance lute pavane — the kind of court music that would have drifted through James V's painted palace.",
@@ -266,7 +270,7 @@
   {
    "type": "image",
    "id": "11-mary-portrait",
-   "chapter": 3,
+   "chapter": 4,
    "file": "images/11-mary-portrait.jpg",
    "caption": "Mary, Queen of Scots. She was crowned in the old Chapel Royal here in September 1543, aged nine months, reportedly crying throughout.",
    "kidcaption": "Mary, Queen of Scots. She was crowned queen right here when she was just nine months old, and cried the whole time!",
@@ -278,7 +282,7 @@
   {
    "type": "image",
    "id": "12-chapel-royal",
-   "chapter": 3,
+   "chapter": 4,
    "file": "images/12-chapel-royal.jpg",
    "caption": "The Chapel Royal, rebuilt at speed for the 1594 baptism of Prince Henry. At the feast, the fish course entered the Great Hall aboard a full-rigged model ship firing cannon.",
    "kidcaption": "The royal chapel. At one baptism party here, the fish was carried in on a giant model sailing ship that fired real little cannons.",
@@ -290,7 +294,7 @@
   {
    "type": "image",
    "id": "13-great-kitchens",
-   "chapter": 3,
+   "chapter": 4,
    "file": "images/13-great-kitchens.jpg",
    "caption": "The recreated Great Kitchens, laid out mid-banquet. Model food, roasting spits and barrels show the scale of feeding a royal court.",
    "kidcaption": "The huge castle kitchens, set up as if a giant feast is being cooked right now. Look for the turnspit and all the fake food.",
@@ -302,7 +306,7 @@
   {
    "type": "image",
    "id": "15-james-ii",
-   "chapter": 4,
+   "chapter": 5,
    "file": "images/15-james-ii.jpg",
    "caption": "James II, with his famous red birthmark. In 1452, in this castle, he stabbed the 8th Earl of Douglas with his own hand after guaranteeing him safe conduct, and threw the body from a window.",
    "kidcaption": "King James II, nicknamed 'Fiery Face' for his red birthmark. He did something shocking to an earl at this castle.",
@@ -314,7 +318,7 @@
   {
    "type": "image",
    "id": "16-argylls-museum",
-   "chapter": 5,
+   "chapter": 6,
    "file": "images/16-argylls-museum.jpg",
    "caption": "The Argyll and Sutherland Highlanders regimental museum. After 1603 the royal court left and Stirling spent three centuries as a working army garrison.",
    "kidcaption": "For hundreds of years after the kings left, this castle was an army base. This is the soldiers' museum.",
@@ -326,7 +330,7 @@
   {
    "type": "image",
    "id": "17-grand-battery",
-   "chapter": 5,
+   "chapter": 6,
    "file": "images/17-grand-battery.jpg",
    "caption": "Cannon on the Grand Battery. Stirling held out for the Hanoverian government when Bonnie Prince Charlie's Jacobites besieged it in 1746.",
    "kidcaption": "Real cannons on the castle walls. They helped the castle hold out when Bonnie Prince Charlie's army tried to take it in 1746.",

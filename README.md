@@ -118,6 +118,26 @@ intermediates go under ignored directories such as `audio-raw/` and
 `tour/manifest.json` remains the single source of truth. Edit the markdown and
 manifest together, then rerun the verification commands above.
 
+The committed audio is composited (region music + spoken title + narration), so
+adding or changing a chapter is a three-step render, not one: `generate_audio.py`
+(raw narration into `audio-raw/`) → `render_titles.py` (title clips into
+`build-audio/titles/`) → `compose_audio.py` (final MP3s into `tour/audio/`). Use
+`generate_audio.py --only <slug>` to render just the changed files.
+
+## Reading downloads (PDF/EPUB)
+
+The in-app "Read offline" links are **generated from the same manifest markdown**,
+so they drift if you change content without rebuilding them. After editing any
+sight's chapters, regenerate that sight:
+
+```bash
+python3 scripts/build_reading_assets.py --sight <sight-id> --audience both
+```
+
+This writes `reading-pdfs/DD <Sight> - {Kids,Grown-ups}.pdf` and the matching
+EPUBs (pandoc + pdflatex). Rebuild whenever the audio content changes so the
+written and spoken versions stay in sync.
+
 ## Cross-references ("Related listening")
 
 Curated links between historically or practically related chapters live in

@@ -32,9 +32,21 @@
  "counts": {
   "image": 17,
   "video": 4,
-  "audio": 3
+  "audio": 4
  },
  "items": [
+  {
+   "type": "audio",
+   "id": "theme-scotland-the-brave",
+   "chapter": 1,
+   "file": "audio/theme-scotland-the-brave-pipes.m4a",
+   "title": "Scotland the Brave (solo bagpipe)",
+   "caption": "The great Scottish march on solo Highland pipes. Not an ancient tune, but the sound every visitor pictures, and the perfect overture to a fortress that guarded Scotland.",
+   "kidcaption": "The bagpipes playing 'Scotland the Brave'. Close your eyes and you are standing on the castle walls with the whole country spread out below.",
+   "credit": "Ally The Piper (perf.)",
+   "license": "Traditional tune (public domain); recording sourced from YouTube for private family use",
+   "source": "https://www.youtube.com/watch?v=ESOvzE_PJ1Y"
+  },
   {
    "type": "image",
    "id": "01-aerial-crag",

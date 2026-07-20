@@ -129,7 +129,7 @@ underlying tunes/compositions are traditional or public domain.
 - Channel: Bonnie Shot (Aidan)
 - Link: https://www.youtube.com/watch?v=sbkK9zehrJw
 
-## Music (3 — atmospheric period clips)
+## Music (4 — atmospheric period clips)
 
 ### Renaissance lute pavane
 - File: `audio/theme-renaissance-lute.m4a`
@@ -148,3 +148,9 @@ underlying tunes/compositions are traditional or public domain.
 - Performer/source: Dark Isle Bagpiper (perf.)
 - Rights: Traditional tune (public domain); recording sourced from YouTube for private family use
 - Source: https://www.youtube.com/watch?v=ZJR-KGZeCiE
+
+### Scotland the Brave (solo bagpipe)
+- File: `audio/theme-scotland-the-brave-pipes.m4a`
+- Performer/source: Ally The Piper (perf.)
+- Rights: Traditional tune (public domain); recording sourced from YouTube for private family use
+- Source: https://www.youtube.com/watch?v=ESOvzE_PJ1Y

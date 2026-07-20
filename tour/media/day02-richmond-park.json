@@ -1,0 +1,67 @@
+{
+ "sight": "day02-richmond-park",
+ "name": "Richmond Park",
+ "title": "A first look at London",
+ "note": "Pictures for the big-picture opening: 2000 years of London, from Roman town to royal city to modern capital.",
+ "chapters": [
+  {
+   "n": 1,
+   "label": "A First Look at London"
+  }
+ ],
+ "counts": {
+  "image": 4,
+  "video": 0,
+  "audio": 0
+ },
+ "items": [
+  {
+   "type": "image",
+   "id": "01-roman-londinium",
+   "chapter": 1,
+   "file": "images/01-roman-londinium.png",
+   "caption": "Roman Londinium around AD 400. London began as a Roman town almost 2000 years ago, walled and laid out on the Thames, and has been lived in ever since.",
+   "kidcaption": "London started as a Roman town nearly 2000 years ago! This map shows the little walled city the Romans built by the river.",
+   "credit": "Fremantleboy, Drallim (translation)",
+   "license": "CC BY 2.5",
+   "license_url": "https://creativecommons.org/licenses/by/2.5",
+   "source": "https://commons.wikimedia.org/wiki/File:Map_Londinium_400_AD-en.svg"
+  },
+  {
+   "type": "image",
+   "id": "02-visscher-1616",
+   "chapter": 1,
+   "file": "images/02-visscher-1616.jpg",
+   "caption": "London in 1616, before the Great Fire: old St Paul's, London Bridge crowded with houses, and traitors' heads on poles. A city already ancient when this was drawn.",
+   "kidcaption": "London 400 years ago. Look at old London Bridge, covered in houses! And if you look closely, they put the heads of criminals on spikes on the gate.",
+   "credit": "",
+   "license": "Public domain",
+   "license_url": "",
+   "source": "https://commons.wikimedia.org/wiki/File:Panorama_of_London_by_Claes_Van_Visscher,_1616.jpg"
+  },
+  {
+   "type": "image",
+   "id": "03-charles-i",
+   "chapter": 1,
+   "file": "images/03-charles-i.jpg",
+   "caption": "King Charles the First, who walled in Richmond Park as his royal hunting ground in 1637. Kings and queens shaped this city and its parks, the thread that runs through the whole trip.",
+   "kidcaption": "King Charles the First. He turned Richmond Park into his own royal deer-hunting ground almost 400 years ago, which is why the deer are still here today.",
+   "credit": "Anthony van Dyck",
+   "license": "Public domain",
+   "license_url": "",
+   "source": "https://commons.wikimedia.org/wiki/File:Anthonis_van_Dyck_-_Equestrian_Portrait_of_Charles_I_-_National_Gallery,_London.jpg"
+  },
+  {
+   "type": "image",
+   "id": "04-london-today",
+   "chapter": 1,
+   "file": "images/04-london-today.jpg",
+   "caption": "The same city today: a modern global capital layered on 2000 years of history. Green parks, old stone, and glass towers, all in one place.",
+   "kidcaption": "London today, with its shiny glass towers. Underneath all of it are 2000 years of Roman roads, old churches, and royal palaces.",
+   "credit": "Diliff",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:City_of_London_skyline_from_London_City_Hall_-_Oct_2008.jpg"
+  }
+ ]
+}

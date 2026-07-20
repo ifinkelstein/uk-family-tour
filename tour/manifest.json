@@ -11,6 +11,28 @@
    "tracks": {
     "kid": [
      {
+      "file": "content/day02-richmond-park/kid/00-royal-city.md",
+      "title": "Your First Morning in London",
+      "est_minutes": 1.8,
+      "tell_me_more": [
+       {
+        "file": "content/day02-richmond-park/kid/00-royal-city-more-1.md",
+        "title": "The Tiny Island That Surprised the World",
+        "est_minutes": 2.3
+       },
+       {
+        "file": "content/day02-richmond-park/kid/00-royal-city-more-2.md",
+        "title": "The Family That Shaped a Whole Country",
+        "est_minutes": 2.2
+       },
+       {
+        "file": "content/day02-richmond-park/kid/00-royal-city-more-3.md",
+        "title": "Things to Spot Before We Start Walking",
+        "est_minutes": 2.2
+       }
+      ]
+     },
+     {
       "file": "content/day02-richmond-park/kid/01-deer.md",
       "title": "The Deer of Richmond Park",
       "est_minutes": 1.3,
@@ -64,6 +86,28 @@
      }
     ],
     "adult": [
+     {
+      "file": "content/day02-richmond-park/adult/00-royal-city.md",
+      "title": "First Morning in a Two Thousand Year Old City",
+      "est_minutes": 1.8,
+      "tell_me_more": [
+       {
+        "file": "content/day02-richmond-park/adult/00-royal-city-more-1.md",
+        "title": "How a Wet Little Island Grew a World",
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day02-richmond-park/adult/00-royal-city-more-2.md",
+        "title": "Kings, Queens, and the Shape of the Ground",
+        "est_minutes": 2.3
+       },
+       {
+        "file": "content/day02-richmond-park/adult/00-royal-city-more-3.md",
+        "title": "What to Notice Before We Set Off",
+        "est_minutes": 2.3
+       }
+      ]
+     },
      {
       "file": "content/day02-richmond-park/adult/01-deer.md",
       "title": "Richmond Park: A Medieval Landscape in the City",

@@ -26,3 +26,7 @@ __pycache__/
 
 # generated audit reports
 audio-audits/
+
+# Experimental Gemini TTS samples (not wired into the app)
+gemini-tts-sample/
+*.env

@@ -124,6 +124,35 @@ adding or changing a chapter is a three-step render, not one: `generate_audio.py
 `build-audio/titles/`) → `compose_audio.py` (final MP3s into `tour/audio/`). Use
 `generate_audio.py --only <slug>` to render just the changed files.
 
+### Alternative voice: Google Gemini TTS (optional)
+
+Kokoro is the default, free, offline voice and produces every committed MP3.
+`scripts/gemini_tts.py` is an opt-in alternative that renders a single chapter
+with Google's **prompt-steerable** Gemini TTS, for a more expressive "tour guide"
+delivery. It takes a chapter markdown file and a voice, prepends a natural-language
+style directive (a warm adult guide, or a playful kid storyteller — not SSML),
+and writes an `.m4a`:
+
+```bash
+python3 scripts/gemini_tts.py \
+  --md tour/content/day11-stirling-castle/adult/00-why-stirling-matters.md \
+  --out gemini-tts-sample/why-stirling-adult-charon.m4a \
+  --voice Charon --audience adult
+```
+
+Notes:
+
+- Needs a **billed** Gemini API project — the TTS models are **not** on the free
+  tier. The script reads `GEMINI_API_KEY` from the environment or a `.env` file
+  and never prints it; **never commit the key**, and `gemini-tts-sample/` is
+  git-ignored.
+- Voices for a guide: `Charon` (informative), `Sulafat` (warm), `Iapetus`
+  (clear); female narrators for kids: `Leda`, `Aoede`, `Kore`. `--audience`
+  selects the adult vs kid style prompt.
+- Cost is dominated by audio output: a chapter sample is pennies; re-voicing the
+  whole tour would be roughly $15–40. Use it for marquee intro chapters and keep
+  Kokoro for the long tail. These clips are experiments, not wired into the app.
+
 ## Reading downloads (PDF/EPUB)
 
 The in-app "Read offline" links are **generated from the same manifest markdown**,

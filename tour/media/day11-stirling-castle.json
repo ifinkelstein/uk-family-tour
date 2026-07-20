@@ -27,10 +27,14 @@
   {
    "n": 6,
    "label": "The Soldiers' Castle"
+  },
+  {
+   "n": 7,
+   "label": "Life in Stewart Scotland — High and Low"
   }
  ],
  "counts": {
-  "image": 17,
+  "image": 21,
   "video": 4,
   "audio": 4
  },
@@ -350,6 +354,54 @@
    "license": "CC BY-SA 2.0",
    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
    "source": "https://commons.wikimedia.org/wiki/File:Cannons_of_the_Grand_Battery_at_Stirling_Castle_-_geograph.org.uk_-_5965428.jpg"
+  },
+  {
+   "type": "image",
+   "id": "life-01-king-james-iv",
+   "chapter": 7,
+   "file": "images/life-01-king-james-iv.jpg",
+   "caption": "James IV, the cultured, restless king who turned Stirling into a Renaissance court. A monarch's day was a constant public performance of power, from morning mass to the hunt to the feast.",
+   "kidcaption": "King James IV. A king was almost never alone. His whole day, from breakfast to bed, was watched by crowds of courtiers, all hoping to be noticed.",
+   "credit": "Unknown author Unknown author",
+   "license": "Public domain",
+   "license_url": "",
+   "source": "https://commons.wikimedia.org/wiki/File:James_IV_of_Scotland_(2).jpg"
+  },
+  {
+   "type": "image",
+   "id": "life-02-harvest",
+   "chapter": 7,
+   "file": "images/life-02-harvest.jpg",
+   "caption": "A Flemish painting of exactly this era, Bruegel's 1565 harvest scene. Most people in Scotland were farmers like these, and the fields below the castle looked much like this in late summer.",
+   "kidcaption": "A painting from the very same time, showing the harvest. Most people back then were farmers, working from sunrise to sunset to grow enough to eat.",
+   "credit": "Pieter Brueghel the Elder",
+   "license": "Public domain",
+   "license_url": "",
+   "source": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder-_The_Harvesters_-_Google_Art_Project.jpg"
+  },
+  {
+   "type": "image",
+   "id": "life-03-peasant-meal",
+   "chapter": 7,
+   "file": "images/life-03-peasant-meal.jpg",
+   "caption": "Bruegel's peasant feast, again from the 1560s. It captures the food, ale and rough celebration of ordinary life, a world away from the painted palace on the rock.",
+   "kidcaption": "A big peasant party from the same time. Look at the food and the bowls being carried in. This is how ordinary families celebrated, far simpler than a royal feast.",
+   "credit": "Pieter Brueghel the Elder",
+   "license": "Public domain",
+   "license_url": "",
+   "source": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Peasant_Wedding_-_Google_Art_Project.jpg"
+  },
+  {
+   "type": "image",
+   "id": "life-04-building",
+   "chapter": 7,
+   "file": "images/life-04-building.jpg",
+   "caption": "How great buildings were actually raised: by hand, with human-powered cranes like this treadwheel. The masons and carvers who built James V's palace were skilled, well-paid craftsmen.",
+   "kidcaption": "There were no machines, so people built with muscle. See the giant wooden wheel? Workers walked inside it, like hamsters, to lift heavy stones up high.",
+   "credit": "Marie Reed",
+   "license": "Public domain",
+   "license_url": "",
+   "source": "https://commons.wikimedia.org/wiki/File:Treadmillcrane.jpg"
   }
  ]
 }

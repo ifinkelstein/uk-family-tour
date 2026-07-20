@@ -154,3 +154,29 @@ underlying tunes/compositions are traditional or public domain.
 - Performer/source: Ally The Piper (perf.)
 - Rights: Traditional tune (public domain); recording sourced from YouTube for private family use
 - Source: https://www.youtube.com/watch?v=ESOvzE_PJ1Y
+
+### Daily-life chapter images
+
+#### life-01-king-james-iv
+- File: `images/life-01-king-james-iv.jpg`
+- Author: Unknown author Unknown author
+- Licence: Public domain
+- Source: https://commons.wikimedia.org/wiki/File:James_IV_of_Scotland_(2).jpg
+
+#### life-02-harvest
+- File: `images/life-02-harvest.jpg`
+- Author: Pieter Brueghel the Elder
+- Licence: Public domain
+- Source: https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder-_The_Harvesters_-_Google_Art_Project.jpg
+
+#### life-03-peasant-meal
+- File: `images/life-03-peasant-meal.jpg`
+- Author: Pieter Brueghel the Elder
+- Licence: Public domain
+- Source: https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Peasant_Wedding_-_Google_Art_Project.jpg
+
+#### life-04-building
+- File: `images/life-04-building.jpg`
+- Author: Marie Reed
+- Licence: Public domain
+- Source: https://commons.wikimedia.org/wiki/File:Treadmillcrane.jpg

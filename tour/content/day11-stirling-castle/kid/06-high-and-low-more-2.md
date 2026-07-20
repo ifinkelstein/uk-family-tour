@@ -1,0 +1,12 @@
+# The Lord Who Guarded the Castle
+Right next to the king, on the rung just below, stood the powerful lords. And being a lord was a bit like a wild game of snakes and ladders.
+
+Here is how you could shoot straight up the board. If you were clever, or charming, or really useful, the king might take a liking to you and make you his favourite. Suddenly you would be showered with presents, castles, land, gold, and grand new titles. A person could start out quite ordinary and end up one of the richest people in all of Scotland, just because the king was fond of them.
+
+But watch out for the snakes. Everything you had was really a gift, and a gift can be taken back. If the king changed his mind, or if the other jealous lords decided they hated you, you could tumble right back down to the bottom, and sometimes it was far worse than that. Standing close to a king was exciting, but it could be very dangerous too. In fact, you have already heard what once happened to one unlucky nobleman inside this very castle, at a certain window. Let us just say it did not end well for him.
+
+Now, one family was tied to Stirling more than any other, a family called the Erskines. For hundreds of years, the Erskines had a very special job. They were the keepers of this castle, the ones trusted to guard the rock itself. But they were trusted with something far more precious than stone. They were given the royal babies to look after.
+
+Think about that. If you were the king, and you had a tiny baby son or daughter who would one day rule all of Scotland, where would you keep them safe? You would send them here, to the strongest castle in the land, and you would hand them to the Erskines. Five times over, grandfather to father to son, the Erskines guarded Scotland's royal children. They guarded the little boy who became James the Fifth. They guarded the baby Mary, Queen of Scots. And they guarded the baby who grew up to be James the Sixth. Whoever held the royal baby held the whole future of the country right there in their arms, so it was the greatest honour a family could be given, and an enormous worry too.
+
+If you go down into Stirling town later, look out for a beautiful old ruined building called Mar's Wark. The Erskines built it to show everyone just how important they had become. It is falling to pieces now, with empty windows and no roof, but it is still standing there, quietly showing off, more than five hundred years later.

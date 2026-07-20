@@ -1,0 +1,30 @@
+{
+  "kid": [
+    {
+      "file": "content/day11-stirling-castle/kid/06-high-and-low.md",
+      "title": "Who Really Lived Here?",
+      "est_minutes": 1.9,
+      "tell_me_more": [
+        {"file": "content/day11-stirling-castle/kid/06-high-and-low-more-1.md", "title": "Being King for a Day", "est_minutes": 3.1},
+        {"file": "content/day11-stirling-castle/kid/06-high-and-low-more-2.md", "title": "The Lord Who Guarded the Castle", "est_minutes": 3.1},
+        {"file": "content/day11-stirling-castle/kid/06-high-and-low-more-3.md", "title": "The Builders and Carvers", "est_minutes": 3.1},
+        {"file": "content/day11-stirling-castle/kid/06-high-and-low-more-4.md", "title": "Dinner at the Bottom of the Ladder", "est_minutes": 3.2},
+        {"file": "content/day11-stirling-castle/kid/06-high-and-low-more-5.md", "title": "The Woman Who Held the Baby Queen", "est_minutes": 3.2}
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day11-stirling-castle/adult/06-high-and-low.md",
+      "title": "High and Low: A Castle Full of Lives",
+      "est_minutes": 2.1,
+      "tell_me_more": [
+        {"file": "content/day11-stirling-castle/adult/06-high-and-low-more-1.md", "title": "A King's Day", "est_minutes": 3.3},
+        {"file": "content/day11-stirling-castle/adult/06-high-and-low-more-2.md", "title": "The Favourite and the Keeper", "est_minutes": 3.5},
+        {"file": "content/day11-stirling-castle/adult/06-high-and-low-more-3.md", "title": "The Hands That Built the Palace", "est_minutes": 3.6},
+        {"file": "content/day11-stirling-castle/adult/06-high-and-low-more-4.md", "title": "The Farmer in the Carse", "est_minutes": 3.6},
+        {"file": "content/day11-stirling-castle/adult/06-high-and-low-more-5.md", "title": "Mary's Darling Nurse", "est_minutes": 3.4}
+      ]
+    }
+  ]
+}

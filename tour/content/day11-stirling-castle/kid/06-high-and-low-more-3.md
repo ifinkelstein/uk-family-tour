@@ -1,0 +1,12 @@
+# The Builders and Carvers
+Look around at this amazing castle, the carved stone faces, the golden hall, the giant round wooden heads on the ceiling. Now here is a question people almost always forget to ask. Who actually made all of this? Not the king. Kings did not pick up hammers and chisels. It was built by hundreds of ordinary working people, with their own hands, and they are the real heroes of this story.
+
+The most important were the masons, the people who cut and carved the stone. Being a mason was really hard to learn. You started as a young apprentice, sweeping up and watching and fetching, and it took years and years and years of practice before you were allowed to be a proper master. The very best of them were like artists and inventors rolled into one, able to plan a whole building in their head and then carve the tiniest, most delicate little flower in solid stone.
+
+Here is a cool secret to look for while you are here. When a mason finished cutting a block of stone, he often scratched a tiny secret symbol into it, his own special mark, a bit like signing your name. That was how the boss knew whose work it was, and how much money to pay him. If you look very carefully at old stone walls in Scotland, you can sometimes still spot these little marks, the actual signatures of builders who lived five hundred years ago. Isn't that amazing? Their handwriting is still right here, waiting for you.
+
+And then there were the woodcarvers. Remember those enormous round wooden faces up on the ceiling, the Stirling Heads? We think many of them were carved by a brilliant Frenchman whom the Scots called Andrew Mansioun. He came all the way from France to work for the king, and he was so clever with wood that he could turn his hands to almost anything. He carved fancy furniture, he made bits and pieces for the king's ship, and, sweetest of all, he carved a little wooden cradle for the king's baby. Imagine being so good at your job that the king himself asks you to make the royal cot.
+
+Last of all came the painters, who splashed all that carved stone and wood with bright, glowing colours and shiny gold paint, because remember, none of this was ever meant to be plain and grey. It was meant to dazzle your eyes.
+
+So the next time someone tells you all about the king who built this castle, you can gently put them right. The king did not build it. He just paid for it. The people who really built it were the clever, hard-working hands you almost never hear about. And now, at last, you have met them.

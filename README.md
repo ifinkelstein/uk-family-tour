@@ -59,8 +59,14 @@ audio are cached, it works offline.
   plays through the main player with a one-tap "↩ Back to the tour"; every tile
   has a "▶ Listen to this story" backlink into the matching audio chapter.
   Gallery images and music ride along in the per-day ⬇ offline pre-cache (films
-  stay online). Day 11 (Stirling Castle) is the pilot;
-  `tour/media/<sight>-CREDITS.md` records attribution.
+  stay online). Most sights now ship a drawer (see `MEDIA_SIGHTS`); the richest
+  are Stirling Castle and Edinburgh's City of Literature (which also has
+  read-aloud passages from the classics). `tour/media/<sight>-CREDITS.md` records
+  attribution.
+- Every day opens with an optional **overview chapter** — a short "significance &
+  the big picture" story (base + sub-chapters, kid + adult) that grounds a
+  non-UK audience before the day's sights. It is the first chapter of the day's
+  headline sight (file prefix `00-`).
 
 ## Project layout
 

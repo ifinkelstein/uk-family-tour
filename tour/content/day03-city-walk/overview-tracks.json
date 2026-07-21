@@ -1,0 +1,26 @@
+{
+  "kid": [
+    {
+      "file": "content/day03-city-walk/kid/00-square-mile.md",
+      "title": "The Square Mile: The Tiny City Where London Was Born",
+      "est_minutes": 2.0,
+      "tell_me_more": [
+        {"file": "content/day03-city-walk/kid/00-square-mile-more-1.md", "title": "Standing on Two Thousand Years", "est_minutes": 2.4},
+        {"file": "content/day03-city-walk/kid/00-square-mile-more-2.md", "title": "The Fire That Ate London", "est_minutes": 2.4},
+        {"file": "content/day03-city-walk/kid/00-square-mile-more-3.md", "title": "Secret Clues Hidden in the Streets", "est_minutes": 2.2}
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day03-city-walk/adult/00-square-mile.md",
+      "title": "The Square Mile: A City Inside the City",
+      "est_minutes": 2.2,
+      "tell_me_more": [
+        {"file": "content/day03-city-walk/adult/00-square-mile-more-1.md", "title": "Two Thousand Years, One Morning's Walk", "est_minutes": 2.4},
+        {"file": "content/day03-city-walk/adult/00-square-mile-more-2.md", "title": "The City That Burned and Came Back", "est_minutes": 2.4},
+        {"file": "content/day03-city-walk/adult/00-square-mile-more-3.md", "title": "Reading the Street: What to Notice Today", "est_minutes": 2.2}
+      ]
+    }
+  ]
+}

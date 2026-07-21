@@ -1,0 +1,43 @@
+{
+ "sight": "day14-jorvik",
+ "name": "Jorvik",
+ "title": "The Vikings in Britain",
+ "note": "Pictures for the big-picture opening: a Viking longship and a real early-medieval helmet (no horns!).",
+ "chapters": [
+  {
+   "n": 1,
+   "label": "The Vikings"
+  }
+ ],
+ "counts": {
+  "image": 2,
+  "video": 0,
+  "audio": 0
+ },
+ "items": [
+  {
+   "type": "image",
+   "id": "01-longship",
+   "chapter": 1,
+   "file": "images/01-longship.jpg",
+   "caption": "A reconstructed Viking longship. The Vikings were not just raiders but traders, explorers and settlers who reached Greenland and North America, and made York their capital.",
+   "kidcaption": "A real Viking longship! In boats like this, the Vikings sailed all the way to America, 500 years before Columbus. And they ruled York.",
+   "credit": "Jens Cederskjold",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Havhingsten_fra_Glendalough_-_The_Sea_Stallion_from_Glendalough_in_winter_lair_-_reconstruction_of_the_second-largest_Viking_longship_ever_to_be_found_-The_original_vessel_was_built_in_the_vicinity_of_Dublin_around_-_panoramio.jpg"
+  },
+  {
+   "type": "image",
+   "id": "02-helmet",
+   "chapter": 1,
+   "file": "images/02-helmet.jpg",
+   "caption": "An early medieval helmet found at York. And no, real Vikings did not wear horns on their helmets, that is a myth from an opera 1000 years later.",
+   "kidcaption": "A real helmet dug up in York. Big secret: Vikings did NOT have horns on their helmets! Someone made that up for a play, hundreds of years later.",
+   "credit": "Michael Garlick",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:York,_The_Yorkshire_Museum,_Detail_of_iron_and_copper_alloy_%27Anglian_York_Helmet%27_-_geograph.org.uk_-_7652882.jpg"
+  }
+ ]
+}

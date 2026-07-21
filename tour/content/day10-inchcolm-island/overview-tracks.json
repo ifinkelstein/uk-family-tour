@@ -1,0 +1,40 @@
+{
+  "kid": [
+    {
+      "file": "content/day10-inchcolm-island/kid/00-firth-of-forth.md",
+      "title": "Where the River Turns Into the Sea",
+      "est_minutes": 2.0,
+      "tell_me_more": [
+        {
+          "file": "content/day10-inchcolm-island/kid/00-firth-of-forth-more-1.md",
+          "title": "Islands That Were Churches, Forts and Prisons",
+          "est_minutes": 2.2
+        },
+        {
+          "file": "content/day10-inchcolm-island/kid/00-firth-of-forth-more-2.md",
+          "title": "How to Get Across When the Water's in the Way",
+          "est_minutes": 2.2
+        }
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day10-inchcolm-island/adult/00-firth-of-forth.md",
+      "title": "The Forth: Scotland's Sea Road",
+      "est_minutes": 1.9,
+      "tell_me_more": [
+        {
+          "file": "content/day10-inchcolm-island/adult/00-firth-of-forth-more-1.md",
+          "title": "A Scatter of Islands, Each With a Job",
+          "est_minutes": 2.2
+        },
+        {
+          "file": "content/day10-inchcolm-island/adult/00-firth-of-forth-more-2.md",
+          "title": "From a Monk's Boat to a Bridge of Steel",
+          "est_minutes": 2.1
+        }
+      ]
+    }
+  ]
+}

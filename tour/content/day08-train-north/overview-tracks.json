@@ -1,0 +1,40 @@
+{
+  "kid": [
+    {
+      "file": "content/day08-train-north/kid/00-crossing-the-border.md",
+      "title": "The Invisible Line You'll Cross Today",
+      "est_minutes": 2.0,
+      "tell_me_more": [
+        {
+          "file": "content/day08-train-north/kid/00-crossing-the-border-more-1.md",
+          "title": "Two Countries That Share a King",
+          "est_minutes": 2.2
+        },
+        {
+          "file": "content/day08-train-north/kid/00-crossing-the-border-more-2.md",
+          "title": "The Train That Squished a Whole Country",
+          "est_minutes": 2.3
+        }
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day08-train-north/adult/00-crossing-the-border.md",
+      "title": "One Island, Two Old Nations",
+      "est_minutes": 2.1,
+      "tell_me_more": [
+        {
+          "file": "content/day08-train-north/adult/00-crossing-the-border-more-1.md",
+          "title": "Same Island, Still a Different Country",
+          "est_minutes": 2.7
+        },
+        {
+          "file": "content/day08-train-north/adult/00-crossing-the-border-more-2.md",
+          "title": "The Iron Road That Shrank the Island",
+          "est_minutes": 2.5
+        }
+      ]
+    }
+  ]
+}

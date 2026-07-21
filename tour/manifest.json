@@ -174,6 +174,28 @@
    "tracks": {
     "kid": [
      {
+      "file": "content/day03-city-walk/kid/00-square-mile.md",
+      "title": "The Square Mile: The Tiny City Where London Was Born",
+      "est_minutes": 2.0,
+      "tell_me_more": [
+       {
+        "file": "content/day03-city-walk/kid/00-square-mile-more-1.md",
+        "title": "Standing on Two Thousand Years",
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day03-city-walk/kid/00-square-mile-more-2.md",
+        "title": "The Fire That Ate London",
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day03-city-walk/kid/00-square-mile-more-3.md",
+        "title": "Secret Clues Hidden in the Streets",
+        "est_minutes": 2.2
+       }
+      ]
+     },
+     {
       "file": "content/day03-city-walk/kid/01-st-dunstan.md",
       "title": "St Dunstan in the East: The Church the Trees Took Back",
       "est_minutes": 1.4,
@@ -239,6 +261,28 @@
      }
     ],
     "adult": [
+     {
+      "file": "content/day03-city-walk/adult/00-square-mile.md",
+      "title": "The Square Mile: A City Inside the City",
+      "est_minutes": 2.2,
+      "tell_me_more": [
+       {
+        "file": "content/day03-city-walk/adult/00-square-mile-more-1.md",
+        "title": "Two Thousand Years, One Morning's Walk",
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day03-city-walk/adult/00-square-mile-more-2.md",
+        "title": "The City That Burned and Came Back",
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day03-city-walk/adult/00-square-mile-more-3.md",
+        "title": "Reading the Street: What to Notice Today",
+        "est_minutes": 2.2
+       }
+      ]
+     },
      {
       "file": "content/day03-city-walk/adult/01-st-dunstan.md",
       "title": "St Dunstan in the East: Layers of Catastrophe",
@@ -673,6 +717,28 @@
    "tracks": {
     "kid": [
      {
+      "file": "content/day04-greenwich/kid/00-britain-and-sea.md",
+      "title": "Where the Whole World Starts Counting",
+      "est_minutes": 1.9,
+      "tell_me_more": [
+       {
+        "file": "content/day04-greenwich/kid/00-britain-and-sea-more-1.md",
+        "title": "How a Rainy Island Bossed the Oceans",
+        "est_minutes": 2.7
+       },
+       {
+        "file": "content/day04-greenwich/kid/00-britain-and-sea-more-2.md",
+        "title": "The Puzzle That Sank a Thousand Ships",
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day04-greenwich/kid/00-britain-and-sea-more-3.md",
+        "title": "Your Greenwich Treasure Hunt",
+        "est_minutes": 2.6
+       }
+      ]
+     },
+     {
       "file": "content/day04-greenwich/kid/01-cutty-sark.md",
       "title": "Cutty Sark: The Fastest Ship of Her Day",
       "est_minutes": 1.4,
@@ -784,6 +850,28 @@
      }
     ],
     "adult": [
+     {
+      "file": "content/day04-greenwich/adult/00-britain-and-sea.md",
+      "title": "The Island That Set the World's Clock",
+      "est_minutes": 1.8,
+      "tell_me_more": [
+       {
+        "file": "content/day04-greenwich/adult/00-britain-and-sea-more-1.md",
+        "title": "Wooden Walls and the Wealth of the World",
+        "est_minutes": 2.7
+       },
+       {
+        "file": "content/day04-greenwich/adult/00-britain-and-sea-more-2.md",
+        "title": "Lost at Sea, and the Clock That Found the Way",
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day04-greenwich/adult/00-britain-and-sea-more-3.md",
+        "title": "What to Watch For on the Hill",
+        "est_minutes": 2.4
+       }
+      ]
+     },
      {
       "file": "content/day04-greenwich/adult/01-cutty-sark.md",
       "title": "Cutty Sark: The End of the Age of Sail",
@@ -908,6 +996,28 @@
    "tracks": {
     "kid": [
      {
+      "file": "content/day05-british-museum/kid/00-world-in-one-city.md",
+      "title": "The World in One City",
+      "est_minutes": 1.8,
+      "tell_me_more": [
+       {
+        "file": "content/day05-british-museum/kid/00-world-in-one-city-more-1.md",
+        "title": "The Museum Anyone Can Walk Into",
+        "est_minutes": 1.9
+       },
+       {
+        "file": "content/day05-british-museum/kid/00-world-in-one-city-more-2.md",
+        "title": "How Did All This Stuff Get Here?",
+        "est_minutes": 2.0
+       },
+       {
+        "file": "content/day05-british-museum/kid/00-world-in-one-city-more-3.md",
+        "title": "How to Beat a Giant Museum",
+        "est_minutes": 2.0
+       }
+      ]
+     },
+     {
       "file": "content/day05-british-museum/kid/01-rosetta-stone.md",
       "title": "The Rosetta Stone: The Key That Unlocked Egypt",
       "words": 211,
@@ -1015,6 +1125,28 @@
      }
     ],
     "adult": [
+     {
+      "file": "content/day05-british-museum/adult/00-world-in-one-city.md",
+      "title": "The World in One City",
+      "est_minutes": 1.9,
+      "tell_me_more": [
+       {
+        "file": "content/day05-british-museum/adult/00-world-in-one-city-more-1.md",
+        "title": "The Most Radical Idea in the Building",
+        "est_minutes": 2.2
+       },
+       {
+        "file": "content/day05-british-museum/adult/00-world-in-one-city-more-2.md",
+        "title": "How the World Ended Up in London",
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day05-british-museum/adult/00-world-in-one-city-more-3.md",
+        "title": "How to See the World in a Day",
+        "est_minutes": 2.0
+       }
+      ]
+     },
      {
       "file": "content/day05-british-museum/adult/01-museum-and-court.md",
       "title": "The British Museum: The First Museum of Everything",
@@ -1430,6 +1562,28 @@
    "tracks": {
     "kid": [
      {
+      "file": "content/day06-buckingham-palace/kid/00-crown-and-country.md",
+      "title": "The King Who Isn't the Boss",
+      "est_minutes": 2.2,
+      "tell_me_more": [
+       {
+        "file": "content/day06-buckingham-palace/kid/00-crown-and-country-more-1.md",
+        "title": "So What Does a King Even Do?",
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day06-buckingham-palace/kid/00-crown-and-country-more-2.md",
+        "title": "How Kings Stopped Being the Boss",
+        "est_minutes": 2.6
+       },
+       {
+        "file": "content/day06-buckingham-palace/kid/00-crown-and-country-more-3.md",
+        "title": "Your Spotting Game for Today",
+        "est_minutes": 2.6
+       }
+      ]
+     },
+     {
       "file": "content/day06-buckingham-palace/kid/01-history.md",
       "title": "The Palace That Started as a Big House",
       "est_minutes": 2.8,
@@ -1510,6 +1664,28 @@
      }
     ],
     "adult": [
+     {
+      "file": "content/day06-buckingham-palace/adult/00-crown-and-country.md",
+      "title": "The Crown That Reigns but Does Not Rule",
+      "est_minutes": 2.2,
+      "tell_me_more": [
+       {
+        "file": "content/day06-buckingham-palace/adult/00-crown-and-country-more-1.md",
+        "title": "What a King Actually Does All Day",
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day06-buckingham-palace/adult/00-crown-and-country-more-2.md",
+        "title": "How the Kings Lost Their Kingdom",
+        "est_minutes": 2.8
+       },
+       {
+        "file": "content/day06-buckingham-palace/adult/00-crown-and-country-more-3.md",
+        "title": "Crown and Country, and What to Watch For",
+        "est_minutes": 2.4
+       }
+      ]
+     },
      {
       "file": "content/day06-buckingham-palace/adult/01-history.md",
       "title": "The House That Became a Palace",
@@ -2360,6 +2536,28 @@
    "tracks": {
     "kid": [
      {
+      "file": "content/day07-hampton-court/kid/00-the-tudors.md",
+      "title": "The Family Behind This Whole Palace",
+      "est_minutes": 1.8,
+      "tell_me_more": [
+       {
+        "file": "content/day07-hampton-court/kid/00-the-tudors-more-1.md",
+        "title": "The War of the Two Roses",
+        "est_minutes": 2.3
+       },
+       {
+        "file": "content/day07-hampton-court/kid/00-the-tudors-more-2.md",
+        "title": "The King Who Started His Own Church",
+        "est_minutes": 2.2
+       },
+       {
+        "file": "content/day07-hampton-court/kid/00-the-tudors-more-3.md",
+        "title": "Spotting the Tudors Today",
+        "est_minutes": 2.2
+       }
+      ]
+     },
+     {
       "file": "content/day07-hampton-court/kid/01-henry-and-wolsey.md",
       "title": "The Palace a King Took for Himself",
       "est_minutes": 1.3,
@@ -2546,6 +2744,28 @@
      }
     ],
     "adult": [
+     {
+      "file": "content/day07-hampton-court/adult/00-the-tudors.md",
+      "title": "The Family at the Center of the Story",
+      "est_minutes": 1.9,
+      "tell_me_more": [
+       {
+        "file": "content/day07-hampton-court/adult/00-the-tudors-more-1.md",
+        "title": "Two Roses Made Into One",
+        "est_minutes": 2.2
+       },
+       {
+        "file": "content/day07-hampton-court/adult/00-the-tudors-more-2.md",
+        "title": "The Divorce That Split a Church",
+        "est_minutes": 2.3
+       },
+       {
+        "file": "content/day07-hampton-court/adult/00-the-tudors-more-3.md",
+        "title": "Reading the Tudors in the Brick",
+        "est_minutes": 2.1
+       }
+      ]
+     },
      {
       "file": "content/day07-hampton-court/adult/01-wolsey-henry.md",
       "title": "Wolsey's Palace, Henry's Prize",
@@ -2740,6 +2960,23 @@
    "tracks": {
     "kid": [
      {
+      "file": "content/day08-train-north/kid/00-crossing-the-border.md",
+      "title": "The Invisible Line You'll Cross Today",
+      "est_minutes": 2.0,
+      "tell_me_more": [
+       {
+        "file": "content/day08-train-north/kid/00-crossing-the-border-more-1.md",
+        "title": "Two Countries That Share a King",
+        "est_minutes": 2.2
+       },
+       {
+        "file": "content/day08-train-north/kid/00-crossing-the-border-more-2.md",
+        "title": "The Train That Squished a Whole Country",
+        "est_minutes": 2.3
+       }
+      ]
+     },
+     {
       "file": "content/day08-train-north/kid/01-east-coast-line.md",
       "title": "Racing North on the Flying Scotsman's Line",
       "words": 216,
@@ -2841,6 +3078,23 @@
      }
     ],
     "adult": [
+     {
+      "file": "content/day08-train-north/adult/00-crossing-the-border.md",
+      "title": "One Island, Two Old Nations",
+      "est_minutes": 2.1,
+      "tell_me_more": [
+       {
+        "file": "content/day08-train-north/adult/00-crossing-the-border-more-1.md",
+        "title": "Same Island, Still a Different Country",
+        "est_minutes": 2.7
+       },
+       {
+        "file": "content/day08-train-north/adult/00-crossing-the-border-more-2.md",
+        "title": "The Iron Road That Shrank the Island",
+        "est_minutes": 2.5
+       }
+      ]
+     },
      {
       "file": "content/day08-train-north/adult/01-east-coast-line.md",
       "title": "The East Coast Main Line: Racing History",
@@ -2949,6 +3203,28 @@
    "note": "3:00 PM timed entry",
    "tracks": {
     "kid": [
+     {
+      "file": "content/day09-edinburgh-castle/kid/00-athens-of-the-north.md",
+      "title": "Welcome to the City of Two Halves",
+      "est_minutes": 1.9,
+      "tell_me_more": [
+       {
+        "file": "content/day09-edinburgh-castle/kid/00-athens-of-the-north-more-1.md",
+        "title": "The Old Town and the New Town",
+        "est_minutes": 2.1
+       },
+       {
+        "file": "content/day09-edinburgh-castle/kid/00-athens-of-the-north-more-2.md",
+        "title": "The City That Was Super Smart",
+        "est_minutes": 2.2
+       },
+       {
+        "file": "content/day09-edinburgh-castle/kid/00-athens-of-the-north-more-3.md",
+        "title": "Things to Spot in Edinburgh",
+        "est_minutes": 2.1
+       }
+      ]
+     },
      {
       "file": "content/day09-edinburgh-castle/kid/01-castle-rock.md",
       "title": "The Most Attacked Castle in Britain",
@@ -3088,6 +3364,28 @@
      }
     ],
     "adult": [
+     {
+      "file": "content/day09-edinburgh-castle/adult/00-athens-of-the-north.md",
+      "title": "Welcome to the Athens of the North",
+      "est_minutes": 2.0,
+      "tell_me_more": [
+       {
+        "file": "content/day09-edinburgh-castle/adult/00-athens-of-the-north-more-1.md",
+        "title": "A Tale of Two Towns",
+        "est_minutes": 2.3
+       },
+       {
+        "file": "content/day09-edinburgh-castle/adult/00-athens-of-the-north-more-2.md",
+        "title": "The Little City That Rethought the World",
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day09-edinburgh-castle/adult/00-athens-of-the-north-more-3.md",
+        "title": "What to Notice in Edinburgh",
+        "est_minutes": 2.3
+       }
+      ]
+     },
      {
       "file": "content/day09-edinburgh-castle/adult/01-rock-and-sieges.md",
       "title": "Castle Rock: Geology as Destiny",
@@ -3611,6 +3909,23 @@
    "tracks": {
     "kid": [
      {
+      "file": "content/day10-inchcolm-island/kid/00-firth-of-forth.md",
+      "title": "Where the River Turns Into the Sea",
+      "est_minutes": 2.0,
+      "tell_me_more": [
+       {
+        "file": "content/day10-inchcolm-island/kid/00-firth-of-forth-more-1.md",
+        "title": "Islands That Were Churches, Forts and Prisons",
+        "est_minutes": 2.2
+       },
+       {
+        "file": "content/day10-inchcolm-island/kid/00-firth-of-forth-more-2.md",
+        "title": "How to Get Across When the Water's in the Way",
+        "est_minutes": 2.2
+       }
+      ]
+     },
+     {
       "file": "content/day10-inchcolm-island/kid/01-forth-bridge.md",
       "title": "The Big Red Bridge Made of 6.5 Million Rivets",
       "words": 225,
@@ -3746,6 +4061,23 @@
      }
     ],
     "adult": [
+     {
+      "file": "content/day10-inchcolm-island/adult/00-firth-of-forth.md",
+      "title": "The Forth: Scotland's Sea Road",
+      "est_minutes": 1.9,
+      "tell_me_more": [
+       {
+        "file": "content/day10-inchcolm-island/adult/00-firth-of-forth-more-1.md",
+        "title": "A Scatter of Islands, Each With a Job",
+        "est_minutes": 2.2
+       },
+       {
+        "file": "content/day10-inchcolm-island/adult/00-firth-of-forth-more-2.md",
+        "title": "From a Monk's Boat to a Bridge of Steel",
+        "est_minutes": 2.1
+       }
+      ]
+     },
      {
       "file": "content/day10-inchcolm-island/adult/01-forth-bridge.md",
       "title": "The Forth Bridge: Engineering as Public Reassurance",
@@ -4322,6 +4654,23 @@
    "tracks": {
     "kid": [
      {
+      "file": "content/day12-arthurs-seat/kid/00-city-of-volcanoes.md",
+      "title": "Sleeping Volcanoes Under a Whole City",
+      "est_minutes": 1.8,
+      "tell_me_more": [
+       {
+        "file": "content/day12-arthurs-seat/kid/00-city-of-volcanoes-more-1.md",
+        "title": "The Giant Ice That Shaped the Hills",
+        "est_minutes": 2.3
+       },
+       {
+        "file": "content/day12-arthurs-seat/kid/00-city-of-volcanoes-more-2.md",
+        "title": "The Man Who Found Out the Earth Is Super Old",
+        "est_minutes": 2.4
+       }
+      ]
+     },
+     {
       "file": "content/day12-arthurs-seat/kid/01-climbing-a-volcano.md",
       "title": "You Are Climbing a Volcano",
       "est_minutes": 1.5,
@@ -4415,6 +4764,23 @@
      }
     ],
     "adult": [
+     {
+      "file": "content/day12-arthurs-seat/adult/00-city-of-volcanoes.md",
+      "title": "The City the Volcanoes Built",
+      "est_minutes": 1.9,
+      "tell_me_more": [
+       {
+        "file": "content/day12-arthurs-seat/adult/00-city-of-volcanoes-more-1.md",
+        "title": "The Volcanoes Under the City",
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day12-arthurs-seat/adult/00-city-of-volcanoes-more-2.md",
+        "title": "Deep Time, and a Mountain in the Middle of Town",
+        "est_minutes": 2.5
+       }
+      ]
+     },
      {
       "file": "content/day12-arthurs-seat/adult/01-hutton-deep-time.md",
       "title": "Salisbury Crags: Where Deep Time Was Discovered",
@@ -4513,6 +4879,28 @@
    "note": "Walls, Shambles, 3:45 PM Minster entry",
    "tracks": {
     "kid": [
+     {
+      "file": "content/day13-york/kid/00-york-through-time.md",
+      "title": "A Time Machine You Can Walk Through",
+      "est_minutes": 1.8,
+      "tell_me_more": [
+       {
+        "file": "content/day13-york/kid/00-york-through-time-more-1.md",
+        "title": "How York Made an Emperor",
+        "est_minutes": 2.2
+       },
+       {
+        "file": "content/day13-york/kid/00-york-through-time-more-2.md",
+        "title": "Spotting the Layers",
+        "est_minutes": 2.2
+       },
+       {
+        "file": "content/day13-york/kid/00-york-through-time-more-3.md",
+        "title": "The Luckiest Bad Luck",
+        "est_minutes": 2.2
+       }
+      ]
+     },
      {
       "file": "content/day13-york/kid/01-walls-and-romans.md",
       "title": "York: Walk on Top of a City's Armor",
@@ -4633,6 +5021,28 @@
      }
     ],
     "adult": [
+     {
+      "file": "content/day13-york/adult/00-york-through-time.md",
+      "title": "Two Thousand Years in an Afternoon",
+      "est_minutes": 2.0,
+      "tell_me_more": [
+       {
+        "file": "content/day13-york/adult/00-york-through-time-more-1.md",
+        "title": "The City Where an Emperor Was Made",
+        "est_minutes": 2.3
+       },
+       {
+        "file": "content/day13-york/adult/00-york-through-time-more-2.md",
+        "title": "Reading the City in Layers",
+        "est_minutes": 2.5
+       },
+       {
+        "file": "content/day13-york/adult/00-york-through-time-more-3.md",
+        "title": "Saved by Being Left Behind",
+        "est_minutes": 2.5
+       }
+      ]
+     },
      {
       "file": "content/day13-york/adult/01-eboracum-to-york.md",
       "title": "From Eboracum to York: A Capital in Layers",
@@ -4759,6 +5169,28 @@
    "tracks": {
     "kid": [
      {
+      "file": "content/day14-jorvik/kid/00-the-vikings.md",
+      "title": "The Real Vikings Were Wilder Than the Cartoons",
+      "est_minutes": 1.9,
+      "tell_me_more": [
+       {
+        "file": "content/day14-jorvik/kid/00-the-vikings-more-1.md",
+        "title": "How Far Did the Vikings Really Go?",
+        "est_minutes": 2.1
+       },
+       {
+        "file": "content/day14-jorvik/kid/00-the-vikings-more-2.md",
+        "title": "You Speak Viking Every Day",
+        "est_minutes": 2.2
+       },
+       {
+        "file": "content/day14-jorvik/kid/00-the-vikings-more-3.md",
+        "title": "How Do We Even Know This?",
+        "est_minutes": 1.9
+       }
+      ]
+     },
+     {
       "file": "content/day14-jorvik/kid/01-vikings-take-york.md",
       "title": "The Vikings Are Coming — And Staying",
       "est_minutes": 1.5,
@@ -4872,6 +5304,28 @@
      }
     ],
     "adult": [
+     {
+      "file": "content/day14-jorvik/adult/00-the-vikings.md",
+      "title": "A Storm Out of the North",
+      "est_minutes": 1.9,
+      "tell_me_more": [
+       {
+        "file": "content/day14-jorvik/adult/00-the-vikings-more-1.md",
+        "title": "The Farthest-Travelled People of Their Age",
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day14-jorvik/adult/00-the-vikings-more-2.md",
+        "title": "The Half of England That Spoke Norse",
+        "est_minutes": 2.2
+       },
+       {
+        "file": "content/day14-jorvik/adult/00-the-vikings-more-3.md",
+        "title": "The Vikings the Winners Forgot to Write Down",
+        "est_minutes": 2.0
+       }
+      ]
+     },
      {
       "file": "content/day14-jorvik/adult/01-viking-york.md",
       "title": "Jorvik: The Viking Capital of England",

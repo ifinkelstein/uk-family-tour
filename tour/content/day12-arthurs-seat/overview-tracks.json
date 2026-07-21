@@ -1,0 +1,24 @@
+{
+  "kid": [
+    {
+      "file": "content/day12-arthurs-seat/kid/00-city-of-volcanoes.md",
+      "title": "Sleeping Volcanoes Under a Whole City",
+      "est_minutes": 1.8,
+      "tell_me_more": [
+        {"file": "content/day12-arthurs-seat/kid/00-city-of-volcanoes-more-1.md", "title": "The Giant Ice That Shaped the Hills", "est_minutes": 2.3},
+        {"file": "content/day12-arthurs-seat/kid/00-city-of-volcanoes-more-2.md", "title": "The Man Who Found Out the Earth Is Super Old", "est_minutes": 2.4}
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day12-arthurs-seat/adult/00-city-of-volcanoes.md",
+      "title": "The City the Volcanoes Built",
+      "est_minutes": 1.9,
+      "tell_me_more": [
+        {"file": "content/day12-arthurs-seat/adult/00-city-of-volcanoes-more-1.md", "title": "The Volcanoes Under the City", "est_minutes": 2.4},
+        {"file": "content/day12-arthurs-seat/adult/00-city-of-volcanoes-more-2.md", "title": "Deep Time, and a Mountain in the Middle of Town", "est_minutes": 2.5}
+      ]
+    }
+  ]
+}

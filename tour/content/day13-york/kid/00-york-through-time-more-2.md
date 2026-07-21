@@ -1,0 +1,8 @@
+# Spotting the Layers
+Here is a game you can play for the rest of the day. York has been conquered and renamed again and again, and every group of people who took over left clues lying around. If you learn the clues, you can read the whole history just by walking.
+
+Start with the people who came after the Romans, the Anglo-Saxons. They took over the old Roman town, and they made York famous for something surprising: books and learning. Long ago a boy grew up going to school right here in York, at a church school that had the best library in the whole country. His name was Alcuin, and he grew up so clever that the most powerful king in all of Europe, a giant of a ruler named Charlemagne, asked him to come and run every school in his empire. Think about that. A kid from York ended up teaching half of Europe.
+
+After the Anglo-Saxons came the Vikings, who captured York and made it the capital of their very own kingdom, which they called Jorvik. But shhh, the Vikings are tomorrow's adventure, so we will let them wait.
+
+Now, your clues. Clue number one: those long walls you get to walk on mostly sit exactly where the Romans first built them, almost two thousand years ago. You already know clue number two, the street names ending in gate, like Stonegate and Coppergate, which come from a Viking word for street. And here is a brand new clue, clue number three, and it is my favorite. Go inside the Minster and find the stairs down to a place called the Undercroft. Down there you can actually walk downward through time, past a Roman wall at the very bottom, then newer stone on top of it, then the cathedral above all of it, like the layers of a giant stone cake. In York, the deeper you dig, the older it gets. Start spotting your clues.

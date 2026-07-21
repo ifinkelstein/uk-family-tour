@@ -1,0 +1,8 @@
+# How to Get Across When the Water's in the Way
+Here is a puzzle that people worried about for hundreds and hundreds of years. The big city of Edinburgh is on this side of the firth. But there is lovely land on the other side too, right across the water. So how on earth do you get across?
+
+The firth is brilliant if you want to travel along it in a boat. But it is really annoying if you just want to get to the other side, because there is a whole mile of cold, deep, wavy salt water in the way. You can't jump it. You can't walk it. So what do you do?
+
+For a very, very long time there was only one answer. Get in a little boat and row like mad. Monks rowed themselves out to their islands. And people who wanted to cross the firth climbed into wooden ferry boats and were rowed all the way over, freezing cold, getting splashed, taking ages and ages. There was even a special crossing used by a queen long ago, and the town there is still called Queensferry because of her. But when a big storm blew in, everybody just had to wait, sometimes for days and days, until the water calmed down. No crossing today. Sorry.
+
+And then, a bit more than a hundred years ago, people had an incredible idea. What if you didn't cross the water at all? What if you built something so gigantic that you could step right over the top of it? And they did. They built the enormous red bridge you can see, so strong and so huge that trains have been thundering across the sky on it ever since. You'll hear its whole story later. But just think about it for a second. A tiny monk shivering in a rowing boat, and a giant train roaring over a bridge in the clouds. Both of them were trying to solve the exact same puzzle. How do you beat the water and get across?

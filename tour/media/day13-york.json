@@ -1,0 +1,43 @@
+{
+ "sight": "day13-york",
+ "name": "York",
+ "title": "Two thousand years in an afternoon",
+ "note": "Pictures for the big-picture opening: the Minster and the medieval walls of a city layered with Roman, Viking and medieval history.",
+ "chapters": [
+  {
+   "n": 1,
+   "label": "York Through Time"
+  }
+ ],
+ "counts": {
+  "image": 2,
+  "video": 0,
+  "audio": 0
+ },
+ "items": [
+  {
+   "type": "image",
+   "id": "01-york-minster",
+   "chapter": 1,
+   "file": "images/01-york-minster.jpg",
+   "caption": "York Minster, one of the greatest medieval cathedrals in northern Europe. York lets you walk through two thousand years, Roman, Viking and medieval, in a single afternoon.",
+   "kidcaption": "The enormous York Minster. York is like a time machine: Romans, Vikings, and medieval knights all left their mark on this one small city.",
+   "credit": "Robert-brook",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source": "https://commons.wikimedia.org/wiki/File:York_Minster,_exterior.jpg"
+  },
+  {
+   "type": "image",
+   "id": "02-city-walls",
+   "chapter": 1,
+   "file": "images/02-city-walls.JPG",
+   "caption": "York's medieval walls, the most complete of any English city. Because York's importance faded, it was preserved rather than knocked down, leaving it wonderfully whole.",
+   "kidcaption": "You can walk almost all the way around York on top of its old stone walls, more complete than any other city in England.",
+   "credit": "Worldfootage",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:York_-_City_Wall_From_Bootham_Bar_To_Layerthorpe_Monk_Bar_Robin_Hoods_Tower_-_2025-09-25_07-43-27_001.JPG"
+  }
+ ]
+}

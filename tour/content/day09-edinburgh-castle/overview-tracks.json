@@ -1,0 +1,50 @@
+{
+  "kid": [
+    {
+      "file": "content/day09-edinburgh-castle/kid/00-athens-of-the-north.md",
+      "title": "Welcome to the City of Two Halves",
+      "est_minutes": 1.9,
+      "tell_me_more": [
+        {
+          "file": "content/day09-edinburgh-castle/kid/00-athens-of-the-north-more-1.md",
+          "title": "The Old Town and the New Town",
+          "est_minutes": 2.1
+        },
+        {
+          "file": "content/day09-edinburgh-castle/kid/00-athens-of-the-north-more-2.md",
+          "title": "The City That Was Super Smart",
+          "est_minutes": 2.2
+        },
+        {
+          "file": "content/day09-edinburgh-castle/kid/00-athens-of-the-north-more-3.md",
+          "title": "Things to Spot in Edinburgh",
+          "est_minutes": 2.1
+        }
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day09-edinburgh-castle/adult/00-athens-of-the-north.md",
+      "title": "Welcome to the Athens of the North",
+      "est_minutes": 2.0,
+      "tell_me_more": [
+        {
+          "file": "content/day09-edinburgh-castle/adult/00-athens-of-the-north-more-1.md",
+          "title": "A Tale of Two Towns",
+          "est_minutes": 2.3
+        },
+        {
+          "file": "content/day09-edinburgh-castle/adult/00-athens-of-the-north-more-2.md",
+          "title": "The Little City That Rethought the World",
+          "est_minutes": 2.4
+        },
+        {
+          "file": "content/day09-edinburgh-castle/adult/00-athens-of-the-north-more-3.md",
+          "title": "What to Notice in Edinburgh",
+          "est_minutes": 2.3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# The Little City That Rethought the World
+
+Now back to that astonishing nickname, the Athens of the North. It sounds like local boasting, but it points at something genuinely extraordinary. During the seventeen hundreds this modest Scottish city became one of the beating hearts of a movement historians call the Enlightenment.
+
+Here is the Enlightenment in plain terms. For most of history, if you wanted to know why the world worked as it did, or how a society should be run, the answer came down from authority, from the church, the king, or ancient tradition, and you were expected to accept it. During the seventeen hundreds, thinkers across Europe began to insist on something different. Test your ideas, they said. Use reason. Look at the evidence. Question what you have been told, even about the largest matters. That habit of confident, curious, open inquiry helped invent the modern world of science, of economics, of how we argue about right and wrong, and Edinburgh threw itself into it with unusual energy.
+
+Two names will follow you around this city. The first is David Hume, one of the most important philosophers ever to write in English. A philosopher is simply someone who thinks very carefully about the deepest questions, and Hume asked the hardest ones of all. How do we actually know anything? Why do we assume tomorrow will resemble today? He argued that we should follow evidence and reason wherever they lead and be honest about how little we can be certain of, and he did it all without relying on religion, which genuinely shocked his neighbors.
+
+The second is Adam Smith, who very nearly invented the study of economics single-handed. In seventeen seventy-six he published a book called The Wealth of Nations, and it is still argued over today. Its great insight was that the countless small, selfish decisions people make when they buy and sell can, without anyone in charge, organize the work of an entire society, a pattern he famously called the invisible hand.
+
+Hold this in mind as you walk. Ideas worked out in the taverns and drawing rooms of this small, rainy city still shape how the world runs its economies and asks its questions, more than two centuries later.

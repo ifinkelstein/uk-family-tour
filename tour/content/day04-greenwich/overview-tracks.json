@@ -1,0 +1,50 @@
+{
+  "kid": [
+    {
+      "file": "content/day04-greenwich/kid/00-britain-and-sea.md",
+      "title": "Where the Whole World Starts Counting",
+      "est_minutes": 1.9,
+      "tell_me_more": [
+        {
+          "file": "content/day04-greenwich/kid/00-britain-and-sea-more-1.md",
+          "title": "How a Rainy Island Bossed the Oceans",
+          "est_minutes": 2.7
+        },
+        {
+          "file": "content/day04-greenwich/kid/00-britain-and-sea-more-2.md",
+          "title": "The Puzzle That Sank a Thousand Ships",
+          "est_minutes": 2.4
+        },
+        {
+          "file": "content/day04-greenwich/kid/00-britain-and-sea-more-3.md",
+          "title": "Your Greenwich Treasure Hunt",
+          "est_minutes": 2.6
+        }
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day04-greenwich/adult/00-britain-and-sea.md",
+      "title": "The Island That Set the World's Clock",
+      "est_minutes": 1.8,
+      "tell_me_more": [
+        {
+          "file": "content/day04-greenwich/adult/00-britain-and-sea-more-1.md",
+          "title": "Wooden Walls and the Wealth of the World",
+          "est_minutes": 2.7
+        },
+        {
+          "file": "content/day04-greenwich/adult/00-britain-and-sea-more-2.md",
+          "title": "Lost at Sea, and the Clock That Found the Way",
+          "est_minutes": 2.4
+        },
+        {
+          "file": "content/day04-greenwich/adult/00-britain-and-sea-more-3.md",
+          "title": "What to Watch For on the Hill",
+          "est_minutes": 2.4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+ "sight": "day09-edinburgh-castle",
+ "name": "Edinburgh Castle",
+ "title": "The Athens of the North",
+ "note": "Pictures for the big-picture opening: the medieval Old Town, the planned New Town, and Adam Smith of the Scottish Enlightenment.",
+ "chapters": [
+  {
+   "n": 1,
+   "label": "Athens of the North"
+  }
+ ],
+ "counts": {
+  "image": 3,
+  "video": 0,
+  "audio": 0
+ },
+ "items": [
+  {
+   "type": "image",
+   "id": "01-old-town",
+   "chapter": 1,
+   "file": "images/01-old-town.jpg",
+   "caption": "Edinburgh's Old Town, crammed along the ridge below the castle: tall, crowded, medieval. This is one half of a city famously split in two.",
+   "kidcaption": "Edinburgh's Old Town, with tall crowded buildings tumbling down the hill from the castle. This is the old, medieval half of the city.",
+   "credit": "Richard Webb",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Old_Town_skyline_-_geograph.org.uk_-_3309971.jpg"
+  },
+  {
+   "type": "image",
+   "id": "02-new-town",
+   "chapter": 1,
+   "file": "images/02-new-town.jpg",
+   "caption": "The New Town, an elegant, planned Georgian city laid out from 1767. Old and New Town together are a UNESCO World Heritage Site, a tale of two towns.",
+   "kidcaption": "The New Town, all neat and elegant and planned, built about 250 years ago. Edinburgh is really two cities in one: a messy old half and a tidy new half.",
+   "credit": "kim traynor",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Charlotte_Square,_west_side_-_geograph.org.uk_-_1325881.jpg"
+  },
+  {
+   "type": "image",
+   "id": "03-adam-smith",
+   "chapter": 1,
+   "file": "images/03-adam-smith.jpg",
+   "caption": "Adam Smith, whose 1776 book on how economies work still shapes the world. Tiny Edinburgh was a powerhouse of ideas in the Enlightenment, the 'Athens of the North'.",
+   "kidcaption": "Adam Smith, one of Edinburgh's great thinkers. This small city was once one of the cleverest places on Earth, full of scientists and philosophers.",
+   "credit": "Alan Findlay",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Adam_Smith_statue,_Royal_Mile,_Edinburgh_-_geograph.org.uk_-_2472821.jpg"
+  }
+ ]
+}

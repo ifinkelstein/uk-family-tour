@@ -1,0 +1,55 @@
+{
+ "sight": "day05-british-museum",
+ "name": "British Museum",
+ "title": "The world in one city",
+ "note": "Pictures for the big-picture opening: the great museum, the Rosetta Stone, and treasures gathered from across the world.",
+ "chapters": [
+  {
+   "n": 1,
+   "label": "The World in One City"
+  }
+ ],
+ "counts": {
+  "image": 3,
+  "video": 0,
+  "audio": 0
+ },
+ "items": [
+  {
+   "type": "image",
+   "id": "01-great-court",
+   "chapter": 1,
+   "file": "images/01-great-court.jpg",
+   "caption": "The British Museum's Great Court under its vast glass roof. Founded in 1753 as one of the first free national public museums, it set out to gather the whole world under one roof.",
+   "kidcaption": "The huge glass roof of the British Museum. It was one of the first museums anywhere that anybody could walk into for free.",
+   "credit": "scarletgreen",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Great_Court,_British_Museum,_glass_cleaning_01.jpg"
+  },
+  {
+   "type": "image",
+   "id": "02-rosetta",
+   "chapter": 1,
+   "file": "images/02-rosetta.JPG",
+   "caption": "The Rosetta Stone, the key that cracked Egyptian hieroglyphs. Objects like this made London a place where you could read the whole human past.",
+   "kidcaption": "The Rosetta Stone! This slab was the secret key that let people finally read ancient Egyptian picture-writing.",
+   "credit": "Hans Hillewaert",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Rosetta_Stone.JPG"
+  },
+  {
+   "type": "image",
+   "id": "03-assyrian",
+   "chapter": 1,
+   "file": "images/03-assyrian.jpg",
+   "caption": "A colossal winged guardian from ancient Assyria. Treasures gathered from across the world, many through empire, and today the subject of honest debate about who they belong to.",
+   "kidcaption": "A giant winged bull-man that once guarded a palace in the Middle East nearly 3000 years ago. How do you think it ended up in London?",
+   "credit": "Jay Galvin",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:British_Museum_%E2%80%93_Assyrian_statue.jpg"
+  }
+ ]
+}

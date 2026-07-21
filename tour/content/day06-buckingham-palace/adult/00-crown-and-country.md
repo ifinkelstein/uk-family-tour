@@ -1,0 +1,9 @@
+# The Crown That Reigns but Does Not Rule
+
+Before we begin, a puzzle worth carrying through the whole day. You are standing outside the London home of a king, and in a couple of hours we will walk to the building where the country is actually governed, and those are two different places, run on two different principles, and Britain has arranged things this way quite deliberately.
+
+The short version is that Britain is a constitutional monarchy, a phrase worth unpacking, because it sits at the heart of everything you will see today. There is a monarch, at this moment King Charles the Third, who came to the throne in September of twenty twenty two and was crowned the following spring at Westminster Abbey. He is the head of state. His face is on the coins and the stamps, the armed forces swear their loyalty to him, and government is carried out in his name. And yet he does not run the country. He reigns, as the old phrase has it, but he does not rule.
+
+The ruling happens about a mile from here, at Westminster, where an elected Parliament makes the laws and a prime minister, drawn from among those elected politicians, actually governs. The King reads out the government's plans once a year in a grand ceremony, but he did not write a word of them, and by long custom he keeps his own political opinions strictly to himself.
+
+How a country ends up with a magnificent looking crown that holds almost no political power is one of the great slow stories of English history, some eight centuries of kings gradually, and often very unwillingly, handing authority to Parliament and eventually to ordinary people. Today we walk straight through both halves of that bargain. Here at the palace, the pageantry of the crown. At Westminster, the machinery of power. And deep underground at the Churchill War Rooms, the moment the whole arrangement was tested nearly to destruction. Let me set the scene.

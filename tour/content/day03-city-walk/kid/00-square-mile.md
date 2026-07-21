@@ -1,0 +1,8 @@
+# The Square Mile: The Tiny City Where London Was Born
+Here's a secret that even grown-ups get wrong. When people who live here say the City, they don't mean all of London, the giant place with nine million people that you came to visit. They mean a teeny tiny piece of it, right here, only about one mile across. You could walk from one side to the other in about twenty minutes. And yet this little patch is the most important patch of all, because this is where London began, almost two thousand years ago.
+
+Think about that. Two thousand years. People have lived right here, on this exact spot, without ever once stopping, since long before your country existed, since before almost anything you've heard of. The Romans started it. Then came Saxons, then Vikings in longships, then kings and knights, then a giant fire, then war planes dropping bombs. And every single time something knocked this little city down, the people picked themselves up and built it right back again.
+
+Here's a way to picture how old that is. If every year were one footstep, you would have to take two thousand steps to walk from today all the way back to the very first day of this city. That's longer than a walk to school, backwards through time, one step for every year.
+
+Today you get to walk across the whole two thousand years in one single morning. You'll see a ruined church swallowed up by trees, a gigantic dome that once refused to burn, and at the very end, a stone fortress with a very bloody history, the Tower of London. So here's your job for today. Everywhere you step, try to imagine what's underneath you. Because in this city, there's almost always something older hiding below your feet, and quite often, it's something that once caught fire.

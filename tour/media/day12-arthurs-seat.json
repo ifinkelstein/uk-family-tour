@@ -1,0 +1,55 @@
+{
+ "sight": "day12-arthurs-seat",
+ "name": "Arthur's Seat",
+ "title": "A city built on volcanoes",
+ "note": "Pictures for the big-picture opening: the city on its volcanic crags, and James Hutton, father of geology.",
+ "chapters": [
+  {
+   "n": 1,
+   "label": "The City of Volcanoes"
+  }
+ ],
+ "counts": {
+  "image": 3,
+  "video": 0,
+  "audio": 0
+ },
+ "items": [
+  {
+   "type": "image",
+   "id": "01-city-from-crags",
+   "chapter": 1,
+   "file": "images/01-city-from-crags.jpg",
+   "caption": "Edinburgh spread below the Salisbury Crags. The whole city is built on and around the worn-down roots of ancient volcanoes, scraped bare by Ice Age glaciers.",
+   "kidcaption": "See the whole city from up on the crags! Edinburgh is built on top of old, worn-down volcanoes. Don't worry, they've been asleep for millions of years.",
+   "credit": "Ermell",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Edinburgh_Salisbury_Crags-20110904-RM-122306.jpg"
+  },
+  {
+   "type": "image",
+   "id": "02-james-hutton",
+   "chapter": 1,
+   "file": "images/02-james-hutton.jpg",
+   "caption": "James Hutton, the Edinburgh farmer and thinker often called the father of geology, who realised from these rocks that the Earth was almost unimaginably old, an idea called deep time.",
+   "kidcaption": "This man, James Hutton, looked at Edinburgh's rocks and worked out that the Earth is millions and millions of years old, way older than anyone had guessed.",
+   "credit": "Henry Raeburn",
+   "license": "Public domain",
+   "license_url": "",
+   "source": "https://commons.wikimedia.org/wiki/File:Sir_Henry_Raeburn_-_James_Hutton,_1726_-_1797._Geologist_-_Google_Art_Project.jpg"
+  },
+  {
+   "type": "image",
+   "id": "03-arthurs-seat",
+   "chapter": 1,
+   "file": "images/03-arthurs-seat.jpg",
+   "caption": "Arthur's Seat, a genuine extinct volcano rising wild in the middle of a capital city, one of the strangest and finest city parks anywhere.",
+   "kidcaption": "Arthur's Seat is a real extinct volcano you can climb, right in the middle of the city! How many cities have a mountain in the park?",
+   "credit": "Daniel Kraft",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Edinburgh_from_Salisbury_Crags_panosphere_20211019.jpg"
+  }
+ ]
+}

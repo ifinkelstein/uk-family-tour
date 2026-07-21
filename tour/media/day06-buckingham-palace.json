@@ -1,0 +1,55 @@
+{
+ "sight": "day06-buckingham-palace",
+ "name": "Buckingham Palace",
+ "title": "Crown and country",
+ "note": "Pictures for the big-picture opening: the palace and its guards, and the Parliament where the real power sits.",
+ "chapters": [
+  {
+   "n": 1,
+   "label": "Crown and Country"
+  }
+ ],
+ "counts": {
+  "image": 3,
+  "video": 0,
+  "audio": 0
+ },
+ "items": [
+  {
+   "type": "image",
+   "id": "01-buckingham",
+   "chapter": 1,
+   "file": "images/01-buckingham.jpg",
+   "caption": "Buckingham Palace, the London home of the monarch. This is the face of the Crown, the pageantry, though the real power sits a mile away at Westminster.",
+   "kidcaption": "Buckingham Palace, where the King stays in London. When the flag is up, he's home!",
+   "credit": "Richard Cooke",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Buckingham_Palace,_West_Facade_-_geograph.org.uk_-_3271199.jpg"
+  },
+  {
+   "type": "image",
+   "id": "02-guard",
+   "chapter": 1,
+   "file": "images/02-guard.jpg",
+   "caption": "A guardsman in his bearskin. The ceremony and tradition around the monarchy is dazzling, and deliberately so, a living piece of theatre a thousand years old.",
+   "kidcaption": "A palace guard in his tall furry hat. They must stand incredibly still, no matter how many tourists make funny faces!",
+   "credit": "Carlos Delgado",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Guard_of_Buckingham_Palace_-_01.jpg"
+  },
+  {
+   "type": "image",
+   "id": "03-parliament",
+   "chapter": 1,
+   "file": "images/03-parliament.jpg",
+   "caption": "The Houses of Parliament at Westminster, where power actually lives. Britain is ruled by elected politicians here, while the king reigns but does not rule.",
+   "kidcaption": "The Houses of Parliament, with Big Ben. This is where the people who really run the country argue and make the laws.",
+   "credit": "David Smith",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:The_Thames,_Westminster_Bridge_and_the_Houses_of_Parliament_-_geograph.org.uk_-_6319303.jpg"
+  }
+ ]
+}

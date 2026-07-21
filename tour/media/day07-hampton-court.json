@@ -1,0 +1,55 @@
+{
+ "sight": "day07-hampton-court",
+ "name": "Hampton Court Palace",
+ "title": "The Tudors",
+ "note": "Pictures for the big-picture opening: Henry the Eighth, his daughter Elizabeth, and the great Tudor palace.",
+ "chapters": [
+  {
+   "n": 1,
+   "label": "The Tudors"
+  }
+ ],
+ "counts": {
+  "image": 3,
+  "video": 0,
+  "audio": 0
+ },
+ "items": [
+  {
+   "type": "image",
+   "id": "01-henry-viii",
+   "chapter": 1,
+   "file": "images/01-henry-viii.jpg",
+   "caption": "Henry the Eighth, the giant of the Tudor age. To marry as he wished, he broke England away from the Pope and made himself head of a new Church of England.",
+   "kidcaption": "Henry the Eighth, the famous king with six wives. He was so determined to get his way that he started a whole new church!",
+   "credit": "Workshop of Hans Holbein the Younger",
+   "license": "Public domain",
+   "license_url": "",
+   "source": "https://commons.wikimedia.org/wiki/File:After_Hans_Holbein_the_Younger_-_Portrait_of_Henry_VIII_-_Google_Art_Project.jpg"
+  },
+  {
+   "type": "image",
+   "id": "02-elizabeth-i",
+   "chapter": 1,
+   "file": "images/02-elizabeth-i.jpg",
+   "caption": "Henry's daughter Elizabeth the First, whose long reign became a golden age of Shakespeare and sea power. The Tudor line ended with her in 1603.",
+   "kidcaption": "Elizabeth the First, Henry's daughter. Her time as queen was so brilliant, with explorers and Shakespeare's plays, that it's called a golden age.",
+   "credit": "Formerly attributed to George Gower",
+   "license": "Public domain",
+   "license_url": "",
+   "source": "https://commons.wikimedia.org/wiki/File:Elizabeth_I_(Armada_Portrait).jpg"
+  },
+  {
+   "type": "image",
+   "id": "03-hampton-tudor",
+   "chapter": 1,
+   "file": "images/03-hampton-tudor.jpg",
+   "caption": "Hampton Court's Tudor gatehouse, the great red-brick palace where Henry feasted and schemed. The finest Tudor palace still standing.",
+   "kidcaption": "The red-brick Tudor front of Hampton Court, Henry the Eighth's favourite party palace. Look for his and his wives' initials carved around it.",
+   "credit": "David Dixon",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Hampton_Court_Palace,_Base_Court_and_Great_Gatehouse_-_geograph.org.uk_-_4434311.jpg"
+  }
+ ]
+}

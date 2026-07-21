@@ -1,0 +1,43 @@
+{
+ "sight": "day08-train-north",
+ "name": "The Train North",
+ "title": "One island, two nations",
+ "note": "Pictures for the big-picture opening: the border you cross today and the great railway that shrank the island.",
+ "chapters": [
+  {
+   "n": 1,
+   "label": "Crossing the Border"
+  }
+ ],
+ "counts": {
+  "image": 2,
+  "video": 0,
+  "audio": 0
+ },
+ "items": [
+  {
+   "type": "image",
+   "id": "01-border-sign",
+   "chapter": 1,
+   "file": "images/01-border-sign.jpg",
+   "caption": "The border. Today you cross from England into Scotland, one island holding two old nations that were separate kingdoms for most of the last thousand years.",
+   "kidcaption": "Today your train crosses this invisible line from England into Scotland, two countries that share one island but have their own history, laws and even banknotes.",
+   "credit": "Nicholas Mutton",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:England-_Scotland_border_-_Welcome_to_Scotland_sign_-_geograph.org.uk_-_741617.jpg"
+  },
+  {
+   "type": "image",
+   "id": "02-flying-scotsman",
+   "chapter": 1,
+   "file": "images/02-flying-scotsman.jpg",
+   "caption": "The Flying Scotsman. The great Victorian railways stitched the island together, turning a two-day coach journey north into a few hours, and standardised the clocks while they were at it.",
+   "kidcaption": "The famous Flying Scotsman train once raced from London to Edinburgh. Before trains, that trip took days by bumpy horse-coach!",
+   "credit": "Mjirlam at English Wikipedia",
+   "license": "Public domain",
+   "license_url": "",
+   "source": "https://commons.wikimedia.org/wiki/File:Flying_Scotsman_2005.jpg"
+  }
+ ]
+}

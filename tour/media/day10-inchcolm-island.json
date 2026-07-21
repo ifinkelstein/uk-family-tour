@@ -1,0 +1,55 @@
+{
+ "sight": "day10-inchcolm-island",
+ "name": "Inchcolm Island",
+ "title": "The Firth of Forth",
+ "note": "Pictures for the big-picture opening: the great sea inlet, its island abbey, and the mighty Forth Bridge.",
+ "chapters": [
+  {
+   "n": 1,
+   "label": "The Firth of Forth"
+  }
+ ],
+ "counts": {
+  "image": 3,
+  "video": 0,
+  "audio": 0
+ },
+ "items": [
+  {
+   "type": "image",
+   "id": "01-forth-bridge",
+   "chapter": 1,
+   "file": "images/01-forth-bridge.jpg",
+   "caption": "The Forth Bridge, one of the wonders of the industrial world, leaping across the great sea inlet. A firth is a broad estuary where a river widens into the sea.",
+   "kidcaption": "The gigantic red Forth Bridge, one of the most amazing bridges ever built, striding right across the water on legs like a giant.",
+   "credit": "Holger Uwe Schmitt",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:%2B2015_wurde_die_Forth_Bridge_in_die_Liste_des_Welterbes_eingetragen._04.jpg"
+  },
+  {
+   "type": "image",
+   "id": "02-inchcolm-abbey",
+   "chapter": 1,
+   "file": "images/02-inchcolm-abbey.jpg",
+   "caption": "Inchcolm Abbey, the 'Iona of the East'. For centuries the firth's little islands served as monasteries, fortresses and prisons, each with its own job.",
+   "kidcaption": "An 800-year-old abbey on a tiny island, where monks once lived. The islands out here have been churches, forts, and even prisons!",
+   "credit": "Richard Webb",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Inchcolm_Abbey_-_geograph.org.uk_-_3309978.jpg"
+  },
+  {
+   "type": "image",
+   "id": "03-firth-view",
+   "chapter": 1,
+   "file": "images/03-firth-view.jpg",
+   "caption": "The Firth of Forth, the sea road that shaped Edinburgh and eastern Scotland: a highway for monks, traders, kings and warships alike.",
+   "kidcaption": "Look out over the wide Firth of Forth. For a thousand years this water was a busy road for boats of monks, traders, and even Viking raiders.",
+   "credit": "Rosser1954",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Inchcolm_Island_and_Abbey._View_from_Inverkeithing._Fife.jpg"
+  }
+ ]
+}

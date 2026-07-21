@@ -1,0 +1,8 @@
+# How to See the World in a Day
+A word of strategy, because a museum this size can defeat you. The British Museum holds around eight million objects. You could walk its galleries for days and still see only a sliver. So do not try to see it. Nobody sees it. The trick, especially with children in tow, is to travel light and go deep.
+
+Pick a few rooms, give each one a mission, and leave while everyone still likes history. A single civilization explored properly beats a forced march past a thousand cases you will not remember by dinner. If you do only one thing this morning, do Egypt, the giant stone kings downstairs and the mummies upstairs, and let the rest be a bonus. Later chapters will hand you an actual route, so you do not have to navigate by instinct.
+
+And notice the shape of the whole day, because it has a rather lovely logic. This morning, in the British Museum, you travel through deep time and across the ancient world, Egypt, Assyria, Greece, and well beyond. This afternoon, at the National Gallery, you travel through the last seven hundred years of European painting, from gold backed medieval altarpieces to Van Gogh's sunflowers. Two roofs, a short walk apart, and between them they hold an astonishing slice of what human beings have made and imagined. That is the day in one sentence. The world in the morning, and the way we have pictured it in the afternoon.
+
+One last piece of advice. Let yourself be ambushed. Beside the famous things you came to hunt, you will pass a two headed turquoise serpent from Mexico, a chess set carved from walrus tusk, a warrior's face beaten in gold and pulled from a buried ship. Leave a little room to be surprised. The best museum memories are almost never the ones you planned.

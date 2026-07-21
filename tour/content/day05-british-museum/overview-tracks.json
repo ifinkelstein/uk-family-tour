@@ -1,0 +1,50 @@
+{
+  "kid": [
+    {
+      "file": "content/day05-british-museum/kid/00-world-in-one-city.md",
+      "title": "The World in One City",
+      "est_minutes": 1.8,
+      "tell_me_more": [
+        {
+          "file": "content/day05-british-museum/kid/00-world-in-one-city-more-1.md",
+          "title": "The Museum Anyone Can Walk Into",
+          "est_minutes": 1.9
+        },
+        {
+          "file": "content/day05-british-museum/kid/00-world-in-one-city-more-2.md",
+          "title": "How Did All This Stuff Get Here?",
+          "est_minutes": 2.0
+        },
+        {
+          "file": "content/day05-british-museum/kid/00-world-in-one-city-more-3.md",
+          "title": "How to Beat a Giant Museum",
+          "est_minutes": 2.0
+        }
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day05-british-museum/adult/00-world-in-one-city.md",
+      "title": "The World in One City",
+      "est_minutes": 1.9,
+      "tell_me_more": [
+        {
+          "file": "content/day05-british-museum/adult/00-world-in-one-city-more-1.md",
+          "title": "The Most Radical Idea in the Building",
+          "est_minutes": 2.2
+        },
+        {
+          "file": "content/day05-british-museum/adult/00-world-in-one-city-more-2.md",
+          "title": "How the World Ended Up in London",
+          "est_minutes": 2.4
+        },
+        {
+          "file": "content/day05-british-museum/adult/00-world-in-one-city-more-3.md",
+          "title": "How to See the World in a Day",
+          "est_minutes": 2.0
+        }
+      ]
+    }
+  ]
+}

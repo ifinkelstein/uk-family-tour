@@ -1,0 +1,50 @@
+{
+  "kid": [
+    {
+      "file": "content/day13-york/kid/00-york-through-time.md",
+      "title": "A Time Machine You Can Walk Through",
+      "est_minutes": 1.8,
+      "tell_me_more": [
+        {
+          "file": "content/day13-york/kid/00-york-through-time-more-1.md",
+          "title": "How York Made an Emperor",
+          "est_minutes": 2.2
+        },
+        {
+          "file": "content/day13-york/kid/00-york-through-time-more-2.md",
+          "title": "Spotting the Layers",
+          "est_minutes": 2.2
+        },
+        {
+          "file": "content/day13-york/kid/00-york-through-time-more-3.md",
+          "title": "The Luckiest Bad Luck",
+          "est_minutes": 2.2
+        }
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day13-york/adult/00-york-through-time.md",
+      "title": "Two Thousand Years in an Afternoon",
+      "est_minutes": 2.0,
+      "tell_me_more": [
+        {
+          "file": "content/day13-york/adult/00-york-through-time-more-1.md",
+          "title": "The City Where an Emperor Was Made",
+          "est_minutes": 2.3
+        },
+        {
+          "file": "content/day13-york/adult/00-york-through-time-more-2.md",
+          "title": "Reading the City in Layers",
+          "est_minutes": 2.5
+        },
+        {
+          "file": "content/day13-york/adult/00-york-through-time-more-3.md",
+          "title": "Saved by Being Left Behind",
+          "est_minutes": 2.5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "kid": [
+    {
+      "file": "content/day14-jorvik/kid/00-the-vikings.md",
+      "title": "The Real Vikings Were Wilder Than the Cartoons",
+      "est_minutes": 1.9,
+      "tell_me_more": [
+        {"file": "content/day14-jorvik/kid/00-the-vikings-more-1.md", "title": "How Far Did the Vikings Really Go?", "est_minutes": 2.1},
+        {"file": "content/day14-jorvik/kid/00-the-vikings-more-2.md", "title": "You Speak Viking Every Day", "est_minutes": 2.2},
+        {"file": "content/day14-jorvik/kid/00-the-vikings-more-3.md", "title": "How Do We Even Know This?", "est_minutes": 1.9}
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day14-jorvik/adult/00-the-vikings.md",
+      "title": "A Storm Out of the North",
+      "est_minutes": 1.9,
+      "tell_me_more": [
+        {"file": "content/day14-jorvik/adult/00-the-vikings-more-1.md", "title": "The Farthest-Travelled People of Their Age", "est_minutes": 2.4},
+        {"file": "content/day14-jorvik/adult/00-the-vikings-more-2.md", "title": "The Half of England That Spoke Norse", "est_minutes": 2.2},
+        {"file": "content/day14-jorvik/adult/00-the-vikings-more-3.md", "title": "The Vikings the Winners Forgot to Write Down", "est_minutes": 2.0}
+      ]
+    }
+  ]
+}

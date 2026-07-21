@@ -1,0 +1,50 @@
+{
+ "kid": [
+  {
+   "file": "content/day06-buckingham-palace/kid/00-crown-and-country.md",
+   "title": "The King Who Isn't the Boss",
+   "est_minutes": 2.2,
+   "tell_me_more": [
+    {
+     "file": "content/day06-buckingham-palace/kid/00-crown-and-country-more-1.md",
+     "title": "So What Does a King Even Do?",
+     "est_minutes": 2.4
+    },
+    {
+     "file": "content/day06-buckingham-palace/kid/00-crown-and-country-more-2.md",
+     "title": "How Kings Stopped Being the Boss",
+     "est_minutes": 2.6
+    },
+    {
+     "file": "content/day06-buckingham-palace/kid/00-crown-and-country-more-3.md",
+     "title": "Your Spotting Game for Today",
+     "est_minutes": 2.6
+    }
+   ]
+  }
+ ],
+ "adult": [
+  {
+   "file": "content/day06-buckingham-palace/adult/00-crown-and-country.md",
+   "title": "The Crown That Reigns but Does Not Rule",
+   "est_minutes": 2.2,
+   "tell_me_more": [
+    {
+     "file": "content/day06-buckingham-palace/adult/00-crown-and-country-more-1.md",
+     "title": "What a King Actually Does All Day",
+     "est_minutes": 2.4
+    },
+    {
+     "file": "content/day06-buckingham-palace/adult/00-crown-and-country-more-2.md",
+     "title": "How the Kings Lost Their Kingdom",
+     "est_minutes": 2.8
+    },
+    {
+     "file": "content/day06-buckingham-palace/adult/00-crown-and-country-more-3.md",
+     "title": "Crown and Country, and What to Watch For",
+     "est_minutes": 2.4
+    }
+   ]
+  }
+ ]
+}

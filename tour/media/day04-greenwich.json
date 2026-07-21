@@ -1,0 +1,55 @@
+{
+ "sight": "day04-greenwich",
+ "name": "Greenwich",
+ "title": "Where the world sets its clock",
+ "note": "Pictures for the big-picture opening: the observatory, the Prime Meridian line, and the sea-clock that solved longitude.",
+ "chapters": [
+  {
+   "n": 1,
+   "label": "Britain and the Sea"
+  }
+ ],
+ "counts": {
+  "image": 3,
+  "video": 0,
+  "audio": 0
+ },
+ "items": [
+  {
+   "type": "image",
+   "id": "01-observatory",
+   "chapter": 1,
+   "file": "images/01-observatory.jpg",
+   "caption": "The Royal Observatory at Greenwich, where astronomers mapped the sky to help sailors find their way, and where the world agreed to start measuring time and place.",
+   "kidcaption": "The Royal Observatory, where scientists studied the stars to help ships cross the oceans without getting lost.",
+   "credit": "Dietmar Rabich",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:London,_Greenwich,_Royal_Greenwich_Observatory_--_2016_--_4695.jpg"
+  },
+  {
+   "type": "image",
+   "id": "02-meridian",
+   "chapter": 1,
+   "file": "images/02-meridian.jpg",
+   "caption": "The Prime Meridian, zero degrees longitude. Every place on Earth is measured east or west from this exact line, and the world's clock, Greenwich Mean Time, starts here.",
+   "kidcaption": "Stand on this line and you have one foot in the east of the world and one in the west! The whole planet measures distance and time from right here.",
+   "credit": "Chris Gorringe",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:The_Prime_Meridian_line_at_the_Greenwich_Royal_Observatory_-_geograph.org.uk_-_8156662.jpg"
+  },
+  {
+   "type": "image",
+   "id": "03-harrison-h1",
+   "chapter": 1,
+   "file": "images/03-harrison-h1.jpg",
+   "caption": "John Harrison's H1, one of the sea-clocks that finally solved 'longitude', letting sailors know exactly where they were and helping Britain rule the waves.",
+   "kidcaption": "This amazing clock helped solve one of the hardest puzzles ever: how do you know where you are in the middle of the ocean? The answer was a really, really good clock.",
+   "credit": "Phantom Photographer",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:H1_low_250.jpg"
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+# Spotting the Tudors Today
+Ready to become a Tudor detective? Here is what to look for as you explore, so you can spot this family with your very own eyes.
+
+First, notice that this palace looks like two different buildings stuck together, because it is. The front part, made of warm red brick with those wibbly twisted chimneys sticking up like sticks of candy, is the real Tudor part, Henry's part. The neat, tidy stone part at the back was built much later by different kings. So when you walk from one to the other through a doorway, you are actually jumping forward about a hundred and fifty years in a single step. See if you can feel the exact moment you cross over.
+
+Next, keep hunting for that Tudor rose we talked about, the red and white flower. But here is an even better secret to find. Somewhere in this palace, look for the letters H and A curled together. The H is for Henry, and the A is for Anne Boleyn, his second wife. After things went horribly wrong for Anne, workers were sent to scrub her initials off the walls everywhere. But they missed a spot. So if you find an H and an A hiding together, you have found a tiny clue that survived almost five hundred years by accident. How spooky is that?
+
+And here is the last thing to know. The Tudor family finally ran out. When Queen Elizabeth died in sixteen oh three, she had no children at all, so the crown went to her cousin, the King of Scotland. His family were called the Stuarts, and if you are going on to visit Stirling and Edinburgh later in this trip, that is exactly the family whose castles you will explore up there. So today is not the end of the story. It is really the beginning of it, and the rest is waiting for you all the way up in Scotland.

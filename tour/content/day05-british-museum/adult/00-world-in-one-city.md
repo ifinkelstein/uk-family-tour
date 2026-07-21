@@ -1,0 +1,8 @@
+# The World in One City
+Today you are going to try something a little audacious. You are going to visit the whole world, and most of human history, and you are going to do it inside a single city, without ever leaving London.
+
+That is not a boast, it is more or less the literal design. This morning's museum, the British Museum, was founded in 1753 and opened its doors in 1759 as something genuinely new under the sun, a national museum, free to the public, meant to gather the entire human record under one roof so that anyone, and the founding charter really did say anyone, could come and study it. This afternoon's museum, the National Gallery, founded in 1824, does the same for painting, seven centuries of European art assembled a few streets away, and free as well, a principle Britain's great museums still keep.
+
+Why here? Because by the eighteenth and nineteenth centuries London sat at the center of a global web of trade, science, money, and, let us be honest, empire, and the world's objects flowed toward it. The city became a kind of crossroads, a place where an Egyptian temple, an Assyrian palace, a Greek marble, and a Dutch still life could all end up neighbors. Some of that gathering was purchase and gift and patient scholarship. Some of it came through conquest, and who rightfully owns these things is argued fiercely to this day, in courtrooms and parliaments and, usefully, right in front of the objects themselves. We will meet that question honestly as we go.
+
+For now, just hold the wonderful, slightly dizzying idea. One city. One day. The whole world, waiting in a few grand rooms.

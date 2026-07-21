@@ -1,0 +1,26 @@
+{
+  "kid": [
+    {
+      "file": "content/day07-hampton-court/kid/00-the-tudors.md",
+      "title": "The Family Behind This Whole Palace",
+      "est_minutes": 1.8,
+      "tell_me_more": [
+        {"file": "content/day07-hampton-court/kid/00-the-tudors-more-1.md", "title": "The War of the Two Roses", "est_minutes": 2.3},
+        {"file": "content/day07-hampton-court/kid/00-the-tudors-more-2.md", "title": "The King Who Started His Own Church", "est_minutes": 2.2},
+        {"file": "content/day07-hampton-court/kid/00-the-tudors-more-3.md", "title": "Spotting the Tudors Today", "est_minutes": 2.2}
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day07-hampton-court/adult/00-the-tudors.md",
+      "title": "The Family at the Center of the Story",
+      "est_minutes": 1.9,
+      "tell_me_more": [
+        {"file": "content/day07-hampton-court/adult/00-the-tudors-more-1.md", "title": "Two Roses Made Into One", "est_minutes": 2.2},
+        {"file": "content/day07-hampton-court/adult/00-the-tudors-more-2.md", "title": "The Divorce That Split a Church", "est_minutes": 2.3},
+        {"file": "content/day07-hampton-court/adult/00-the-tudors-more-3.md", "title": "Reading the Tudors in the Brick", "est_minutes": 2.1}
+      ]
+    }
+  ]
+}

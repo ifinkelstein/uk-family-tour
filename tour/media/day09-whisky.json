@@ -1,0 +1,115 @@
+{
+ "sight": "day09-whisky",
+ "name": "Whisky: Scotland's Water of Life",
+ "title": "The story in a glass",
+ "note": "Photographs for the whisky story: the barley and the copper stills, sleeping casks, the poet-taxman, and where to try a dram in Edinburgh.",
+ "chapters": [
+  {
+   "n": 1,
+   "label": "Whisky"
+  }
+ ],
+ "counts": {
+  "image": 8,
+  "video": 0,
+  "audio": 0
+ },
+ "items": [
+  {
+   "type": "image",
+   "id": "01-dram",
+   "chapter": 1,
+   "file": "images/01-dram.jpg",
+   "caption": "A dram of Scotch in a Glencairn glass. The name comes from the Gaelic uisge beatha, the water of life, and it is Scotland's national drink and one of its great gifts to the world.",
+   "kidcaption": "A glass of whisky. Its old name means 'the water of life'. It's a strong grown-ups' drink, but the story of how it's made is amazing.",
+   "credit": "Trogain",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Glencairn_whisky_glass_and_lights.jpg"
+  },
+  {
+   "type": "image",
+   "id": "02-pot-stills",
+   "chapter": 1,
+   "file": "images/02-pot-stills.jpg",
+   "caption": "Copper pot stills, the gleaming heart of a distillery. Heat the liquid, and the alcohol boils off before the water and is caught as it rises. Their shape helps shape the flavour.",
+   "kidcaption": "These giant copper kettles are called stills. Whisky-makers heat the liquid inside until the alcohol turns to vapour and floats up to be caught. Like a science experiment!",
+   "credit": "WhiskyLass",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:RAER%27s_Unique_Copper_Stills_at_Jackton_Distillery,_East_Kilbride.jpg"
+  },
+  {
+   "type": "image",
+   "id": "03-casks",
+   "chapter": 1,
+   "file": "images/03-casks.jpg",
+   "caption": "A maturing warehouse. The spirit sleeps in oak casks for years, taking colour and flavour from the wood, while about two percent a year evaporates, the famous 'angels' share'.",
+   "kidcaption": "Barrels of whisky sleeping in the dark for years and years. A little bit floats away into the air each year, and the Scots say the angels drink it. The angels' share!",
+   "credit": "my friend, Y. Kohno",
+   "license": "CC BY-SA 3.0",
+   "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:Warehouse_Glenlivet.jpg"
+  },
+  {
+   "type": "image",
+   "id": "04-barley",
+   "chapter": 1,
+   "file": "images/04-barley.jpg",
+   "caption": "It all starts here: a field of barley. Barley, water, yeast and time, plus oak and sometimes peat smoke, are very nearly all that goes into a single malt.",
+   "kidcaption": "Whisky starts as a field of barley, a kind of grain. Add water, a drop of yeast, some smoke and a lot of patience, and that's almost the whole recipe.",
+   "credit": "Jim Smillie",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Field_of_Barley_-_geograph.org.uk_-_6899734.jpg"
+  },
+  {
+   "type": "image",
+   "id": "05-irish-stills",
+   "chapter": 1,
+   "file": "images/05-irish-stills.jpg",
+   "caption": "Irish stills. Irish whiskey is often distilled three times for a smoother spirit and is rarely smoky, one of the clearest differences from Scotch, which is usually distilled twice.",
+   "kidcaption": "Whisky is made all over the world. Irish whiskey is usually cooked three times instead of two, which makes it smoother. Different countries, different recipes.",
+   "credit": "Whisky lover",
+   "license": "Public domain",
+   "license_url": "",
+   "source": "https://commons.wikimedia.org/wiki/File:Cooleys_copper_pots.jpg"
+  },
+  {
+   "type": "image",
+   "id": "06-burns-exciseman",
+   "chapter": 1,
+   "file": "images/06-burns-exciseman.jpg",
+   "caption": "Robert Burns, Scotland's national poet, spent his last years as an exciseman, a taxman who hunted the illegal stills hidden in the glens. Whisky's early history is a smugglers' tale.",
+   "kidcaption": "For years whisky was made in secret to dodge the taxman. And guess who worked as a whisky taxman? The famous poet Robert Burns himself!",
+   "credit": "Alexander Nasmyth and John Beugo",
+   "license": "Public domain",
+   "license_url": "",
+   "source": "https://commons.wikimedia.org/wiki/File:Robert_Burns_Portrait_by_Alexander_Nasmyth_%26_John_Beugo.jpg"
+  },
+  {
+   "type": "image",
+   "id": "07-victoria-street",
+   "chapter": 1,
+   "file": "images/07-victoria-street.jpg",
+   "caption": "Curving Victoria Street in the Old Town, home of the Bow Bar, one of Edinburgh's classic whisky pubs, with hundreds of bottles on a gantry rescued from an old church.",
+   "kidcaption": "Pretty, curvy Victoria Street. Tucked along here is the Bow Bar, a famous old pub where grown-ups can choose from hundreds of different whiskies.",
+   "credit": "Jim Barton",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Victoria_Street_and_West_Bow,_Edinburgh_-_geograph.org.uk_-_7670589.jpg"
+  },
+  {
+   "type": "image",
+   "id": "08-whisky-experience",
+   "chapter": 1,
+   "file": "images/08-whisky-experience.jpg",
+   "caption": "The Scotch Whisky Experience on Castlehill, by the castle: a family-friendly barrel ride through how whisky is made, and home to the world's largest whisky collection.",
+   "kidcaption": "The Scotch Whisky Experience, right by the castle. You ride through in a barrel to see how whisky is made, and there's the biggest whisky collection on Earth to gawp at!",
+   "credit": "Enchufla Con Clave",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Castlehill_School_(Now_The_Scotch_Whisky_Experience),_354_Castlehill,_The_Royal_Mile,_Edinburgh_(1).jpg"
+  }
+ ]
+}

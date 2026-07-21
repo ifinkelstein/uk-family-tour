@@ -190,5 +190,14 @@
    "Robert Burns",
    "Robert Louis Stevenson"
   ]
+ },
+ "day09-whisky": {
+  "emoji": "🥃",
+  "color": "#8A5A1E",
+  "wiki": [
+   "Scotch whisky",
+   "Pot still",
+   "Barrel"
+  ]
  }
 }

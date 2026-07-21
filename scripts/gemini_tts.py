@@ -85,12 +85,16 @@ def main():
     ap.add_argument("--out", required=True)
     ap.add_argument("--voice", default="Charon")
     ap.add_argument("--audience", choices=["adult", "kid"], default="adult")
+    ap.add_argument("--accent", default="",
+                    help='accent instruction injected into the style prompt, e.g. '
+                         '"British Received Pronunciation" or "a gentle Scottish lilt"')
     ap.add_argument("--model", default=MODEL)
     args = ap.parse_args()
 
     text = md_text(Path(args.md))
+    accent = f"Speak throughout in {args.accent}. " if args.accent else ""
     body = {
-        "contents": [{"parts": [{"text": STYLES[args.audience] + text}]}],
+        "contents": [{"parts": [{"text": accent + STYLES[args.audience] + text}]}],
         "generationConfig": {
             "responseModalities": ["AUDIO"],
             "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": args.voice}}},

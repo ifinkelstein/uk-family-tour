@@ -3901,6 +3901,93 @@
    }
   },
   {
+   "id": "day09-whisky",
+   "name": "Whisky: Scotland's Water of Life",
+   "day": 9,
+   "date": "Sun Jul 19",
+   "note": "Optional · the story in a glass, and where to try a dram",
+   "tracks": {
+    "kid": [
+     {
+      "file": "content/day09-whisky/kid/01-water-of-life.md",
+      "title": "Scotland's Water of Life",
+      "est_minutes": 2.0,
+      "tell_me_more": [
+       {
+        "file": "content/day09-whisky/kid/01-water-of-life-more-1.md",
+        "title": "Giant Kettles and Sleeping Barrels",
+        "est_minutes": 2.9
+       },
+       {
+        "file": "content/day09-whisky/kid/01-water-of-life-more-6.md",
+        "title": "The Science of Whisky",
+        "est_minutes": 3.1
+       },
+       {
+        "file": "content/day09-whisky/kid/01-water-of-life-more-2.md",
+        "title": "Why They Smell So Different",
+        "est_minutes": 2.4
+       },
+       {
+        "file": "content/day09-whisky/kid/01-water-of-life-more-5.md",
+        "title": "Whiskies Around the World",
+        "est_minutes": 2.8
+       },
+       {
+        "file": "content/day09-whisky/kid/01-water-of-life-more-3.md",
+        "title": "Smugglers in the Hills",
+        "est_minutes": 2.8
+       },
+       {
+        "file": "content/day09-whisky/kid/01-water-of-life-more-4.md",
+        "title": "A Whisky Adventure for the Whole Family",
+        "est_minutes": 2.6
+       }
+      ]
+     }
+    ],
+    "adult": [
+     {
+      "file": "content/day09-whisky/adult/01-water-of-life.md",
+      "title": "Whisky: Scotland's Water of Life",
+      "est_minutes": 2.0,
+      "tell_me_more": [
+       {
+        "file": "content/day09-whisky/adult/01-water-of-life-more-1.md",
+        "title": "From Barley to Glass",
+        "est_minutes": 3.2
+       },
+       {
+        "file": "content/day09-whisky/adult/01-water-of-life-more-6.md",
+        "title": "The Science of Whisky",
+        "est_minutes": 3.5
+       },
+       {
+        "file": "content/day09-whisky/adult/01-water-of-life-more-2.md",
+        "title": "A Map in a Glass",
+        "est_minutes": 3.1
+       },
+       {
+        "file": "content/day09-whisky/adult/01-water-of-life-more-5.md",
+        "title": "Scotch, Irish, and the World's Whiskies",
+        "est_minutes": 3.0
+       },
+       {
+        "file": "content/day09-whisky/adult/01-water-of-life-more-3.md",
+        "title": "Smugglers, Excisemen and the World",
+        "est_minutes": 3.5
+       },
+       {
+        "file": "content/day09-whisky/adult/01-water-of-life-more-4.md",
+        "title": "Where to Find a Dram in Edinburgh",
+        "est_minutes": 2.9
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
    "id": "day10-inchcolm-island",
    "name": "Inchcolm Island & Forth Bridge",
    "day": 10,

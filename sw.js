@@ -41,6 +41,7 @@ async function cacheUrls(urls, day) {
       try {
         const r = await fetch(u, { cache: 'no-store' });
         if (r.ok && r.status === 200) { await cache.put(u, r.clone()); done++; }
+        else if (r.status === 404 && new URL(u).pathname.includes('/maps/')) done++; // maps are optional; missing audio still flags ⚠
         else failed++;
       } catch (_) { failed++; }
     }

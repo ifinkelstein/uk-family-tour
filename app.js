@@ -24,7 +24,7 @@ const au = document.getElementById('au');
 function loadJSON(k, fb) { try { return JSON.parse(localStorage.getItem(k)) ?? fb; } catch (_) { return fb; } }
 function saveJSON(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (_) { } }
 
-let MAN = null, ART = {}, MON = null, kid = loadJSON('kid', true), GAP = 30000;
+let MAN = null, ART = {}, MON = null, kid = loadJSON('kid', true);
 let queue = [], pos = -1, gapTimer = null, dragging = false, speed = loadJSON('speed', 1.0);
 let theme = loadJSON('theme', 'auto');   // 'auto' | 'light' | 'dark'
 let voice = loadJSON('voice', 'kokoro'); // narration voice engine
@@ -59,11 +59,15 @@ function applyTheme() {
   const r = document.documentElement;
   if (theme === 'light' || theme === 'dark') r.setAttribute('data-theme', theme);
   else r.removeAttribute('data-theme');
+  // Keep browser chrome (iOS status bar) in step with a forced theme.
+  const bg = { light: '#faf7f0', dark: '#12141c' };
+  document.querySelectorAll('meta[name=theme-color]').forEach(m =>
+    m.setAttribute('content', bg[theme] || ((m.getAttribute('media') || '').includes('dark') ? bg.dark : bg.light)));
 }
 const cityVar = d => d <= 7 ? '--london' : d <= 12 ? '--edinburgh' : '--york';
 const cityName = d => d <= 7 ? 'LONDON' : d <= 12 ? 'EDINBURGH' : 'YORK';
 const accent = d => getComputedStyle(document.documentElement).getPropertyValue(cityVar(d)).trim();
-const esc = s => s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 // For strings interpolated into inline onclick='...' JS: hex-escape everything
 // non-alphanumeric so neither the JS string nor the HTML attribute can break.
 const jsq = s => String(s).replace(/[^A-Za-z0-9 _.\-]/g, c => '\\u' + c.charCodeAt(0).toString(16).padStart(4, '0'));
@@ -171,25 +175,13 @@ function markHeard(f) { heard.add(f); saveJSON('heard', [...heard]); }
 /* Sub-chapter chain: within one story, child chapters follow after a short
    beat (immediately when the phone is pocketed). Playback never crosses into
    the NEXT main story on its own — see the 'ended' handler. */
-let gap = null; // { deadline, iv } while counting down (legacy long-gap UI)
 function startGap() {
   const len = document.hidden ? 0 : 1000;
   cancelGap();
   if (len) gapTimer = setTimeout(() => setPos(pos + 1), len);
   else setPos(pos + 1);
 }
-function gapLeft() { return gap ? Math.max(0, Math.ceil((gap.deadline - Date.now()) / 1000)) : 0; }
-function cancelGap() {
-  clearTimeout(gapTimer);
-  if (gap) { clearInterval(gap.iv); gap = null; }
-}
-function advanceNow() {
-  const n = pos + 1;
-  cancelGap();
-  if (n < queue.length) setPos(n); else paintPlayer();
-}
-window.stayHere = () => { cancelGap(); paintPlayer(); };
-document.addEventListener('visibilitychange', () => { if (document.hidden && gap) advanceNow(); });
+function cancelGap() { clearTimeout(gapTimer); }
 
 function loadQueue(items, i = 0, day) {
   cancelGap();
@@ -383,7 +375,6 @@ if ('mediaSession' in navigator) {
   set('seekforward', d => { if (au.duration) au.currentTime = Math.min(au.duration, au.currentTime + (d.seekOffset || 10)); });
 }
 function playPause() {
-  if (gap) { advanceNow(); return; }          // during the gap, ▶ means "next story now"
   if (au.paused) {
     if (au.ended && pos + 1 < queue.length) { setPos(pos + 1); return; }
     au.play().catch(() => { });
@@ -391,7 +382,7 @@ function playPause() {
   paintControls();
 }
 function next() { if (pos + 1 < queue.length) setPos(pos + 1); }
-function prev() { if (au.currentTime > 3 || pos === 0) au.currentTime = 0; else setPos(pos - 1); }
+function prev() { if (pos < 0) return; if (au.currentTime > 3 || pos === 0) au.currentTime = 0; else setPos(pos - 1); }
 function seek(frac) { if (au.duration) au.currentTime = frac * au.duration; }
 function cycleSpeed() { setSpeedPref(speedList[(speedList.indexOf(speed) + 1) % speedList.length]); }
 function setSpeedPref(v) {
@@ -455,7 +446,9 @@ async function paintSavedBadges() {
     daysGroups().forEach(([day]) => {
       const b = document.getElementById(`dl-${day}`);
       if (!b) return;
-      const urls = dayAudioURLs(day);
+      // Maps are optional (not every sight has one, and the SW skips their 404s),
+      // so completeness is judged on the audio + gallery files only.
+      const urls = dayAudioURLs(day).filter(u => !u.includes('/maps/'));
       const saved = urls.filter(u => keys.has(u)).length;
       if (saved >= urls.length) { b.textContent = '✓ saved'; b.classList.add('done'); }
       else if (saved > 0) b.textContent = `⬇ ${saved}/${urls.length}`;
@@ -489,6 +482,8 @@ function dayQueue(day) {
 
 // ---- render ----
 function render() {
+  // A resumed/stored screen can name a sight that a manifest update removed.
+  if (screen.name === 'sight' && !MAN.sights.some(s => s.id === screen.id)) screen = { name: 'days' };
   if (screen.name === 'days') renderDays();
   else if (screen.name === 'sight') renderSight(MAN.sights.find(s => s.id === screen.id));
   else if (screen.name === 'dayplay') renderDayPlay(screen.day);
@@ -513,7 +508,7 @@ window.setKid = v => {
 function remapQueue() {
   if (pos < 0 || !queue.length) return;
   if (queue[pos] && queue[pos].isMedia) return; // a music clip has no audience variant
-  const active = gap || !au.ended || (au.paused && au.currentTime > 0);
+  const active = !au.ended || (au.paused && au.currentTime > 0);
   if (!active) return;
   const cur = queue[pos];
   const s0 = MAN.sights.find(x => x.id === cur.sid);
@@ -649,6 +644,7 @@ function renderSight(s) {
 }
 window.playSightFile = (sid, file) => {
   const s = MAN.sights.find(x => x.id === sid);
+  if (!s) return;
   const items = sightQueue(s);
   const idx = Math.max(0, items.findIndex(it => it.file === file));
   loadQueue(items, idx, s.day); render();
@@ -677,12 +673,15 @@ function renderDayPlay(day) {
     <div>${rows}</div>`;
 }
 window.jump = i => { setPos(i); render(); };
-window.openDayPlay = day => { screen = { name: 'dayplay', day }; loadQueue(dayQueue(day), 0, day); render(); };
-window.openSight = id => { screen = { name: 'sight', id }; render(); };
-window.goDays = () => { screen = { name: 'days' }; render(); };
+// Leaving the (long) days list remembers the scroll spot; ← brings it back.
+let daysScroll = 0;
+const leaveDays = () => { if (screen.name === 'days') daysScroll = window.scrollY; };
+window.openDayPlay = day => { leaveDays(); screen = { name: 'dayplay', day }; loadQueue(dayQueue(day), 0, day); render(); window.scrollTo(0, 0); };
+window.openSight = id => { leaveDays(); screen = { name: 'sight', id }; render(); window.scrollTo(0, 0); };
+window.goDays = () => { screen = { name: 'days' }; render(); window.scrollTo(0, daysScroll); };
 
 // ---- settings ----
-window.openSettings = () => { settingsConfirm = null; screen = { name: 'settings' }; render(); window.scrollTo(0, 0); };
+window.openSettings = () => { leaveDays(); settingsConfirm = null; screen = { name: 'settings' }; render(); window.scrollTo(0, 0); };
 window.setTheme = v => { theme = v; saveJSON('theme', v); applyTheme(); render(); };
 // Swap the narration voice mid-story: same file, new voice's audio, roughly the
 // same spot (voices read at slightly different pace, so "roughly" is honest).
@@ -790,7 +789,7 @@ function renderMonarchy() {
   }
 }
 window.toggleMon = id => { screen.open = screen.open === id ? null : id; render(); };
-window.openMonarchy = id => { screen = { name: 'monarchy', open: id || null, focus: id || null }; render(); if (!id) window.scrollTo(0, 0); };
+window.openMonarchy = id => { leaveDays(); screen = { name: 'monarchy', open: id || null, focus: id || null }; render(); if (!id) window.scrollTo(0, 0); };
 
 // ---- player bar ----
 function paintPlayer() {
@@ -808,9 +807,6 @@ function paintPlayer() {
     ${cur && cur.isMedia ? `<div class="mediaplaying">
       <span>♪ Period music${cur.sight ? ` · ${esc(cur.sight)}` : ''}</span>
       <button class="backtour" onclick="backToTour()">↩ Back to the tour</button></div>` : ''}
-    ${gap && queue[pos + 1] ? `<div class="gapchip">
-      <span>Next: <b>${esc(queue[pos + 1].title)}</b> in <span id="gapleft">${gapLeft()}</span>s</span>
-      <button class="gapstay" onclick="stayHere()">✕ stay</button></div>` : ''}
     <div class="controls">
       <button class="speed" onclick="cycleSpeed()">${speed}×</button>
       <button onclick="prev()">⏮</button>
@@ -834,9 +830,5 @@ function paintScrub() {
   const tc = document.getElementById('tcur'), td = document.getElementById('tdur');
   if (tc) tc.textContent = fmtTime(au.currentTime);
   if (td) td.textContent = au.duration ? fmtTime(au.duration) : '';
-}
-function paintGap() {
-  const g = document.getElementById('gapleft');
-  if (g) g.textContent = gapLeft();
 }
 boot();

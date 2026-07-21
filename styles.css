@@ -132,12 +132,6 @@ input[type=range]::-moz-range-track{height:6px;border-radius:3px;background:var(
 input[type=range]::-moz-range-thumb{width:22px;height:22px;border:0;border-radius:50%;background:var(--accent)}
 .times{display:flex;justify-content:space-between;color:var(--muted);font-size:12px;
   font-variant-numeric:tabular-nums;padding:0 20px;margin-top:-4px}
-.gapchip{display:flex;align-items:center;gap:10px;margin:6px 20px 2px;padding:8px 14px;border-radius:14px;
-  background:var(--chip);font-size:14px}
-.gapchip span{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.gapchip b{color:var(--accent)}
-.gapstay{border:0;background:transparent;color:var(--muted);font:inherit;font-size:13px;
-  font-weight:700;cursor:pointer;padding:6px 8px}
 .notice{margin:6px 20px 2px;padding:6px 14px;border-radius:12px;font-size:13px;
   background:rgba(230,50,65,.15);color:var(--ink)}
 .retrybtn{margin-top:16px;padding:14px 28px;border:0;border-radius:26px;background:var(--accent);

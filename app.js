@@ -15,7 +15,8 @@ const mediaURL = (sid, f) => `${ASSETS}/media/${sid}/${f}`;
 const MEDIA_SIGHTS = ['day11-stirling-castle', 'day11-stirling-town-walk', 'day09-literary-edinburgh',
   'day02-richmond-park', 'day03-city-walk', 'day04-greenwich', 'day05-british-museum',
   'day06-buckingham-palace', 'day07-hampton-court', 'day08-train-north', 'day10-inchcolm-island',
-  'day12-arthurs-seat', 'day13-york', 'day14-jorvik', 'day09-edinburgh-castle', 'day09-whisky']; // sights that ship a media/<id>.json
+  'day12-arthurs-seat', 'day13-york', 'day14-jorvik', 'day09-edinburgh-castle', 'day09-whisky', 'day09-harry-potter', 'day09-cask-ale',
+  'day09-wartime-scotland']; // sights that ship a media/<id>.json
 
 const el = document.getElementById('app');
 const au = document.getElementById('au');

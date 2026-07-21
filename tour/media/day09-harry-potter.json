@@ -1,0 +1,163 @@
+{
+ "sight": "day09-harry-potter",
+ "name": "Harry Potter & Edinburgh",
+ "title": "The wizard city",
+ "note": "Photographs for the Harry Potter story: the cafes where the books were written, the graveyard of familiar names, the Diagon Alley legend, and the steam train to Hogwarts.",
+ "chapters": [
+  {
+   "n": 1,
+   "label": "Harry Potter"
+  }
+ ],
+ "counts": {
+  "image": 12,
+  "video": 0,
+  "audio": 0
+ },
+ "items": [
+  {
+   "type": "image",
+   "id": "01-victoria-street",
+   "chapter": 1,
+   "file": "images/01-victoria-street.jpg",
+   "caption": "Victoria Street, the curved, many-coloured Old Town street that fans swear inspired Diagon Alley. Rowling has said it didn't, but the wizard shops moved in anyway, and the legend now sells wands daily.",
+   "kidcaption": "Doesn't this look like Diagon Alley? A curvy street of colourful shops, some now selling wands and robes. The author says she never based Diagon Alley on it, but see what you think!",
+   "credit": "Iain Lees",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:The_colourful_Victoria_Street_in_Edinburgh_-_geograph.org.uk_-_8247813.jpg"
+  },
+  {
+   "type": "image",
+   "id": "02-riddell-grave",
+   "chapter": 1,
+   "file": "images/02-riddell-grave.jpg",
+   "caption": "The gravestone of Thomas Riddell Esquire in Greyfriars Kirkyard. Rowling wrote in cafes minutes from here, and Tom Riddle became Voldemort's real name. Fans leave notes; she has said the borrowing may have been unconscious.",
+   "kidcaption": "A real gravestone that says Thomas Riddell, almost exactly the true name of You-Know-Who! It's in Greyfriars Kirkyard, a short walk from the cafes where the books were written. Can you find it?",
+   "credit": "Stefan Schäfer, Lich",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Thomas_Riddell%27s_Grave,_Greyfriars_Kirkyard.jpg"
+  },
+  {
+   "type": "image",
+   "id": "03-greyfriars",
+   "chapter": 1,
+   "file": "images/03-greyfriars.jpg",
+   "caption": "Greyfriars Kirkyard on a properly atmospheric day. Beyond Riddell, the stones hold a McGonagall and a Moodie, and the yard backs onto George Heriot's School, a turreted school with four houses.",
+   "kidcaption": "Greyfriars Kirkyard in the rain. Spooky, right? Hidden among these stones are more names you might recognise: a McGonagall and a Moodie. Keep your eyes peeled.",
+   "credit": "Stinglehammer",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Greyfriars_Kirkyard_on_rainy_day_in_Edinburgh.jpg"
+  },
+  {
+   "type": "image",
+   "id": "04-heriots",
+   "chapter": 1,
+   "file": "images/04-heriots.jpg",
+   "caption": "George Heriot's School, built in the 1600s with money left by the goldsmith George Heriot. Towers, turrets, and four competing houses. Fans call it the real Hogwarts; Rowling has never said so.",
+   "kidcaption": "A real school with towers and turrets, where pupils are sorted into four houses that compete all year. Sound familiar? You can see it over the graveyard wall.",
+   "credit": "LornaMCampbell",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:George_Heriot%27s_School,_Edinburgh.jpg"
+  },
+  {
+   "type": "image",
+   "id": "05-elephant-house",
+   "chapter": 1,
+   "file": "images/05-elephant-house.jpg",
+   "caption": "The Elephant House cafe, whose sign long claimed it was the birthplace of Harry Potter. Rowling did write here, with a view to the castle, though she has said the book was actually born elsewhere.",
+   "kidcaption": "This cafe put up a sign calling itself the birthplace of Harry Potter. The author really did write here, at a table looking out at the castle, but she says the story was born before she ever walked in.",
+   "credit": "Ken Eckert",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Elephant_House_Front,_Edinburgh,_Scotland.jpg"
+  },
+  {
+   "type": "image",
+   "id": "06-nicolsons-plaque",
+   "chapter": 1,
+   "file": "images/06-nicolsons-plaque.jpg",
+   "caption": "The plaque outside the former Nicolson's Cafe, co-owned by Rowling's brother-in-law, where she wrote much of the first book while her baby daughter slept beside her.",
+   "kidcaption": "A little plaque marking the cafe where much of the very first Harry Potter book was written, while the author's baby daughter napped in her pram next to the table.",
+   "credit": "1march1hare",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:J.K.Rowling_Plaque_outside_the_former_Nicholson%27s_Cafe,_Edinburgh.jpg"
+  },
+  {
+   "type": "image",
+   "id": "07-spoon",
+   "chapter": 1,
+   "file": "images/07-spoon.jpg",
+   "caption": "The first-floor room that was Nicolson's Cafe, later renamed Spoon, on Nicolson Street. An unglamorous upstairs cafe, which is rather the point: the books began in ordinary places.",
+   "kidcaption": "The upstairs window of the cafe where Harry Potter began. No castle, no marble, just a normal cafe where someone sat down and wrote and wrote.",
+   "credit": "1march1hare",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:The_former_1st_floor_Nicholson%27s_Cafe_now_named_Spoon,_Edinburgh.jpg"
+  },
+  {
+   "type": "image",
+   "id": "08-balmoral",
+   "chapter": 1,
+   "file": "images/08-balmoral.jpg",
+   "caption": "The Balmoral Hotel above Waverley Station. In room five five two, in January 2007, Rowling finished Harry Potter and the Deathly Hallows and signed a marble bust to prove it. The suite now bears her name.",
+   "kidcaption": "The grand hotel where the very last Harry Potter book was finished. The author was so happy she wrote on a statue in her room, and the hotel kept it! The room even has an owl door knocker now.",
+   "credit": "W. Bulach",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:00_103_0325_Balmoral_Hotel,_Edinburgh,_Schottland.jpg"
+  },
+  {
+   "type": "image",
+   "id": "09-jacobite",
+   "chapter": 1,
+   "file": "images/09-jacobite.jpg",
+   "caption": "The Jacobite steam train crossing the Glenfinnan Viaduct in the West Highlands, the very train and bridge that played the Hogwarts Express in the films. Hogwarts itself, the books say, is somewhere in these Highlands.",
+   "kidcaption": "The Hogwarts Express is real! This steam train, the Jacobite, is the one filmed for the movies, puffing over the same curved bridge Harry and Ron flew over in the blue car.",
+   "credit": "Daniel Kraft",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Jacobite_on_Glenfinnan_Viaduct_2_20211024.jpg"
+  },
+  {
+   "type": "image",
+   "id": "10-loch-shiel",
+   "chapter": 1,
+   "file": "images/10-loch-shiel.jpg",
+   "caption": "Loch Shiel from Glenfinnan. On film this long Highland loch became the Black Lake below Hogwarts, home of the giant squid and the merpeople of the Triwizard Tournament.",
+   "kidcaption": "In the films this Scottish loch is the Black Lake, the one under Hogwarts with the giant squid in it. In real life? Who knows what's down there.",
+   "credit": "Robert Struthers",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Glenfinnan_Monument_and_Loch_Shiel_-_geograph.org.uk_-_5737129.jpg"
+  },
+  {
+   "type": "image",
+   "id": "11-mcgonagall-grave",
+   "chapter": 1,
+   "file": "images/11-mcgonagall-grave.jpg",
+   "caption": "The Greyfriars memorial to William McGonagall, cheerfully remembered as the worst poet in the English language. Rowling has said she gave his name to her strictest, most brilliant professor because she liked the irony.",
+   "kidcaption": "This stone remembers William McGonagall, famous for writing the worst poems ever. The author borrowed his name for the strict and brilliant Professor McGonagall. He'd have been thrilled!",
+   "credit": "ronnie leask",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Grave_of_William_McGonagall_-_geograph.org.uk_-_1520151.jpg"
+  },
+  {
+   "type": "image",
+   "id": "12-rowling",
+   "chapter": 1,
+   "file": "images/12-rowling.jpg",
+   "caption": "J K Rowling in 2010. She arrived in Edinburgh in 1993 as a broke single mother with three chapters in a suitcase, and finished the series fourteen years later in a suite at the Balmoral.",
+   "kidcaption": "The author of Harry Potter. When she moved to Edinburgh she had almost no money, just a suitcase with the start of a story inside. Seven books later, the whole world knew it.",
+   "credit": "Daniel Ogren",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:J._K._Rowling_2010.jpg"
+  }
+ ]
+}

@@ -199,5 +199,32 @@
    "Pot still",
    "Barrel"
   ]
+ },
+ "day09-harry-potter": {
+  "emoji": "🪄",
+  "color": "#5B2A86",
+  "wiki": [
+   "Glenfinnan Viaduct",
+   "Victoria Street, Edinburgh",
+   "Greyfriars Kirkyard"
+  ]
+ },
+ "day09-cask-ale": {
+  "emoji": "🍺",
+  "color": "#A2661B",
+  "wiki": [
+   "Cask ale",
+   "Beer engine",
+   "Café Royal, Edinburgh"
+  ]
+ },
+ "day09-wartime-scotland": {
+  "emoji": "🎖️",
+  "color": "#44534A",
+  "wiki": [
+   "Scottish National War Memorial",
+   "Italian Chapel",
+   "Commando Memorial"
+  ]
  }
 }

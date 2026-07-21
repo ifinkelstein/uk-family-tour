@@ -1,0 +1,30 @@
+{
+  "kid": [
+    {
+      "file": "content/day09-harry-potter/kid/01-wizarding-edinburgh.md",
+      "title": "The Wizard City",
+      "est_minutes": 2.1,
+      "tell_me_more": [
+        {"file": "content/day09-harry-potter/kid/01-wizarding-edinburgh-more-1.md", "title": "The Cafe Where the Magic Got Written", "est_minutes": 3.1},
+        {"file": "content/day09-harry-potter/kid/01-wizarding-edinburgh-more-2.md", "title": "Grave-Hunting for Voldemort", "est_minutes": 3.2},
+        {"file": "content/day09-harry-potter/kid/01-wizarding-edinburgh-more-3.md", "title": "The Real Diagon Alley?", "est_minutes": 3.0},
+        {"file": "content/day09-harry-potter/kid/01-wizarding-edinburgh-more-4.md", "title": "The Hotel Room Where the Story Ended", "est_minutes": 3.1},
+        {"file": "content/day09-harry-potter/kid/01-wizarding-edinburgh-more-5.md", "title": "Hogwarts Is in Scotland", "est_minutes": 3.2}
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day09-harry-potter/adult/01-wizarding-edinburgh.md",
+      "title": "Wizarding Edinburgh",
+      "est_minutes": 2.1,
+      "tell_me_more": [
+        {"file": "content/day09-harry-potter/adult/01-wizarding-edinburgh-more-1.md", "title": "The Cafes, the Legend, and What Rowling Actually Said", "est_minutes": 3.3},
+        {"file": "content/day09-harry-potter/adult/01-wizarding-edinburgh-more-2.md", "title": "The Graveyard of Names", "est_minutes": 3.8},
+        {"file": "content/day09-harry-potter/adult/01-wizarding-edinburgh-more-3.md", "title": "Diagon Alley and the Legend Machine", "est_minutes": 4.0},
+        {"file": "content/day09-harry-potter/adult/01-wizarding-edinburgh-more-4.md", "title": "Room Five Five Two", "est_minutes": 3.3},
+        {"file": "content/day09-harry-potter/adult/01-wizarding-edinburgh-more-5.md", "title": "Hogwarts Is in Scotland", "est_minutes": 3.7}
+      ]
+    }
+  ]
+}

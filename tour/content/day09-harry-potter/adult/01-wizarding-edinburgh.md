@@ -1,0 +1,9 @@
+# Wizarding Edinburgh
+
+Of all the literary ghosts in this city, and you've heard how crowded that field is, the one your kids can actually feel is the boy wizard. Harry Potter is an Edinburgh story from start to finish, in a way few people quite realize.
+
+Start with the arrival. December, nineteen ninety-three. A twenty-eight-year-old named Joanne Rowling steps off a train with her infant daughter and, in her suitcase, three chapters of a novel about a wizard school. Her marriage in Portugal has collapsed. She's come to Edinburgh because her sister lives here, and she has almost nothing else. Within months she's a single mother on state benefits, writing in cafes while the baby sleeps in the pram beside her, because writing time exists only when the baby naps. The book she finishes here gets rejected by twelve publishers before a small advance from Bloomsbury changes everything.
+
+Now jump ahead. January, two thousand and seven. The same woman, now the most famous author alive, checks into a suite at the Balmoral Hotel to write the final chapters of the seventh and last book. The entire arc, from broke to the bestselling writer on the planet, from first chapters to final sentence, runs through this one city. All seven books were substantially written here.
+
+Edinburgh has responded the way cities do, with a thriving industry of Potter pilgrimage sites, some genuine, some pure invention. That's the fun of it. Over the next few chapters we'll visit the cafes where she really wrote, and the one whose famous claim she publicly corrected. We'll go looking for Voldemort's gravestone, walk the technicolor street half the internet calls Diagon Alley, and hear what Rowling herself says about all of it, which is usually not what the tour guides say. Then we'll follow the story to its ending, in room five five two, and out to the Highlands, where Hogwarts itself is supposed to stand.

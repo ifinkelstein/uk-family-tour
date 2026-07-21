@@ -1,6 +1,8 @@
 'use strict';
 const ASSETS = 'tour';
-const audioURL = f => `${ASSETS}/audio/` + f.replace(/^content\//, '').replace(/\.md$/, '.mp3');
+// Narration audio path is voice-dependent: Kokoro ships under tour/audio/,
+// other voices (e.g. Gemini) under tour/audio-<voice>/ once their assets land.
+const audioURL = f => `${ASSETS}/${voiceDir()}/` + f.replace(/^content\//, '').replace(/\.md$/, '.mp3');
 const imgURL = (sid, i) => `${ASSETS}/images/${sid}-${i}.jpg`;
 const mapURL = id => `${ASSETS}/maps/${id}${id.endsWith('-indoor') ? '.svg' : '.png'}`;
 const INDOOR_MAPS = ['day06-churchill-war-rooms', 'day07-hampton-court'];
@@ -23,7 +25,10 @@ function loadJSON(k, fb) { try { return JSON.parse(localStorage.getItem(k)) ?? f
 function saveJSON(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (_) { } }
 
 let MAN = null, ART = {}, MON = null, kid = loadJSON('kid', true), GAP = 30000;
-let queue = [], pos = -1, gapTimer = null, dragging = false, speed = 1.0;
+let queue = [], pos = -1, gapTimer = null, dragging = false, speed = loadJSON('speed', 1.0);
+let theme = loadJSON('theme', 'auto');   // 'auto' | 'light' | 'dark'
+let voice = loadJSON('voice', 'kokoro'); // narration voice engine
+let settingsConfirm = null;              // inline "tap again to confirm" state on the settings screen
 let announceToken = 0;
 let screen = { name: 'days' };
 let MEDIA = {};             // sid -> media manifest (null once known to be absent)
@@ -33,6 +38,28 @@ let mScreen = null;         // open media drawer state: { sid, chapter, openId }
 const heard = new Set(loadJSON('heard', []));
 
 const speedList = [0.8, 1.0, 1.2, 1.5];
+
+// ---- narration voice ----
+// Kokoro is always bundled. Extra voices show up in Settings only once the
+// manifest advertises them (MAN.voices = ['gemini', …]) AND their audio dir
+// exists — until then the selector stays hidden, per "when such assets avail".
+const VOICES = {
+  kokoro: { name: 'Kokoro', dir: 'audio', note: 'Warm, natural narration. Bundled with the tour.' },
+  gemini: { name: 'Gemini', dir: 'audio-gemini', note: "Google Gemini voices — a brighter, more expressive read." },
+};
+const voiceAvailable = id => id === 'kokoro' || (Array.isArray(MAN?.voices) && MAN.voices.includes(id));
+const availableVoices = () => Object.keys(VOICES).filter(voiceAvailable);
+// Fall back to Kokoro if a previously-chosen voice is no longer available.
+function voiceDir() { const v = voiceAvailable(voice) ? voice : 'kokoro'; return VOICES[v].dir; }
+
+// ---- theme ----
+// 'auto' defers to the OS (prefers-color-scheme); light/dark force via a
+// data-theme attribute the stylesheet keys off of.
+function applyTheme() {
+  const r = document.documentElement;
+  if (theme === 'light' || theme === 'dark') r.setAttribute('data-theme', theme);
+  else r.removeAttribute('data-theme');
+}
 const cityVar = d => d <= 7 ? '--london' : d <= 12 ? '--edinburgh' : '--york';
 const cityName = d => d <= 7 ? 'LONDON' : d <= 12 ? 'EDINBURGH' : 'YORK';
 const accent = d => getComputedStyle(document.documentElement).getPropertyValue(cityVar(d)).trim();
@@ -59,6 +86,7 @@ const expandedCount = s => sightFiles(s).length;
 
 // ---- boot ----
 async function boot() {
+  applyTheme();
   // Register the SW before anything can fail, so the shell caches ASAP.
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => { });
   try {
@@ -365,7 +393,13 @@ function playPause() {
 function next() { if (pos + 1 < queue.length) setPos(pos + 1); }
 function prev() { if (au.currentTime > 3 || pos === 0) au.currentTime = 0; else setPos(pos - 1); }
 function seek(frac) { if (au.duration) au.currentTime = frac * au.duration; }
-function cycleSpeed() { speed = speedList[(speedList.indexOf(speed) + 1) % speedList.length]; au.playbackRate = speed; paintControls(); }
+function cycleSpeed() { setSpeedPref(speedList[(speedList.indexOf(speed) + 1) % speedList.length]); }
+function setSpeedPref(v) {
+  speed = v; saveJSON('speed', v);
+  if (!(queue[pos] && queue[pos].isMedia)) au.playbackRate = v;
+  const b = document.querySelector('.player .speed'); if (b) b.textContent = `${v}×`;
+  if (screen.name === 'settings') renderSettings();
+}
 
 // tell the service worker to pre-cache this whole day's audio for offline touring
 // (BOTH audiences — the family toggles Kids/Grown-ups on one phone mid-walk)
@@ -459,6 +493,7 @@ function render() {
   else if (screen.name === 'sight') renderSight(MAN.sights.find(s => s.id === screen.id));
   else if (screen.name === 'dayplay') renderDayPlay(screen.day);
   else if (screen.name === 'monarchy') renderMonarchy();
+  else if (screen.name === 'settings') renderSettings();
   paintPlayer();
 }
 function toggleHTML() {
@@ -492,7 +527,8 @@ function remapQueue() {
 }
 
 function renderDays() {
-  let h = `<div class="wrap"><div class="kicker">Our big trip · July 2026</div>
+  let h = `<div class="wrap"><div class="kickerrow"><div class="kicker">Our big trip · July 2026</div>
+    <button class="gearbtn" onclick="openSettings()" aria-label="Settings">⚙︎</button></div>
     <h1 class="title serif">London → Edinburgh → York</h1>${toggleHTML()}</div>`;
   if (needsA2HS()) {
     h += `<div class="a2hs">📲 On iPhone, tap <b>Share → Add to Home Screen</b> — then the whole tour works offline.
@@ -644,6 +680,58 @@ window.jump = i => { setPos(i); render(); };
 window.openDayPlay = day => { screen = { name: 'dayplay', day }; loadQueue(dayQueue(day), 0, day); render(); };
 window.openSight = id => { screen = { name: 'sight', id }; render(); };
 window.goDays = () => { screen = { name: 'days' }; render(); };
+
+// ---- settings ----
+window.openSettings = () => { settingsConfirm = null; screen = { name: 'settings' }; render(); window.scrollTo(0, 0); };
+window.setTheme = v => { theme = v; saveJSON('theme', v); applyTheme(); render(); };
+// Swap the narration voice mid-story: same file, new voice's audio, roughly the
+// same spot (voices read at slightly different pace, so "roughly" is honest).
+window.setVoice = v => {
+  if (!voiceAvailable(v) || v === voice) return;
+  voice = v; saveJSON('voice', v);
+  const it = queue[pos];
+  if (it && !it.isMedia) {
+    const t = au.currentTime || 0, wasPlaying = !au.paused && !au.ended;
+    au.src = audioURL(it.file);
+    au.playbackRate = speed;
+    au.addEventListener('loadedmetadata', () => {
+      if (t > 1 && au.duration && t < au.duration - 1) au.currentTime = t;
+    }, { once: true });
+    if (wasPlaying) au.play().catch(() => { });
+  }
+  render();
+};
+window.armConfirm = id => { settingsConfirm = id; render(); };
+window.resetHeard = () => {
+  heard.clear(); saveJSON('heard', []);
+  try { localStorage.removeItem('resume'); } catch (_) { }
+  settingsConfirm = null; render();
+};
+
+function renderSettings() {
+  const seg = (on, click, label) => `<button class="${on ? 'on' : ''}" onclick="${click}">${label}</button>`;
+  const voices = availableVoices();
+  const voiceSec = voices.length > 1 ? `<div class="setsec"><h3>Narrator</h3>
+    ${voices.map(id => `<div class="voicerow ${voice === id ? 'on' : ''}" onclick="setVoice('${id}')">
+      <div class="tnum">${voice === id ? '✓' : ''}</div>
+      <div style="flex:1"><b>${esc(VOICES[id].name)}</b>
+      <div class="tm">${esc(VOICES[id].note)}</div></div></div>`).join('')}
+    <div class="sethint">Switching mid-story keeps your place.</div></div>` : '';
+  const resetBtn = settingsConfirm === 'heard'
+    ? `<button class="dangerbtn armed" onclick="resetHeard()">Tap again to clear all ✓ marks</button>`
+    : `<button class="dangerbtn" onclick="armConfirm('heard')">Start the tour fresh…</button>`;
+  el.innerHTML = `<div class="topbar"><button class="iconbtn" onclick="goDays()">←</button>
+    <div style="flex:1"><h2 class="serif" style="margin:0">Settings</h2></div></div>
+    <div class="setsec"><h3>Appearance</h3>
+      <div class="toggle">${seg(theme === 'auto', "setTheme('auto')", 'Auto')}${seg(theme === 'light', "setTheme('light')", '☀️ Light')}${seg(theme === 'dark', "setTheme('dark')", '🌙 Dark')}</div>
+      <div class="sethint">Auto follows the phone's light/dark setting.</div></div>
+    ${voiceSec}
+    <div class="setsec"><h3>Story speed</h3>
+      <div class="toggle">${speedList.map(v => seg(speed === v, `setSpeedPref(${v})`, `${v}×`)).join('')}</div></div>
+    <div class="setsec"><h3>Progress</h3>
+      <div class="sethint">${heard.size} chapter${heard.size === 1 ? '' : 's'} marked ✓ so far.</div>
+      ${resetBtn}</div>`;
+}
 
 // ---- royal family tree ----
 const SECTION_COLOR = { england: '--london', scotland: '--edinburgh', union: '--gold' };

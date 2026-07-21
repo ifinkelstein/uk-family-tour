@@ -95,9 +95,9 @@ self.addEventListener('fetch', e => {
     e.respondWith(caches.match('index.html').then(r => r || fetch(req)));
     return;
   }
-  // Narration MP3s and media-drawer music (.m4a) both live under an /audio/ path
-  // and both need Range-aware serving for iOS Safari's media stack.
-  if (url.pathname.includes('/audio/') && (url.pathname.endsWith('.mp3') || url.pathname.endsWith('.m4a'))) {
+  // Narration MP3s (any voice dir: /audio/, /audio-gemini/, …) and media-drawer
+  // music (.m4a) all need Range-aware serving for iOS Safari's media stack.
+  if (/\/audio[^/]*\//.test(url.pathname) && (url.pathname.endsWith('.mp3') || url.pathname.endsWith('.m4a'))) {
     e.respondWith(serveAudio(req));
     return;
   }

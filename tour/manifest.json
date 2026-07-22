@@ -5781,5 +5781,8 @@
   "adult_words": 74093,
   "adult_est_minutes": 483,
   "note": "Base + tell_me_more chapters."
- }
+ },
+ "voices": [
+  "gemini"
+ ]
 }

@@ -1,5 +1,5 @@
 # Two Kingdoms on One Island
-It is worth pausing on the single fact that makes Scotland make sense, because visitors from outside Britain often assume England and Scotland were always one country. They were not. For roughly the thousand years before seventeen oh seven, Scotland was a separate, sovereign kingdom, with its own monarchs crowned on its own soil, its own laws, its own church, and its own alliances with foreign powers, France chief among them.
+Pause on the single fact that makes Scotland make sense. Visitors from outside Britain often assume England and Scotland were always one country. They were not. For roughly the thousand years before seventeen oh seven, Scotland was a separate, sovereign kingdom, with its own monarchs crowned on its own soil, its own laws, its own church, and its own alliances with foreign powers, France chief among them.
 
 The two countries share the island of Great Britain, divided by a border that has sat, more or less, along the same hills near the River Tweed for many centuries. England, to the south, was always the larger and richer of the two, with perhaps four or five times Scotland's population, and the wealthy farmland and wool trade to match. Scotland was poorer, wilder, more mountainous, and harder to conquer, which turned out to be its great advantage.
 
@@ -7,4 +7,4 @@ Relations swung between two poles. At best, the royal families intermarried and 
 
 Keep that rivalry in mind, because it is the engine of the whole day. When you hear that Stirling changed hands again and again, that a king was murdered in the palace, that the walls bristle with cannon, remember that this was a frontier fortress in a long, cold war between two neighbouring kingdoms, sometimes friends, more often enemies, watching each other across a line on the map.
 
-And here is the twist worth holding onto. That centuries long struggle did not end with one side conquering the other. It ended, improbably, with a Scottish king inheriting the English throne and moving south to London. How that happened is one of the great surprises of British history, and it runs straight through this family's cradle at Stirling. We will come to it shortly.
+And there is a twist worth holding onto. That centuries long struggle did not end with one side conquering the other. It ended, improbably, with a Scottish king inheriting the English throne and moving south to London. How that happened is one of the great surprises of British history, and it runs straight through this family's cradle at Stirling. We will come to it shortly.

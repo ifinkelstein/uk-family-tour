@@ -1,6 +1,6 @@
 # The Candle and the Curtains: 1561
 
-Here is a Stirling episode that rarely makes the guidebooks, and it is worth pausing on, because it is one of several moments when the whole subsequent history of Britain came within an inch of never happening. In September 1561, only weeks after Mary, Queen of Scots had returned from France to take up her Scottish throne, she very nearly died in this castle, not by an assassin's blade or a plotter's poison, but by a household accident.
+This Stirling episode rarely makes the guidebooks, but pause on it, because it is one of several moments when the whole subsequent history of Britain came within an inch of never happening. In September 1561, only weeks after Mary, Queen of Scots had returned from France to take up her Scottish throne, she very nearly died in this castle, not by an assassin's blade or a plotter's poison, but by a household accident.
 
 We know it happened because Thomas Randolph, the English ambassador and a diligent reporter of everything at the Scottish court, wrote it down at the time. Mary had gone to bed with a candle left burning beside her. As she slept, the flame caught the bed curtains and the tester, the canopy overhead, and the whole richly hung bed began to burn around her. She was roused and pulled clear before the smoke and flames could kill her, but it was, by the ambassador's account, a genuinely close call. A sleeping queen, a lit candle, heavy flammable drapery, and the thread of a dynasty hanging on whether someone woke in time.
 

@@ -1,6 +1,6 @@
 # Mary's Great Escape
 
-The baby who cried through her own coronation grew up to have a life so full of danger and adventure that it sounds like a made-up movie, except every bit of it really happened. Her name, of course, was Mary Queen of Scots, and here is what became of her.
+The baby who cried through her own coronation grew up to have a life so full of danger and adventure that it sounds like a made-up movie, except every bit of it really happened. Her name, of course, was Mary Queen of Scots, and this is what became of her.
 
 When she was still tiny, only five years old, powerful people in England wanted to grab her and marry her off, so to keep her safe her family smuggled her across the sea to France. She grew up there as a French princess, and she grew up tall, nearly six feet, which was like a giant back then, and clever, able to speak five different languages. But when she sailed home to Scotland as a young woman, everything went wrong, one thing after another.
 

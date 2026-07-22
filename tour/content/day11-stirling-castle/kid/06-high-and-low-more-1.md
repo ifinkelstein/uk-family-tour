@@ -5,7 +5,7 @@ First surprise. You are never, ever alone. The moment you open your eyes, your r
 
 Next you go to church to hear prayers, with beautiful singing echoing all around you, because a king liked music playing almost everywhere he went, like his own personal soundtrack that followed him from room to room.
 
-Then, breakfast. But here is a strange one. Before you are allowed to eat a single bite, someone else has to taste your food first. Why? In case somebody has tried to poison you. Imagine having a taste-tester for your cereal every single morning. Your food arrived on golden plates, sprinkled with spices that had travelled halfway round the world and cost a fortune, while servants knelt down on the floor just to hand you your dinner.
+Then, breakfast. But breakfast comes with a strange rule. Before you are allowed to eat a single bite, someone else has to taste your food first. Why? In case somebody has tried to poison you. Imagine having a taste-tester for your cereal every single morning. Your food arrived on golden plates, sprinkled with spices that had travelled halfway round the world and cost a fortune, while servants knelt down on the floor just to hand you your dinner.
 
 In the afternoon comes the best bit. Hunting. You gallop out on horseback with your dogs and your hawks to chase deer through the forest below the castle. It was exciting, but it was also secretly a way of practising for battle and staying tough and brave.
 

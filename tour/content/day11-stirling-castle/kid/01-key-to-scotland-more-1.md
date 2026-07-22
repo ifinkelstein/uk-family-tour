@@ -6,4 +6,4 @@ Here was their plan, and it was beautifully simple. A bridge lets soldiers acros
 
 One of the men who died that day was an Englishman named Hugh de Cressingham, a tax collector so greedy and so hated that when the battle was over, the story goes, the Scots peeled off his skin and cut it into strips to keep as souvenirs. Yuck, and also, that is how much they disliked their taxes.
 
-Here is the sad part. Andrew Moray, the clever co-leader, was badly wounded in the battle and died a few weeks later. Because he did not live to fight more battles, most people forgot him, and remembered only Wallace. So next time you hear the name William Wallace, whisper Andrew Moray too. He helped win the trap at the river, the day a bridge became the deadliest weapon in Scotland.
+Now the sad part. Andrew Moray, the clever co-leader, was badly wounded in the battle and died a few weeks later. Because he did not live to fight more battles, most people forgot him, and remembered only Wallace. So next time you hear the name William Wallace, whisper Andrew Moray too. He helped win the trap at the river, the day a bridge became the deadliest weapon in Scotland.

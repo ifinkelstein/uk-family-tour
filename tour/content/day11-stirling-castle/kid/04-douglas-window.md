@@ -2,7 +2,7 @@
 
 Two days ago, at Edinburgh Castle, you heard a horrible story called the Black Dinner. Do you remember it? Two young brothers from the mighty Douglas family were invited to dine with a little boy who was king. In the middle of the meal, servants carried in a black bull's head, which was an old secret sign meaning death. And then the two Douglas boys were dragged away and killed. A dinner that turned into a trap.
 
-Well, here is the part nobody tells you. That little boy king who sat at the Black Dinner had a name. He was King James the Second. And years later, right here in this very castle, he did something almost exactly the same, except this time he did it with his own two hands.
+Well, there's a part nobody tells you. That little boy king who sat at the Black Dinner had a name. He was King James the Second. And years later, right here in this very castle, he did something almost exactly the same, except this time he did it with his own two hands.
 
 By now James was grown up, and the Douglas family was still enormously powerful, almost as rich and strong as the king himself, with their own private army of thousands of men. The head of the family, a young man also named William, had made a secret pact with two other powerful lords, a promise that they would all stick together and back each other up no matter what. This frightened the king. A gang of the three mightiest families in Scotland, joined together against him? That was dangerous.
 

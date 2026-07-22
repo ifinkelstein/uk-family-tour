@@ -1,0 +1,163 @@
+{
+ "sight": "day09-wartime-scotland",
+ "name": "Scotland at War",
+ "title": "The world wars in Scotland",
+ "note": "Photographs for the wartime story: the German fleet's surrender in the Forth, Spitfires over Edinburgh, the secret Highlands, and the memorials that keep the names.",
+ "chapters": [
+  {
+   "n": 1,
+   "label": "Scotland at war"
+  }
+ ],
+ "counts": {
+  "image": 12,
+  "video": 0,
+  "audio": 0
+ },
+ "items": [
+  {
+   "type": "image",
+   "id": "01-fleet-surrender",
+   "chapter": 1,
+   "file": "images/01-fleet-surrender.jpg",
+   "caption": "The German High Seas Fleet steaming into the Firth of Forth to surrender on the twenty-first of November 1918, between two long lines of Allied warships. The greatest fleet surrender in history happened in the water you cross on day ten.",
+   "kidcaption": "Imagine standing on the shore watching this: the whole German battle fleet sailing into the Forth to give itself up at the end of the First World War. It happened right where your boat sails on day ten.",
+   "credit": "Royal Navy official photographer",
+   "license": "Public domain",
+   "license_url": "",
+   "source": "https://commons.wikimedia.org/wiki/File:The_Surrender_of_the_German_High_Seas_Fleet,_November_1918_Q19289A.jpg"
+  },
+  {
+   "type": "image",
+   "id": "02-scuttling",
+   "chapter": 1,
+   "file": "images/02-scuttling.jpg",
+   "caption": "The battlecruiser Hindenburg resting on the bottom of Scapa Flow. In June 1919 the interned German crews opened the seacocks and sank their own fleet, fifty-two ships, rather than hand them over.",
+   "kidcaption": "A giant German warship sitting on the sea floor with just its masts and funnels showing. The German sailors sank their own ships on purpose so nobody else could ever have them.",
+   "credit": "Official UK Government photographer (C. W. Burrows)",
+   "license": "Public domain",
+   "license_url": "",
+   "source": "https://commons.wikimedia.org/wiki/File:SMS_Hindenburg_scuttled.jpg"
+  },
+  {
+   "type": "image",
+   "id": "03-royal-oak",
+   "chapter": 1,
+   "file": "images/03-royal-oak.png",
+   "caption": "HMS Royal Oak, the battleship torpedoed at anchor in Scapa Flow by a German submarine in October 1939, weeks into the Second World War. The loss led Churchill to seal the flow's entrances with causeways of concrete blocks.",
+   "kidcaption": "The battleship Royal Oak. A German submarine sneaked into Scotland's great naval harbour at night and sank her. Afterwards the entrances were blocked with huge concrete barriers you can still drive across today.",
+   "credit": "Tcrabtree21",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:HMS_Royal_Oak_1937.png"
+  },
+  {
+   "type": "image",
+   "id": "04-spitfire",
+   "chapter": 1,
+   "file": "images/04-spitfire.jpg",
+   "caption": "A Spitfire of six hundred and three, the City of Edinburgh squadron, in Scotland in 1942. In October 1939 Edinburgh's part-time pilots helped shoot down the first German aircraft of the war over Britain, above the Forth.",
+   "kidcaption": "A real Spitfire from Edinburgh's own squadron. Its pilots were ordinary men, lawyers and farmers who flew at weekends, and they won the first air fight over Britain in the Second World War, right above the Forth Bridge.",
+   "credit": "Royal Air Force official photographer",
+   "license": "Public domain",
+   "license_url": "",
+   "source": "https://commons.wikimedia.org/wiki/File:Supermarine_Spitfire_of_No._603_Squadron_taxiing_out_at_Dyce_in_Scotland_for_another_routine_convoy_patrol,_4_February_1942._CH4838.jpg"
+  },
+  {
+   "type": "image",
+   "id": "05-hess-wreck",
+   "chapter": 1,
+   "file": "images/05-hess-wreck.jpg",
+   "caption": "The wreckage of Rudolf Hess's Messerschmitt on a moor south of Glasgow, May 1941. Hitler's deputy flew solo to Scotland on a bizarre self-appointed peace mission, parachuted out, and was met by a ploughman from the local farm.",
+   "kidcaption": "This crashed plane belonged to one of Hitler's top men. He secretly flew all the way to Scotland by himself, jumped out by parachute, and was captured in a field by a farmer. One of the strangest stories of the whole war.",
+   "credit": "Ian Dunster",
+   "license": "Public domain",
+   "license_url": "",
+   "source": "https://commons.wikimedia.org/wiki/File:Rudolf_Hess_-_Bf_110D_Werk_Nr_3869_-_Wreckage_-_Bonnyton_Moor.jpg"
+  },
+  {
+   "type": "image",
+   "id": "06-war-memorial",
+   "chapter": 1,
+   "file": "images/06-war-memorial.jpg",
+   "caption": "The Scottish National War Memorial at the top of Edinburgh Castle, opened in 1927 in a converted barrack block. Inside, bronze friezes and regimental books of remembrance hold the names of Scotland's dead from the Great War onward.",
+   "kidcaption": "At the very top of Edinburgh Castle stands this quiet building. Inside are books filled with names, one for every Scottish soldier, sailor and airman who never came home. People still come to find their great-great-grandfathers.",
+   "credit": "Osama Shukir Muhammed Amin FRCP(Glasg)",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:The_fa%C3%A7ade_of_the_Scottish_National_War_Memorial,_Edinburgh_Castle,_Scotland,_UK.jpg"
+  },
+  {
+   "type": "image",
+   "id": "07-casket",
+   "chapter": 1,
+   "file": "images/07-casket.JPG",
+   "caption": "The steel casket in the memorial's shrine, given by King George the Fifth and Queen Mary. It holds the complete rolls of honour of the Scots who died in the First World War, set on the castle's bare rock.",
+   "kidcaption": "Inside this metal chest are lists with the names of every Scot lost in the First World War. It sits on the highest point of the castle rock, so the whole city below can, in a way, look up to them.",
+   "credit": "Kim Traynor",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Casket,_Scottish_National_War_Memorial,_Edinburgh_Castle.JPG"
+  },
+  {
+   "type": "image",
+   "id": "08-italian-chapel",
+   "chapter": 1,
+   "file": "images/08-italian-chapel.jpg",
+   "caption": "The Italian Chapel on Lamb Holm, Orkney. Italian prisoners of war, brought north to build the Churchill Barriers after the Royal Oak sinking, turned two tin Nissen huts into this chapel with scrap metal, concrete and paint.",
+   "kidcaption": "Would you believe this beautiful little church is really two tin sheds? Italian prisoners of war built it in their spare time from leftovers: scrap iron, concrete, and paint. They made something lovely in the middle of a war.",
+   "credit": "MichaelMaggs",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Italian_Chapel_(exterior),_Orkney-PS-Edit_final.jpg"
+  },
+  {
+   "type": "image",
+   "id": "09-chapel-ceiling",
+   "chapter": 1,
+   "file": "images/09-chapel-ceiling.jpg",
+   "caption": "Inside the Italian Chapel: the painted ceiling by Domenico Chiocchetti, a prisoner who stayed on after the war's end to finish the work, and came back years later to restore it. The trompe l'oeil brickwork is all paint on flat metal.",
+   "kidcaption": "Look closely: those bricks and carvings on the ceiling aren't real. It's all a painting on flat metal, done by a prisoner named Domenico who loved the chapel so much he came back years later to touch it up.",
+   "credit": "Chris Downer",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Lamb_Holm,_Italian_Chapel_ceiling_-_geograph.org.uk_-_2764394.jpg"
+  },
+  {
+   "type": "image",
+   "id": "10-commando-memorial",
+   "chapter": 1,
+   "file": "images/10-commando-memorial.jpg",
+   "caption": "The Commando Memorial at Spean Bridge, looking to Ben Nevis. The commandos, a new kind of raiding soldier, trained in these hills at Achnacarry, and soldiers from across the free world passed through on their way to the war's hardest jobs.",
+   "kidcaption": "Three bronze soldiers gazing at Britain's highest mountain. This is where the commandos trained, running up hills with full packs, crossing rope bridges over rivers, and learning to be the toughest soldiers of the war.",
+   "credit": "DeFacto",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Commando_Memorial_at_Spean_Bridge.jpg"
+  },
+  {
+   "type": "image",
+   "id": "11-clydebank",
+   "chapter": 1,
+   "file": "images/11-clydebank.jpg",
+   "caption": "The memorial to the Clydebank Blitz. On two March nights in 1941 the Luftwaffe bombed the shipbuilding town, killing over five hundred people and damaging nearly every home, Scotland's heaviest air raid of the war.",
+   "kidcaption": "This memorial remembers the two worst nights of the war in Scotland, when bombs fell on the town of Clydebank where the great ships were built. The town was rebuilt, and it never stopped building ships.",
+   "credit": "Stephen Sweeney",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Clydebank_Blitz_memorial_-_geograph.org.uk_-_603726.jpg"
+  },
+  {
+   "type": "image",
+   "id": "12-radar",
+   "chapter": 1,
+   "file": "images/12-radar.jpg",
+   "caption": "A radar operator plotting aircraft in 1945. Radar, developed for Britain's defence under Robert Watson-Watt, a Scot from Brechin, gave the RAF eyes beyond the horizon and helped win the Battle of Britain.",
+   "kidcaption": "This woman is watching for enemy planes on a radar screen, a machine that could see through clouds and darkness. The scientist who led its invention, Robert Watson-Watt, was Scottish, and radar helped save Britain.",
+   "credit": "Goodchild (Flt Lt), Royal Air Force official photographer",
+   "license": "Public domain",
+   "license_url": "",
+   "source": "https://commons.wikimedia.org/wiki/File:WAAF_radar_operator_Denise_Miley_plotting_aircraft_on_a_cathode_ray_tube_in_the_Receiver_Room_at_Bawdsey_%27Chain_Home%27_station,_May_1945._CH15332.jpg"
+  }
+ ]
+}

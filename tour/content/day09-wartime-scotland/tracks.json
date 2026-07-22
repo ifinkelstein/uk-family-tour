@@ -1,0 +1,82 @@
+{
+  "kid": [
+    {
+      "file": "content/day09-wartime-scotland/kid/01-scotland-at-war.md",
+      "title": "Scotland Goes to War",
+      "words": 315,
+      "est_minutes": 2.1,
+      "tell_me_more": [
+        {
+          "file": "content/day09-wartime-scotland/kid/01-scotland-at-war-more-1.md",
+          "title": "Spitfires Over the Forth",
+          "words": 421,
+          "est_minutes": 2.8
+        },
+        {
+          "file": "content/day09-wartime-scotland/kid/01-scotland-at-war-more-2.md",
+          "title": "The Day a Whole Navy Gave Up",
+          "words": 421,
+          "est_minutes": 2.8
+        },
+        {
+          "file": "content/day09-wartime-scotland/kid/01-scotland-at-war-more-3.md",
+          "title": "Edinburgh Kids at War",
+          "words": 425,
+          "est_minutes": 2.8
+        },
+        {
+          "file": "content/day09-wartime-scotland/kid/01-scotland-at-war-more-4.md",
+          "title": "Secret Agents in the Mountains",
+          "words": 434,
+          "est_minutes": 2.9
+        },
+        {
+          "file": "content/day09-wartime-scotland/kid/01-scotland-at-war-more-5.md",
+          "title": "Shipyards, Radar, and Clues on the Beach",
+          "words": 451,
+          "est_minutes": 3.0
+        }
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day09-wartime-scotland/adult/01-scotland-at-war.md",
+      "title": "Scotland at War",
+      "words": 304,
+      "est_minutes": 2.0,
+      "tell_me_more": [
+        {
+          "file": "content/day09-wartime-scotland/adult/01-scotland-at-war-more-1.md",
+          "title": "The First Raid: Spitfires Over the Forth",
+          "words": 546,
+          "est_minutes": 3.6
+        },
+        {
+          "file": "content/day09-wartime-scotland/adult/01-scotland-at-war-more-2.md",
+          "title": "Operation ZZ and the Great Scuttling",
+          "words": 614,
+          "est_minutes": 4.1
+        },
+        {
+          "file": "content/day09-wartime-scotland/adult/01-scotland-at-war-more-3.md",
+          "title": "The Names, the City, and the Iolaire",
+          "words": 566,
+          "est_minutes": 3.8
+        },
+        {
+          "file": "content/day09-wartime-scotland/adult/01-scotland-at-war-more-4.md",
+          "title": "The Secret Highlands",
+          "words": 564,
+          "est_minutes": 3.8
+        },
+        {
+          "file": "content/day09-wartime-scotland/adult/01-scotland-at-war-more-5.md",
+          "title": "What Scotland Built and What It Cost",
+          "words": 561,
+          "est_minutes": 3.7
+        }
+      ]
+    }
+  ]
+}

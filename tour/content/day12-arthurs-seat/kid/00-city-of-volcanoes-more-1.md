@@ -5,6 +5,6 @@ Now imagine that ice comes sliding along and bumps into one of those super hard 
 
 Geologists have a funny name for this shape. They call it a crag and tail. The crag is the big tough rock that won the fight with the ice, and it usually has a steep cliff on one side. The tail is the long ramp sloping down behind it, where the ground hid in the shelter.
 
-Here is the cool part. Once you know that shape, you can spot it. Look at Edinburgh Castle. It sits way up on the steep crag, with cliffs dropping away below it. And that famous old street called the Royal Mile? It runs straight down the tail behind the castle. The whole old town is sitting in a glacier's shadow.
+Now for the cool part. Once you know that shape, you can spot it. Look at Edinburgh Castle. It sits way up on the steep crag, with cliffs dropping away below it. And that famous old street called the Royal Mile? It runs straight down the tail behind the castle. The whole old town is sitting in a glacier's shadow.
 
 And it happened more than once. If you ever visit a town called Stirling, about an hour away, you will see the exact same thing. A castle high on a tough rock, and an old town sliding down the slope behind it. Same rock, same ice trick, two different castles. Once you have seen a crag and tail, you cannot stop seeing them.

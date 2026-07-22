@@ -5,4 +5,4 @@ Now, do not worry. These volcanoes are extinct, which means dead, finished, done
 
 So where did the volcanoes go? Two things happened. First, over millions of years, the soft outside of each volcano wore away in the wind and rain, leaving only the super hard rock that had cooled deep inside. Then, much later, gigantic sheets of ice called glaciers came grinding over the whole country and scraped everything smooth, like a giant hand rubbing sandpaper across the land. The hills you see today are the parts that were tough enough to survive all of that.
 
-And here is the best bit. People long ago noticed that a big steep rock is a brilliant place to build a castle, because enemies cannot climb up it. So that is exactly what they did. The city grew up around its volcanoes. And today you get to climb one of them yourself. Ready?
+And now the best bit. People long ago noticed that a big steep rock is a brilliant place to build a castle, because enemies cannot climb up it. So that is exactly what they did. The city grew up around its volcanoes. And today you get to climb one of them yourself. Ready?

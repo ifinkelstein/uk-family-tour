@@ -1,7 +1,7 @@
 # The Best View in the City
 When you finally reach the top, stop, catch your breath, and turn slowly all the way around. You're standing two hundred and fifty-one metres up, on the highest point for miles, and on a clear day this is one of the best views in Scotland. Let's play a game of I-spy from the roof of Edinburgh.
 
-Look west first, back the way most people come. There's the whole Old Town spilling down a long ridge, with Edinburgh Castle perched on its own crag at the far end. Here's the secret: that castle rock is a volcano too, a cousin of the one you're standing on, born from the same fiery time. You're looking from one dead volcano across to another.
+Look west first, back the way most people come. The whole Old Town spills down a long ridge, with Edinburgh Castle perched on its own crag at the far end. That castle rock hides a secret. It's a volcano too, a cousin of the one you're standing on, born from the same fiery time. You're looking from one dead volcano across to another.
 
 Now turn to the north. That wide sheet of silvery water is the Firth of Forth, where the river meets the sea. Beyond it is a whole other region called Fife. On a clear day you can spot the Forth bridges away to the west, about twelve miles off. One of them is a giant red railway bridge that's more than a hundred and thirty years old, so long that trains have been rumbling across it since your great-great-grandparents were children.
 

@@ -1,7 +1,7 @@
 # The Pub with a Sheep's Head Name
 Down at the bottom of the hill, on the far side near Duddingston Loch, there's a little old village and in it sits a pub with one of the best names in Scotland. It's called the Sheep Heid Inn, and heid is the old Scottish word for head, so its name really means the Sheep's Head Inn. Now, why on earth would you name a place after a sheep's head?
 
-Here's why. Hundreds of years ago, sheep were kept right here on the slopes of Arthur's Seat, the very hill you're climbing. When it was time, they were brought down to this village, and this is where the story turns into the sort of thing grown-ups find funny, before being sent off to be sold in the city. So the village was famous for sheep, and the inn ended up wearing the name.
+Because hundreds of years ago, sheep were kept right here on the slopes of Arthur's Seat, the very hill you're climbing. When it was time, they were brought down to this village before being sent off to be sold in the city, and what happened to them in between is the sort of thing grown-ups find funny. So the village was famous for sheep, and the inn ended up wearing the name.
 
 And this inn is old. Really, properly old. People say there has been a place to eat and drink on this exact spot since the year thirteen hundred and sixty. Stop and think about that number. That's more than six hundred and fifty years ago. That's older than almost anything you have ever stood inside. Knights in armour were still riding around when the first version of this inn opened its door. If the story is true, it may be the oldest pub in the whole of Scotland.
 

@@ -47,7 +47,7 @@ def synth(text, voice, out_mp3, tries=6):
         headers={"Content-Type": "application/json", "x-goog-api-key": G.load_key()})
     for i in range(tries):
         try:
-            resp = json.load(urllib.request.urlopen(req, timeout=180))
+            resp = json.load(urllib.request.urlopen(req, timeout=300))
             break
         except urllib.error.HTTPError as e:
             detail = e.read().decode()[:200]
@@ -55,6 +55,11 @@ def synth(text, voice, out_mp3, tries=6):
                 time.sleep(30 * (i + 1))
                 continue
             raise RuntimeError(f"HTTP {e.code}: {detail}")
+        except Exception as e:   # timeouts, transient DNS/socket errors
+            if i < tries - 1:
+                time.sleep(30 * (i + 1))
+                continue
+            raise RuntimeError(str(e))
     pcm = base64.b64decode(resp["candidates"][0]["content"]["parts"][0]["inlineData"]["data"])
     out_mp3.parent.mkdir(parents=True, exist_ok=True)
     wav = out_mp3.with_suffix(".wav")

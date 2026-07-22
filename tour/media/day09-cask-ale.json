@@ -1,0 +1,163 @@
+{
+ "sight": "day09-cask-ale",
+ "name": "Beer & Cask Ale",
+ "title": "Britain's living beer",
+ "note": "Photographs for the beer story: hand pumps and cellars, hops and coppers, Edinburgh's lost breweries, and the pubs worth peeking into.",
+ "chapters": [
+  {
+   "n": 1,
+   "label": "Cask ale"
+  }
+ ],
+ "counts": {
+  "image": 12,
+  "video": 0,
+  "audio": 0
+ },
+ "items": [
+  {
+   "type": "image",
+   "id": "01-handpumps",
+   "chapter": 1,
+   "file": "images/01-handpumps.jpg",
+   "caption": "A row of hand pumps, the sign of cask ale on the bar. Each pull of the lever draws beer up from the cellar by muscle power alone, no gas pushing it, which is why the pint pours soft and gentle.",
+   "kidcaption": "Count the wooden handles! Each one is a hand pump. When the person behind the bar pulls it, beer is sucked up from the cellar below the floor, like a giant drinking straw with a lever.",
+   "credit": "calflier001",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:ROW_OF_OVER_20_HANDPUMPS_AT_THE_OLDE_WHITE_HARTE_PUB_HULL_OLD_TOWN_EAST_YORKSHIRE_SEP_2013_(9700307044).jpg"
+  },
+  {
+   "type": "image",
+   "id": "02-hand-pull",
+   "chapter": 1,
+   "file": "images/02-hand-pull.jpg",
+   "caption": "A Scottish cask ale on hand pump, from Broughton in the Borders. The clip on the pump is the only advertisement a cask beer gets, and it changes as each cask runs dry.",
+   "kidcaption": "The little badge on the handle is called a pump clip. It tells you which beer is on today. When the barrel downstairs runs empty, off comes the clip and a new beer takes its place.",
+   "credit": "Armenian5b",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Broughton_Ales_Dark_Dunter_in_Cask_-_Hand_pump.jpg"
+  },
+  {
+   "type": "image",
+   "id": "03-casks",
+   "chapter": 1,
+   "file": "images/03-casks.jpg",
+   "caption": "Casks stacked at Fyne Ales in Argyll. Cask ale finishes fermenting inside these in the pub cellar, still alive when it reaches the bar, which is why it must be looked after and drunk fresh.",
+   "kidcaption": "Metal barrels called casks, waiting to go to pubs. The beer inside is still alive! Tiny yeast creatures are in there quietly eating sugar and making bubbles right up until it's poured.",
+   "credit": "Euan Nelson",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Beer_casks,_Fyne_Ale_Brewery_-_geograph.org.uk_-_6276271.jpg"
+  },
+  {
+   "type": "image",
+   "id": "04-hops",
+   "chapter": 1,
+   "file": "images/04-hops.jpg",
+   "caption": "Hop flowers on the vine. Hops season beer the way herbs season cooking, adding bitterness and aroma and helping it keep. They like southern sunshine, one reason Scottish ales lean malty instead.",
+   "kidcaption": "These papery green cones are hops, the flowers that give beer its bitter taste and piney smell. They're cousins of stinging nettles, but don't worry, these ones don't sting.",
+   "credit": "H. Zell",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Humulus_lupulus_012.jpg"
+  },
+  {
+   "type": "image",
+   "id": "05-brewhouse",
+   "chapter": 1,
+   "file": "images/05-brewhouse.jpg",
+   "caption": "A preserved Victorian village brewhouse. Malt is steeped in hot water in the mash tun, the sweet liquid is boiled with hops in the copper, then yeast turns the sugar to beer. Four ingredients, endless results.",
+   "kidcaption": "An old-fashioned beer kitchen. First the crushed malt gets a hot bath to make a sweet syrupy liquid, then it's boiled with hops, then yeast is stirred in to do its bubbly work.",
+   "credit": "Chris Allen",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Southwick_Brewhouse_-_geograph.org.uk_-_458838.jpg"
+  },
+  {
+   "type": "image",
+   "id": "06-caledonian",
+   "chapter": 1,
+   "file": "images/06-caledonian.jpg",
+   "caption": "The gates of the Caledonian Brewery on Slateford Road, the last of Edinburgh's great Victorian breweries, famous for boiling its wort in direct-fired open coppers until it closed in 2022.",
+   "kidcaption": "The gateway of Edinburgh's last big old brewery. A hundred years ago the city had dozens of breweries, and on brewing days whole streets smelled of warm porridge.",
+   "credit": "Jo Spiller",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Caledonian_Brewery_Gates.jpg"
+  },
+  {
+   "type": "image",
+   "id": "07-deuchars",
+   "chapter": 1,
+   "file": "images/07-deuchars.png",
+   "caption": "An old Deuchars IPA sign on a Leith Walk pub. India Pale Ale was brewed strong and extra-hopped for the long sail to India, and Edinburgh brewers shipped it around the world.",
+   "kidcaption": "IPA stands for India Pale Ale. It was made for sailors to carry on ships all the way to India, a voyage of months, and the extra hops helped it survive the journey.",
+   "credit": "Stephencdickson",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Old_promotional_Deuchars_IPA_sign_on_a_19th_century_pub_on_Leith_Walk.png"
+  },
+  {
+   "type": "image",
+   "id": "08-cafe-royal",
+   "chapter": 1,
+   "file": "images/08-cafe-royal.JPG",
+   "caption": "The Cafe Royal, just off Princes Street, one of Britain's finest Victorian pub interiors: an island bar, walnut and brass, and tiled portraits of great inventors on the walls.",
+   "kidcaption": "A pub that looks like a palace, with a shiny island bar in the middle and pictures on the walls made of painted tiles showing famous inventors. Worth poking your head in.",
+   "credit": "Afmell",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Cafe_Royal_Bar.JPG"
+  },
+  {
+   "type": "image",
+   "id": "09-guildford",
+   "chapter": 1,
+   "file": "images/09-guildford.jpg",
+   "caption": "Inside the Guildford Arms next door, all Victorian swagger: look up at the painted ceiling, then down at the row of hand pumps that usually carries a good Scottish cask ale or two.",
+   "kidcaption": "Another grand old pub, right next door to the Cafe Royal. The best bit is the ceiling, covered in fancy painted patterns. Pubs used to dress up to impress their customers.",
+   "credit": "Iain Lees",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Inside_the_Guildford_Arms_-_geograph.org.uk_-_8147788.jpg"
+  },
+  {
+   "type": "image",
+   "id": "10-sheep-heid-sign",
+   "chapter": 1,
+   "file": "images/10-sheep-heid-sign.jpg",
+   "caption": "The sign of the Sheep Heid Inn in Duddingston village, behind Arthur's Seat. Pub signs are pictures because for centuries most customers couldn't read; the name is all in the image.",
+   "kidcaption": "A ram's head on a pub sign. Long ago most people couldn't read, so pubs used pictures instead of words. You could find the Sheep Heid by looking for, well, a sheep's head.",
+   "credit": "Andrew Bowden from London, United Kingdon",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Sheep_Heid_Inn_sign_(3415224772).jpg"
+  },
+  {
+   "type": "image",
+   "id": "11-skittle-alley",
+   "chapter": 1,
+   "file": "images/11-skittle-alley.jpg",
+   "caption": "The old skittle alley at the Sheep Heid, which claims to be one of Scotland's oldest pubs. Skittles is bowling's grandparent: wooden pins, a wooden ball, and centuries of practice.",
+   "kidcaption": "A real old-fashioned bowling alley inside a pub! It's called skittles: you roll a wooden ball at nine pins, and families can book a game. It's near Arthur's Seat, which you're climbing this trip.",
+   "credit": "Anne Burgess",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Skittle_Alley,_the_Sheep_Heid_Inn_-_geograph.org.uk_-_790061.jpg"
+  },
+  {
+   "type": "image",
+   "id": "12-victorian-casks",
+   "chapter": 1,
+   "file": "images/12-victorian-casks.jpg",
+   "caption": "A Victorian engraving of visitors touring a brewery storeroom stacked with casks. Brewery tours are nothing new; beer has been one of Britain's proudest exports for two centuries.",
+   "kidcaption": "A drawing from Victorian times of people visiting a brewery, walking past mountains of barrels. Even back then, people loved to see how things get made.",
+   "credit": "https://wellcomeimages.org/indexplus/obf_images/33/bc/af3ec599151a4499f563589ba516.jpg Gallery: https://wellcomeimages.org/indexplus/image/V0019365.html Wellcome Collection gallery (2018-04-06): https://wellcomecollection.org/works/yf35xw7w CC-BY-4.0",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Visitors_in_a_brewery_storeroom_full_of_casks_of_ale._Wood-e_Wellcome_V0019365.jpg"
+  }
+ ]
+}

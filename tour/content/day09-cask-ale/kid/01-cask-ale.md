@@ -1,0 +1,8 @@
+# The Living Beer
+Here is a strange question. Did you know that some drinks are alive? Not pretend alive. Actually alive, full of billions of tiny living creatures, right up until the moment someone drinks them.
+
+Beer is one of the oldest drinks people have ever made. In a cave near the sea in Israel, scientists found the leftovers of brewing from thirteen thousand years ago. That is older than farming. Older than the wheel. Older than writing. Some scientists think people may have started planting the very first fields of grain partly because they wanted more beer. Imagine that. Fields, farms, villages, maybe whole cities, all starting with a bubbly drink.
+
+Now, beer is a grown-up drink, like whisky, and it is not for kids. But the way it is made is one of the best science stories in Britain, because the maker of beer is a tiny living creature called yeast, the exact same creature that makes bread rise. Beer is basically bread's fizzy cousin. And in most of the world, beer gets filtered and zapped and sealed in cans, so nothing in it is alive any more. But here in Britain there is a special old kind called cask ale that stays alive all the way to the pub. It sits in a barrel in the cellar, a cool room under the floor, still bubbling away, and it gets pulled up through a pipe with a big lever on the bar, like a water pump from the olden days. Look for a row of tall handles standing on the bar. That is the clue.
+
+In the next stories I'll show you the burping creature that makes it all work, the four friends who rescued this beer when it nearly disappeared, the days when this whole city smelled of warm toast, how to be a pub sign detective, and a beer that sailed all the way to India. Ready? Let's meet the yeast.

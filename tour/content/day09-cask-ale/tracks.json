@@ -1,0 +1,30 @@
+{
+  "kid": [
+    {
+      "file": "content/day09-cask-ale/kid/01-cask-ale.md",
+      "title": "The Living Beer",
+      "est_minutes": 2.1,
+      "tell_me_more": [
+        {"file": "content/day09-cask-ale/kid/01-cask-ale-more-1.md", "title": "The Tiny Creature That Burps", "est_minutes": 3.3},
+        {"file": "content/day09-cask-ale/kid/01-cask-ale-more-2.md", "title": "The Great Beer Rescue", "est_minutes": 3.6},
+        {"file": "content/day09-cask-ale/kid/01-cask-ale-more-3.md", "title": "The City That Smelled of Toast", "est_minutes": 3.4},
+        {"file": "content/day09-cask-ale/kid/01-cask-ale-more-4.md", "title": "Pub Sign Detectives", "est_minutes": 3.7},
+        {"file": "content/day09-cask-ale/kid/01-cask-ale-more-5.md", "title": "The Beer That Sailed to India", "est_minutes": 3.8}
+      ]
+    }
+  ],
+  "adult": [
+    {
+      "file": "content/day09-cask-ale/adult/01-cask-ale.md",
+      "title": "Cask Ale: Britain's Living Beer",
+      "est_minutes": 2.1,
+      "tell_me_more": [
+        {"file": "content/day09-cask-ale/adult/01-cask-ale-more-1.md", "title": "How Beer Is Made", "est_minutes": 3.4},
+        {"file": "content/day09-cask-ale/adult/01-cask-ale-more-2.md", "title": "The Living Pint, and the Four Friends Who Saved It", "est_minutes": 3.6},
+        {"file": "content/day09-cask-ale/adult/01-cask-ale-more-3.md", "title": "Edinburgh, Brewing City", "est_minutes": 3.8},
+        {"file": "content/day09-cask-ale/adult/01-cask-ale-more-4.md", "title": "How to Read a Pub", "est_minutes": 3.9},
+        {"file": "content/day09-cask-ale/adult/01-cask-ale-more-5.md", "title": "Beer's Greatest Journeys", "est_minutes": 4.1}
+      ]
+    }
+  ]
+}

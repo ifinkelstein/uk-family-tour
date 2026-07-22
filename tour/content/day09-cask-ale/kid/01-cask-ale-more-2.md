@@ -1,0 +1,14 @@
+# The Great Beer Rescue
+Remember how I said cask ale is alive? Let me show you what that really means. In most of the world, when beer leaves the factory, it gets strained until nothing is left in it, heated to zap every last yeast, and pumped full of gas from a cylinder, like a fizzy drink. It's finished. Nothing in the can is alive.
+
+But cask ale leaves the brewery early, on purpose, with its yeast still in the barrel, still eating, still burping. The barrel goes down into the pub's cellar, the cool stone room under the floor, and there the beer finishes making itself. The person who looks after it is called the cellarman, and the job is a bit like keeping a very fussy pet. The barrel has to rest on its side for days without being jiggled. It gets a special wooden peg knocked into it, a soft one first so the beer can breathe out its bubbles, then a hard one to keep the fizz in. The cellar has to stay cool, like a cave, never warm and never freezing. And once a barrel is opened, the beer has to be drunk within a few days, just like fresh bread from a bakery goes stale, because fresh things don't wait.
+
+When somebody orders this beer, no machine pushes it. The person at the bar grabs one of those tall handles and pulls, one, two, three long slow pulls, and each pull sucks beer up a pipe from the cellar below, like a well pump. That lever machine is called a beer engine, and it was invented more than two hundred years ago. It still works exactly the same today. Watch for it. It looks like rowing a boat, standing up.
+
+Now for the rescue. About fifty years ago, this living beer nearly vanished. A few giant companies had bought up most of the pubs in Britain, and dead fizzy beer was easier for them, no cellar, no fuss, no going stale. One by one, the hand pumps were ripped off the bars. Living beer was disappearing from the country that invented it, and hardly anyone seemed to care.
+
+Then, in 1971, four friends from the north of England went on holiday together to Ireland. One evening they sat in a tiny pub in a village by the sea, moaning about how boring beer had become back home. And instead of just moaning, they decided, half as a joke, to start a club to fight back. They called it the Campaign for Real Ale, CAMRA for short. Four people. No money, no office, no plan, really.
+
+And it worked. It worked amazingly. Thousands of people joined, then tens of thousands. They wrote a guidebook to the pubs that still kept living beer, and people queued up to buy it. They held beer festivals in big halls. Newspapers wrote about them. And the giant companies, one by one, gave in and put the hand pumps back. People now call it one of the most successful campaigns ordinary customers have ever won, anywhere.
+
+So every tall handle you spot on a bar this week is really a little trophy. It's there because four friends on holiday got annoyed about something they loved disappearing, and actually did something about it.
